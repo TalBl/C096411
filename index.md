@@ -13,7 +13,7 @@ and you are required to repeat the example logic on some other examples.
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
-<img src="/Lesson_0/Image2.PNG" width="800">
+<img src="/Lesson_0/Image2.PNG">
 
 
 ### Reinforcement learning:
@@ -26,4 +26,4 @@ In this method the Decision is based on interaction with the environment. The le
 
 ## Linear regression 
 
-$argmi{{n}_{{{\omega }_{0}},{{\omega }_{1}}}}~\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-{{{\hat{Y}}}_{i}} \right)}^{2}}=\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-\left( {{\omega }_{0}}+{{\omega }_{1}}{{X}_{i}} \right) \right)}^{2}}$
+\\x_3=x^2-3x+5

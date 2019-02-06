@@ -6,10 +6,8 @@ This course is an introduction machine learning basics theory and practice. Lear
 supervised learning is maybe the most common modern way of teaching. In this method some "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
-<div class="fig figcenter fighighlight">
-  <img src="/Lesson_0/image1.PNG" width="800" align="center" />
-  <div class="figcaption">Childrens learn to identify animals using suprvised learning method.</div>
-</div>
+
+ <img src="./Lesson_0/image1.PNG" width="800" align="center" />
 
 ### Unsupervised learning:
 

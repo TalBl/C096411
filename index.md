@@ -31,3 +31,5 @@ equations:
 $$
 d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right|
 $$
+
+here the sum is taken over all pixels. Here is the procedure visualized:

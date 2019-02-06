@@ -33,7 +33,7 @@ a^2+b^2=c^2
 ```
 Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
 
-$E = mc^2$
+#### $E = mc^2$
 
 
 $$

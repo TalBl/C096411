@@ -25,5 +25,3 @@ In this method the Decision is based on interaction with the environment. The le
 
 
 ## Linear regression 
-
-\\x_3=x^2-3x+5

@@ -40,4 +40,6 @@ $$
 #### \mu = \frac{\sum_{i=1}^{n}{x}}{n}
 $$ 
 
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+
 here the sum is taken over all pixels. Here is the procedure visualized:

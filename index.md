@@ -2,6 +2,11 @@
 
 This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
 
+<div class="fig figcenter fighighlight">
+  <img src="/Lesson_0/image1.png" width="49%">
+  <div class="figcaption">A cartoon drawing of a biological neuron (left) and its mathematical model (right).</div>
+</div>
+
 ```markdown
 Syntax highlighted code block
 

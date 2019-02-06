@@ -40,6 +40,13 @@ $$
 #### \mu = \frac{\sum_{i=1}^{n}{x}}{n}
 $$ 
 
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+The first component of this approach is to define the score function that maps the pixel values of an image to confidence scores for each class. We will develop the approach with a concrete example. As before, let's assume a training dataset of images \\( x_i \in R^D \\), each associated with a label \\( y_i \\). Here \\( i = 1 \dots N \\) and \\( y_i \in \{ 1 \dots K \} \\). That is, we have **N** examples (each with a dimensionality **D**) and **K** distinct categories. For example, in CIFAR-10 we have a training set of **N** = 50,000 images, each with **D** = 32 x 32 x 3 = 3072 pixels, and **K** = 10, since there are 10 distinct classes (dog, cat, car, etc). We will now define the score function \\(f: R^D \mapsto R^K\\) that maps the raw image pixels to class scores.
+
+**Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:
+
+$$
+f(x_i, W, b) =  W x_i + b
+$$
+
 
 here the sum is taken over all pixels. Here is the procedure visualized:

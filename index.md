@@ -16,7 +16,7 @@ and you are required to repeat the example logic on some other examples.
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
 <div class="fig figcenter fighighlight">
-  <img src="/Lesson_0/Image2.PNG" width="49%">
+  <img src="/Lesson_0/Image5.JPG" width="49%">
 </div>
 
 

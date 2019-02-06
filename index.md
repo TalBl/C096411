@@ -20,10 +20,11 @@ Unsupervised learning is a way to make Decisions based on correlation in the dat
 
 In this method the Decision is based on interaction with the environment. The learning is done using Trial and error. 
 
-<img src="/Lesson_0/Image3.PNG" />
+<img src="./Lesson_0/Image3.PNG" >
  
 
 
 ## Linear regression 
 
-hello world
+
+$$ d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right| $$

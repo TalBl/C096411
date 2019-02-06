@@ -7,7 +7,7 @@ supervised learning is maybe the most common modern way of teaching. In this met
 and you are required to repeat the example logic on some other examples.
 
 <div class="fig figcenter fighighlight">
-  <img src="/Lesson_0/image1.png" width="49%">
+  <img src="/Lesson_0/image1.PNG" width="49%">
   <div class="figcaption">Childrens learn to identify animals using suprvised learning method.</div>
 </div>
 

@@ -29,7 +29,8 @@ In this method the Decision is based on interaction with the environment. The le
 equations:
 
 ```math
-$`\sqrt{2}`$
+a^2+b^2=c^2
 ```
-
+ $`a^2+b^2=c^2`$
+ 
 here the sum is taken over all pixels. Here is the procedure visualized:

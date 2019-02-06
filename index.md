@@ -2,13 +2,21 @@
 
 This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
 
+### Supervised learning 
 <div class="fig figcenter fighighlight">
-  <img src="/Lesson_0/image1.png" width="49%">
-  <div class="figcaption">A cartoon drawing of a biological neuron (left) and its mathematical model (right).</div>
+  <img src="/Lesson_0/image1.PNG" width="49%">
+  <div class="figcaption">Childrens learn to identify animals using suprvised learning method.</div>
 </div>
 
-```markdown
-Syntax highlighted code block
+### Unsupervised learning:
+
+Unsupervised learning is a way to make Decisions based on correlation in the data.
+
+<div class="fig figcenter fighighlight">
+  <img src="/Lesson_0/image2.PNG" width="49%">
+  <div class="figcaption">dividing shapes into simillar groups</div>
+</div>
+
 
 # Header 1
 ## Header 2

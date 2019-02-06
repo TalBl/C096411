@@ -1,12 +1,6 @@
-## Welcome to GitHub Pages
+## Quick Intro
 
-You can use the [editor on GitHub](https://github.com/orensp/web-test/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
 
 ```markdown
 Syntax highlighted code block

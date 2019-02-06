@@ -7,7 +7,7 @@ supervised learning is maybe the most common modern way of teaching. In this met
 and you are required to repeat the example logic on some other examples.
 
 
-<img src="/Lesson_0/image1.PNG" >
+<img src="./Lesson_0/image1.PNG" />
 
 ### Unsupervised learning:
 
@@ -25,3 +25,5 @@ In this method the Decision is based on interaction with the environment. The le
 
 
 ## Linear regression 
+
+hello

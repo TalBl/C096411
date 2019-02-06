@@ -29,7 +29,7 @@ In this method the Decision is based on interaction with the environment. The le
 equations:
 
 ```math
-SE = \frac{\sigma}{\sqrt{n}}
+$`\sqrt{2}`$
 ```
 
 here the sum is taken over all pixels. Here is the procedure visualized:

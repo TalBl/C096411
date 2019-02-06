@@ -27,4 +27,6 @@ In this method the Decision is based on interaction with the environment. The le
 ## Linear regression 
 
 
-$$ d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right| $$
+$$
+d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right|
+$$

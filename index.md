@@ -28,8 +28,8 @@ In this method the Decision is based on interaction with the environment. The le
 
 equations:
 
-$$
-d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right|
-$$
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
 
 here the sum is taken over all pixels. Here is the procedure visualized:

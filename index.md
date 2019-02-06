@@ -31,6 +31,6 @@ equations:
 ```math
 a^2+b^2=c^2
 ```
- $`a^2+b^2=c^2`$
+Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
  
 here the sum is taken over all pixels. Here is the procedure visualized:

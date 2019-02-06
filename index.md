@@ -14,7 +14,7 @@ and you are required to repeat the example logic on some other examples.
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
-  <img src="/Lesson_0/Image2.PNG">
+  <img src="/Lesson_0/Image2.PNG" width="800">
 
 
 ### Reinforcement learning:

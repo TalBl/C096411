@@ -67,7 +67,7 @@ such that:
 
 Lets prove the equality for <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> and <img src="/tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> holds:
 
-<img src="/tex/9224a76593c3eb4e1a0cb2c23e73b8ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+<p align="center"><img src="/tex/3458ec4e9d788b903089ed1dfcc6bc90.svg?invert_in_darkmode&sanitize=true" align=middle width=486.9725916pt height=167.67248684999998pt/></p>
 
 
 

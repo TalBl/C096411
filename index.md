@@ -53,18 +53,17 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 ### General case:
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
-<p align="center"><img src="/tex/c71dd36fa16ecd06419392606fe7cae0.svg?invert_in_darkmode&sanitize=true" align=middle width=242.15034690000002pt height=135.6991185pt/></p>
+<p align="center"><img src="/tex/4caf25b23b5d00ecb26ed11c54dd1f2d.svg?invert_in_darkmode&sanitize=true" align=middle width=424.64207115pt height=20.2374942pt/></p>
 
+#### The minimization equation is now:
+<p align="center"><img src="/tex/6fc422262f6502040f3f70c54e85d136.svg?invert_in_darkmode&sanitize=true" align=middle width=239.41068689999997pt height=32.940961349999995pt/></p>
+
+#### Finding W that minimize this equation:
 
 Finding \[\omega \] that minimize this equation
 <img src="/tex/7dcdedec5402fc8dd15699ff8b76c8ad.svg?invert_in_darkmode&sanitize=true" align=middle width=278.53197735000003pt height=34.099002299999995pt/>
 
 
-
-
-**Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:
-
-<p align="center"><img src="/tex/16437235de2f8029ca21fc8e182937b7.svg?invert_in_darkmode&sanitize=true" align=middle width=155.94537749999998pt height=16.438356pt/></p>
 
 
 

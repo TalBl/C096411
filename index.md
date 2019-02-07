@@ -146,11 +146,20 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 <img src="/tex/b582dfebdac8ce224e0948f8e5ce3ecc.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=64.98593639999997pt/>
 
-The left inequality is simpile cause <img src="/tex/c851863768d731575b408f0202384bb5.svg?invert_in_darkmode&sanitize=true" align=middle width=436.20203384999996pt height=53.479338pt/> {<\omega^{T+1},\omega*>} \geq T <img src="/tex/9435ff4f415c03b0df0fd226588bd210.svg?invert_in_darkmode&sanitize=true" align=middle width=310.85049434999996pt height=22.831056599999986pt/> \omega^{t+1}=\omega^{t}+x_iy_i <img src="/tex/5f7b4a34b27be474bdf9003a07709495.svg?invert_in_darkmode&sanitize=true" align=middle width=158.65088744999997pt height=22.831056599999986pt/> \omega^{i}<img src="/tex/0da3109084dd6a28d28c5fff350b3417.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662248499999905pt height=14.15524440000002pt/> \omega^{i}=omega^{1}+\sum\nolimits_{2}^{i} X_iy_i
-This means we can write omega^{T+1} as:
-(P.1.1) <img src="/tex/83ce898764cc30d86c5ece20d8be038d.svg?invert_in_darkmode&sanitize=true" align=middle width=496.59785504999996pt height=32.256008400000006pt/>\omega*<img src="/tex/f1ab505e99dbc0785a4e6065f5bf61a0.svg?invert_in_darkmode&sanitize=true" align=middle width=384.07141244999997pt height=24.65753399999998pt/><X_iy_i,\omega*> \geq 1
+The left inequality is simpile cause <img src="/tex/62fb74ce1e8f714adc5d15a18d0e122b.svg?invert_in_darkmode&sanitize=true" align=middle width=232.2556005pt height=35.8209489pt/>
+
+The right inequality can be seperated to two inequalities:
+#####-(1) <img src="/tex/0a9c593bd900928d04316152f88bab59.svg?invert_in_darkmode&sanitize=true" align=middle width=132.6783546pt height=27.6567522pt/> proof:
+The update term of the perceptron is:
+<img src="/tex/4249369e64c6c8f8254547fde8da2bf2.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>
+In general we can write <img src="/tex/c43047ebdf0495d4deb4baf9257570f6.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
+<img src="/tex/c5c0d74d0a29083c595d0012996ad9c8.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043475pt height=31.75825949999999pt/>
+This means we can write <img src="/tex/b25a79ea3630f9ea0167e75ed6210c07.svg?invert_in_darkmode&sanitize=true" align=middle width=36.999522449999986pt height=27.6567522pt/> as:
+(P.1.1) <img src="/tex/77ee02f9b0f379bf2c8489d5615940dd.svg?invert_in_darkmode&sanitize=true" align=middle width=314.9044041pt height=32.256008400000006pt/>
+Also by definition because <img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> is the soultion and we assume linear seperation:
+(P.1.2) <img src="/tex/8f4c9b00b9603bf23a22b0529b78e447.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=22.465723500000017pt/>
 Using both (P.1.1)+(P.1.2) 
- $ {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T
+ <img src="/tex/20c386d4332215d7c85b3385cad90995.svg?invert_in_darkmode&sanitize=true" align=middle width=286.2284403pt height=32.256008400000006pt/>
 (2)
 
 

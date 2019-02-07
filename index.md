@@ -177,7 +177,9 @@ The right inequality can be seperated to two inequalities:
 #####  (2)  <img src="/tex/b404999f17c717e01dfc95a94422cdab.svg?invert_in_darkmode&sanitize=true" align=middle width=116.42872394999998pt height=27.6567522pt/> proof:
 
 
-  - <img src="/tex/db4e839790dd915e7e34257983b6041f.svg?invert_in_darkmode&sanitize=true" align=middle width=700.2743269499999pt height=47.671232399999994pt/>
+  - <img src="/tex/712c82a89d883233d22ae641649fc7d7.svg?invert_in_darkmode&sanitize=true" align=middle width=486.37012379999993pt height=27.6567522pt/>
+  
+  	<img src="/tex/a5fc0e0e1084e567fef1a0f45c90bc1e.svg?invert_in_darkmode&sanitize=true" align=middle width=215.59230990000003pt height=27.6567522pt/>
   
   - now we can do the same repeatedly for <img src="/tex/8ba23cbb1c4581f0d9d2ad6552458e81.svg?invert_in_darkmode&sanitize=true" align=middle width=45.994941299999994pt height=27.6567522pt/> until we get:
   
@@ -190,8 +192,30 @@ The right inequality can be seperated to two inequalities:
 * <img src="/tex/dafdb732e46ffe718273946f8364d5ea.svg?invert_in_darkmode&sanitize=true" align=middle width=137.856576pt height=43.068399000000014pt/>
  
 
+## Logistic regression:
 
-## SVM
+The Perceptron rule <w,x> gave us distance which is between <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> when <img src="/tex/f7a0f24dc1f54ce82fecccbbf48fca93.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is far in the positive side and 
+<img src="/tex/1d5ba78bbbafd3226f371146bc348363.svg?invert_in_darkmode&sanitize=true" align=middle width=29.223836399999986pt height=19.1781018pt/> is in the far in the negetive side. if we think about the bigger the distance is the more likely that
+it's the right classification when 0 is 50% to each side.
+
+Insted of working in distances space we want to talk about chances or probability to be part of the a class given some x , p(y|x).
+to do so we need to change our space from <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> to [0,1]. A very usefull function to do so is the sigmoid function:
+
+
+<img src="./Lesson_3/Capture1.PNG" >
+
+
+The function in <img src="/tex/8860040216a2e61c344544a77b5cd2ce.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is 1(heigh probability) and 0(low probability) in <img src="/tex/b9652934c10244a0a8922e2315545845.svg?invert_in_darkmode&sanitize=true" align=middle width=29.223836399999986pt height=19.1781018pt/>
+
+#### Classes probability:
+
+<img src="/tex/84ecfaf3c1f94842d11ff9511f0c2882.svg?invert_in_darkmode&sanitize=true" align=middle width=212.40572925pt height=27.77565449999998pt/>
+
+<img src="/tex/0c206d266e1c1d59c545bcce34804f75.svg?invert_in_darkmode&sanitize=true" align=middle width=354.86352825pt height=27.77565449999998pt/>
+
+So we can say in general that:
+
+<img src="/tex/45562bef8399f24ccebdead9eebef8cf.svg?invert_in_darkmode&sanitize=true" align=middle width=193.44005669999999pt height=27.77565449999998pt/>
 
 
 

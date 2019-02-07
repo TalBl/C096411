@@ -73,7 +73,7 @@ $E(\hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y) //$
 $&-E(\hat{\omega_1})=E(\omega_1)=\omega_1$
 $&-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
-Lets prove the equality for $\omega_0$ and $\omega_1$ holds:
+Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
 
 $$
 \begin{align}
@@ -83,10 +83,6 @@ $$
  & E({{{\hat{\omega }}}_{0}})=E\left( E\left( {\hat{Y}} \right)-{{\omega }_{1}}\bar{X} \right)=E\left( E\left( {{Y}_{i}}+\epsilon  \right)-{{\omega }_{1}}\bar{X} \right)={{\omega }_{0}} \\ 
 \end{align}
 $$
-
-
-
-Now using the formulation above we want to 
 
 ### General case:
 
@@ -107,6 +103,9 @@ $$
 #### Finding $\omega$ that minimize this equation:
 
 $\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}\]$
+
+
+
 
 
 

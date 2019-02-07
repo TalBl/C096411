@@ -180,11 +180,13 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 $\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
 
+**It's easy to see that $ /frac {sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
+
 The left inequality is simpile cause: 
 $ \\\\ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
 
 The right inequality can be seperated to two inequalities:
-##### <p><u> (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof </p></u>:
+##### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
 
 - The update term of the perceptron is:
 
@@ -206,8 +208,24 @@ The right inequality can be seperated to two inequalities:
 
 	* $ \,\,\, {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $
  
-(2)
+#####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
+
+ * $ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (Triangle inequ)=||\omega^{T}||^2 +||xi||^2 \\ 
+  \leq ||\omega^{T}||^2 +R^2 $
+  
+  - now we can do the same for $||\omega^{T}||^2 $ until we get:
+  * $ ||\omega^{T+1}||^2 \leq TR^2 $
+  
+#### (1)/(2):
+
+ ** $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt(T)R}  | devide by ||\omega*||=B $
+
+** $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
+ 
+
+
+## SVM
 
 
 

@@ -136,9 +136,10 @@ $$
 #### Understanding perceptron update term:
 
 After $ Y_i<\omega^t,x_i>\le 0 $(means wrong classification) we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
-Lets check how the new $\omega^{t+1}$ is doing on the $\x_i,y_i$ example:
+Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
 
 $$
 \[{{y}_{i}}\left\langle {{\omega }^{t+1}},{{x}_{i}} \right\rangle ={{y}_{i}}\left\langle {{\omega }^{t}}+{{y}_{i}}{{x}_{i}},{{x}_{i}} \right\rangle ~=\underbrace{{{y}_{i}}<{{\omega }^{t}},{{x}_{i}}>}_{\le 0}+\underbrace{{{y}_{i}}{{y}_{i}}<{{x}_{i}},{{x}_{i}}>}_{always\,possitive}\to more\,positive\]
 $$
+
 

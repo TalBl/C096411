@@ -65,13 +65,9 @@ such that:
 <img src="/tex/db4687f9b00b761097c90fa73c326767.svg?invert_in_darkmode&sanitize=true" align=middle width=160.35375344999997pt height=24.65753399999998pt/>
 <img src="/tex/3f9dbf0b3d5cc2a4eb6671ed6a6f7396.svg?invert_in_darkmode&sanitize=true" align=middle width=160.35375344999997pt height=24.65753399999998pt/>
 
-Lets prove the equality for <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> and <img src="/tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> holds:
+Lets prove the equality for <img src="/tex/20a4327baf8921ad57cf2147ad7baf8d.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=22.831056599999986pt/> and <img src="/tex/c6d01153a10d0697e4ab58473caede07.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=22.831056599999986pt/> holds:
 
 <p align="center"><img src="/tex/3458ec4e9d788b903089ed1dfcc6bc90.svg?invert_in_darkmode&sanitize=true" align=middle width=486.9725916pt height=167.67248684999998pt/></p>
-
-
-
-Now using the formulation above we want to 
 
 ### General case:
 
@@ -84,6 +80,9 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 #### Finding <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> that minimize this equation:
 
 <img src="/tex/380e0bd4a705031f0b3ea2ee23979386.svg?invert_in_darkmode&sanitize=true" align=middle width=270.3127812pt height=34.099002299999995pt/>
+
+
+
 
 
 

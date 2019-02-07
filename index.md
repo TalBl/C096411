@@ -99,9 +99,7 @@ This section provide neet explanation on how to compute distance between point a
 In general <img src="/tex/c3d34d8a63a41701e5954f9b612f25f9.svg?invert_in_darkmode&sanitize=true" align=middle width=100.96246379999998pt height=22.831056599999986pt/>=distance from line with normal  <img src="/tex/a166e09ebe3a9840702c0d0159854a2d.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=22.831056599999986pt/> and offset <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>
 
 ### Perceptron algorithm:
-
-\[<p align="center"><img src="/tex/53fc4ed263aafb8de0e70211b3ef72aa.svg?invert_in_darkmode&sanitize=true" align=middle width=488.51579699999996pt height=169.67510835pt/></p>\]
-
+<p align="center"><img src="/tex/7135738a947389929a37bb3299d4ba00.svg?invert_in_darkmode&sanitize=true" align=middle width=282.23711999999995pt height=144.10433565pt/></p>
 
 
 

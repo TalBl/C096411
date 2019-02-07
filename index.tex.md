@@ -58,6 +58,23 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 <img src="./Lesson_1/Capture4.PNG" >
 
+### Generalization:
+
+Our main goal is to do well on the real world not on our training set S. 
+Let’s assume the real world model is not a linear model but it's possible to draw a line such that
+$\sum$errors(green lines) would be 0. in this case we can imagine the error as a independent variable with a
+variance and mean=0:
+
+$hat{Y}-Y=\epsilon$
+
+such that:
+
+$E(hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y) //$
+$E(hat{\omega_1})=E(\omega_1)=\omega_1$
+$E(hat{\omega_0})=E(\omega_0)=\omega_0$
+
+
+Now using the formulation above we want to 
 
 ### General case:
 

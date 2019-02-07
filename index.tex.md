@@ -177,7 +177,7 @@ $\omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
 Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after $(RB)^2 $ steps
 
 In order to show that we wil proof that:
-$1 /geq \frac{<\omega^{T+1},\omega>}{||\omega^{T+1}||||\omega*||} /geq \frac{\sqrt(T)}{BR} $
+$1 \geq \frac{<\omega^{T+1},\omega>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
 
 
 

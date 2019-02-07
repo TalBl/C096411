@@ -117,7 +117,7 @@ Lets check how the new <img src="/tex/763aa9768edf29e38a67642e3db1b250.svg?inver
 			<img src="./Lesson_2/graph3.PNG" >	
 		</td>
 		<td>
-			<img src="./Lesson_2/graph4.PNG" width="30%" >
+			<img src="./Lesson_2/graph4.PNG" >
 		</td>
 	</tr>
 	

@@ -154,23 +154,23 @@ The right inequality can be seperated to two inequalities:
 
 •	 The update term of the perceptron is:
 
-<img src="/tex/4249369e64c6c8f8254547fde8da2bf2.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>
+<img src="/tex/0c28d3e7419815e882ada9fdea8d7915.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>
 
 •	 In general we can write <img src="/tex/43613c3dd9fdff7ce34d1e976e2b2ed3.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
 
-<img src="/tex/c5c0d74d0a29083c595d0012996ad9c8.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043475pt height=31.75825949999999pt/>
+<img src="/tex/b7b8a37bcff2da4411173ce4a59ca98e.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043309999999pt height=31.75825949999999pt/>
 
 <br/> + This means we can write <img src="/tex/b25a79ea3630f9ea0167e75ed6210c07.svg?invert_in_darkmode&sanitize=true" align=middle width=36.999522449999986pt height=27.6567522pt/> as:
 
-(P.1.1) <img src="/tex/734b32c714d73d536ed947528f09ffaa.svg?invert_in_darkmode&sanitize=true" align=middle width=278.55151005pt height=32.256008400000006pt/>
+(P.1.1) <img src="/tex/50d3d6520083c944c797ab17a1d6880b.svg?invert_in_darkmode&sanitize=true" align=middle width=278.5515084pt height=32.256008400000006pt/>
 
 •	 Also by definition because <img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> is the soultion and we assume linear seperation:
 
-(P.1.2) <img src="/tex/c3df0edc208d80ffd2a4fdc9de096c11.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=22.465723500000017pt/>
+(P.1.2) <img src="/tex/26626d367430bd2ba8d106b9e18a7134.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24457929999998pt height=22.465723500000017pt/>
 
 •	 Using both (P.1.1)+(P.1.2) 
 
-<img src="/tex/20c386d4332215d7c85b3385cad90995.svg?invert_in_darkmode&sanitize=true" align=middle width=286.2284403pt height=32.256008400000006pt/>
+<img src="/tex/7d5d6104b5a3a904557af74bfb1f1c2c.svg?invert_in_darkmode&sanitize=true" align=middle width=286.22843865pt height=32.256008400000006pt/>
  
 (2)
 

@@ -62,9 +62,11 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 $$
- Y=[Y_1,Y_2....,Y_m] \\
- X=[1,x_1,x_2...,X_m] \\ 
- \omega ={\omega_0,\omega_1.....,\omega_m]}^{T} \\
+\[\begin{align}
+  & Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
+ & X=[1,{{X}_{1}},{{X}_{2}}...,{{X}_{m}}] \\ 
+ & \omega ={{[{{\omega }_{0}},{{\omega }_{1}}.....,{{\omega }_{m}}]}^{T}} \\ 
+\end{align}\]
 $$
 
 #### The minimization equation is now:

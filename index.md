@@ -150,7 +150,7 @@ The left inequality is simpile cause:
 <img src="/tex/aa2157b190813cfbad2c9d7deec390cc.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=96.21901409999997pt/>
 
 The right inequality can be seperated to two inequalities:
-##### (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof:
+##### <p><u> (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof </p></u>:
 
 - The update term of the perceptron is:
 

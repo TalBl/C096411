@@ -27,7 +27,7 @@ In this method the Decision is based on interaction with the environment. The le
 ## Linear regression 
 
 ### Notations:
-
+```math
 $$
 \begin{align}
   & S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
@@ -37,17 +37,15 @@ $$
  & m-number~of~training~vecors~X \\ 
 \end{align}
 $$
+```
 
-$
-$
 In linear regression we assume the connection between X and Y is linear:
 ${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want$~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
 
 <img src="./Lesson_1/Capture1.PNG" >
 
-```math
-#### a^2+b^2=c^2
-```
+
+
 
 **Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:
 

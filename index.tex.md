@@ -143,3 +143,24 @@ $$
 $$
 
 
+#### Optimal soultion:
+
+<table>
+	<tr>
+		<td>
+			<img src="./Lesson_2/graph3.PNG" >	
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="./Lesson_2/graph4.PNG" >
+		</td>
+	</tr>
+	
+</table>
+	
+Instead of writing the algorithm with if we want to create some loss function and try to minimize it.
+The function needs to follow the perceptron update role.
+
+
+

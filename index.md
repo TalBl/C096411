@@ -6,22 +6,24 @@ This course is an introduction machine learning basics theory and practice. Lear
 supervised learning is maybe the most common modern way of teaching. In this method some "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
-
-<img src="./Lesson_0/image1.PNG" />
-
+<p align="center">
+	<img src="./Lesson_0/image1.PNG" />
+</p>
 ### Unsupervised learning:
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
-<img src="./Lesson_0/Image2.PNG" align="middle" >
-
+<p align="center">
+	<img src="./Lesson_0/Image2.PNG" align="middle" >
+</p>
 
 ### Reinforcement learning:
 
 In this method the Decision is based on interaction with the environment. The learning is done using Trial and error. 
 
-<img src="./Lesson_0/Image3.PNG" align="middle">
- 
+<p align="center">
+	<img src="./Lesson_0/Image3.PNG" align="middle">
+</p>
 
 
 ## Linear regression 
@@ -35,8 +37,9 @@ In this method the Decision is based on interaction with the environment. The le
 In linear regression we assume the connection between X and Y is linear:
 <img src="/tex/0c30b8a45eb9c4b777e0681c018f1f45.svg?invert_in_darkmode&sanitize=true" align=middle width=110.50777649999998pt height=31.141535699999984pt/> trying to fit <img src="/tex/f4661f991f454717a2f55bca1bbb53ea.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> in order to achieve the lowest error.(we want<img src="/tex/39053daaabd24fd4a891b570d0e8b71f.svg?invert_in_darkmode&sanitize=true" align=middle width=14.194299900000003pt height=31.141535699999984pt/> to be as close as possible to <img src="/tex/706e1c19ba787c7c4276ce74576768d6.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=22.465723500000017pt/>)
 
-<img src="./Lesson_1/Capture1.PNG" align="middle">
-
+<p align="center">
+	<img src="./Lesson_1/Capture1.PNG" align="middle">
+</p>
 
 In order to achieve the learning goal(<img src="/tex/4be0688c6c52f0fe18ef69ee724c7114.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=31.141535699999984pt/> to be as close as possible to <img src="/tex/706e1c19ba787c7c4276ce74576768d6.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=22.465723500000017pt/>) we want to minimize the sum of all  – error as much as possible. 
 
@@ -48,8 +51,9 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 
 #### Finding <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> that minimize this equation:
 
-<img src="./Lesson_1/Capture4.PNG" align="middle">
-
+<p align="center">
+	<img src="./Lesson_1/Capture4.PNG" align="middle">
+</p>
 ### Generalization:
 
 Our main goal is to do well on the real world not on our training set S. 
@@ -86,15 +90,17 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 ## Perceptron
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
-
-<img src="./Lesson_2/graph3.PNG" align="middle">
-
+<p align="center">
+	<img src="./Lesson_2/graph3.PNG" align="middle">
+</p>
 
 ### Geometrical explanation(line point distance):
 
 This section provide neet explanation on how to compute distance between point and a line.
 
-<img src="./Lesson_2/graph1.PNG" align="middle">
+<p align="center">
+	<img src="./Lesson_2/graph1.PNG" align="middle">
+</p> 
 
 In general <img src="/tex/c3d34d8a63a41701e5954f9b612f25f9.svg?invert_in_darkmode&sanitize=true" align=middle width=100.96246379999998pt height=22.831056599999986pt/>=distance from line with normal  <img src="/tex/a166e09ebe3a9840702c0d0159854a2d.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=22.831056599999986pt/> and offset <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>
 

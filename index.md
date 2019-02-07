@@ -146,10 +146,10 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 <img src="/tex/b582dfebdac8ce224e0948f8e5ce3ecc.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=64.98593639999997pt/>
 
-The left inequality is simpile cause <img src="/tex/62fb74ce1e8f714adc5d15a18d0e122b.svg?invert_in_darkmode&sanitize=true" align=middle width=232.2556005pt height=35.8209489pt/>
+The left inequality is simpile cause: <img src="/tex/44d40fcef7e9ec32d2e93014faf3618c.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=56.76695969999997pt/>
 
 The right inequality can be seperated to two inequalities:
-#####-(1) <img src="/tex/0a9c593bd900928d04316152f88bab59.svg?invert_in_darkmode&sanitize=true" align=middle width=132.6783546pt height=27.6567522pt/> proof:
+#####(1) <img src="/tex/0a9c593bd900928d04316152f88bab59.svg?invert_in_darkmode&sanitize=true" align=middle width=132.6783546pt height=27.6567522pt/> proof:
 The update term of the perceptron is:
 <img src="/tex/4249369e64c6c8f8254547fde8da2bf2.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>
 In general we can write <img src="/tex/c43047ebdf0495d4deb4baf9257570f6.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:

@@ -29,16 +29,10 @@ In this method the Decision is based on interaction with the environment. The le
 ### Notations:
 <p align="center"><img src="/tex/fcc01812a5e291eca6d05339cc1e80c0.svg?invert_in_darkmode&sanitize=true" align=middle width=500.97334319999993pt height=117.56169315pt/></p>
 In linear regression we assume the connection between X and Y is linear:
-<p align="center"><img src="/tex/c61753bf9e9607d8a717a0da04fab1d3.svg?invert_in_darkmode&sanitize=true" align=middle width=82.73781615pt height=13.698590399999999pt/></p> trying to fit <p align="center"><img src="/tex/ec02ecb979d4f5cbd2226f77ad2f34da.svg?invert_in_darkmode&sanitize=true" align=middle width=18.49323135pt height=8.14614735pt/></p> in order to achieve the lowest error.(we want
-<p align="center"><img src="/tex/aedbfc4f1ec7e206287c8f627c906f58.svg?invert_in_darkmode&sanitize=true" align=middle width=14.194299899999999pt height=13.698590399999999pt/></p> to be as close as possible to <p align="center"><img src="/tex/c7c428ec436bde8a017f9fb13d6c78d1.svg?invert_in_darkmode&sanitize=true" align=middle width=14.194299899999999pt height=13.698590399999999pt/></p>
-
-```math
-#### a^2+b^2=c^2
-```
-
-**Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:
-
-<p align="center"><img src="/tex/16437235de2f8029ca21fc8e182937b7.svg?invert_in_darkmode&sanitize=true" align=middle width=155.94537749999998pt height=16.438356pt/></p>
+<img src="/tex/0c30b8a45eb9c4b777e0681c018f1f45.svg?invert_in_darkmode&sanitize=true" align=middle width=110.50777649999998pt height=31.141535699999984pt/> trying to fit <img src="/tex/f4661f991f454717a2f55bca1bbb53ea.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> in order to achieve the lowest error.(we want<img src="/tex/39053daaabd24fd4a891b570d0e8b71f.svg?invert_in_darkmode&sanitize=true" align=middle width=14.194299900000003pt height=31.141535699999984pt/> to be as close as possible to <img src="/tex/706e1c19ba787c7c4276ce74576768d6.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=22.465723500000017pt/>)
+<p align="center"><img src="/tex/587de3fe178199637d71f58536c37d05.svg?invert_in_darkmode&sanitize=true" align=middle width=700.2745596pt height=56.029281000000005pt/></p>
+f(x_i, W, b) =  W x_i + b
+$$
 
 
 

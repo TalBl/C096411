@@ -151,7 +151,7 @@ $$
 			<img src="./Lesson_2/graph3.PNG" >	
 		</td>
 		<td>
-			<img src="./Lesson_2/graph4.PNG" >
+			<img src="./Lesson_2/graph6.PNG" >
 		</td>
 	</tr>
 	

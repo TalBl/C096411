@@ -1,3 +1,10 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 ## Quick Intro
 
 This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
@@ -236,7 +243,7 @@ Insted of working in distances space we want to talk about chances or probabilit
 to do so we need to change our space from $[-\infty,\infty]$ to [0,1]. A very usefull function to do so is the sigmoid function:
 
 
-<img src="./Lesson_3/Capture1.PNG" >
+<img src="./Lesson_3/Capture1.PNG" class="center">
 
 
 The function in $\infty $ is 1(heigh probability) and 0(low probability) in $-\infty $

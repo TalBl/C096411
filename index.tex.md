@@ -36,10 +36,10 @@ $$
  & m-number~of~training~vecors~X \\ 
 \end{align}
 
-$$
+
 In linear regression we assume the connection between X and Y is linear:
-{{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit {{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want~{{\hat{Y}}_{i}} to be as close as possible to {{Y}_{i}})
-$$
+${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want$~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
+
 
 ```math
 #### a^2+b^2=c^2

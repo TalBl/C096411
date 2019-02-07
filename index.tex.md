@@ -56,7 +56,12 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 #### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
 
-<img src="./Lesson_1/Capture3.PNG" >
+$\begin{align}
+  & \frac{d}{d{{\omega }_{0}}}=2\underset{i=1}{\overset{m}{\mathop \sum }}\,({{Y}_{i}}-\left( {{\omega }_{0}}+{{\omega }_{1}}{{X}_{i}} \right)=0\to \underset{i=1}{\overset{m}{\mathop \sum }}\,{{Y}_{i}}-{{\omega }_{1}}\underset{i=1}{\overset{n}{\mathop \sum }}\,{{X}_{i}}=m{{\omega }_{0}} \\ 
+ & ,\bar{Y}=E\left( Y \right)=\frac{1}{m}\underset{i=1}{\overset{m}{\mathop \sum }}\,{{Y}_{i}}~,\bar{X}=E\left( X \right)=\frac{1}{m}\underset{i=1}{\overset{m}{\mathop \sum }}\,{{X}_{i}} \\ 
+ & \frac{d}{d{{\omega }_{1}}}=2{{X}_{i}}\underset{i=1}{\overset{m}{\mathop \sum }}\,[{{Y}_{i}}-({{\omega }_{0}}+{{\omega }_{1}}{{X}_{i}})]=0\to  \\ 
+\end{align}$
+
 
 ### General case:
 

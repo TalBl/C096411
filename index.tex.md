@@ -6,22 +6,24 @@ This course is an introduction machine learning basics theory and practice. Lear
 supervised learning is maybe the most common modern way of teaching. In this method some "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
-
-<img src="./Lesson_0/image1.PNG" />
-
+<p align="center">
+	<img src="./Lesson_0/image1.PNG" />
+</p>
 ### Unsupervised learning:
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
-<img src="./Lesson_0/Image2.PNG" align="middle" >
-
+<p align="center">
+	<img src="./Lesson_0/Image2.PNG" align="middle" >
+</p>
 
 ### Reinforcement learning:
 
 In this method the Decision is based on interaction with the environment. The learning is done using Trial and error. 
 
-<img src="./Lesson_0/Image3.PNG" align="middle">
- 
+<p align="center">
+	<img src="./Lesson_0/Image3.PNG" align="middle">
+</p>
 
 
 ## Linear regression 
@@ -43,8 +45,9 @@ $$
 In linear regression we assume the connection between X and Y is linear:
 ${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want$~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
 
-<img src="./Lesson_1/Capture1.PNG" align="middle">
-
+<p align="center">
+	<img src="./Lesson_1/Capture1.PNG" align="middle">
+</p>
 
 In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$) we want to minimize the sum of all  – error as much as possible. 
 
@@ -56,8 +59,9 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 #### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
 
-<img src="./Lesson_1/Capture4.PNG" align="middle">
-
+<p align="center">
+	<img src="./Lesson_1/Capture4.PNG" align="middle">
+</p>
 ### Generalization:
 
 Our main goal is to do well on the real world not on our training set S. 
@@ -109,15 +113,17 @@ $\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X
 ## Perceptron
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
-
-<img src="./Lesson_2/graph3.PNG" align="middle">
-
+<p align="center">
+	<img src="./Lesson_2/graph3.PNG" align="middle">
+</p>
 
 ### Geometrical explanation(line point distance):
 
 This section provide neet explanation on how to compute distance between point and a line.
 
-<img src="./Lesson_2/graph1.PNG" align="middle">
+<p align="center">
+	<img src="./Lesson_2/graph1.PNG" align="middle">
+</p> 
 
 In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 

@@ -198,7 +198,7 @@ Using both (P.1.1)+(P.1.2)
  $$ {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $$
 (2)
 
-In general we can write $\omega^{i}$:
+In general we can write $\omega^{i} \\$:
 In general we can write $$\omega^{i}$$:
 
 

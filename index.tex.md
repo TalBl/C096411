@@ -235,9 +235,9 @@ it's the right classification when 0 is 50% to each side.
 Insted of working in distances space we want to talk about chances or probability to be a part of a class given some x , p(y|x).
 to do so we need to change our space from $[-\infty,\infty]$ to [0,1]. A very usefull function to do so is the sigmoid function:
 
-<div class="fig figcenter fighighlight">
+<p align="center">
 	<img src="./Lesson_3/Capture1.PNG" align="middle">
-</div>
+</p>
 
 The function in $\infty $ is 1(heigh probability) and 0(low probability) in $-\infty $
 

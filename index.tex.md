@@ -135,7 +135,7 @@ $$
 
 #### Understanding perceptron update term:
 
-After $ Y_i<\omega^t,x_i><=0 $(means wrong classification) we updated $\omega^(t+1)=\omega^t+y_ix_i. 
+After $ Y_i<\omega^t,x_i>\le 0 $(means wrong classification) we updated $\omega^(t+1)=\omega^t+y_ix_i $. 
 Lets check how the new $\omega^(t+1)$ is doing on the $\x_i,y_i$ example:
 
 $$

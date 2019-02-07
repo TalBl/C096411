@@ -55,15 +55,20 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
 <img src="/tex/a5a3c89b53bed887e7e194b0670abc9a.svg?invert_in_darkmode&sanitize=true" align=middle width=17.35165739999999pt height=24.657735299999988pt/>errors(green lines) would be 0. in this case we can imagine the error as a independent variable with a
-variance and mean=0:
+variance <img src="/tex/8cda31ed38c6d59d14ebefa440099572.svg?invert_in_darkmode&sanitize=true" align=middle width=9.98290094999999pt height=14.15524440000002pt/> and mean=0:
 
-<img src="/tex/696bfe7073453a816866c845335ec143.svg?invert_in_darkmode&sanitize=true" align=middle width=99.17033939999999pt height=22.831056599999986pt/>
+<img src="/tex/80a688401b2d63aeb61914789c6784da.svg?invert_in_darkmode&sanitize=true" align=middle width=75.07395389999999pt height=31.141535699999984pt/>
 
 such that:
 
-<img src="/tex/ee34924a2b762a277e91f68e2cedf4b4.svg?invert_in_darkmode&sanitize=true" align=middle width=356.32586054999996pt height=24.65753399999998pt/>
-<img src="/tex/37e4407b34948ad4d70082c330ebc5bf.svg?invert_in_darkmode&sanitize=true" align=middle width=171.66468659999998pt height=24.65753399999998pt/>
-<img src="/tex/925f194530981fe65d12350658648ee0.svg?invert_in_darkmode&sanitize=true" align=middle width=171.66468659999998pt height=24.65753399999998pt/>
+<img src="/tex/ca89eb69465758b6088dd7d9603ea63f.svg?invert_in_darkmode&sanitize=true" align=middle width=332.22947505pt height=31.141535699999984pt/>
+<img src="/tex/db4687f9b00b761097c90fa73c326767.svg?invert_in_darkmode&sanitize=true" align=middle width=160.35375344999997pt height=24.65753399999998pt/>
+<img src="/tex/3f9dbf0b3d5cc2a4eb6671ed6a6f7396.svg?invert_in_darkmode&sanitize=true" align=middle width=160.35375344999997pt height=24.65753399999998pt/>
+
+Lets prove the equality for <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> and <img src="/tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> holds:
+
+<img src="/tex/9224a76593c3eb4e1a0cb2c23e73b8ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+
 
 
 Now using the formulation above we want to 

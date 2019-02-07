@@ -100,7 +100,7 @@ In general <img src="/tex/c3d34d8a63a41701e5954f9b612f25f9.svg?invert_in_darkmod
 
 ### Perceptron algorithm:
 
-\[<p align="center"><img src="/tex/8eb99b4c10b2044f2bcfbcbc6e719288.svg?invert_in_darkmode&sanitize=true" align=middle width=501.3011982pt height=169.67510835pt/></p>\]
+\[<p align="center"><img src="/tex/53fc4ed263aafb8de0e70211b3ef72aa.svg?invert_in_darkmode&sanitize=true" align=middle width=488.51579699999996pt height=169.67510835pt/></p>\]
 
 
 

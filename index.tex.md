@@ -199,6 +199,8 @@ Using both (P.1.1)+(P.1.2)
 (2)
 
 In general we can write $\omega^{i} \\$:
+
+
 In general we can write $$\omega^{i}$$:
 
 

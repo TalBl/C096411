@@ -64,11 +64,12 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 
 
 \\begin{align}
-  & Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
- & X=[1,{{X}_{1}},{{X}_{2}}...,{{X}_{m}}] \\ 
- & \omega ={{[{{\omega }_{0}},{{\omega }_{1}}.....,{{\omega }_{m}}]}^{T}} \\ 
- &  \\ 
- & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}}\omega  \right)}^{2}} \\ 
+ Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
+ X=[1,{{X}_{1}},{{X}_{2}}...,{{X}_{m}}] \\ 
+
+\omega ={{[{{\omega }_{0}},{{\omega }_{1}}.....,{{\omega }_{m}}]}^{T}} \\ 
+ \\ 
+ \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}}\omega  \right)}^{2}} \\ 
 \end{align}
 
 

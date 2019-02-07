@@ -58,6 +58,22 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 <img src="./Lesson_1/Capture3.PNG" >
 
+### General case:
+$$
+\[\begin{align}
+  & Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
+ & X=[1,{{X}_{1}},{{X}_{2}}...,{{X}_{m}}] \\ 
+ & \omega ={{[{{\omega }_{0}},{{\omega }_{1}}.....,{{\omega }_{m}}]}^{T}} \\ 
+ &  \\ 
+ & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} \\ 
+\end{align}\]
+$$
+
+$$
+Finding \[\omega \] that minimize this equation
+$\frac{d}{d\omega }=\left( 2Y-2X\omega  \right){{X}^{T}}=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}$
+$$
+
 
 **Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:
 

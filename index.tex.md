@@ -67,13 +67,13 @@ variance $\sigma$ and mean=0:
 
 $\hat{Y}-Y=\epsilon$
 
-such that:
+#### such that:
 
-$E(\hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y) //$
-$&-E(\hat{\omega_1})=E(\omega_1)=\omega_1$
-$&-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
+$E(\hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y)$
+$&\-E(\hat{\omega_1})=E(\omega_1)=\omega_1$
+$&\-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
-Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
+#### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
 
 $$
 \begin{align}
@@ -106,9 +106,32 @@ $\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X
 
 
 
+## Perceptron
+
+Our main goal is to find a linear separation rule for data that can be separated by a line:
+
+<img src="./Lesson_2/graph3.PNG" >
 
 
+### Geometrical explanation(line point distance):
 
+This section provide neet explanation on how to compute distance between point and a line.
+
+<img src="./Lesson_2/graph1.PNG" >
+
+In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
+
+### Perceptron algorithm:
+```math
+\[\begin{align}
+  & 1)~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
+ & 2)~intial~:{{\omega }^{\left( 1 \right)}}=\left\{ 0,0,\ldots ..,0 \right\} \\ 
+ & \,\,\,\,for~t=1,2,3..: \\ 
+ & \,\,\,\,\,\,\,\,\,for~i=1\to m:~~ \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,if~y\left\langle \omega ,x \right\rangle ~\le 0: \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{{\omega }^{t+1}}={{\omega }^{t}}+{{y}_{i}}{{x}_{i}} \\ 
+\end{align}\]
+```
 
 
 

@@ -51,9 +51,18 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 <img src="./Lesson_1/Capture3.PNG" >
 
 ### General case:
-<p align="center"><img src="/tex/088ec4fbe5320e7879b8d3568ec48f5e.svg?invert_in_darkmode&sanitize=true" align=middle width=242.15034690000002pt height=135.6991185pt/></p>
 
-<p align="center"><img src="/tex/22a723747c6b6c6efc37b461832cf26d.svg?invert_in_darkmode&sanitize=true" align=middle width=485.61926159999996pt height=48.94896435pt/></p>
+Until now we only deal with 2 dimension case Y=w1x+b This section goal is to generlize to n Dimensions:
+
+
+\[<p align="center"><img src="/tex/54fd0deb0a1a33f43d6981b5488b90bf.svg?invert_in_darkmode&sanitize=true" align=middle width=471.62313824999995pt height=160.19220195pt/></p>\]
+
+
+
+Finding \[\omega \] that minimize this equation
+<img src="/tex/7dcdedec5402fc8dd15699ff8b76c8ad.svg?invert_in_darkmode&sanitize=true" align=middle width=278.53197735000003pt height=34.099002299999995pt/>
+
+
 
 
 **Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:

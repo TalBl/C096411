@@ -50,6 +50,23 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 
 <img src="./Lesson_1/Capture4.PNG" >
 
+### Generalization:
+
+Our main goal is to do well on the real world not on our training set S. 
+Let’s assume the real world model is not a linear model but it's possible to draw a line such that
+<img src="/tex/a5a3c89b53bed887e7e194b0670abc9a.svg?invert_in_darkmode&sanitize=true" align=middle width=17.35165739999999pt height=24.657735299999988pt/>errors(green lines) would be 0. in this case we can imagine the error as a independent variable with a
+variance and mean=0:
+
+<img src="/tex/696bfe7073453a816866c845335ec143.svg?invert_in_darkmode&sanitize=true" align=middle width=99.17033939999999pt height=22.831056599999986pt/>
+
+such that:
+
+<img src="/tex/ee34924a2b762a277e91f68e2cedf4b4.svg?invert_in_darkmode&sanitize=true" align=middle width=356.32586054999996pt height=24.65753399999998pt/>
+<img src="/tex/37e4407b34948ad4d70082c330ebc5bf.svg?invert_in_darkmode&sanitize=true" align=middle width=171.66468659999998pt height=24.65753399999998pt/>
+<img src="/tex/925f194530981fe65d12350658648ee0.svg?invert_in_darkmode&sanitize=true" align=middle width=171.66468659999998pt height=24.65753399999998pt/>
+
+
+Now using the formulation above we want to 
 
 ### General case:
 

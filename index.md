@@ -1,3 +1,10 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 ## Quick Intro
 
 This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
@@ -202,7 +209,7 @@ Insted of working in distances space we want to talk about chances or probabilit
 to do so we need to change our space from <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> to [0,1]. A very usefull function to do so is the sigmoid function:
 
 
-<img src="./Lesson_3/Capture1.PNG" >
+<img src="./Lesson_3/Capture1.PNG" class="center">
 
 
 The function in <img src="/tex/8860040216a2e61c344544a77b5cd2ce.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is 1(heigh probability) and 0(low probability) in <img src="/tex/b9652934c10244a0a8922e2315545845.svg?invert_in_darkmode&sanitize=true" align=middle width=29.223836399999986pt height=19.1781018pt/>

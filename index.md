@@ -44,11 +44,11 @@ In order to achieve the learning goal(<img src="/tex/4be0688c6c52f0fe18ef69ee724
 
 <img src="/tex/d02322874875d8983fec512aac90f760.svg?invert_in_darkmode&sanitize=true" align=middle width=383.3007585pt height=44.51174640000002pt/>
 	
-The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/>that gives the lowest error.
+The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/>that minimize the error.
 
 #### Finding <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> that minimize this equation:
 
-<img src="./Lesson_1/Capture2.PNG" >
+<img src="./Lesson_1/Capture3.PNG" >
 
 
 **Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:

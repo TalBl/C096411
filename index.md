@@ -177,16 +177,17 @@ The right inequality can be seperated to two inequalities:
 #####  (2)  <img src="/tex/b404999f17c717e01dfc95a94422cdab.svg?invert_in_darkmode&sanitize=true" align=middle width=116.42872394999998pt height=27.6567522pt/> proof:
 
 
- * <img src="/tex/dad6a078f46767e45724042b640ad063.svg?invert_in_darkmode&sanitize=true" align=middle width=604.1128318499999pt height=47.671232399999994pt/>
+  - <img src="/tex/db4e839790dd915e7e34257983b6041f.svg?invert_in_darkmode&sanitize=true" align=middle width=700.2743269499999pt height=47.671232399999994pt/>
   
-  - now we can do the same for <img src="/tex/8ba23cbb1c4581f0d9d2ad6552458e81.svg?invert_in_darkmode&sanitize=true" align=middle width=45.994941299999994pt height=27.6567522pt/> until we get:
-  * <img src="/tex/b404999f17c717e01dfc95a94422cdab.svg?invert_in_darkmode&sanitize=true" align=middle width=116.42872394999998pt height=27.6567522pt/>
+  - now we can do the same repeatedly for <img src="/tex/8ba23cbb1c4581f0d9d2ad6552458e81.svg?invert_in_darkmode&sanitize=true" align=middle width=45.994941299999994pt height=27.6567522pt/> until we get:
+  
+	* <img src="/tex/b404999f17c717e01dfc95a94422cdab.svg?invert_in_darkmode&sanitize=true" align=middle width=116.42872394999998pt height=27.6567522pt/>
   
 #### (1)/(2):
 
- ** <img src="/tex/7238b5aa1261c4f97da17c960c31fef2.svg?invert_in_darkmode&sanitize=true" align=middle width=289.7444748pt height=35.8209489pt/>
+* <img src="/tex/3e902680172e3442533dfd97bd8c3224.svg?invert_in_darkmode&sanitize=true" align=middle width=141.03762255pt height=35.8209489pt/>   | devide-by  <img src="/tex/ff9a38cd49b9e03e40cd839b823f239e.svg?invert_in_darkmode&sanitize=true" align=middle width=79.82281065pt height=24.65753399999998pt/> 
 
-** <img src="/tex/dafdb732e46ffe718273946f8364d5ea.svg?invert_in_darkmode&sanitize=true" align=middle width=137.856576pt height=43.068399000000014pt/>
+* <img src="/tex/dafdb732e46ffe718273946f8364d5ea.svg?invert_in_darkmode&sanitize=true" align=middle width=137.856576pt height=43.068399000000014pt/>
  
 
 

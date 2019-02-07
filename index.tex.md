@@ -28,11 +28,14 @@ In this method the Decision is based on interaction with the environment. The le
 
 ### Notations:
 $$
-S={(X_1,Y_1 ),….,(X_m,Y_m )}
-S=Training data 
-X_i=input i(image,voice,…)   .  Y_i=True label(cat,"hello siri\"...")
-Y ̂_i=approximated label
-m-number of training vecors X
+ \begin{align}
+  & S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
+ & S=Training~data~ \\ 
+ & {{X}_{i}}=input~i\left( image,voice,\ldots  \right)~~.~~{{Y}_{i}}=True~label\left( cat,''\text{hello }\!\!~\!\!\text{ siri''}... \right) \\ 
+ & {{{\hat{Y}}}_{i}}=approximated~label \\ 
+ & m-number~of~training~vecors~X \\ 
+\end{align}
+
 $$
 In linear regression we assume the connection between X and Y is linear:
 $$ Y ̂_i=ω_1 X_i+ω_0 $$ trying to fit $$ ω_1,ω_0 $$ in order to achieve the lowest error.(we want

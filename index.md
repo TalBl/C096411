@@ -55,7 +55,7 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 
 
-\<p align="center"><img src="/tex/1eb3a1706d2e1385d643cd6e41c4f379.svg?invert_in_darkmode&sanitize=true" align=middle width=469.53169725pt height=160.19220195pt/></p>
+\<p align="center"><img src="/tex/2db32b9a738828ac1bbc4ea44de2eb44.svg?invert_in_darkmode&sanitize=true" align=middle width=235.22780655pt height=70.4387244pt/></p>
 
 
 

@@ -1,10 +1,3 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 ## Quick Intro
 
 This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
@@ -20,14 +13,14 @@ and you are required to repeat the example logic on some other examples.
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
-<img src="./Lesson_0/Image2.PNG" >
+<img src="./Lesson_0/Image2.PNG" align="middle" >
 
 
 ### Reinforcement learning:
 
 In this method the Decision is based on interaction with the environment. The learning is done using Trial and error. 
 
-<img src="./Lesson_0/Image3.PNG" >
+<img src="./Lesson_0/Image3.PNG" align="middle">
  
 
 
@@ -42,7 +35,7 @@ In this method the Decision is based on interaction with the environment. The le
 In linear regression we assume the connection between X and Y is linear:
 <img src="/tex/0c30b8a45eb9c4b777e0681c018f1f45.svg?invert_in_darkmode&sanitize=true" align=middle width=110.50777649999998pt height=31.141535699999984pt/> trying to fit <img src="/tex/f4661f991f454717a2f55bca1bbb53ea.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> in order to achieve the lowest error.(we want<img src="/tex/39053daaabd24fd4a891b570d0e8b71f.svg?invert_in_darkmode&sanitize=true" align=middle width=14.194299900000003pt height=31.141535699999984pt/> to be as close as possible to <img src="/tex/706e1c19ba787c7c4276ce74576768d6.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=22.465723500000017pt/>)
 
-<img src="./Lesson_1/Capture1.PNG" >
+<img src="./Lesson_1/Capture1.PNG" align="middle">
 
 
 In order to achieve the learning goal(<img src="/tex/4be0688c6c52f0fe18ef69ee724c7114.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=31.141535699999984pt/> to be as close as possible to <img src="/tex/706e1c19ba787c7c4276ce74576768d6.svg?invert_in_darkmode&sanitize=true" align=middle width=14.19429989999999pt height=22.465723500000017pt/>) we want to minimize the sum of all  – error as much as possible. 
@@ -55,7 +48,7 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 
 #### Finding <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> that minimize this equation:
 
-<img src="./Lesson_1/Capture4.PNG" >
+<img src="./Lesson_1/Capture4.PNG" align="middle">
 
 ### Generalization:
 
@@ -94,14 +87,14 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
 
-<img src="./Lesson_2/graph3.PNG" >
+<img src="./Lesson_2/graph3.PNG" align="middle">
 
 
 ### Geometrical explanation(line point distance):
 
 This section provide neet explanation on how to compute distance between point and a line.
 
-<img src="./Lesson_2/graph1.PNG" >
+<img src="./Lesson_2/graph1.PNG" align="middle">
 
 In general <img src="/tex/c3d34d8a63a41701e5954f9b612f25f9.svg?invert_in_darkmode&sanitize=true" align=middle width=100.96246379999998pt height=22.831056599999986pt/>=distance from line with normal  <img src="/tex/a166e09ebe3a9840702c0d0159854a2d.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=22.831056599999986pt/> and offset <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>
 
@@ -209,20 +202,20 @@ Insted of working in distances space we want to talk about chances or probabilit
 to do so we need to change our space from <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> to [0,1]. A very usefull function to do so is the sigmoid function:
 
 
-<img src="./Lesson_3/Capture1.PNG" class="center">
+<img src="./Lesson_3/Capture1.PNG" align="middle">
 
 
 The function in <img src="/tex/8860040216a2e61c344544a77b5cd2ce.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is 1(heigh probability) and 0(low probability) in <img src="/tex/b9652934c10244a0a8922e2315545845.svg?invert_in_darkmode&sanitize=true" align=middle width=29.223836399999986pt height=19.1781018pt/>
 
 #### Classes probability:
 
-<p align="center"><img src="/tex/0c102261d6c87903bc8251d5061fffd7.svg?invert_in_darkmode&sanitize=true" align=middle width=235.17735285pt height=34.3600389pt/></p>
+<p align="center"><img src="/tex/8e7a487149a8001fb6a36dc2bf283cf6.svg?invert_in_darkmode&sanitize=true" align=middle width=205.52482665pt height=34.3600389pt/></p>
 
-<p align="center"><img src="/tex/b37c3a9db2fbf66383ba77d07889b5d4.svg?invert_in_darkmode&sanitize=true" align=middle width=376.26537134999995pt height=34.3600389pt/></p>
+<p align="center"><img src="/tex/fed0a164f2c02654792cc0c41d97b6f9.svg?invert_in_darkmode&sanitize=true" align=middle width=346.61284514999994pt height=34.3600389pt/></p>
 
 So we can say in general that:
 
-<p align="center"><img src="/tex/b5f767082242a7ef49de7451d20fede1.svg?invert_in_darkmode&sanitize=true" align=middle width=216.8737692pt height=34.3600389pt/></p>
+<p align="center"><img src="/tex/a0c3bb08b0edfc6c42d3b1e74388fee7.svg?invert_in_darkmode&sanitize=true" align=middle width=187.22124465pt height=34.3600389pt/></p>
 
 
 

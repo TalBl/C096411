@@ -48,7 +48,8 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 
 #### Finding <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_in_darkmode&sanitize=true" align=middle width=41.69713019999999pt height=14.15524440000002pt/> that minimize this equation:
 
-<img src="./Lesson_1/Capture3.PNG" >
+<img src="/tex/68b761b87f8035e3cb088e9909fd1f91.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+
 
 ### General case:
 

@@ -59,13 +59,13 @@ variance <img src="/tex/8cda31ed38c6d59d14ebefa440099572.svg?invert_in_darkmode&
 
 <img src="/tex/80a688401b2d63aeb61914789c6784da.svg?invert_in_darkmode&sanitize=true" align=middle width=75.07395389999999pt height=31.141535699999984pt/>
 
-such that:
+#### such that:
 
-<img src="/tex/ca89eb69465758b6088dd7d9603ea63f.svg?invert_in_darkmode&sanitize=true" align=middle width=332.22947505pt height=31.141535699999984pt/>
-<img src="/tex/db4687f9b00b761097c90fa73c326767.svg?invert_in_darkmode&sanitize=true" align=middle width=160.35375344999997pt height=24.65753399999998pt/>
-<img src="/tex/3f9dbf0b3d5cc2a4eb6671ed6a6f7396.svg?invert_in_darkmode&sanitize=true" align=middle width=160.35375344999997pt height=24.65753399999998pt/>
+<img src="/tex/1ec3912580fb1d17e3ff7a933d340d92.svg?invert_in_darkmode&sanitize=true" align=middle width=315.79105634999996pt height=31.141535699999984pt/>
+<img src="/tex/990044b31ea09b9285e605a03b2cbb15.svg?invert_in_darkmode&sanitize=true" align=middle width=147.56832089999997pt height=24.65753399999998pt/>
+<img src="/tex/16eace060c1897c05b280e5f00ef4f81.svg?invert_in_darkmode&sanitize=true" align=middle width=147.56832089999997pt height=24.65753399999998pt/>
 
-Lets prove the equality for <img src="/tex/20a4327baf8921ad57cf2147ad7baf8d.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=22.831056599999986pt/> and <img src="/tex/c6d01153a10d0697e4ab58473caede07.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=22.831056599999986pt/> holds:
+#### Lets prove the equality for <img src="/tex/20a4327baf8921ad57cf2147ad7baf8d.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=22.831056599999986pt/> and <img src="/tex/c6d01153a10d0697e4ab58473caede07.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=22.831056599999986pt/> holds:
 
 <p align="center"><img src="/tex/3458ec4e9d788b903089ed1dfcc6bc90.svg?invert_in_darkmode&sanitize=true" align=middle width=486.9725916pt height=167.67248684999998pt/></p>
 
@@ -83,9 +83,25 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 
 
 
+## Perceptron
+
+Our main goal is to find a linear separation rule for data that can be separated by a line:
+
+<img src="./Lesson_2/graph3.PNG" >
 
 
+### Geometrical explanation(line point distance):
 
+This section provide neet explanation on how to compute distance between point and a line.
+
+<img src="./Lesson_2/graph1.PNG" >
+
+In general <img src="/tex/c3d34d8a63a41701e5954f9b612f25f9.svg?invert_in_darkmode&sanitize=true" align=middle width=100.96246379999998pt height=22.831056599999986pt/>=distance from line with normal  <img src="/tex/a166e09ebe3a9840702c0d0159854a2d.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=22.831056599999986pt/> and offset <img src="/tex/747fe3195e03356f846880df2514b93e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>
+
+### Perceptron algorithm:
+```math
+\[<p align="center"><img src="/tex/8eb99b4c10b2044f2bcfbcbc6e719288.svg?invert_in_darkmode&sanitize=true" align=middle width=501.3011982pt height=169.67510835pt/></p>\]
+```
 
 
 

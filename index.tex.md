@@ -63,26 +63,23 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 $$
 \[\begin{align}
- & Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
+ & Y=[Y_1,Y_2....,Y_m] \\ 
  & X=[1,x_1,x_2...,X_m] \\ 
- & \omega ={{[{{\omega }_{0}},{{\omega }_{1}}.....,{{\omega }_{m}}]}^{T}} \\ 
- &  \\ 
+ & \omega ={\omega_0,\omega_1.....,\omega_m]}^{T} \\
+$$
+
+#### The minimization equation is now:
+$$
  & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} \\ 
 \end{align}\]
 $$
 
+#### Finding W that minimize this equation:
 
 Finding \[\omega \] that minimize this equation
 $\frac{d}{d\omega }=\left( 2Y-2X\omega  \right){{X}^{T}}=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}$
 
 
-
-
-**Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:
-
-$$
-f(x_i, W, b) =  W x_i + b
-$$
 
 
 

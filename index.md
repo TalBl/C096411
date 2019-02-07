@@ -136,14 +136,22 @@ From this we can derive the second perceptron role: argmin ||<img src="/tex/ae4f
 
 ##### definitions: 
 B=||<img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/>||, R=max||<img src="/tex/9fc20fb1d3825674c6a279cb0d5ca636.svg?invert_in_darkmode&sanitize=true" align=middle width=14.045887349999989pt height=14.15524440000002pt/>||
-<img src="/tex/0dee83cf66a05ecf84f4fa4dd6884418.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315000003pt height=24.65753399999998pt/>
+<img src="/tex/d67f91f473bb05778cc962319ca19cca.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315pt height=47.67123239999998pt/>
+<img src="/tex/56392274d4668f82d9ad3cae9f29199a.svg?invert_in_darkmode&sanitize=true" align=middle width=48.333205799999995pt height=39.45205439999997pt/>(intialization to 0)
 
 ##### proof:
 
 Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> steps
 
 In order to show that we wil proof that:
-<img src="/tex/8808fb3e54f392403fcbee114de2d87c.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=43.068399000000014pt/>
+<img src="/tex/b582dfebdac8ce224e0948f8e5ce3ecc.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=64.98593639999997pt/>
+
+The left inequality is simpile cause <img src="/tex/c851863768d731575b408f0202384bb5.svg?invert_in_darkmode&sanitize=true" align=middle width=436.20203384999996pt height=53.479338pt/> {<\omega^{T+1},\omega*>} \geq T <img src="/tex/9435ff4f415c03b0df0fd226588bd210.svg?invert_in_darkmode&sanitize=true" align=middle width=310.85049434999996pt height=22.831056599999986pt/> \omega^{t+1}=\omega^{t}+x_iy_i <img src="/tex/5f7b4a34b27be474bdf9003a07709495.svg?invert_in_darkmode&sanitize=true" align=middle width=158.65088744999997pt height=22.831056599999986pt/> \omega^{i}<img src="/tex/0da3109084dd6a28d28c5fff350b3417.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662248499999905pt height=14.15524440000002pt/> \omega^{i}=omega^{1}+\sum\nolimits_{2}^{i} X_iy_i
+This means we can write omega^{T+1} as:
+(P.1.1) <img src="/tex/83ce898764cc30d86c5ece20d8be038d.svg?invert_in_darkmode&sanitize=true" align=middle width=496.59785504999996pt height=32.256008400000006pt/>\omega*<img src="/tex/f1ab505e99dbc0785a4e6065f5bf61a0.svg?invert_in_darkmode&sanitize=true" align=middle width=384.07141244999997pt height=24.65753399999998pt/><X_iy_i,\omega*> \geq 1
+Using both (P.1.1)+(P.1.2) 
+ $ {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T
+(2)
 
 
 

@@ -228,19 +228,19 @@ So we can say in general that:
 
 We can use maximum likelihood estimation method to find <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> that will maximize the probability:
 
-<p align="center"><img src="/tex/6127c0c6554939cd6cd51b8b942bd672.svg?invert_in_darkmode&sanitize=true" align=middle width=329.36352734999997pt height=44.89738935pt/></p>
+<p align="center"><img src="/tex/1df5b004798e038a30c9e86373998ab0.svg?invert_in_darkmode&sanitize=true" align=middle width=323.9386788pt height=44.89738935pt/></p>
 
 because log is monotonic increasing function we can maximize log(P(y_1,y_2...y_m|x_1,x_2...x_,))
 
-<p align="center"><img src="/tex/62c4309d5554f99fbf8a5f50e17f6234.svg?invert_in_darkmode&sanitize=true" align=middle width=218.40188865pt height=44.89738935pt/></p>
+<p align="center"><img src="/tex/36186fad90399591fee09ab238537a83.svg?invert_in_darkmode&sanitize=true" align=middle width=212.97704175pt height=44.89738935pt/></p>
 
 This is same as:
 
 <p align="center"><img src="/tex/b83902cab15d39288ac72ddc50a5eb94.svg?invert_in_darkmode&sanitize=true" align=middle width=207.62863935pt height=44.89738935pt/></p>
 
-This equation is whats called log-loss loss function. while we already saw the mean square root loss: 
+This equation is called log-loss loss function. while we already saw the mean square root loss: 
 
-<p align="center"><img src="/tex/5b4bcb7648f60f7e7290b258df5299ef.svg?invert_in_darkmode&sanitize=true" align=middle width=208.84270604999998pt height=44.89738935pt/></p>
+<p align="center"><img src="/tex/1421bd2ec6a07f1da22493b66d0b1bea.svg?invert_in_darkmode&sanitize=true" align=middle width=218.88848025pt height=44.89738935pt/></p>
 
 This loss gives use the probability result between [0,1]
 

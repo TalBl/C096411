@@ -160,10 +160,10 @@ $$
 The optimal solution is defined has the solution which produce the highest margin. 
 In order to find this optimal solution let's go back to our equation:
 
-distance=$y_i<\hat{\omega},x_i>$ ->distance=$y_i<\omega/(||\omega||)},x_i>$
+distance=$y_i<\hat{\omega},x_i>$ ->distance=$y_i<\frac{\omega}{||\omega||},x_i>$
 
-We can see that the distance is dependent in ||W||. The lower ||W|| is the bigger the distance is.
-From this we can derive the second perceptron role: argmin ||W||
+We can see that the distance is dependent in ||$\omega$||. The lower ||$\omega$|| is the bigger the distance is.
+From this we can derive the second perceptron role: argmin ||$\omega$||
 
 
 

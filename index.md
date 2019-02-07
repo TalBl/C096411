@@ -201,7 +201,7 @@ it's the right classification when 0 is 50% to each side.
 Insted of working in distances space we want to talk about chances or probability to be a part of a class given some x , p(y|x).
 to do so we need to change our space from <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> to [0,1]. A very usefull function to do so is the sigmoid function:
 
-<div class="verticalcenter">
+<div class="fig figcenter fighighlight">
 	<img src="./Lesson_3/Capture1.PNG" align="middle">
 </div>
 

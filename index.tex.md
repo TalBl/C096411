@@ -52,11 +52,11 @@ In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possib
 
 $argmi{{n}_{{{\omega }_{0}},{{\omega }_{1}}}}~\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-{{{\hat{Y}}}_{i}} \right)}^{2}}=\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-\left( {{\omega }_{0}}+{{\omega }_{1}}{{X}_{i}} \right) \right)}^{2}}$
 	
-The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that gives the lowest error.
+The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 #### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
 
-<img src="./Lesson_1/Capture2.PNG" >
+<img src="./Lesson_1/Capture3.PNG" >
 
 
 **Linear classifier.** In this module we will start out with arguably the simplest possible function, a linear mapping:

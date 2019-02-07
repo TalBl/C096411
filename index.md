@@ -153,21 +153,28 @@ The right inequality can be seperated to two inequalities:
 ##### (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof:
 
 The update term of the perceptron is:
-<p align="center"><img src="/tex/0c0018502104002bbb7ca85611cc9c39.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003565pt height=17.399144399999997pt/></p>
+
+<img src="/tex/4249369e64c6c8f8254547fde8da2bf2.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>
+
 In general we can write <img src="/tex/43613c3dd9fdff7ce34d1e976e2b2ed3.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
-<p align="center"><img src="/tex/428a76818e89606e14f217c14b291d9c.svg?invert_in_darkmode&sanitize=true" align=middle width=178.51312215pt height=30.673726049999996pt/></p>
+
+<img src="/tex/c5c0d74d0a29083c595d0012996ad9c8.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043475pt height=31.75825949999999pt/>
+
 This means we can write <img src="/tex/b25a79ea3630f9ea0167e75ed6210c07.svg?invert_in_darkmode&sanitize=true" align=middle width=36.999522449999986pt height=27.6567522pt/> as:
-(P.1.1) <p align="center"><img src="/tex/94faccf830647954dda059a9def0c49a.svg?invert_in_darkmode&sanitize=true" align=middle width=327.68978054999997pt height=30.922600499999998pt/></p>
+
+(P.1.1) <img src="/tex/77ee02f9b0f379bf2c8489d5615940dd.svg?invert_in_darkmode&sanitize=true" align=middle width=314.9044041pt height=32.256008400000006pt/>
+
 Also by definition because <p align="center"><img src="/tex/868392dfc0a58a89578566d081656ba4.svg?invert_in_darkmode&sanitize=true" align=middle width=19.0411155pt height=7.64841495pt/></p> is the soultion and we assume linear seperation:
-(P.1.2) <p align="center"><img src="/tex/bd4055f577bcc22bbb97ec205674bb96.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=14.42921205pt/></p>
+
+(P.1.2) <img src="/tex/c3df0edc208d80ffd2a4fdc9de096c11.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=22.465723500000017pt/>
+
 Using both (P.1.1)+(P.1.2) 
- <p align="center"><img src="/tex/efa88821e66836aabe2101b4f6a6fb53.svg?invert_in_darkmode&sanitize=true" align=middle width=292.62112935pt height=30.922600499999998pt/></p>
+
+<img src="/tex/20c386d4332215d7c85b3385cad90995.svg?invert_in_darkmode&sanitize=true" align=middle width=286.2284403pt height=32.256008400000006pt/>
+ 
 (2)
 
-In general we can write <img src="/tex/80d3f68368ed84845f45266fd4471298.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
 
-
-In general we can write <p align="center"><img src="/tex/fb659bfff42583da3a895c0018ce71e5.svg?invert_in_darkmode&sanitize=true" align=middle width=15.4728057pt height=14.401419449999999pt/></p>:
 
 
 

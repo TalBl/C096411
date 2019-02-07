@@ -146,20 +146,22 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 <img src="/tex/b582dfebdac8ce224e0948f8e5ce3ecc.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=64.98593639999997pt/>
 
-The left inequality is simpile cause: <img src="/tex/44d40fcef7e9ec32d2e93014faf3618c.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=56.76695969999997pt/>
+The left inequality is simpile cause: 
+<img src="/tex/aa2157b190813cfbad2c9d7deec390cc.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=96.21901409999997pt/>
 
 The right inequality can be seperated to two inequalities:
-#####(1) <img src="/tex/0a9c593bd900928d04316152f88bab59.svg?invert_in_darkmode&sanitize=true" align=middle width=132.6783546pt height=27.6567522pt/> proof:
+##### (1) <img src="/tex/0a9c593bd900928d04316152f88bab59.svg?invert_in_darkmode&sanitize=true" align=middle width=132.6783546pt height=27.6567522pt/> proof:
+
 The update term of the perceptron is:
-<img src="/tex/4249369e64c6c8f8254547fde8da2bf2.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>
+<img src="/tex/fa7955e6d3c28468c5eae2bfc1333960.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003565pt height=45.84475499999998pt/>
 In general we can write <img src="/tex/c43047ebdf0495d4deb4baf9257570f6.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
-<img src="/tex/c5c0d74d0a29083c595d0012996ad9c8.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043475pt height=31.75825949999999pt/>
+<img src="/tex/7f77f09fe5a3dcd839717cb20669408c.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043475pt height=49.31521979999998pt/>
 This means we can write <img src="/tex/b25a79ea3630f9ea0167e75ed6210c07.svg?invert_in_darkmode&sanitize=true" align=middle width=36.999522449999986pt height=27.6567522pt/> as:
-(P.1.1) <img src="/tex/77ee02f9b0f379bf2c8489d5615940dd.svg?invert_in_darkmode&sanitize=true" align=middle width=314.9044041pt height=32.256008400000006pt/>
+(P.1.1) <img src="/tex/80ad3c131a2da3bf889a072560b3b684.svg?invert_in_darkmode&sanitize=true" align=middle width=314.9044041pt height=49.31521979999998pt/>
 Also by definition because <img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> is the soultion and we assume linear seperation:
-(P.1.2) <img src="/tex/8f4c9b00b9603bf23a22b0529b78e447.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=22.465723500000017pt/>
+(P.1.2) <img src="/tex/6eb12ef282dcd85348606601e1b23cec.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=45.84475499999998pt/>
 Using both (P.1.1)+(P.1.2) 
- <img src="/tex/20c386d4332215d7c85b3385cad90995.svg?invert_in_darkmode&sanitize=true" align=middle width=286.2284403pt height=32.256008400000006pt/>
+ <img src="/tex/7a7a113063b386f91568dd1846bbde44.svg?invert_in_darkmode&sanitize=true" align=middle width=286.2284403pt height=49.31521979999998pt/>
 (2)
 
 

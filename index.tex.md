@@ -186,23 +186,23 @@ $ \\\\ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+
 The right inequality can be seperated to two inequalities:
 ##### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
 
-•	 The update term of the perceptron is:
+-The update term of the perceptron is:
 
 $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i $
 
-•	 In general we can write $\omega^{i}$:
+-In general we can write $\omega^{i}$:
 
-$  \,\,\,  \omega^{i}=omega^{1}+\sum\nolimits_{2}^{i} X_iy_i $
+$  \,\,\,  \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i $
 
-<br/> + This means we can write $\omega^{T+1}$ as:
+- This means we can write $\omega^{T+1}$ as:
 
 (P.1.1) $ \,\,\,  \omega^{T+1}=\omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
 
-•	 Also by definition because $\omega*$ is the soultion and we assume linear seperation:
+- Also by definition because $\omega*$ is the soultion and we assume linear seperation:
 
 (P.1.2) $  \,\,\,  <X_iy_i,\omega*> \geq 1 $
 
-•	 Using both (P.1.1)+(P.1.2) 
+-Using both (P.1.1)+(P.1.2) 
 
 $ \,\,\, {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $
  

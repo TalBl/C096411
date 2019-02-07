@@ -52,10 +52,10 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 
 ### General case:
 
-Until now we only deal with 2 dimension case Y=w1x+b This section goal is to generlize to n Dimensions:
+Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 
 
-\[<p align="center"><img src="/tex/54fd0deb0a1a33f43d6981b5488b90bf.svg?invert_in_darkmode&sanitize=true" align=middle width=471.62313824999995pt height=160.19220195pt/></p>\]
+\<p align="center"><img src="/tex/1eb3a1706d2e1385d643cd6e41c4f379.svg?invert_in_darkmode&sanitize=true" align=middle width=469.53169725pt height=160.19220195pt/></p>
 
 
 

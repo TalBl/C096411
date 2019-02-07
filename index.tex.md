@@ -168,11 +168,11 @@ From this we can derive the second perceptron role: argmin ||$\omega$||
 
 ####  Perceptron converges rule:
 
-<u> definitions: </u>
+##### definitions: 
 B=||$\omega*$||, R=max||$x_i$||
 $\omega*=argmin{||\omega|| s.t y_i<\hat{\omega},x_i> \geq 1 $
 
-<u> proof </u>
+##### proof:
 
 Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after $(RB)^2 $ steps
 

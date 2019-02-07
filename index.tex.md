@@ -262,19 +262,19 @@ $$ P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
 
 We can use maximum likelihood estimation method to find $\omega$ that will maximize the probability:
 
-$$ P(y_1,y_2...y_m|x_1,x_2...x_,)=\prod\limits_{i=1}^{m} {1}{1+e^{-y_i<\hat{\omega},x_i>}  $$
+$$ P(y_1,y_2...y_m|x_1,x_2...x_,)=\prod\limits_{i=1}^{m} \frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
 
 because log is monotonic increasing function we can maximize log(P(y_1,y_2...y_m|x_1,x_2...x_,))
 
-$$maximize \, \sum\limits_{i=1}^{m} {1}{1+e^{-y_i<\hat{\omega},x_i>}  $$
+$$maximize \, \sum\limits_{i=1}^{m} \frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
 
 This is same as:
 
 $$minimize \, \sum\limits_{i=1}^{m} {1+e^{-y_i<\hat{\omega},x_i>}  $$
 
-This equation is whats called log-loss loss function. while we already saw the mean square root loss: 
+This equation is called log-loss loss function. while we already saw the mean square root loss: 
 
-$$minimize \, \sum\limits_{i=1}^{m} {y_i-<\hat{\omega},x_i>}^2  $$
+$$minimize \, \sum\limits_{i=1}^{m} ({y_i-<\hat{\omega},x_i>})^2  $$
 
 This loss gives use the probability result between [0,1]
 

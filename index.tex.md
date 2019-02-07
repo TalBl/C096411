@@ -180,20 +180,20 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 $\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
 
-The left inequality is simpile cause $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1
+The left inequality is simpile cause $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
 
 The right inequality can be seperated to two inequalities:
 #####-(1) $ {<\omega^{T+1},\omega*>} \geq T $ proof:
 The update term of the perceptron is:
 $ \omega^{t+1}=\omega^{t}+x_iy_i $
 In general we can write $ \omega^{i}$:
-$ \omega^{i}=omega^{1}+\sum\nolimits_{2}^{i} X_iy_i
-This means we can write omega^{T+1} as:
-(P.1.1) $ \omega^{T+1}=omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i
+$ \omega^{i}=omega^{1}+\sum\nolimits_{2}^{i} X_iy_i $
+This means we can write $\omega^{T+1}$ as:
+(P.1.1) $ \omega^{T+1}=omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
 Also by definition because $\omega*$ is the soultion and we assume linear seperation:
-(P.1.2) $<X_iy_i,\omega*> \geq 1
+(P.1.2) $<X_iy_i,\omega*> \geq 1 $
 Using both (P.1.1)+(P.1.2) 
- $ {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T
+ $ {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $
 (2)
 
 

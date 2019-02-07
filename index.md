@@ -53,10 +53,7 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 ### General case:
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
-
-
-\<p align="center"><img src="/tex/2db32b9a738828ac1bbc4ea44de2eb44.svg?invert_in_darkmode&sanitize=true" align=middle width=235.22780655pt height=70.4387244pt/></p>
-
+<p align="center"><img src="/tex/c71dd36fa16ecd06419392606fe7cae0.svg?invert_in_darkmode&sanitize=true" align=middle width=242.15034690000002pt height=135.6991185pt/></p>
 
 
 Finding \[\omega \] that minimize this equation

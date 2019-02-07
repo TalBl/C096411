@@ -184,7 +184,7 @@ The left inequality is simpile cause:
 $ \\\\ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
 
 The right inequality can be seperated to two inequalities:
-##### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
+##### <p><u> (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof </p></u>:
 
 - The update term of the perceptron is:
 

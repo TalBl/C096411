@@ -122,7 +122,7 @@ This section provide neet explanation on how to compute distance between point a
 In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 
 ### Perceptron algorithm:
-```math
+
 \[\begin{align}
   & 1)~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
  & 2)~intial~:{{\omega }^{\left( 1 \right)}}=\left\{ 0,0,\ldots ..,0 \right\} \\ 
@@ -131,7 +131,6 @@ In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\o
  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,if~y\left\langle \omega ,x \right\rangle ~\le 0: \\ 
  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{{\omega }^{t+1}}={{\omega }^{t}}+{{y}_{i}}{{x}_{i}} \\ 
 \end{align}\]
-```
 
 
 

@@ -229,10 +229,10 @@ The right inequality can be seperated to two inequalities:
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between $[-\infty,\infty]$ when $\infty$ is far in the positive side and 
-$-\infty$ is in the far in the negetive side. if we think about the bigger the distance is the more likely that
+$-\infty$ is in the far in the negetive side. if we think about it the bigger the distance the more likely that
 it's the right classification when 0 is 50% to each side.
 
-Insted of working in distances space we want to talk about chances or probability to be part of the a class given some x , p(y|x).
+Insted of working in distances space we want to talk about chances or probability to be a part of a class given some x , p(y|x).
 to do so we need to change our space from $[-\infty,\infty]$ to [0,1]. A very usefull function to do so is the sigmoid function:
 
 
@@ -243,13 +243,13 @@ The function in $\infty $ is 1(heigh probability) and 0(low probability) in $-\i
 
 #### Classes probability:
 
-$P(y_i=1|X)=\frac {1}{1+e^{-<\hat{omega},x_i>}} $
+$$ P(y_i=1|X)=\frac {1}{1+e^{-<\hat{omega},x_i>}} $$
 
-$P(y_i=-1|x_i)=1-P(Y=1|x_i)=\frac {1}{1+e^{<\hat{omega},x_i>}} $
+$$ P(y_i=-1|x_i)=1-P(Y=1|x_i)=\frac {1}{1+e^{<\hat{omega},x_i>}} $$
 
 So we can say in general that:
 
-$P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{omega},x_i>}} $
+$$ P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{omega},x_i>}} $$
 
 
 

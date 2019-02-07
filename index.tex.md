@@ -166,6 +166,19 @@ We can see that the distance is dependent in ||$\omega$||. The lower ||$\omega$|
 From this we can derive the second perceptron role: argmin ||$\omega$||
 
 
+####  Perceptron converges rule:
+
+<u> definitions: </u>
+B=||$\omega*$||, R=max||$x_i$||
+$\omega*=argmin{||\omega|| s.t y_i<\hat{\omega},x_i> \geq 1 $
+
+<u> proof </u>
+
+Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after $(RB)^2 $ steps
+
+
+
+
 
 
 

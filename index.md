@@ -28,7 +28,7 @@ In this method the Decision is based on interaction with the environment. The le
 
 ### Notations:
 
-<img src="/tex/924710a75052f58abd8c068a553dced5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+<p align="center"><img src="/tex/deed5a976bc21a58974765470f762967.svg?invert_in_darkmode&sanitize=true" align=middle width=500.97334319999993pt height=117.56169315pt/></p>
 
 
 

@@ -1,10 +1,3 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 ## Quick Intro
 
 This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
@@ -20,14 +13,14 @@ and you are required to repeat the example logic on some other examples.
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
-<img src="./Lesson_0/Image2.PNG" >
+<img src="./Lesson_0/Image2.PNG" align="middle" >
 
 
 ### Reinforcement learning:
 
 In this method the Decision is based on interaction with the environment. The learning is done using Trial and error. 
 
-<img src="./Lesson_0/Image3.PNG" >
+<img src="./Lesson_0/Image3.PNG" align="middle">
  
 
 
@@ -50,7 +43,7 @@ $$
 In linear regression we assume the connection between X and Y is linear:
 ${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want$~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
 
-<img src="./Lesson_1/Capture1.PNG" >
+<img src="./Lesson_1/Capture1.PNG" align="middle">
 
 
 In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$) we want to minimize the sum of all  – error as much as possible. 
@@ -63,7 +56,7 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 #### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
 
-<img src="./Lesson_1/Capture4.PNG" >
+<img src="./Lesson_1/Capture4.PNG" align="middle">
 
 ### Generalization:
 
@@ -117,14 +110,14 @@ $\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
 
-<img src="./Lesson_2/graph3.PNG" >
+<img src="./Lesson_2/graph3.PNG" align="middle">
 
 
 ### Geometrical explanation(line point distance):
 
 This section provide neet explanation on how to compute distance between point and a line.
 
-<img src="./Lesson_2/graph1.PNG" >
+<img src="./Lesson_2/graph1.PNG" align="middle">
 
 In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 
@@ -243,20 +236,20 @@ Insted of working in distances space we want to talk about chances or probabilit
 to do so we need to change our space from $[-\infty,\infty]$ to [0,1]. A very usefull function to do so is the sigmoid function:
 
 
-<img src="./Lesson_3/Capture1.PNG" class="center">
+<img src="./Lesson_3/Capture1.PNG" align="middle">
 
 
 The function in $\infty $ is 1(heigh probability) and 0(low probability) in $-\infty $
 
 #### Classes probability:
 
-$$ P(y_i=1|X)=\frac {1}{1+e^{-<\hat{omega},x_i>}} $$
+$$ P(y_i=1|X)=\frac {1}{1+e^{-<\hat{\omega},x_i>}} $$
 
-$$ P(y_i=-1|x_i)=1-P(Y=1|x_i)=\frac {1}{1+e^{<\hat{omega},x_i>}} $$
+$$ P(y_i=-1|x_i)=1-P(Y=1|x_i)=\frac {1}{1+e^{<\hat{\omega},x_i>}} $$
 
 So we can say in general that:
 
-$$ P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{omega},x_i>}} $$
+$$ P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
 
 
 

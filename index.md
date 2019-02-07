@@ -143,7 +143,7 @@ B=||<img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanit
 Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> steps
 
 In order to show that we wil proof that:
-<img src="/tex/c8263e606d358288f56ca36aad63cc2a.svg?invert_in_darkmode&sanitize=true" align=middle width=190.594338pt height=43.068399000000014pt/>
+<img src="/tex/8808fb3e54f392403fcbee114de2d87c.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=43.068399000000014pt/>
 
 
 

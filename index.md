@@ -154,7 +154,7 @@ The right inequality can be seperated to two inequalities:
 
 The update term of the perceptron is:
 <p align="center"><img src="/tex/0c0018502104002bbb7ca85611cc9c39.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003565pt height=17.399144399999997pt/></p>
-In general we can write <img src="/tex/c43047ebdf0495d4deb4baf9257570f6.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
+In general we can write <img src="/tex/43613c3dd9fdff7ce34d1e976e2b2ed3.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
 <p align="center"><img src="/tex/428a76818e89606e14f217c14b291d9c.svg?invert_in_darkmode&sanitize=true" align=middle width=178.51312215pt height=30.673726049999996pt/></p>
 This means we can write <img src="/tex/b25a79ea3630f9ea0167e75ed6210c07.svg?invert_in_darkmode&sanitize=true" align=middle width=36.999522449999986pt height=27.6567522pt/> as:
 (P.1.1) <p align="center"><img src="/tex/94faccf830647954dda059a9def0c49a.svg?invert_in_darkmode&sanitize=true" align=middle width=327.68978054999997pt height=30.922600499999998pt/></p>
@@ -164,7 +164,8 @@ Using both (P.1.1)+(P.1.2)
  <p align="center"><img src="/tex/efa88821e66836aabe2101b4f6a6fb53.svg?invert_in_darkmode&sanitize=true" align=middle width=292.62112935pt height=30.922600499999998pt/></p>
 (2)
 
-
+In general we can write <img src="/tex/43613c3dd9fdff7ce34d1e976e2b2ed3.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
+In general we can write <p align="center"><img src="/tex/fb659bfff42583da3a895c0018ce71e5.svg?invert_in_darkmode&sanitize=true" align=middle width=15.4728057pt height=14.401419449999999pt/></p>:
 
 
 

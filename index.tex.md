@@ -63,15 +63,25 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
 $\sum$errors(green lines) would be 0. in this case we can imagine the error as a independent variable with a
-variance and mean=0:
+variance $\sigma$ and mean=0:
 
-$hat{Y}-Y=\epsilon$
+$\hat{Y}-Y=\epsilon$
 
 such that:
 
-$E(hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y) //$
-$E(hat{\omega_1})=E(\omega_1)=\omega_1$
-$E(hat{\omega_0})=E(\omega_0)=\omega_0$
+$E(\hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y) //$
+$&-E(\hat{\omega_1})=E(\omega_1)=\omega_1$
+$&-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
+
+Lets prove the equality for $\omega_0$ and $\omega_1$ holds:
+
+$\begin{align}
+  & E({{{\hat{\omega }}}_{1}})=E~\left( \frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X}){{{\hat{Y}}}_{i}}}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}} \right)=E~\left( \frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X})\left( {{Y}_{i}}+\epsilon  \right)}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}} \right) \\ 
+ & \to E~\left( {{\omega }_{1}}+\frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X})\left( \epsilon  \right)}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}} \right)={{\omega }_{1}}+\frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X})E\left( \epsilon  \right)}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}}={{\omega }_{1}} \\ 
+ &  \\ 
+ & E({{{\hat{\omega }}}_{0}})=E\left( E\left( {\hat{Y}} \right)-{{\omega }_{1}}\bar{X} \right)=E\left( E\left( {{Y}_{i}}+\epsilon  \right)-{{\omega }_{1}}\bar{X} \right)={{\omega }_{0}} \\ 
+\end{align}$
+
 
 
 Now using the formulation above we want to 

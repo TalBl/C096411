@@ -152,7 +152,7 @@ $$
 		</td>
 
 		<td>
-			<img src="./Lesson_2/graph4.PNG" widht="50%" >
+			<img src="./Lesson_2/graph4.PNG" width="50%" >
 		</td>
 	</tr>
 	

@@ -103,8 +103,8 @@ In general <img src="/tex/c3d34d8a63a41701e5954f9b612f25f9.svg?invert_in_darkmod
 
 #### Understanding perceptron update term:
 
-After <img src="/tex/674adff4f45b5ae8d3fae7a9370a1d76.svg?invert_in_darkmode&sanitize=true" align=middle width=118.63936259999998pt height=26.085962100000025pt/>(means wrong classification) we updated <img src="/tex/9701e6af80e8aadf256c9f7e8fbdf461.svg?invert_in_darkmode&sanitize=true" align=middle width=143.61658079999998pt height=29.190975000000005pt/>. 
-Lets check how the new <img src="/tex/fd3c5858898ceef744f6327b70e3cc94.svg?invert_in_darkmode&sanitize=true" align=middle width=57.42004949999998pt height=29.190975000000005pt/> is doing on the <img src="/tex/898153323ddd5de17c1b21d590fce8c2.svg?invert_in_darkmode&sanitize=true" align=middle width=25.489010249999993pt height=14.15524440000002pt/> example:
+After <img src="/tex/674adff4f45b5ae8d3fae7a9370a1d76.svg?invert_in_darkmode&sanitize=true" align=middle width=118.63936259999998pt height=26.085962100000025pt/>(means wrong classification) we updated <img src="/tex/d5e78f926bd247c412fa80e755e437a1.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>. 
+Lets check how the new <img src="/tex/763aa9768edf29e38a67642e3db1b250.svg?invert_in_darkmode&sanitize=true" align=middle width=32.43161954999999pt height=26.76175259999998pt/> is doing on the <img src="/tex/898153323ddd5de17c1b21d590fce8c2.svg?invert_in_darkmode&sanitize=true" align=middle width=25.489010249999993pt height=14.15524440000002pt/> example:
 
 <p align="center"><img src="/tex/11d3aa5416cae805ac4e63831a8fdbd1.svg?invert_in_darkmode&sanitize=true" align=middle width=595.2313883999999pt height=42.202701749999996pt/></p>
 

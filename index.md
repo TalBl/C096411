@@ -60,7 +60,9 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 
 #### Finding <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> that minimize this equation:
 
-<img src="/tex/7dcdedec5402fc8dd15699ff8b76c8ad.svg?invert_in_darkmode&sanitize=true" align=middle width=278.53197735000003pt height=34.099002299999995pt/>
+<img src="/tex/380e0bd4a705031f0b3ea2ee23979386.svg?invert_in_darkmode&sanitize=true" align=middle width=270.3127812pt height=34.099002299999995pt/>
+
+
 
 
 

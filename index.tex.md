@@ -64,7 +64,7 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 $$
  & Y=[Y_1,Y_2....,Y_m] \\ 
  & X=[1,x_1,x_2...,X_m] \\ 
- & \omega ={\omega_0,\omega_1.....,\omega_m]}^{T}
+ & \omega ={[\omega_0,\omega_1.....,\omega_m]}^{T} \\
 $$
 
 #### The minimization equation is now:

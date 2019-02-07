@@ -62,16 +62,14 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 $$
-\[\begin{align}
  & Y=[Y_1,Y_2....,Y_m] \\ 
  & X=[1,x_1,x_2...,X_m] \\ 
- & \omega ={\omega_0,\omega_1.....,\omega_m]}^{T} \\
+ & \omega ={\omega_0,\omega_1.....,\omega_m]}^{T}
 $$
 
 #### The minimization equation is now:
 $$
- & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} \\ 
-\end{align}\]
+ & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} 
 $$
 
 #### Finding W that minimize this equation:

@@ -136,11 +136,14 @@ From this we can derive the second perceptron role: argmin ||<img src="/tex/ae4f
 
 ##### definitions: 
 B=||<img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/>||, R=max||<img src="/tex/9fc20fb1d3825674c6a279cb0d5ca636.svg?invert_in_darkmode&sanitize=true" align=middle width=14.045887349999989pt height=14.15524440000002pt/>||
-<img src="/tex/5007f512004f9c82b94c657de2852bf9.svg?invert_in_darkmode&sanitize=true" align=middle width=254.57670314999996pt height=24.65753399999998pt/>
+<img src="/tex/0dee83cf66a05ecf84f4fa4dd6884418.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315000003pt height=24.65753399999998pt/>
 
 ##### proof:
 
 Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> steps
+
+In order to show that we wil proof that:
+<img src="/tex/c8263e606d358288f56ca36aad63cc2a.svg?invert_in_darkmode&sanitize=true" align=middle width=190.594338pt height=43.068399000000014pt/>
 
 
 

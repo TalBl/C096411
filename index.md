@@ -126,10 +126,10 @@ Lets check how the new <img src="/tex/763aa9768edf29e38a67642e3db1b250.svg?inver
 The optimal solution is defined has the solution which produce the highest margin. 
 In order to find this optimal solution let's go back to our equation:
 
-distance=<img src="/tex/e0e69ba5f224cb1653807432f5630929.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79694254999998pt height=22.831056599999986pt/> ->distance=<img src="/tex/aaa2b897b245baf19ee12ea8dbbcffa1.svg?invert_in_darkmode&sanitize=true" align=middle width=135.88840979999998pt height=24.65753399999998pt/>
+distance=<img src="/tex/e0e69ba5f224cb1653807432f5630929.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79694254999998pt height=22.831056599999986pt/> ->distance=<img src="/tex/1259a31d367c8c38a0b0e64b82c7daf4.svg?invert_in_darkmode&sanitize=true" align=middle width=103.23081614999998pt height=22.853275500000024pt/>
 
-We can see that the distance is dependent in ||W||. The lower ||W|| is the bigger the distance is.
-From this we can derive the second perceptron role: argmin ||W||
+We can see that the distance is dependent in ||<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>||. The lower ||<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>|| is the bigger the distance is.
+From this we can derive the second perceptron role: argmin ||<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>||
 
 
 

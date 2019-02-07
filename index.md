@@ -146,11 +146,13 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 <img src="/tex/b582dfebdac8ce224e0948f8e5ce3ecc.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=64.98593639999997pt/>
 
+**It's easy to see that <img src="/tex/e1c295f84039827373d52fb19375e178.svg?invert_in_darkmode&sanitize=true" align=middle width=151.86849809999998pt height=24.65753399999998pt/> is equivalent to <img src="/tex/f23534ae3f27483fe70d757977b736a2.svg?invert_in_darkmode&sanitize=true" align=middle width=66.26136165pt height=26.76175259999998pt/>
+
 The left inequality is simpile cause: 
 <img src="/tex/aa2157b190813cfbad2c9d7deec390cc.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=96.21901409999997pt/>
 
 The right inequality can be seperated to two inequalities:
-##### <p><u> (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof </p></u>:
+##### (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof:
 
 - The update term of the perceptron is:
 
@@ -172,8 +174,23 @@ The right inequality can be seperated to two inequalities:
 
 	* <img src="/tex/7d5d6104b5a3a904557af74bfb1f1c2c.svg?invert_in_darkmode&sanitize=true" align=middle width=286.22843865pt height=32.256008400000006pt/>
  
-(2)
+#####  (2)  <img src="/tex/b404999f17c717e01dfc95a94422cdab.svg?invert_in_darkmode&sanitize=true" align=middle width=116.42872394999998pt height=27.6567522pt/> proof:
 
+
+ * <img src="/tex/dad6a078f46767e45724042b640ad063.svg?invert_in_darkmode&sanitize=true" align=middle width=604.1128318499999pt height=47.671232399999994pt/>
+  
+  - now we can do the same for <img src="/tex/8ba23cbb1c4581f0d9d2ad6552458e81.svg?invert_in_darkmode&sanitize=true" align=middle width=45.994941299999994pt height=27.6567522pt/> until we get:
+  * <img src="/tex/b404999f17c717e01dfc95a94422cdab.svg?invert_in_darkmode&sanitize=true" align=middle width=116.42872394999998pt height=27.6567522pt/>
+  
+#### (1)/(2):
+
+ ** <img src="/tex/7238b5aa1261c4f97da17c960c31fef2.svg?invert_in_darkmode&sanitize=true" align=middle width=289.7444748pt height=35.8209489pt/>
+
+** <img src="/tex/dafdb732e46ffe718273946f8364d5ea.svg?invert_in_darkmode&sanitize=true" align=middle width=137.856576pt height=43.068399000000014pt/>
+ 
+
+
+## SVM
 
 
 

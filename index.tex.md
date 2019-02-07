@@ -76,7 +76,9 @@ $$
 
 #### Finding $\omega$ that minimize this equation:
 
-$\frac{d}{d\omega }=\left( 2Y-2X\omega  \right){{X}^{T}}=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}$
+$\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}\]$
+
+
 
 
 

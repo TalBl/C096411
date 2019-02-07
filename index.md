@@ -195,10 +195,10 @@ The right inequality can be seperated to two inequalities:
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> when <img src="/tex/f7a0f24dc1f54ce82fecccbbf48fca93.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is far in the positive side and 
-<img src="/tex/1d5ba78bbbafd3226f371146bc348363.svg?invert_in_darkmode&sanitize=true" align=middle width=29.223836399999986pt height=19.1781018pt/> is in the far in the negetive side. if we think about the bigger the distance is the more likely that
+<img src="/tex/1d5ba78bbbafd3226f371146bc348363.svg?invert_in_darkmode&sanitize=true" align=middle width=29.223836399999986pt height=19.1781018pt/> is in the far in the negetive side. if we think about it the bigger the distance the more likely that
 it's the right classification when 0 is 50% to each side.
 
-Insted of working in distances space we want to talk about chances or probability to be part of the a class given some x , p(y|x).
+Insted of working in distances space we want to talk about chances or probability to be a part of a class given some x , p(y|x).
 to do so we need to change our space from <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> to [0,1]. A very usefull function to do so is the sigmoid function:
 
 
@@ -209,13 +209,13 @@ The function in <img src="/tex/8860040216a2e61c344544a77b5cd2ce.svg?invert_in_da
 
 #### Classes probability:
 
-<img src="/tex/84ecfaf3c1f94842d11ff9511f0c2882.svg?invert_in_darkmode&sanitize=true" align=middle width=212.40572925pt height=27.77565449999998pt/>
+<p align="center"><img src="/tex/0c102261d6c87903bc8251d5061fffd7.svg?invert_in_darkmode&sanitize=true" align=middle width=235.17735285pt height=34.3600389pt/></p>
 
-<img src="/tex/0c206d266e1c1d59c545bcce34804f75.svg?invert_in_darkmode&sanitize=true" align=middle width=354.86352825pt height=27.77565449999998pt/>
+<p align="center"><img src="/tex/b37c3a9db2fbf66383ba77d07889b5d4.svg?invert_in_darkmode&sanitize=true" align=middle width=376.26537134999995pt height=34.3600389pt/></p>
 
 So we can say in general that:
 
-<img src="/tex/45562bef8399f24ccebdead9eebef8cf.svg?invert_in_darkmode&sanitize=true" align=middle width=193.44005669999999pt height=27.77565449999998pt/>
+<p align="center"><img src="/tex/b5f767082242a7ef49de7451d20fede1.svg?invert_in_darkmode&sanitize=true" align=middle width=216.8737692pt height=34.3600389pt/></p>
 
 
 

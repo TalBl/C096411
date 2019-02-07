@@ -165,6 +165,8 @@ Using both (P.1.1)+(P.1.2)
 (2)
 
 In general we can write <img src="/tex/80d3f68368ed84845f45266fd4471298.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
+
+
 In general we can write <p align="center"><img src="/tex/fb659bfff42583da3a895c0018ce71e5.svg?invert_in_darkmode&sanitize=true" align=middle width=15.4728057pt height=14.401419449999999pt/></p>:
 
 

@@ -180,10 +180,10 @@ Lets assume linear seperation is possible. We want to show that perceptron algor
 In order to show that we wil proof that:
 $\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
 
-The left inequality is simpile cause $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
+The left inequality is simpile cause: $ \\ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
 
 The right inequality can be seperated to two inequalities:
-#####-(1) $ {<\omega^{T+1},\omega*>} \geq T $ proof:
+#####(1) $ {<\omega^{T+1},\omega*>} \geq T $ proof:
 The update term of the perceptron is:
 $ \omega^{t+1}=\omega^{t}+x_iy_i $
 In general we can write $ \omega^{i}$:

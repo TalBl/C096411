@@ -109,3 +109,24 @@ Lets check how the new <img src="/tex/763aa9768edf29e38a67642e3db1b250.svg?inver
 <p align="center"><img src="/tex/11d3aa5416cae805ac4e63831a8fdbd1.svg?invert_in_darkmode&sanitize=true" align=middle width=595.2313883999999pt height=42.202701749999996pt/></p>
 
 
+#### Optimal soultion:
+
+<table>
+	<tr>
+		<td>
+			<img src="./Lesson_2/graph3.PNG" >	
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="./Lesson_2/graph4.PNG" >
+		</td>
+	</tr>
+	
+</table>
+	
+Instead of writing the algorithm with if we want to create some loss function and try to minimize it.
+The function needs to follow the perceptron update role.
+
+
+

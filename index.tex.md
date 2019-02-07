@@ -211,7 +211,8 @@ The right inequality can be seperated to two inequalities:
 #####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
 
-  - $ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ)=||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2 $
+  - $ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ)->
+  ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2 $
   
   - now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
   

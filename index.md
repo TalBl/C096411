@@ -53,7 +53,7 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 ### General case:
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
-<p align="center"><img src="/tex/58391c40b724bea4d14b91e3a53a5ea6.svg?invert_in_darkmode&sanitize=true" align=middle width=410.9432745pt height=20.2374942pt/></p>
+<p align="center"><img src="/tex/f587e09f33bac4872d4ae9d255d09edf.svg?invert_in_darkmode&sanitize=true" align=middle width=424.64207115pt height=20.2374942pt/></p>
 
 #### The minimization equation is now:
 <p align="center"><img src="/tex/6fc422262f6502040f3f70c54e85d136.svg?invert_in_darkmode&sanitize=true" align=middle width=239.41068689999997pt height=32.940961349999995pt/></p>

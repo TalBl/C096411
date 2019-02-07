@@ -150,18 +150,18 @@ The left inequality is simpile cause:
 <img src="/tex/aa2157b190813cfbad2c9d7deec390cc.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=96.21901409999997pt/>
 
 The right inequality can be seperated to two inequalities:
-##### (1) <img src="/tex/0a9c593bd900928d04316152f88bab59.svg?invert_in_darkmode&sanitize=true" align=middle width=132.6783546pt height=27.6567522pt/> proof:
+##### (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof:
 
 The update term of the perceptron is:
-<img src="/tex/fa7955e6d3c28468c5eae2bfc1333960.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003565pt height=45.84475499999998pt/>
+<p align="center"><img src="/tex/0c0018502104002bbb7ca85611cc9c39.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003565pt height=17.399144399999997pt/></p>
 In general we can write <img src="/tex/c43047ebdf0495d4deb4baf9257570f6.svg?invert_in_darkmode&sanitize=true" align=middle width=15.472805699999988pt height=27.15900329999998pt/>:
-<img src="/tex/7f77f09fe5a3dcd839717cb20669408c.svg?invert_in_darkmode&sanitize=true" align=middle width=172.12043475pt height=49.31521979999998pt/>
+<p align="center"><img src="/tex/428a76818e89606e14f217c14b291d9c.svg?invert_in_darkmode&sanitize=true" align=middle width=178.51312215pt height=30.673726049999996pt/></p>
 This means we can write <img src="/tex/b25a79ea3630f9ea0167e75ed6210c07.svg?invert_in_darkmode&sanitize=true" align=middle width=36.999522449999986pt height=27.6567522pt/> as:
-(P.1.1) <img src="/tex/80ad3c131a2da3bf889a072560b3b684.svg?invert_in_darkmode&sanitize=true" align=middle width=314.9044041pt height=49.31521979999998pt/>
-Also by definition because <img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> is the soultion and we assume linear seperation:
-(P.1.2) <img src="/tex/6eb12ef282dcd85348606601e1b23cec.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=45.84475499999998pt/>
+(P.1.1) <p align="center"><img src="/tex/94faccf830647954dda059a9def0c49a.svg?invert_in_darkmode&sanitize=true" align=middle width=327.68978054999997pt height=30.922600499999998pt/></p>
+Also by definition because <p align="center"><img src="/tex/868392dfc0a58a89578566d081656ba4.svg?invert_in_darkmode&sanitize=true" align=middle width=19.0411155pt height=7.64841495pt/></p> is the soultion and we assume linear seperation:
+(P.1.2) <p align="center"><img src="/tex/bd4055f577bcc22bbb97ec205674bb96.svg?invert_in_darkmode&sanitize=true" align=middle width=119.24458094999999pt height=14.42921205pt/></p>
 Using both (P.1.1)+(P.1.2) 
- <img src="/tex/7a7a113063b386f91568dd1846bbde44.svg?invert_in_darkmode&sanitize=true" align=middle width=286.2284403pt height=49.31521979999998pt/>
+ <p align="center"><img src="/tex/efa88821e66836aabe2101b4f6a6fb53.svg?invert_in_darkmode&sanitize=true" align=middle width=292.62112935pt height=30.922600499999998pt/></p>
 (2)
 
 

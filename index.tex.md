@@ -124,8 +124,8 @@ In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\o
 ### Perceptron algorithm:
 
 \[\begin{align}
-  & 1)~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
- & 2)~intial~:{{\omega }^{\left( 1 \right)}}=\left\{ 0,0,\ldots ..,0 \right\} \\ 
+ & ~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
+ & ~intial~:{{\omega }^{\left( 1 \right)}}=\left\{ 0,0,\ldots ..,0 \right\} \\ 
  & \,\,\,\,for~t=1,2,3..: \\ 
  & \,\,\,\,\,\,\,\,\,for~i=1\to m:~~ \\ 
  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,if~y\left\langle \omega ,x \right\rangle ~\le 0: \\ 

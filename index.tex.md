@@ -150,9 +150,8 @@ $$
 		<td>
 			<img src="./Lesson_2/graph3.PNG" >	
 		</td>
-
 		<td>
-			<img src="./Lesson_2/graph4.PNG" width="50%" >
+			<img src="./Lesson_2/graph4.PNG"  >
 		</td>
 	</tr>
 	

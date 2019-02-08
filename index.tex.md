@@ -408,9 +408,9 @@ L2 minimization will minmize all $\omega$ while L1 will create realy small-zero 
 
 example:
 
-L2-  $\omega =(frac{3}{2},frac{3}{2})$---better solution then---- $\omega=(3,0)$
+L2-  $\omega =(\frac{3}{2},\frac{3}{2})$---better solution then---- $\omega=(3,0)$
 
-L1-  $\omega =(frac{3}{2},frac{3}{2})$---equally good---- $\omega=(3,0)$ 
+L1-  $\omega =(\frac{3}{2},\frac{3}{2})$--------equally good-------- $\omega=(3,0)$ 
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 

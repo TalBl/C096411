@@ -406,6 +406,7 @@ The green line (L2-norm) is the unique shortest path, while the red, blue, yello
 L2 minimization will minmize all $\omega$ $ while L1 will create realy small-zero $\omega$ $ and very large $\omega$ $.
 
 example:
+
 L2: $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$---better solution then---- $\omega_1=3,\omega_2=0$
 
 L1: $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$---equally good---  $\omega_1=3,\omega_2=0$   

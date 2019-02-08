@@ -279,4 +279,34 @@ $$minimize \, \sum\limits_{i=1}^{m} ({y_i-<\hat{\omega},x_i>})^2  $$
 This loss gives use the probability result between [0,1]
 
 
+## SVM:
+
+In general there is not much diffrent between SVM and perceptron in practice. both in the end try to minimize a form of this equation: 
+$\\ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
+
+SVM consept is much closer to optimization approach(we have seen somthing similar in Logistic regression):
+- build a convex function with parameter $\omegea$
+- minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
+- find optimal solution
+
+### convex functions properies:
+
+<p align="center">
+	<img src="./Lesson_4/Capture.PNG" align="middle">
+</p>
+
+Has seen in the image a convex function is defined such that:
+(1) line connects two points on the function will always be above the function(black line).
+(2) points on the tangent Line are below the function(orange line). 
+
+mathematically this two conditions can be written:
+
+Line between A and B(black line) is = $\lambda X_b +(1-\lambda) X_a, \lambda=[0,1] $
+(1) $f_{convex}(black Line) \leq black Line $
+orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A)
+(2) $f_{convex}(orange Line) \geq orange Line $
+
+### convex loss functions proof:
+
+
 

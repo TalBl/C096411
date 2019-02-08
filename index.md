@@ -323,7 +323,7 @@ example:
 We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
 in a form of <img src="/tex/dfbb92691f48a6c68ef9e61bb2a2ddaf.svg?invert_in_darkmode&sanitize=true" align=middle width=125.71913804999998pt height=19.1781018pt/> will do poorly.
 from the picture it's easy to see that a circle with radius 1 is the best solution:
-<img src="/tex/b611c9eb2d86c650d01c1af1ddbf9d56.svg?invert_in_darkmode&sanitize=true" align=middle width=83.76692609999998pt height=26.76175259999998pt/> or in classification role <img src="/tex/ea66832f5358d40d57a31097320f57e3.svg?invert_in_darkmode&sanitize=true" align=middle width=160.47893729999998pt height=26.76175259999998pt/> other.
+<img src="/tex/b611c9eb2d86c650d01c1af1ddbf9d56.svg?invert_in_darkmode&sanitize=true" align=middle width=83.76692609999998pt height=26.76175259999998pt/> or in classification role <img src="/tex/7eb45dbaa3e9bf356017a106b4fb6422.svg?invert_in_darkmode&sanitize=true" align=middle width=219.47248454999996pt height=26.76175259999998pt/> .
 
 In order to solve this problem lets choose new features <img src="/tex/3f895053a05fde4ba8e506d1f4e42b82.svg?invert_in_darkmode&sanitize=true" align=middle width=118.34074064999999pt height=26.76175259999998pt/> 
 
@@ -340,11 +340,43 @@ The feature selection is called the kernal of the system.
 ## Regularization term:
 
 We have seen regularization term before minimize <img src="/tex/5c6c894b142bc1232b0e11057a63a2dc.svg?invert_in_darkmode&sanitize=true" align=middle width=29.08680224999999pt height=24.65753399999998pt/>. We have also prooved that in the perceptron
-role this condition increase the margin to optimal solution. In more generel understanding we want our solution
-to not only be as good as possible but also as simple as possible. 
+role this condition increase the margin to optimal solution. 
 
-There are few Regularization terms:
+In general: The more features the more our equation is complex, we simply cannot comprehensively sample all the possible combinations, leaving vast regions of feature space in the dark. This problem is called the curse dimensionality.
+The regularization term goal is to cancell unnecessary or correlated features leaving us with smaller region to search.
 
+<p align="center">
+	<img src="./Lesson_4/Capture4.PNG" align="middle">
+</p>
+
+#### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335
+">Future reading</a> 
+
+
+There are 2 famous Regularization terms:
+
+L1(Lasso regression):
+
+<img src="/tex/b21c995b899b6c2f3d0fc5d734059bca.svg?invert_in_darkmode&sanitize=true" align=middle width=143.37943289999998pt height=47.67123240000001pt/> \lambda \sum \omega_j^2
+
+comparison:
+
+<p align="center">
+	<img src="./Lesson_4/Capture5.PNG" align="middle">
+</p>
+
+The green line (L2-norm) is the unique shortest path, while the red, blue, yellow (L1-norm) are all same length (=12) for the same route. Generalizing this to n-dimensions. This is why L2-norm has unique solutions while L1-norm does not.
+
+### Notes:
+
+#### Sparsity:
+L2 minimization will prefer all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> will be smal cause <img src="/tex/deda61d1ff62275ee6280ec11c4ad3fc.svg?invert_in_darkmode&sanitize=true" align=middle width=121.28209664999999pt height=26.76175259999998pt/> rather then very small and very large omega.
+example <img src="/tex/98fdd7a39457fb855cb0ae8404ed2ebb.svg?invert_in_darkmode&sanitize=true" align=middle width=186.21781694999999pt height=22.831056599999986pt/> will give smaller result then <img src="/tex/eeb9976188a8e360c044fb1b511272dc.svg?invert_in_darkmode&sanitize=true" align=middle width=102.79274444999999pt height=21.18721440000001pt/>
+
+L1 minimization on the other hand will prefer coefficients with zero values or very small values with few large coefficients.
+
+
+#### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">Future reading</a> 
 
 
 

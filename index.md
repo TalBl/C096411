@@ -353,13 +353,10 @@ The regularization term goal is to cancell unnecessary or correlated features le
 
 #### L1 and L2 Regularization terms:
 
-L1(Lasso regression):
+- L1(Lasso regression): <img src="/tex/383e0268a36bd3b2c13c70aaa75dfea9.svg?invert_in_darkmode&sanitize=true" align=middle width=58.71103424999998pt height=24.657735299999988pt/>
 
-<img src="/tex/383e0268a36bd3b2c13c70aaa75dfea9.svg?invert_in_darkmode&sanitize=true" align=middle width=58.71103424999998pt height=24.657735299999988pt/>
+- L2(Lasso regression): <img src="/tex/a23dffeff9bb98d5a8f93a5d0299231c.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>
 
-L2(Lasso regression):
-
-<img src="/tex/a23dffeff9bb98d5a8f93a5d0299231c.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>
 
 comparison:
 

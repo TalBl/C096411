@@ -285,8 +285,11 @@ In general there is not much diffrent between SVM and perceptron in practice. bo
 $\\ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
 
 SVM consept is much closer to optimization approach(we have seen somthing similar in Logistic regression):
+
 - build a convex function with parameter $\omegea$
+
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
+
 - find optimal solution
 
 ### convex functions properies:
@@ -317,7 +320,8 @@ orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A) $
 	<img src="./Lesson_4/Capture2.PNG" align="middle">
 </p>
 We already saw some of the functions:
-0-1 loss if $y_i<\hat{\omega},x_i> \leq 0, 1: 0 otherwise $
+
+- 0-1 loss if $y_i<\hat{\omega},x_i> \leq 0, 1: 0 otherwise $
 
 - perceptron loss:  $max (0,y_i<\hat{\omega},x>) $
 
@@ -334,8 +338,46 @@ both perceptron and the hindge loss are sum of two linear functions one with zer
 a linear function is by definition convex and a sum of convex functions is convex.
 
 #### Log loss convexity:
-if $f''(x) /geq 0 $ then function is convex.
-$f''(x)= \frac {e^(x)}{(e^(x)+1)^2} \geq 0
+
+if $f''(x) \geq 0 $ then function is convex.
+
+$f''(x)= \frac {e^(x)}{(e^(x)+1)^2} \geq 0 $
+
+
+### Non linear seperation SVM:
+
+We can create nun linear lines easily by just choosing the right features(x) to work with. 
+
+example:
+
+<p align="center">
+	<img src="./Lesson_4/Capture3.PNG" align="middle">
+</p>
+
+We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
+in a form of $\omega_2 x_1 +\omega_1 x_2 +\omega_0 $ will do poorly.
+from the picture it's easy to see that a circle with radius 1 is the best solution:
+$x_1^2+x_2^2=1$ or in classification role -: x_1^2+x_2^2-1>0  +:  other.
+
+In order to solve this problem lets choose new features $x1=x^2,x2=y^2$ 
+
+now we have a linear classification problem:
+
+minmize $max (0,1-y_i<\hat{\omega},x>) $
+
+We can generlize this to any elipse  $x1=x^2,x2=y^2,x3=xy,x1=x,y4=y$ 
+
+We can generlize it to any polynomial
+
+The feature selection is called the kernal of the system.
+
+## Regularization term:
+
+We have seen regularization term before minimize $ ||\omega ||$. We have also prooved that in the perceptron
+role this condition increase the margin to optimal solution. In more generel understanding we want our solution
+to not only be as good as possible but also as simple as possible. 
+
+There are few Regularization terms:
 
 
 

@@ -369,7 +369,14 @@ The green line (L2-norm) is the unique shortest path, while the red, blue, yello
 ### Notes:
 
 #### Sparsity:
-L2 minimization will minmize all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> while L1 will create realy small-zero <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> <img src="/tex/a8568565dc043dc927a33aa4da94c122.svg?invert_in_darkmode&sanitize=true" align=middle width=97.72108499999997pt height=22.831056599999986pt/>\omega<img src="/tex/4602a76da44340c453bd67e19b1e350e.svg?invert_in_darkmode&sanitize=true" align=middle width=56.164576049999994pt height=78.90410879999997pt/>\omega =(frac{3}{2},frac{3}{2})<img src="/tex/7e518cd9d1a815979f3cc39365fe4c63.svg?invert_in_darkmode&sanitize=true" align=middle width=246.19815495pt height=22.831056599999986pt/>\omega=(3,0)<img src="/tex/3ad1f4b7fcdcdec139786bad14d9e497.svg?invert_in_darkmode&sanitize=true" align=middle width=13.698671249999997pt height=39.45205439999997pt/>\omega =(frac{3}{2},frac{3}{2})<img src="/tex/bb273c818abc71e65170e0b7805cf6e5.svg?invert_in_darkmode&sanitize=true" align=middle width=197.12527724999998pt height=22.831056599999986pt/>\omega=(3,0)$ 
+
+L2 minimization will minmize all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> while L1 will create realy small-zero <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>  and very large <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> .
+
+example:
+
+L2-  <img src="/tex/1afb8b3ba4deb0302e854436d356ad44.svg?invert_in_darkmode&sanitize=true" align=middle width=152.69434454999998pt height=24.65753399999998pt/>---better solution then---- <img src="/tex/18ba3af0453ffa85c5f4167de85e3a36.svg?invert_in_darkmode&sanitize=true" align=middle width=69.26927204999998pt height=24.65753399999998pt/>
+
+L1-  <img src="/tex/1afb8b3ba4deb0302e854436d356ad44.svg?invert_in_darkmode&sanitize=true" align=middle width=152.69434454999998pt height=24.65753399999998pt/>---equally good---- <img src="/tex/18ba3af0453ffa85c5f4167de85e3a36.svg?invert_in_darkmode&sanitize=true" align=middle width=69.26927204999998pt height=24.65753399999998pt/> 
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 

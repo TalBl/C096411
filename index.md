@@ -369,11 +369,7 @@ The green line (L2-norm) is the unique shortest path, while the red, blue, yello
 ### Notes:
 
 #### Sparsity:
-L2 minimization will prefer all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> will be smal cause <img src="/tex/deda61d1ff62275ee6280ec11c4ad3fc.svg?invert_in_darkmode&sanitize=true" align=middle width=121.28209664999999pt height=26.76175259999998pt/> rather then very small and very large omega.
-example <img src="/tex/98fdd7a39457fb855cb0ae8404ed2ebb.svg?invert_in_darkmode&sanitize=true" align=middle width=186.21781694999999pt height=22.831056599999986pt/> will give smaller result then <img src="/tex/eeb9976188a8e360c044fb1b511272dc.svg?invert_in_darkmode&sanitize=true" align=middle width=102.79274444999999pt height=21.18721440000001pt/>
-
-L1 minimization on the other hand will prefer coefficients with zero values or very small values with few large coefficients.
-
+L2 minimization will minmize all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> <img src="/tex/e5bf790f81d725f2b0ac7a3ee2b74ddf.svg?invert_in_darkmode&sanitize=true" align=middle width=264.2173446pt height=22.831056599999986pt/>\omega<img src="/tex/2e3724020dfd7378bb41e0ce660c93bf.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/> and very large <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> <img src="/tex/25866e6cf20ad4aab8c4cfd59981ebf7.svg?invert_in_darkmode&sanitize=true" align=middle width=56.164576049999994pt height=78.90410879999997pt/>\omega_1=frac{3}{2},\omega_2=frac{3}{2}<img src="/tex/7e518cd9d1a815979f3cc39365fe4c63.svg?invert_in_darkmode&sanitize=true" align=middle width=246.19815495pt height=22.831056599999986pt/>\omega_1=3,\omega_2=0<img src="/tex/f7b1e0aa90e8b5bf7670b26af18ecd53.svg?invert_in_darkmode&sanitize=true" align=middle width=12.785434199999997pt height=39.45205439999997pt/>\omega_1=frac{3}{2},\omega_2=frac{3}{2}<img src="/tex/bda4dd04196d04d579d69ff3d64488e4.svg?invert_in_darkmode&sanitize=true" align=middle width=177.03408689999998pt height=22.831056599999986pt/>\omega_1=3,\omega_2=0$   
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 

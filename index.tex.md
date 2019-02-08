@@ -385,15 +385,15 @@ The regularization term goal is to cancell unnecessary or correlated features le
 
 #### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335/">further reading</a> 
 
-There are 2 famous Regularization terms:
+#### L1 and L2 Regularization terms:
 
 L1(Lasso regression):
 
-$ \lambda \sum |\omega_j|
+$ \lambda \sum |\omega_j| $
 
 L2(Lasso regression):
 
-$ \lambda \sum \omega_j^2
+$ \lambda \sum \omega_j^2 $
 
 comparison:
 

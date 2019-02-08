@@ -374,9 +374,9 @@ L2 minimization will minmize all <img src="/tex/ae4fb5973f393577570881fc24fc2054
 
 example:
 
-L2-  <img src="/tex/1afb8b3ba4deb0302e854436d356ad44.svg?invert_in_darkmode&sanitize=true" align=middle width=152.69434454999998pt height=24.65753399999998pt/>---better solution then---- <img src="/tex/18ba3af0453ffa85c5f4167de85e3a36.svg?invert_in_darkmode&sanitize=true" align=middle width=69.26927204999998pt height=24.65753399999998pt/>
+L2-  <img src="/tex/67d5f4fea6ff00721aa61fda16aada72.svg?invert_in_darkmode&sanitize=true" align=middle width=73.82632784999998pt height=27.77565449999998pt/>---better solution then---- <img src="/tex/18ba3af0453ffa85c5f4167de85e3a36.svg?invert_in_darkmode&sanitize=true" align=middle width=69.26927204999998pt height=24.65753399999998pt/>
 
-L1-  <img src="/tex/1afb8b3ba4deb0302e854436d356ad44.svg?invert_in_darkmode&sanitize=true" align=middle width=152.69434454999998pt height=24.65753399999998pt/>---equally good---- <img src="/tex/18ba3af0453ffa85c5f4167de85e3a36.svg?invert_in_darkmode&sanitize=true" align=middle width=69.26927204999998pt height=24.65753399999998pt/> 
+L1-  <img src="/tex/67d5f4fea6ff00721aa61fda16aada72.svg?invert_in_darkmode&sanitize=true" align=middle width=73.82632784999998pt height=27.77565449999998pt/>--------equally good-------- <img src="/tex/18ba3af0453ffa85c5f4167de85e3a36.svg?invert_in_darkmode&sanitize=true" align=middle width=69.26927204999998pt height=24.65753399999998pt/> 
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 

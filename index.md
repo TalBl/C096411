@@ -251,8 +251,11 @@ In general there is not much diffrent between SVM and perceptron in practice. bo
 <img src="/tex/d67f91f473bb05778cc962319ca19cca.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315pt height=47.67123239999998pt/>
 
 SVM consept is much closer to optimization approach(we have seen somthing similar in Logistic regression):
+
 - build a convex function with parameter <img src="/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
+
 - find optimal solution
 
 ### convex functions properies:
@@ -283,7 +286,8 @@ orange line = <img src="/tex/32bf8f68debb51bf5317c45bb506c645.svg?invert_in_dark
 	<img src="./Lesson_4/Capture2.PNG" align="middle">
 </p>
 We already saw some of the functions:
-0-1 loss if <img src="/tex/10ed5b1ec98c30a601121c417f908b99.svg?invert_in_darkmode&sanitize=true" align=middle width=220.94645265000003pt height=22.831056599999986pt/>
+
+- 0-1 loss if <img src="/tex/10ed5b1ec98c30a601121c417f908b99.svg?invert_in_darkmode&sanitize=true" align=middle width=220.94645265000003pt height=22.831056599999986pt/>
 
 - perceptron loss:  <img src="/tex/a8bc73e0215ba3cfa94b823bb346ddf7.svg?invert_in_darkmode&sanitize=true" align=middle width=141.15191474999997pt height=24.65753399999998pt/>
 
@@ -300,8 +304,46 @@ both perceptron and the hindge loss are sum of two linear functions one with zer
 a linear function is by definition convex and a sum of convex functions is convex.
 
 #### Log loss convexity:
-if <img src="/tex/9418bf1deddc490dc2509ec987fe3c50.svg?invert_in_darkmode&sanitize=true" align=middle width=80.85066824999998pt height=24.7161288pt/> then function is convex.
-$f''(x)= \frac {e^(x)}{(e^(x)+1)^2} \geq 0
+
+if <img src="/tex/446d7724bc30a4c0df9d95c85d20977d.svg?invert_in_darkmode&sanitize=true" align=middle width=70.53650669999999pt height=24.7161288pt/> then function is convex.
+
+<img src="/tex/b7e932675e72003546f4d9235479c2dd.svg?invert_in_darkmode&sanitize=true" align=middle width=153.83515289999997pt height=38.19539789999999pt/>
+
+
+### Non linear seperation SVM:
+
+We can create nun linear lines easily by just choosing the right features(x) to work with. 
+
+example:
+
+<p align="center">
+	<img src="./Lesson_4/Capture3.PNG" align="middle">
+</p>
+
+We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
+in a form of <img src="/tex/dfbb92691f48a6c68ef9e61bb2a2ddaf.svg?invert_in_darkmode&sanitize=true" align=middle width=125.71913804999998pt height=19.1781018pt/> will do poorly.
+from the picture it's easy to see that a circle with radius 1 is the best solution:
+<img src="/tex/b611c9eb2d86c650d01c1af1ddbf9d56.svg?invert_in_darkmode&sanitize=true" align=middle width=83.76692609999998pt height=26.76175259999998pt/> or in classification role -: x_1^2+x_2^2-1>0  +:  other.
+
+In order to solve this problem lets choose new features <img src="/tex/3f895053a05fde4ba8e506d1f4e42b82.svg?invert_in_darkmode&sanitize=true" align=middle width=118.34074064999999pt height=26.76175259999998pt/> 
+
+now we have a linear classification problem:
+
+minmize <img src="/tex/cd2c95460ec787c2c9c6cefb1bfb03eb.svg?invert_in_darkmode&sanitize=true" align=middle width=169.46231444999998pt height=24.65753399999998pt/>
+
+We can generlize this to any elipse  <img src="/tex/454a15e1bf2bdb84826aa779105ea5ad.svg?invert_in_darkmode&sanitize=true" align=middle width=295.0184127pt height=26.76175259999998pt/> 
+
+We can generlize it to any polynomial
+
+The feature selection is called the kernal of the system.
+
+## Regularization term:
+
+We have seen regularization term before minimize <img src="/tex/5c6c894b142bc1232b0e11057a63a2dc.svg?invert_in_darkmode&sanitize=true" align=middle width=29.08680224999999pt height=24.65753399999998pt/>. We have also prooved that in the perceptron
+role this condition increase the margin to optimal solution. In more generel understanding we want our solution
+to not only be as good as possible but also as simple as possible. 
+
+There are few Regularization terms:
 
 
 

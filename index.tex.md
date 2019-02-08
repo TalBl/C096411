@@ -357,7 +357,7 @@ example:
 We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
 in a form of $\omega_2 x_1 +\omega_1 x_2 +\omega_0 $ will do poorly.
 from the picture it's easy to see that a circle with radius 1 is the best solution:
-$x_1^2+x_2^2=1$ or in classification role $ -: x_1^2+x_2^2-1>0  +:  $ other.
+$x_1^2+x_2^2=1$ or in classification role $ -: x_1^2+x_2^2-1>0 ,/ +: other  $ .
 
 In order to solve this problem lets choose new features $x1=x^2,x2=y^2$ 
 
@@ -374,11 +374,47 @@ The feature selection is called the kernal of the system.
 ## Regularization term:
 
 We have seen regularization term before minimize $ ||\omega ||$. We have also prooved that in the perceptron
-role this condition increase the margin to optimal solution. In more generel understanding we want our solution
-to not only be as good as possible but also as simple as possible. 
+role this condition increase the margin to optimal solution. 
 
-There are few Regularization terms:
+In general: The more features the more our equation is complex, we simply cannot comprehensively sample all the possible combinations, leaving vast regions of feature space in the dark. This problem is called the curse dimensionality.
+The regularization term goal is to cancell unnecessary or correlated features leaving us with smaller region to search.
 
+<p align="center">
+	<img src="./Lesson_4/Capture4.PNG" align="middle">
+</p>
+
+#### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335
+">Future reading</a> 
+
+
+There are 2 famous Regularization terms:
+
+L1(Lasso regression):
+
+$ \lambda \sum |\omega_j|
+
+L2(Lasso regression):
+
+$ \lambda \sum \omega_j^2
+
+comparison:
+
+<p align="center">
+	<img src="./Lesson_4/Capture5.PNG" align="middle">
+</p>
+
+The green line (L2-norm) is the unique shortest path, while the red, blue, yellow (L1-norm) are all same length (=12) for the same route. Generalizing this to n-dimensions. This is why L2-norm has unique solutions while L1-norm does not.
+
+### Notes:
+
+#### Sparsity:
+L2 minimization will prefer all $\omega$ will be smal cause $\(a+b)^2 \leq a^2+b^2 $ rather then very small and very large omega.
+example $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$ will give smaller result then $\omega_1=3,\omega_2=0$
+
+L1 minimization on the other hand will prefer coefficients with zero values or very small values with few large coefficients.
+
+
+#### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">Future reading</a> 
 
 
 

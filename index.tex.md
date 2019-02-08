@@ -313,5 +313,5 @@ orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A)
 
 ### convex loss functions proof:
 
-
+asd
 

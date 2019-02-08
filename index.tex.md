@@ -403,7 +403,8 @@ The green line (L2-norm) is the unique shortest path, while the red, blue, yello
 ### Notes:
 
 #### Sparsity:
-L2 minimization will minmize all $\omega$ while L1 will create realy small-zero $\omega$ $ and very large $\omega$ .
+
+L2 minimization will minmize all $\omega$ while L1 will create realy small-zero $\omega$  and very large $\omega$ .
 
 example:
 

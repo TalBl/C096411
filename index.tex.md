@@ -383,9 +383,7 @@ The regularization term goal is to cancell unnecessary or correlated features le
 	<img src="./Lesson_4/Capture4.PNG" align="middle">
 </p>
 
-#### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335
-">Future reading</a> 
-
+#### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335/">further reading</a> 
 
 There are 2 famous Regularization terms:
 
@@ -414,7 +412,7 @@ example $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$ will give smaller result then 
 L1 minimization on the other hand will prefer coefficients with zero values or very small values with few large coefficients.
 
 
-#### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">Future reading</a> 
+#### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 
 
 

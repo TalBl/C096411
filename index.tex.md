@@ -296,14 +296,19 @@ SVM consept is much closer to optimization approach(we have seen somthing simila
 </p>
 
 Has seen in the image a convex function is defined such that:
+
 (1) line connects two points on the function will always be above the function(black line).
+
 (2) points on the tangent Line are below the function(orange line). 
 
 mathematically this two conditions can be written:
 
 Line between A and B(black line) is = $\lambda X_b +(1-\lambda) X_a, \lambda=[0,1] $
+
 (1) $f_{convex}(black Line) \leq black Line $
+
 orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A)
+
 (2) $f_{convex}(orange Line) \geq orange Line $
 
 ### convex loss functions proof:

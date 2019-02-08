@@ -387,13 +387,10 @@ The regularization term goal is to cancell unnecessary or correlated features le
 
 #### L1 and L2 Regularization terms:
 
-L1(Lasso regression):
+- L1(Lasso regression): $ \lambda \sum |\omega_j| $
 
-$ \lambda \sum |\omega_j| $
+- L2(Lasso regression): $ \lambda \sum \omega_j^2 $
 
-L2(Lasso regression):
-
-$ \lambda \sum \omega_j^2 $
 
 comparison:
 

@@ -351,11 +351,15 @@ The regularization term goal is to cancell unnecessary or correlated features le
 
 #### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335/">further reading</a> 
 
-There are 2 famous Regularization terms:
+#### L1 and L2 Regularization terms:
 
 L1(Lasso regression):
 
-<img src="/tex/b21c995b899b6c2f3d0fc5d734059bca.svg?invert_in_darkmode&sanitize=true" align=middle width=143.37943289999998pt height=47.67123240000001pt/> \lambda \sum \omega_j^2
+<img src="/tex/383e0268a36bd3b2c13c70aaa75dfea9.svg?invert_in_darkmode&sanitize=true" align=middle width=58.71103424999998pt height=24.657735299999988pt/>
+
+L2(Lasso regression):
+
+<img src="/tex/a23dffeff9bb98d5a8f93a5d0299231c.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>
 
 comparison:
 

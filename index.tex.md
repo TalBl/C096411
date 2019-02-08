@@ -266,11 +266,11 @@ $$ P(y_1,y_2...y_m|x_1,x_2...x_,)=\prod\limits_{i=1}^{m} \frac {1}{1+e^{-y_i<\ha
 
 because log is monotonic increasing function we can maximize log(P(y_1,y_2...y_m|x_1,x_2...x_,))
 
-$$maximize \, \sum\limits_{i=1}^{m} \frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
+$$maximize \, \sum\limits_{i=1}^{m} log(\frac {1}{1+e^{-y_i<\hat{\omega},x_i>}}) $$
 
 This is same as:
 
-$$minimize \, \sum\limits_{i=1}^{m} {1+e^{-y_i<\hat{\omega},x_i>}  $$
+$$minimize \, \sum\limits_{i=1}^{m} log({1+e^{-y_i<\hat{\omega},x_i>})  $$
 
 This equation is called log-loss loss function. while we already saw the mean square root loss: 
 
@@ -307,11 +307,36 @@ Line between A and B(black line) is = $\lambda X_b +(1-\lambda) X_a, \lambda=[0,
 
 (1) $f_{convex}(black Line) \leq black Line $
 
-orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A)
+orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A) $
 
 (2) $f_{convex}(orange Line) \geq orange Line $
 
-### convex loss functions proof:
+### convex loss functions:
 
-asd
+<p align="center">
+	<img src="./Lesson_4/Capture2.PNG" align="middle">
+</p>
+We already saw some of the functions:
+0-1 loss if $y_i<\hat{\omega},x_i> \leq 0, 1: 0 otherwise $
+
+- perceptron loss:  $max (0,y_i<\hat{\omega},x>) $
+
+- Hindge loss(perceptron with 1 as margin):  $max (0,1-y_i<\hat{\omega},x>) $
+
+- log loss(perceptron with 1 as margin):  $ log({1+e^{-y_i<\hat{\omega},x_i>})) $
+
+
+### convexity proof:
+
+#### Hindge loss and perceptron:
+
+both perceptron and the hindge loss are sum of two linear functions one with zero slope and one with a slope off 1. 
+a linear function is by definition convex and a sum of convex functions is convex.
+
+#### Log loss convexity:
+if $f''(x) /geq 0 $ then function is convex.
+$f''(x)= \frac {e^(x)}{(e^(x)+1)^2} \geq 0
+
+
+
 

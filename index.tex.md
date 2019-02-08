@@ -403,11 +403,12 @@ The green line (L2-norm) is the unique shortest path, while the red, blue, yello
 ### Notes:
 
 #### Sparsity:
-L2 minimization will prefer all $\omega$ will be smal cause $\(a+b)^2 \leq a^2+b^2 $ rather then very small and very large omega.
-example $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$ will give smaller result then $\omega_1=3,\omega_2=0$
+L2 minimization will minmize all $\omega$ $ while L1 will create realy small-zero $\omega$ $ and very large $\omega$ $.
 
-L1 minimization on the other hand will prefer coefficients with zero values or very small values with few large coefficients.
+example:
+L2: $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$---better solution then---- $\omega_1=3,\omega_2=0$
 
+L1: $\omega_1=frac{3}{2},\omega_2=frac{3}{2}$---equally good---  $\omega_1=3,\omega_2=0$   
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 

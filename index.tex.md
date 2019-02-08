@@ -357,17 +357,17 @@ example:
 We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
 in a form of $\omega_2 x_1 +\omega_1 x_2 +\omega_0 $ will do poorly.
 from the picture it's easy to see that a circle with radius 1 is the best solution:
-$x_1^2+x_2^2=1$ or in classification role -: x_1^2+x_2^2-1>0  +:  other.
+$x_1^2+x_2^2=1$ or in classification role $ -: x_1^2+x_2^2-1>0  +:  $ other.
 
 In order to solve this problem lets choose new features $x1=x^2,x2=y^2$ 
 
 now we have a linear classification problem:
 
-minmize $max (0,1-y_i<\hat{\omega},x>) $
+ $minmize (max (0,1-y_i<\hat{\omega},x>)) $
 
 We can generlize this to any elipse  $x1=x^2,x2=y^2,x3=xy,x1=x,y4=y$ 
 
-We can generlize it to any polynomial
+We can generlize it to any polynomial $x1=x,x2=x^2,x3=x^3...$ 
 
 The feature selection is called the kernal of the system.
 

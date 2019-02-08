@@ -323,17 +323,17 @@ example:
 We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
 in a form of <img src="/tex/dfbb92691f48a6c68ef9e61bb2a2ddaf.svg?invert_in_darkmode&sanitize=true" align=middle width=125.71913804999998pt height=19.1781018pt/> will do poorly.
 from the picture it's easy to see that a circle with radius 1 is the best solution:
-<img src="/tex/b611c9eb2d86c650d01c1af1ddbf9d56.svg?invert_in_darkmode&sanitize=true" align=middle width=83.76692609999998pt height=26.76175259999998pt/> or in classification role -: x_1^2+x_2^2-1>0  +:  other.
+<img src="/tex/b611c9eb2d86c650d01c1af1ddbf9d56.svg?invert_in_darkmode&sanitize=true" align=middle width=83.76692609999998pt height=26.76175259999998pt/> or in classification role <img src="/tex/ea66832f5358d40d57a31097320f57e3.svg?invert_in_darkmode&sanitize=true" align=middle width=160.47893729999998pt height=26.76175259999998pt/> other.
 
 In order to solve this problem lets choose new features <img src="/tex/3f895053a05fde4ba8e506d1f4e42b82.svg?invert_in_darkmode&sanitize=true" align=middle width=118.34074064999999pt height=26.76175259999998pt/> 
 
 now we have a linear classification problem:
 
-minmize <img src="/tex/cd2c95460ec787c2c9c6cefb1bfb03eb.svg?invert_in_darkmode&sanitize=true" align=middle width=169.46231444999998pt height=24.65753399999998pt/>
+ <img src="/tex/b807f67cad74895cd56bc1c3571b8c6a.svg?invert_in_darkmode&sanitize=true" align=middle width=248.3290359pt height=24.65753399999998pt/>
 
 We can generlize this to any elipse  <img src="/tex/454a15e1bf2bdb84826aa779105ea5ad.svg?invert_in_darkmode&sanitize=true" align=middle width=295.0184127pt height=26.76175259999998pt/> 
 
-We can generlize it to any polynomial
+We can generlize it to any polynomial <img src="/tex/18866f54e78ba8402fe636c30a4254e7.svg?invert_in_darkmode&sanitize=true" align=middle width=189.8398062pt height=26.76175259999998pt/> 
 
 The feature selection is called the kernal of the system.
 

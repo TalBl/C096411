@@ -232,11 +232,11 @@ We can use maximum likelihood estimation method to find <img src="/tex/ae4fb5973
 
 because log is monotonic increasing function we can maximize log(P(y_1,y_2...y_m|x_1,x_2...x_,))
 
-<p align="center"><img src="/tex/36186fad90399591fee09ab238537a83.svg?invert_in_darkmode&sanitize=true" align=middle width=212.97704175pt height=44.89738935pt/></p>
+<p align="center"><img src="/tex/e7f7213a25a34231908aa9a21d05edf2.svg?invert_in_darkmode&sanitize=true" align=middle width=249.36182534999998pt height=44.89738935pt/></p>
 
 This is same as:
 
-<p align="center"><img src="/tex/b83902cab15d39288ac72ddc50a5eb94.svg?invert_in_darkmode&sanitize=true" align=middle width=207.62863935pt height=44.89738935pt/></p>
+<p align="center"><img src="/tex/b01e400e92d3bc19aef62ca564852934.svg?invert_in_darkmode&sanitize=true" align=middle width=242.8626057pt height=44.89738935pt/></p>
 
 This equation is called log-loss loss function. while we already saw the mean square root loss: 
 
@@ -273,9 +273,36 @@ Line between A and B(black line) is = <img src="/tex/3f23e9ff11c67c53a8a19c98216
 
 (1) <img src="/tex/c6c8611dbe712f795e13ca6bb676f8fb.svg?invert_in_darkmode&sanitize=true" align=middle width=227.80761465pt height=24.65753399999998pt/>
 
-orange line = <img src="/tex/ffdbe3f2d41b9cf1a6e9d22fd7c4dcab.svg?invert_in_darkmode&sanitize=true" align=middle width=226.82388135pt height=47.671232399999994pt/>f_{convex}(orange Line) \geq orange Line $
+orange line = <img src="/tex/32bf8f68debb51bf5317c45bb506c645.svg?invert_in_darkmode&sanitize=true" align=middle width=224.9973891pt height=24.7161288pt/>
 
-### convex loss functions proof:
+(2) <img src="/tex/304ce02a15f93b71ed1bb09c85f501b8.svg?invert_in_darkmode&sanitize=true" align=middle width=254.44775564999998pt height=24.65753399999998pt/>
 
-asd
+### convex loss functions:
+
+<p align="center">
+	<img src="./Lesson_4/Capture2.PNG" align="middle">
+</p>
+We already saw some of the functions:
+0-1 loss if <img src="/tex/10ed5b1ec98c30a601121c417f908b99.svg?invert_in_darkmode&sanitize=true" align=middle width=220.94645265000003pt height=22.831056599999986pt/>
+
+- perceptron loss:  <img src="/tex/a8bc73e0215ba3cfa94b823bb346ddf7.svg?invert_in_darkmode&sanitize=true" align=middle width=141.15191474999997pt height=24.65753399999998pt/>
+
+- Hindge loss(perceptron with 1 as margin):  <img src="/tex/cd2c95460ec787c2c9c6cefb1bfb03eb.svg?invert_in_darkmode&sanitize=true" align=middle width=169.46231444999998pt height=24.65753399999998pt/>
+
+- log loss(perceptron with 1 as margin):  <img src="/tex/939d2ba2ed58cd7272bf9603fd6d331a.svg?invert_in_darkmode&sanitize=true" align=middle width=145.54749329999999pt height=27.91243950000002pt/>
+
+
+### convexity proof:
+
+#### Hindge loss and perceptron:
+
+both perceptron and the hindge loss are sum of two linear functions one with zero slope and one with a slope off 1. 
+a linear function is by definition convex and a sum of convex functions is convex.
+
+#### Log loss convexity:
+if <img src="/tex/9418bf1deddc490dc2509ec987fe3c50.svg?invert_in_darkmode&sanitize=true" align=middle width=80.85066824999998pt height=24.7161288pt/> then function is convex.
+$f''(x)= \frac {e^(x)}{(e^(x)+1)^2} \geq 0
+
+
+
 

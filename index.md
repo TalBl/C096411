@@ -418,20 +418,6 @@ momentum,Rms prop and adam(combination of momentum and Rms) are versions of grad
 
 ##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
 
-### Stochastic gradient descent vs batch gradient descent
-
-The question is how ofen <img src="/tex/9e0b6d5a22648fc8d4fd2ee24b4d8799.svg?invert_in_darkmode&sanitize=true" align=middle width=152.03932095pt height=24.65753399999998pt/> is done.
-
-- Stochastic gradient descent  J is computed every sample J=L.
-
-- batch gradient descent J is computed after going over all samples J=E(L)
-
-### Why to differ one over the other:  
-
-In very large data sets saving X and <img src="/tex/32902e719b16dec67b28c9943762cd89.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> vectors or matrix can occupy large junk of your allocation memory. In addition 
-
-
-
 
 
 

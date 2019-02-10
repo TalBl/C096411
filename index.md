@@ -380,3 +380,4 @@ L1-  <img src="/tex/67d5f4fea6ff00721aa61fda16aada72.svg?invert_in_darkmode&sani
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 
+### SVM final form

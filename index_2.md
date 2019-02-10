@@ -76,7 +76,16 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
    
 ### SVM convergence Proof for SGD mode:
 
-In SGD we choose a sample randomly(<img src="/tex/d0b3b87fb490e1118c6b51e21d62e926.svg?invert_in_darkmode&sanitize=true" align=middle width=183.28077899999997pt height=24.65753399999998pt/><img src="/tex/13a4ff1040e729123fbdd6d18c219771.svg?invert_in_darkmode&sanitize=true" align=middle width=529.2252437999999pt height=39.45205440000001pt/>E(V_t)=\nabla \omega_t <img src="/tex/6244aaec562ec171c68123565b314f7a.svg?invert_in_darkmode&sanitize=true" align=middle width=12.785434199999989pt height=19.1781018pt/>E(f(\omega_t,x_i,y_i)=\leq \frac {1}{m} \sum  f(\omega_t) <img src="/tex/254b150ed57d00dcb7902cb1bc093e0e.svg?invert_in_darkmode&sanitize=true" align=middle width=25.570866749999993pt height=39.45205439999997pt/> E(f(\bar {\omega}) -f(\omega* )) \leq \frac{\beta}{\rho \sqrt(T)} $
+In SGD we choose a sample randomly(<img src="/tex/efdc72463ea6b450188e7ffa32fb40d9.svg?invert_in_darkmode&sanitize=true" align=middle width=157.70991224999997pt height=24.65753399999998pt/>) from our training set (S). 
+
+#### Defining the problem as stochastic optimization:
+
+- <img src="/tex/3dc50708fbbd2c3b3e0f5757b153dbe4.svg?invert_in_darkmode&sanitize=true" align=middle width=92.05857539999998pt height=24.65753399999998pt/>
+- <img src="/tex/e94be2a050e026e333a20deb8f78152a.svg?invert_in_darkmode&sanitize=true" align=middle width=249.4951404pt height=27.77565449999998pt/>
+
+#### Goal:
+
+<img src="/tex/d027de1b6a42e973851d886afec66718.svg?invert_in_darkmode&sanitize=true" align=middle width=185.24436974999998pt height=30.648287999999997pt/>
  
 #### Proof:
 The proof is similar to GD.

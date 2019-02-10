@@ -456,15 +456,6 @@ momentum,Rms prop and adam(combination of momentum and Rms) are versions of grad
 
 ##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
 
-### Stochastic gradient descent vs batch gradient descent
-
-The question is how ofen $\omega_(t+1)=\omega_t-\ni \nabla J $ is done.
-
-- Stochastic gradient descent  J is computed every sample J=L.
-
-- batch gradient descent J is computed after going over all samples J=E(L)
-
-### Why to differ one over the other:  
 
 In very large data sets saving X and $\omega $ vectors or matrix can occupy large junk of your allocation memory. In addition Stochastic gradient descent(SGD) widely use for online learning. on the other hand, batch gradient descent optimization rule is much smoother. usually today the combination of the two is used taking batches equal to $2^n$ samples. 
 

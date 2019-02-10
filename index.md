@@ -416,3 +416,22 @@ find optima <img src="/tex/c4e40321f267f5ed6cc7115161f231cf.svg?invert_in_darkmo
 
 <img src="/tex/dd4eeec2d5fa3fe02acb79a54f58227a.svg?invert_in_darkmode&sanitize=true" align=middle width=139.67261054999997pt height=24.65753399999998pt/>
 
+##### Other methods and futer reading:
+
+momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
+
+##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

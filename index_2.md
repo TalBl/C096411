@@ -31,7 +31,7 @@ In this section we want to find the number of steps to conveges in general case.
 - f is convex.
 - ||<img src="/tex/251346e82e5a886dc502d813ef819f93.svg?invert_in_darkmode&sanitize=true" align=middle width=63.06504764999998pt height=24.65753399999998pt/>    # caled lipschitz law
 - <img src="/tex/b069971bf103a572e24d468693101029.svg?invert_in_darkmode&sanitize=true" align=middle width=235.20055845pt height=24.65753399999998pt/>
-
+- <img src="/tex/7075eeb392adcb405376e19ae28b8eda.svg?invert_in_darkmode&sanitize=true" align=middle width=47.743431449999996pt height=21.18721440000001pt/>
 ##### notations:
 
 <img src="/tex/2467296285aa56007da10826480803c4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.49556699999999pt height=22.831056599999986pt/> -update step in step i.
@@ -56,7 +56,19 @@ We look on <img src="/tex/9b137c49035e9c7eb366cabcde2075e8.svg?invert_in_darkmod
 
 Using the 2 propertie of convex functions(orange line(g) always bellow the convex function):
 
-- g(\omega*) = f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t) <img src="/tex/ee521e2fe20aee835c9a399989b65f4b.svg?invert_in_darkmode&sanitize=true" align=middle width=317.49431669999996pt height=24.65753399999998pt/>
--  <img src="/tex/9c09df6eced4c7577214dee92343bcc3.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19176164999993pt height=24.65753399999998pt/>
+- <img src="/tex/9ae0fdb1c1eeefd101130fa66d2b434c.svg?invert_in_darkmode&sanitize=true" align=middle width=241.14729045pt height=24.65753399999998pt/>
+- <img src="/tex/f174545e1e58f80fd9af63effe3df62c.svg?invert_in_darkmode&sanitize=true" align=middle width=304.7088825pt height=24.65753399999998pt/>
+- <img src="/tex/9c09df6eced4c7577214dee92343bcc3.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19176164999993pt height=24.65753399999998pt/>
   
+  ##### step 2:
   
+ <img src="/tex/2a8410a8cabb953684da1c56dd4af8eb.svg?invert_in_darkmode&sanitize=true" align=middle width=401.22376139999994pt height=36.460254599999985pt/>
+ 
+ ##### step1+ step 2:
+   
+<img src="/tex/7204aa9696f5c8affae8a30617dfb981.svg?invert_in_darkmode&sanitize=true" align=middle width=360.9748263pt height=29.168957400000025pt/>
+<img src="/tex/e62220b495a0154dca9e0bebc28bf63b.svg?invert_in_darkmode&sanitize=true" align=middle width=165.8926698pt height=36.460254599999985pt/>  
+<img src="/tex/5aff343144eb07a0a30b81740bc13ce3.svg?invert_in_darkmode&sanitize=true" align=middle width=386.84798954999997pt height=26.76175259999998pt/>
+
+
+   

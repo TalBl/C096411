@@ -432,13 +432,15 @@ for convex functions here are a list of some commun used in the field of ML:
 
 ##### Gradient descent:
 
-$\omega_(t+1)=\omega_t-\eta \nabla J $
+$\omega_{t+1}=\omega_t-\eta \nabla J $
 
 ##### Newton method:
 
-$\omega_(t+1)=\omega_t-\eta (\nabla ^2 L)^(-1) \nabla J $
+$\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 
 ##### conjugate gradient method:
+
+$\beta_i= \frac {\nabla J(\omega_(t))^2}{\nabla J(\omega_{t-1})^2} $
 
 
 

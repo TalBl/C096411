@@ -398,23 +398,15 @@ for convex functions here are a list of some commun used in the field of ML:
 
 ##### Gradient descent:
 
-<img src="/tex/9e0b6d5a22648fc8d4fd2ee24b4d8799.svg?invert_in_darkmode&sanitize=true" align=middle width=152.03932095pt height=24.65753399999998pt/>
+<img src="/tex/8159a09bbd72d87359216bf1eb4b39a2.svg?invert_in_darkmode&sanitize=true" align=middle width=148.00587779999998pt height=24.65753399999998pt/>
 
 ##### Newton method:
 
-<img src="/tex/857788f7c1c10d922854bc0f6224d72b.svg?invert_in_darkmode&sanitize=true" align=middle width=237.74717505pt height=29.190975000000005pt/>
+<img src="/tex/23777c8e39adbee3364630b40e9e9ad3.svg?invert_in_darkmode&sanitize=true" align=middle width=233.71373189999994pt height=29.190975000000005pt/>
 
 ##### conjugate gradient method:
 
-<img src="/tex/82797db7173d5c531ed5e0e0818e6d45.svg?invert_in_darkmode&sanitize=true" align=middle width=117.35956979999999pt height=36.460254599999985pt/>
 
-<img src="/tex/8b687937cadf7396c05a8bd32263bfdc.svg?invert_in_darkmode&sanitize=true" align=middle width=254.94599294999998pt height=24.65753399999998pt/>
-
-<img src="/tex/a7468152d986ce3328a2849e460db933.svg?invert_in_darkmode&sanitize=true" align=middle width=143.1257355pt height=24.65753399999998pt/>
-
-find optima <img src="/tex/c4e40321f267f5ed6cc7115161f231cf.svg?invert_in_darkmode&sanitize=true" align=middle width=15.52516514999999pt height=17.723762100000005pt/>
-
-<img src="/tex/dd4eeec2d5fa3fe02acb79a54f58227a.svg?invert_in_darkmode&sanitize=true" align=middle width=139.67261054999997pt height=24.65753399999998pt/>
 
 ##### Other methods and futer reading:
 
@@ -422,7 +414,17 @@ momentum,Rms prop and adam(combination of momentum and Rms) are versions of grad
 
 ##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
 
+### Stochastic gradient descent vs batch gradient descent
 
+The question is how ofen <img src="/tex/9e0b6d5a22648fc8d4fd2ee24b4d8799.svg?invert_in_darkmode&sanitize=true" align=middle width=152.03932095pt height=24.65753399999998pt/> is done.
+
+- Stochastic gradient descent  J is computed every sample J=L.
+
+- batch gradient descent J is computed after going over all samples J=E(L)
+
+### Why to differ one over the other:  
+
+In very large data sets saving X and <img src="/tex/32902e719b16dec67b28c9943762cd89.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> vectors or matrix can occupy large junk of your allocation memory. In addition 
 
 
 

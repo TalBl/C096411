@@ -396,3 +396,23 @@ Our goal is to find <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_i
 
 for convex functions here are a list of some commun used in the field of ML:
 
+##### Gradient descent:
+
+<img src="/tex/9e0b6d5a22648fc8d4fd2ee24b4d8799.svg?invert_in_darkmode&sanitize=true" align=middle width=152.03932095pt height=24.65753399999998pt/>
+
+##### Newton method:
+
+<img src="/tex/857788f7c1c10d922854bc0f6224d72b.svg?invert_in_darkmode&sanitize=true" align=middle width=237.74717505pt height=29.190975000000005pt/>
+
+
+
+
+
+
+
+
+
+
+
+
+

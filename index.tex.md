@@ -454,8 +454,6 @@ $ \ni \nabla J(\omega_(t+1))=0 $
 
 momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
 
-##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
-
 ### Stochastic gradient descent vs batch gradient descent
 
 The question is how ofen $\omega_(t+1)=\omega_t-\ni \nabla J $ is done.

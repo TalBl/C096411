@@ -67,8 +67,8 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
  ##### step1+ step 2:
    
 <img src="/tex/7204aa9696f5c8affae8a30617dfb981.svg?invert_in_darkmode&sanitize=true" align=middle width=360.9748263pt height=29.168957400000025pt/>
-<img src="/tex/e62220b495a0154dca9e0bebc28bf63b.svg?invert_in_darkmode&sanitize=true" align=middle width=165.8926698pt height=36.460254599999985pt/>  
-<img src="/tex/ff7edb8b466f5cae58e2789281402f0d.svg?invert_in_darkmode&sanitize=true" align=middle width=260.3622054pt height=35.18167619999999pt/>
+<img src="/tex/882b6f81022f6439bf554439d91e5131.svg?invert_in_darkmode&sanitize=true" align=middle width=154.74538364999998pt height=36.460254599999985pt/>  
+<img src="/tex/028108235d5cafa7ec80a6b8eaf4b945.svg?invert_in_darkmode&sanitize=true" align=middle width=188.01892889999996pt height=35.18167619999999pt/>
 
 
    

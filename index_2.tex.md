@@ -59,7 +59,7 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - $ g(\omega*) = f(\bar{\omega_t})+\nabla f(\bar{\omega_t})(\omega*-\bar{\omega_t}) $
 - $ f(\omega*) \geq g(\omega*)= f(\bar{\omega_t})+\nabla f(\bar{\omega_t})(\omega*-\bar{\omega_t}) $
 - $ f(\bar{\omega_t})-f(\omega*) \leq <\bar{\omega_t}-\omega*,\nabla f(\bar{\omega_t})> $
-- $ \leq frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
+- $ \leq \frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
   
  ##### step 2:
  Using the 1 propertie of convex functions(black line always above the convex function):

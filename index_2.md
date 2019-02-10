@@ -92,14 +92,12 @@ The proof is similar to GD.
 
 ### SVM SGD generalization:
 
-<img src="/tex/eae5bb8abfc4c90e81377062e2f4a8ae.svg?invert_in_darkmode&sanitize=true" align=middle width=265.74639465pt height=24.65753399999998pt/> presampling m samples from some distribution D.
-<img src="/tex/41adedaab3d249d151e433c6c295ce23.svg?invert_in_darkmode&sanitize=true" align=middle width=144.52421775pt height=24.65753399999998pt/> stochastic sampling from some distribution D. E(T)=mean of the distribution.
-<img src="/tex/e503b30f9aaa4420323cd9e10102d60e.svg?invert_in_darkmode&sanitize=true" align=middle width=376.76887379999994pt height=24.7161288pt/> combination of training and test set. 
+ training set:<img src="/tex/fe9a944280dc3d01376f733806503f06.svg?invert_in_darkmode&sanitize=true" align=middle width=168.76348829999998pt height=24.65753399999998pt/> presampling m samples from some distribution D.
+ test set: <img src="/tex/6717f3028e91eea6a2eb7ad7fa22f857.svg?invert_in_darkmode&sanitize=true" align=middle width=82.29827099999999pt height=24.65753399999998pt/> stochastic sampling from some distribution D. E(T)=mean of the distribution.
+ Modified training set <img src="/tex/197dbc3d662993e8a57c95b4b6dc6d49.svg?invert_in_darkmode&sanitize=true" align=middle width=221.86669229999995pt height=24.7161288pt/> combination of training and test set. 
 
 #### Objective :
-
-\[{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })]\le \underbrace{{{\min }_{\omega }}({{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{best\,result\,possible}+\underbrace{{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]}_{stability}\]
-
+<p align="center"><img src="/tex/6c52b8e33c34aee0c74f40eef3c6d064.svg?invert_in_darkmode&sanitize=true" align=middle width=484.2532018499999pt height=43.11594705pt/></p>
 
 #### Proof :
 

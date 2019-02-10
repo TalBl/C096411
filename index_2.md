@@ -62,7 +62,7 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
   
   ##### step 2:
   
- <img src="/tex/0f383a0181746706ca84a3485f56c09d.svg?invert_in_darkmode&sanitize=true" align=middle width=350.9089782pt height=36.460254599999985pt/>
+ <img src="/tex/de3f03a0491a97df7c3872bf69e69b5f.svg?invert_in_darkmode&sanitize=true" align=middle width=376.70629095pt height=36.460254599999985pt/>
  
  ##### step1+ step 2:
    

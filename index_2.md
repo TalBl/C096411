@@ -1,6 +1,6 @@
 #### Stochastic gradient descent vs batch gradient descent
 
-The question is how ofen <img src="/tex/9e0b6d5a22648fc8d4fd2ee24b4d8799.svg?invert_in_darkmode&sanitize=true" align=middle width=152.03932095pt height=24.65753399999998pt/> is done.
+The question is how ofen <img src="/tex/387d53b5c707db0c552f64f83202eca2.svg?invert_in_darkmode&sanitize=true" align=middle width=127.91468744999999pt height=24.65753399999998pt/> is done.
 
 - Stochastic gradient descent  J is computed every sample J=L.
 
@@ -16,11 +16,26 @@ Perceptron is a private solution of SVM.
 SVM using: SGD, hindge loss, L2 regularization, <img src="/tex/03eacc2fd045b3303fea4e4a58943bcc.svg?invert_in_darkmode&sanitize=true" align=middle width=81.43845929999999pt height=22.831056599999986pt/>, <img src="/tex/687cbffb26975762f46a31184ed6be3d.svg?invert_in_darkmode&sanitize=true" align=middle width=38.88877739999999pt height=21.18721440000001pt/> is eqvivalent to perceptron.
 
 In this case:
-J= <img src="/tex/015d5b898f78df0a50e581b296a5efc9.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>+max(0,1-<img src="/tex/20ecc41c9e7e45d4c83629f5afe5ad50.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79696399999999pt height=17.723762100000005pt/>)
-for <img src="/tex/cecada05f154a8e1b1a749ba3f7bc016.svg?invert_in_darkmode&sanitize=true" align=middle width=111.36770534999998pt height=21.18721440000001pt/> : 
-<img src="/tex/d217234ff5b0d59f59aab252421f6363.svg?invert_in_darkmode&sanitize=true" align=middle width=124.8951759pt height=24.657735299999988pt/>
-<img src="/tex/cb9e97f3afd4ea7d173165dd854cbcb6.svg?invert_in_darkmode&sanitize=true" align=middle width=207.03947879999998pt height=24.657735299999988pt/>
+- J= <img src="/tex/015d5b898f78df0a50e581b296a5efc9.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>+max(0,1-<img src="/tex/20ecc41c9e7e45d4c83629f5afe5ad50.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79696399999999pt height=17.723762100000005pt/>)
+- for <img src="/tex/cecada05f154a8e1b1a749ba3f7bc016.svg?invert_in_darkmode&sanitize=true" align=middle width=111.36770534999998pt height=21.18721440000001pt/> : 
+* <img src="/tex/d217234ff5b0d59f59aab252421f6363.svg?invert_in_darkmode&sanitize=true" align=middle width=124.8951759pt height=24.657735299999988pt/>
+* <img src="/tex/cb9e97f3afd4ea7d173165dd854cbcb6.svg?invert_in_darkmode&sanitize=true" align=middle width=207.03947879999998pt height=24.657735299999988pt/>
 
 ### SVM convergence Proof:
 
-There are many proofs that convex function can be optmized to global minimum. We also proofed convergence in perceptron and showed the maximum number of steps to convergence is <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> which is eqvivalent to SGD with hindge loss and L2. 
+There are many proofs that convex function can be optmized to global minimum. We also proofed convergence in perceptron and showed the maximum number of steps to convergence is <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> which is eqvivalent to SGD with hindge loss and L2 regularization.
+In this section we want to find the number of steps to conveges in general case.
+
+#### Assumption:
+
+- f is convex.
+- ||<img src="/tex/f1846dcd5854856f953ef5848d2c4b0d.svg?invert_in_darkmode&sanitize=true" align=middle width=50.000065499999984pt height=24.65753399999998pt/>  ####caled lipschitz law
+- <img src="/tex/67ff507e4acb4bd8f42452039c1d9f50.svg?invert_in_darkmode&sanitize=true" align=middle width=224.24192175000002pt height=24.65753399999998pt/>
+
+#### Goal:
+
+We want to show that after T steps of gradient descent with <img src="/tex/78975bdbee8dc45025ac51ff511dcf6f.svg?invert_in_darkmode&sanitize=true" align=middle width=115.44154874999998pt height=29.424786600000015pt/>:
+
+<img src="/tex/f586c181cbbff5ec20cc9b44b5a53175.svg?invert_in_darkmode&sanitize=true" align=middle width=201.84949619999998pt height=29.424786600000015pt/>
+
+

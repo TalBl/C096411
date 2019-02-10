@@ -111,3 +111,11 @@ The proof is similar to GD.
 
 #### bound and understanding stability:
 
+Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-<img src="/tex/a166e09ebe3a9840702c0d0159854a2d.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=22.831056599999986pt/>
+Loss test set: sample m+1 times from our distribution D and use m+1 samples to minimize J getting-<img src="/tex/00bf4925626128c679f9a57b9cbfa4f0.svg?invert_in_darkmode&sanitize=true" align=middle width=14.883029699999991pt height=22.831056599999986pt/>
+
+If we loop this prosses the average will be stability which means the how good am i doing on the real world vs training set.
+
+This method is very simillar to cross validation, <img src="/tex/00bf4925626128c679f9a57b9cbfa4f0.svg?invert_in_darkmode&sanitize=true" align=middle width=14.883029699999991pt height=22.831056599999986pt/> will give me the same result in training and test. 
+
+

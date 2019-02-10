@@ -60,15 +60,15 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - <img src="/tex/f174545e1e58f80fd9af63effe3df62c.svg?invert_in_darkmode&sanitize=true" align=middle width=304.7088825pt height=24.65753399999998pt/>
 - <img src="/tex/9c09df6eced4c7577214dee92343bcc3.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19176164999993pt height=24.65753399999998pt/>
   
-  ##### step 2:
+ ##### step 2:
   
- <img src="/tex/de3f03a0491a97df7c3872bf69e69b5f.svg?invert_in_darkmode&sanitize=true" align=middle width=376.70629095pt height=36.460254599999985pt/>
+- <img src="/tex/de3f03a0491a97df7c3872bf69e69b5f.svg?invert_in_darkmode&sanitize=true" align=middle width=376.70629095pt height=36.460254599999985pt/>
  
  ##### step1+ step 2:
    
-(step 1) <img src="/tex/3f099c973e8b1fe10d2702eff6f452e1.svg?invert_in_darkmode&sanitize=true" align=middle width=307.66424369999993pt height=29.168957400000025pt/>
-(step 2) <img src="/tex/882b6f81022f6439bf554439d91e5131.svg?invert_in_darkmode&sanitize=true" align=middle width=154.74538364999998pt height=36.460254599999985pt/>  
-(lipschitz law) <img src="/tex/a6e9f477e3f2ff3b87971a7ba98651ac.svg?invert_in_darkmode&sanitize=true" align=middle width=146.42334135pt height=35.18167619999999pt/>
+- (step 1) <img src="/tex/3f099c973e8b1fe10d2702eff6f452e1.svg?invert_in_darkmode&sanitize=true" align=middle width=307.66424369999993pt height=29.168957400000025pt/>
+- (step 2) <img src="/tex/882b6f81022f6439bf554439d91e5131.svg?invert_in_darkmode&sanitize=true" align=middle width=154.74538364999998pt height=36.460254599999985pt/>  
+- (lipschitz law) <img src="/tex/a6e9f477e3f2ff3b87971a7ba98651ac.svg?invert_in_darkmode&sanitize=true" align=middle width=146.42334135pt height=35.18167619999999pt/>
 
 
    

@@ -398,11 +398,11 @@ for convex functions here are a list of some commun used in the field of ML:
 
 ##### Gradient descent:
 
-<img src="/tex/8159a09bbd72d87359216bf1eb4b39a2.svg?invert_in_darkmode&sanitize=true" align=middle width=148.00587779999998pt height=24.65753399999998pt/>
+<img src="/tex/04911b65e01a92bc1a3e6c65c1611f93.svg?invert_in_darkmode&sanitize=true" align=middle width=123.83933264999999pt height=22.465723500000017pt/>
 
 ##### Newton method:
 
-<img src="/tex/23777c8e39adbee3364630b40e9e9ad3.svg?invert_in_darkmode&sanitize=true" align=middle width=233.71373189999994pt height=29.190975000000005pt/>
+<img src="/tex/985111ab1284fb4d7e9c15ee99731f2c.svg?invert_in_darkmode&sanitize=true" align=middle width=186.04270574999998pt height=26.76175259999998pt/>
 
 ##### conjugate gradient method:
 

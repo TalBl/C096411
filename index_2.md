@@ -29,7 +29,7 @@ In this section we want to find the number of steps to conveges in general case.
 #### Assumption:
 
 - f is convex.
-- ||<img src="/tex/f1846dcd5854856f953ef5848d2c4b0d.svg?invert_in_darkmode&sanitize=true" align=middle width=50.000065499999984pt height=24.65753399999998pt/>  ####caled lipschitz law
+- ||<img src="/tex/251346e82e5a886dc502d813ef819f93.svg?invert_in_darkmode&sanitize=true" align=middle width=63.06504764999998pt height=24.65753399999998pt/>    # caled lipschitz law
 - <img src="/tex/b069971bf103a572e24d468693101029.svg?invert_in_darkmode&sanitize=true" align=middle width=235.20055845pt height=24.65753399999998pt/>
 
 #### Goal:

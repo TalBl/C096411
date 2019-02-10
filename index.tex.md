@@ -440,13 +440,7 @@ $\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 
 ##### conjugate gradient method:
 
-$\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
-
-$\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
-
-$\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
-
-$\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
+$ \beta_{t}=\frac {|\nabla J(\omega_t)^2|}{|\nabla J(\omega_(t-1))^2|} $
 
 
 ##### Other methods and futer reading:

@@ -440,15 +440,15 @@ $\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 
 ##### conjugate gradient method:
 
-$ \beta_{t}=\frac {|\nabla J(\omega_t)^2|}{|\nabla J(\omega_{t-1})^2|} $
-
-$ \alpha_t =-\nabla J(\omega_{t})+\beta_t \alpha_{t-1} $
-
-
-
-finding optimal $\eta$ :
-
-$ \eta \nabla J(\omega_{t+1})=0 $
+$$
+\[\begin{align}
+ & {{\beta }_{t}}=\frac{|\nabla J{{({{\omega }_{t}})}^{2}}|}{|\nabla J{{({{\omega }_{t-1}})}^{2}}|} \\ 
+ & {{\alpha }_{t}}=-\nabla J({{\omega }_{t}})+{{\beta }_{t}}{{\alpha }_{t-1}} \\ 
+ & {{\omega }_{t+1}}={{\omega }_{t}}+\eta {{\alpha }_{t}} \\ 
+ & Finding\,optimal\,\eta : \\ 
+ & {{\alpha }_{t}}\nabla J({{\omega }_{t+1}})=0 \\ 
+\end{align}\]
+$$
 
 
 ##### Other methods and futer reading:

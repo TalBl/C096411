@@ -422,6 +422,7 @@ We already showed convexity to the log-loss,hindge-loss and perceptron. The L1(l
 
 L($\omega,\lambda $)=loss($\omega$)+$\lambda$XRegularization
 
-J($\omega,\lambda)=E(L)=\frac{1}{n} \sum\\nolimits_{1}^{n} L $ 
+J($\omega,\lambda)=E(L)=\frac{1}{n} \sum \nolimits_{1}^{n}  L $ 
 
+####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) 
 

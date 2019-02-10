@@ -406,9 +406,6 @@ for convex functions here are a list of some commun used in the field of ML:
 
 ##### conjugate gradient method:
 
-<img src="/tex/eb105139bcd2b9f6f2daba634ff16af5.svg?invert_in_darkmode&sanitize=true" align=middle width=111.04797329999998pt height=36.460254599999985pt/>
-
-<img src="/tex/f89613af7115b54e2834cac6eb6839d5.svg?invert_in_darkmode&sanitize=true" align=middle width=171.69152384999998pt height=24.65753399999998pt/>
 
 
 
@@ -433,7 +430,7 @@ In very large data sets saving X and <img src="/tex/32902e719b16dec67b28c9943762
 
 
 
-
+<p align="center"><img src="/tex/35013eece0f7e0a914379ea65fa6bfdc.svg?invert_in_darkmode&sanitize=true" align=middle width=171.69148259999997pt height=143.2484295pt/></p>
 
 
 

@@ -31,7 +31,7 @@ In this section we want to find the number of steps to conveges in general case.
 - f is convex.
 - ||$\nabla f || \leq \rho $    # caled lipschitz law
 - $ \omega * =argmin f(\omega) \,\, s.t \,\, ||\omega * || \leq \beta $
-
+- $\omega_0=0$
 ##### notations:
 
 $V_i= \nabla f $ -update step in step i.
@@ -56,8 +56,19 @@ We look on $\bar{\omega } \,\, because \,\, \omega$ will almost never achive min
 
 Using the 2 propertie of convex functions(orange line(g) always bellow the convex function):
 
-- g(\omega*) = f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t) $
-- f(\omega*) \geq g(\omega*)= f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t)$
--  $ <\omega_t-\omega*,\nabla f(\omega_t)> \geq f(\omega*)-f(\omega_t) $
+- $ g(\omega*) = f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t) $
+- $ f(\omega*) \geq g(\omega*)= f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t)$
+- $ <\omega_t-\omega*,\nabla f(\omega_t)> \geq f(\omega*)-f(\omega_t) $
   
+  ##### step 2:
   
+ $ /frac {1}{T} \sum <\omega_i-\omega*,\nabla f(\omega_i)> \leq \frac {(||\omega*||)^2}{2\eta}+\frac{eta}{2}\sum (V_i)^2 $
+ 
+ ##### step1+ step 2:
+   
+$ f(\bar(\omega))-f(\omega*) \leq (step \, 1) \frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
+$\leq \frac {(||\omega*||)^2}{2\eta}+\frac{eta}{2}\sum (V_i)^2 $  
+$ \nabla f leq rho \,\,\,\,\  frac{B^2}{2\eta T}+frac{\eta\rho^2}{2}=frac{B\rho}{sqrt(T)} $
+
+
+   

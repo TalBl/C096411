@@ -120,3 +120,11 @@ $$
 
 #### bound and understanding stability:
 
+Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-$\hat{\omega}$
+Loss test set: sample m+1 times from our distribution D and use m+1 samples to minimize J getting-$\hat{\omega_i}$
+
+If we loop this prosses the average will be stability which means the how good am i doing on the real world vs training set.
+
+This method is very simillar to cross validation, $\hat{\omega_i}$ will give me the same result in training and test. 
+
+

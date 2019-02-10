@@ -408,6 +408,9 @@ for convex functions here are a list of some commun used in the field of ML:
 
 
 
+<p align="center"><img src="/tex/35013eece0f7e0a914379ea65fa6bfdc.svg?invert_in_darkmode&sanitize=true" align=middle width=171.69148259999997pt height=143.2484295pt/></p>
+
+
 
 ##### Other methods and futer reading:
 
@@ -430,7 +433,6 @@ In very large data sets saving X and <img src="/tex/32902e719b16dec67b28c9943762
 
 
 
-<p align="center"><img src="/tex/35013eece0f7e0a914379ea65fa6bfdc.svg?invert_in_darkmode&sanitize=true" align=middle width=171.69148259999997pt height=143.2484295pt/></p>
 
 
 

@@ -19,7 +19,7 @@ In this case:
 - J= $\lambda \sum \omega^2$+max(0,1-$y_i<\omega,x_i>$)
 - for $y_i<\omega,x_i> <1 $ : 
 * $ \nabla J =\sum\omega-y_i x_i $
-* $ \omega_{t+1}=omega_{t}+y_i x_i-\sum \omega $
+* $ \omega_{t+1}=\omega_{t}+y_i x_i-\sum \omega $
 
 ### SVM convergence Proof:
 
@@ -34,8 +34,13 @@ In this section we want to find the number of steps to conveges in general case.
 
 #### Goal:
 
-We want to show that after T steps of gradient descent with $\eta=frac{\beta}{\row \sqrt(T)} $:
+We want to show that after T steps of gradient descent with $\eta=\frac{\beta}{\row \sqrt(T)} $:
 
-$ f(\bar {\omega}) -f(\omega* ) \leq frac{\beta}{\row \sqrt(T)} $
+$ f(\bar {\omega}) -f(\omega* ) \leq \frac{\beta}{\row \sqrt(T)} $
+
+$ (\bar {\omega} = \frac{1}{T} \sum \omega_t $
+
+We look on $ \bar {\omega $ because $\omega$ will almost never achive minimum $ \omega* $ but will bounce around the minimum dependent on size of $\eta$.
+
 
 

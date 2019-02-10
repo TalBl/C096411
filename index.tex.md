@@ -470,4 +470,3 @@ The question is how ofen $\omega_(t+1)=\omega_t-\ni \nabla J $ is done.
 In very large data sets saving X and $\omega $ vectors or matrix can occupy large junk of your allocation memory. In addition Stochastic gradient descent(SGD) widely use for online learning. on the other hand, batch gradient descent optimization rule is much smoother. usually today the combination of the two is used taking batches equal to $2^n$ samples. 
 
 
-

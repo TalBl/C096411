@@ -106,9 +106,7 @@ The proof is similar to GD.
 
 ##### mean on both sides:
 
-
-\[E({{L}_{D}}(\hat{\omega }))\le E({{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]={{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}}+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]\]
-
+<p align="center"><img src="/tex/5f1fcb10977e243dd96b68dbfda0f590.svg?invert_in_darkmode&sanitize=true" align=middle width=660.0866811pt height=18.312383099999998pt/></p>
 
 
 #### bound and understanding stability:

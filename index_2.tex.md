@@ -1,6 +1,6 @@
 #### Stochastic gradient descent vs batch gradient descent
 
-The question is how ofen $\omega_(t+1)=\omega_t-\ni \nabla J $ is done.
+The question is how ofen $\omega_(t+1)=\omega_t \eta \nabla J $ is done.
 
 - Stochastic gradient descent  J is computed every sample J=L.
 
@@ -16,11 +16,26 @@ Perceptron is a private solution of SVM.
 SVM using: SGD, hindge loss, L2 regularization, $\lambda=frac{1}{2}$, $\eta =1$ is eqvivalent to perceptron.
 
 In this case:
-J= $\lambda \sum \omega^2$+max(0,1-$y_i<\omega,x_i>$)
-for $y_i<\omega,x_i> <1 $ : 
-$ \nabla J =\sum\omega-y_i x_i $
-$ \omega_{t+1}=omega_{t}+y_i x_i-\sum \omega $
+- J= $\lambda \sum \omega^2$+max(0,1-$y_i<\omega,x_i>$)
+- for $y_i<\omega,x_i> <1 $ : 
+* $ \nabla J =\sum\omega-y_i x_i $
+* $ \omega_{t+1}=omega_{t}+y_i x_i-\sum \omega $
 
 ### SVM convergence Proof:
 
-There are many proofs that convex function can be optmized to global minimum. We also proofed convergence in perceptron and showed the maximum number of steps to convergence is $(RB)^2 $ which is eqvivalent to SGD with hindge loss and L2. 
+There are many proofs that convex function can be optmized to global minimum. We also proofed convergence in perceptron and showed the maximum number of steps to convergence is $(RB)^2 $ which is eqvivalent to SGD with hindge loss and L2 regularization.
+In this section we want to find the number of steps to conveges in general case.
+
+#### Assumption:
+
+- f is convex.
+- ||$\nabla f || \leq \row $  ####caled lipschitz law
+- $ \omega * =argmin f(\omega) s.t ||\omega * || \leq \beta $
+
+#### Goal:
+
+We want to show that after T steps of gradient descent with $\eta=frac{\beta}{\row \sqrt(T)} $:
+
+$ f(\bar {\omega}) -f(\omega* ) \leq frac{\beta}{\row \sqrt(T)} $
+
+

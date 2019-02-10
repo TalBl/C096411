@@ -61,7 +61,8 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - <img src="/tex/9c09df6eced4c7577214dee92343bcc3.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19176164999993pt height=24.65753399999998pt/>
   
  ##### step 2:
-  
+ Using the 1 propertie of convex functions(black line always above the convex function):
+ 
 - <img src="/tex/de3f03a0491a97df7c3872bf69e69b5f.svg?invert_in_darkmode&sanitize=true" align=middle width=376.70629095pt height=36.460254599999985pt/>
  
  ##### step1+ step 2:

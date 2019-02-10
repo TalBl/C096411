@@ -444,7 +444,7 @@ $ \beta_{t}=\frac {|\nabla J(\omega_t)^2|}{|\nabla J(\omega_{t-1})^2|} $
 
 $ \alpha_t =-\nabla J(\omega_{t})+\beta_t \alpha_{t-1} $
 
-$\omega_{t+1}=\omega_{t}+\eta \alpha_{t} $
+$ \omega_{t+1}= \omega_{t}+\eta \alpha_{t} $
 
 
 

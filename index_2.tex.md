@@ -60,15 +60,15 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - $ f(\omega*) \geq g(\omega*)= f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t)$
 - $ <\omega_t-\omega*,\nabla f(\omega_t)> \geq f(\omega*)-f(\omega_t) $
   
-  ##### step 2:
+ ##### step 2:
   
- $ \frac {1}{T} \sum <\omega_i-\omega*,\nabla f(\omega_i)> \leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (\nabla f(\omega_i))^2 $
+- $ \frac {1}{T} \sum <\omega_i-\omega*,\nabla f(\omega_i)> \leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (\nabla f(\omega_i))^2 $
  
  ##### step1+ step 2:
    
-(step 1) $ f(\bar(\omega))-f(\omega*) \leq  \frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
-(step 2) $\leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (V_i)^2 $  
-(lipschitz law) $\leq \frac{B^2}{2\eta T}+\frac{\eta\rho^2}{2}=\frac{B\rho}{\sqrt(T)} $
+- (step 1) $ f(\bar(\omega))-f(\omega*) \leq  \frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
+- (step 2) $\leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (V_i)^2 $  
+- (lipschitz law) $\leq \frac{B^2}{2\eta T}+\frac{\eta\rho^2}{2}=\frac{B\rho}{\sqrt(T)} $
 
 
    

@@ -438,15 +438,15 @@ $\omega_(t+1)=\omega_t-\ni \nabla J $
 
 $\omega_(t+1)=\omega_t-\ni (\nabla ^2 L)^(-1) \nabla J $
 
+##### conjugate gradient method:
 
+$\beta_i= \frac {\nabla J(X_i)^2}{\nabla J(X_(i-1))^2} $
 
+$ alpha=-\nabla J(\omega_(t))+\beta_i n_(\alpha_(t-1)) $
 
+$\omega_(t+1)=\omega_t+\ni \alpha_t $
 
+find optima $\ni :$
 
-
-
-
-
-
-
+$ \ni \nabla J(\omega_(t+1))=0 $
 

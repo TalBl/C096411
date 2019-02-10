@@ -62,7 +62,7 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
   
   ##### step 2:
   
- $ /frac {1}{T} \sum <\omega_i-\omega*,\nabla f(\omega_i)> \leq \frac {(||\omega*||)^2}{2\eta}+\frac{eta}{2}\sum (V_i)^2 $
+ $ \frac {1}{T} \sum <\omega_i-\omega*,\nabla f(\omega_i)> \leq \frac {(||\omega*||)^2}{2\eta}+\frac{eta}{2}\sum (V_i)^2 $
  
  ##### step1+ step 2:
    

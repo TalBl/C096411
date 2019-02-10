@@ -113,9 +113,9 @@ $$
 
 ##### mean on both sides:
 
-
+$$
 \[E({{L}_{D}}(\hat{\omega }))\le E({{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]={{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}}+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]\]
-
+$$
 
 
 #### bound and understanding stability:

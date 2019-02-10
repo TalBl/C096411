@@ -92,14 +92,14 @@ The proof is similar to GD.
 
 ### SVM SGD generalization:
 
-$ training set: S={(x_1,y_1),...(x_m,y_m)} $ presampling m samples from some distribution D.
-$ test set:  T={(x_i,y_i)} $ stochastic sampling from some distribution D. E(T)=mean of the distribution.
-$ Modified training set S'={(x_1,y_1),.(x_i,y_i)..(x_m,y_m)} $ combination of training and test set. 
+ training set:$ S={(x_1,y_1),...(x_m,y_m)} $ presampling m samples from some distribution D.
+ test set: $ T={(x_i,y_i)} $ stochastic sampling from some distribution D. E(T)=mean of the distribution.
+ Modified training set $ S'={(x_1,y_1),.(x_i,y_i)..(x_m,y_m)} $ combination of training and test set. 
 
 #### Objective :
-
+$$
 \[{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })]\le \underbrace{{{\min }_{\omega }}({{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{best\,result\,possible}+\underbrace{{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]}_{stability}\]
-
+$$
 
 #### Proof :
 

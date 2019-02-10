@@ -16,10 +16,10 @@ Perceptron is a private solution of SVM.
 SVM using: SGD, hindge loss, L2 regularization, <img src="/tex/03eacc2fd045b3303fea4e4a58943bcc.svg?invert_in_darkmode&sanitize=true" align=middle width=81.43845929999999pt height=22.831056599999986pt/>, <img src="/tex/687cbffb26975762f46a31184ed6be3d.svg?invert_in_darkmode&sanitize=true" align=middle width=38.88877739999999pt height=21.18721440000001pt/> is eqvivalent to perceptron.
 
 In this case:
-- J= <img src="/tex/015d5b898f78df0a50e581b296a5efc9.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>+max(0,1-<img src="/tex/20ecc41c9e7e45d4c83629f5afe5ad50.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79696399999999pt height=17.723762100000005pt/>)
+- J= <img src="/tex/6da055cd64665ef6d4f58f751dda63b1.svg?invert_in_darkmode&sanitize=true" align=middle width=239.25002640000002pt height=26.76175259999998pt/>)
 - for <img src="/tex/cecada05f154a8e1b1a749ba3f7bc016.svg?invert_in_darkmode&sanitize=true" align=middle width=111.36770534999998pt height=21.18721440000001pt/> : 
-* <img src="/tex/d217234ff5b0d59f59aab252421f6363.svg?invert_in_darkmode&sanitize=true" align=middle width=124.8951759pt height=24.657735299999988pt/>
-* <img src="/tex/08385b3c304b93a5119411d63a320d1e.svg?invert_in_darkmode&sanitize=true" align=middle width=170.09681039999998pt height=24.657735299999988pt/>
+ * <img src="/tex/d217234ff5b0d59f59aab252421f6363.svg?invert_in_darkmode&sanitize=true" align=middle width=124.8951759pt height=24.657735299999988pt/>
+ * <img src="/tex/08385b3c304b93a5119411d63a320d1e.svg?invert_in_darkmode&sanitize=true" align=middle width=170.09681039999998pt height=24.657735299999988pt/>
 
 ### SVM convergence Proof:
 
@@ -30,13 +30,13 @@ In this section we want to find the number of steps to conveges in general case.
 
 - f is convex.
 - ||<img src="/tex/f1846dcd5854856f953ef5848d2c4b0d.svg?invert_in_darkmode&sanitize=true" align=middle width=50.000065499999984pt height=24.65753399999998pt/>  ####caled lipschitz law
-- <img src="/tex/67ff507e4acb4bd8f42452039c1d9f50.svg?invert_in_darkmode&sanitize=true" align=middle width=224.24192175000002pt height=24.65753399999998pt/>
+- <img src="/tex/f90d41799d80d959951b21a009eb543a.svg?invert_in_darkmode&sanitize=true" align=middle width=224.24192175000002pt height=24.65753399999998pt/>
 
 #### Goal:
 
-We want to show that after T steps of gradient descent with <img src="/tex/1295b798dde020c6884687f42850a74e.svg?invert_in_darkmode&sanitize=true" align=middle width=66.1485594pt height=30.648287999999997pt/>:
+We want to show that after T steps of gradient descent with <img src="/tex/156ddf585ee9cbf653f553060bc5681c.svg?invert_in_darkmode&sanitize=true" align=middle width=72.96881129999998pt height=30.648287999999997pt/>:
 
-<img src="/tex/972ce63b8b62619bcc42b5ad1317e44a.svg?invert_in_darkmode&sanitize=true" align=middle width=152.55650685pt height=30.648287999999997pt/>
+<img src="/tex/af898eed760c68efc31a943c0b7a07a8.svg?invert_in_darkmode&sanitize=true" align=middle width=159.37675874999996pt height=30.648287999999997pt/>
 
 <img src="/tex/d11301bd10d9d800f41f148eb0a87d36.svg?invert_in_darkmode&sanitize=true" align=middle width=90.63999449999999pt height=27.77565449999998pt/>
 

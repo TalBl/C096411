@@ -386,3 +386,8 @@ L1-  <img src="/tex/67d5f4fea6ff00721aa61fda16aada72.svg?invert_in_darkmode&sani
 
 We already showed convexity to the log-loss,hindge-loss and perceptron. The L1(linear function),L2(quadratic function) Regularization terms are also convex. By definition(derivation is a linear operator) some of two convex function is also convex. We can write an optimization rule subjected to equality constraints(Lagrange multiplier):
 
+L(<img src="/tex/b79d1105b6900ffc883e3e210ab7d3a6.svg?invert_in_darkmode&sanitize=true" align=middle width=27.71687159999999pt height=22.831056599999986pt/>)=loss(<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>)+<img src="/tex/fd8be73b54f5436a5cd2e73ba9b6bfa9.svg?invert_in_darkmode&sanitize=true" align=middle width=9.58908224999999pt height=22.831056599999986pt/>XRegularization
+
+J(<img src="/tex/1d0bd5d85f86bd4d2066f840f6a4d10f.svg?invert_in_darkmode&sanitize=true" align=middle width=180.03897944999997pt height=47.612386800000024pt/> 
+
+

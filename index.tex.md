@@ -441,6 +441,10 @@ $\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 ##### conjugate gradient method:
 
 
+find optima $\eta :$
+
+$ \alpha_t \nabla J(\omega_(t+1))=0 $
+
 
 ##### Other methods and futer reading:
 

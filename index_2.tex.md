@@ -16,10 +16,10 @@ Perceptron is a private solution of SVM.
 SVM using: SGD, hindge loss, L2 regularization, $\lambda=frac{1}{2}$, $\eta =1$ is eqvivalent to perceptron.
 
 In this case:
-- J= $\lambda \sum \omega^2$+max(0,1-$y_i<\omega,x_i>$)
+- J= $\lambda \sum \omega^2+max(0,1-y_i<\omega,x_i>$)
 - for $y_i<\omega,x_i> <1 $ : 
-* $ \nabla J =\sum\omega-y_i x_i $
-* $ \omega_{t+1}=\omega_{t}+y_i x_i-\sum \omega $
+ * $ \nabla J =\sum\omega-y_i x_i $
+ * $ \omega_{t+1}=\omega_{t}+y_i x_i-\sum \omega $
 
 ### SVM convergence Proof:
 
@@ -30,13 +30,13 @@ In this section we want to find the number of steps to conveges in general case.
 
 - f is convex.
 - ||$\nabla f || \leq \row $  ####caled lipschitz law
-- $ \omega * =argmin f(\omega) s.t ||\omega * || \leq \beta $
+- $ \omega * =argmin f(\omega)   s.t ||\omega * || \leq \beta $
 
 #### Goal:
 
-We want to show that after T steps of gradient descent with $\eta=\frac{\beta}{\row \sqrt(T)} $:
+We want to show that after T steps of gradient descent with $\eta=\frac{\beta}{\rho \sqrt(T)} $:
 
-$ f(\bar {\omega}) -f(\omega* ) \leq \frac{\beta}{\row \sqrt(T)} $
+$ f(\bar {\omega}) -f(\omega* ) \leq \frac{\beta}{\rho \sqrt(T)} $
 
 $ (\bar {\omega} = \frac{1}{T} \sum \omega_t $
 

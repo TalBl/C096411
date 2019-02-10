@@ -66,9 +66,9 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
  
  ##### step1+ step 2:
    
-$ f(\bar(\omega))-f(\omega*) \leq (step \, 1) \frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
-$\leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (V_i)^2 $  
-$\leq \frac{B^2}{2\eta T}+\frac{\eta\rho^2}{2}=frac{B\rho}{\sqrt(T)} $
+(step 1) $ f(\bar(\omega))-f(\omega*) \leq  \frac {1}{T} \sum <\omega_t-\omega*,\nabla(\omega_t)> $
+(step 2) $\leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (V_i)^2 $  
+(lipschitz law) $\leq \frac{B^2}{2\eta T}+\frac{\eta\rho^2}{2}=\frac{B\rho}{\sqrt(T)} $
 
 
    

@@ -440,13 +440,7 @@ $\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 
 ##### conjugate gradient method:
 
-$ alpha=-\nabla J(\omega_(t))+\beta_i (\alpha_{t-1}) $
 
-$\omega_(t+1)=\omega _t+\eta \alpha_t $
-
-find optima $\eta :$
-
-$ \alpha_t \nabla J(\omega_(t+1))=0 $
 
 ##### Other methods and futer reading:
 

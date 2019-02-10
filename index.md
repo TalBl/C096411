@@ -390,5 +390,9 @@ L(<img src="/tex/b79d1105b6900ffc883e3e210ab7d3a6.svg?invert_in_darkmode&sanitiz
 
 J(<img src="/tex/cd20f0f2cfe649409e738e7cddc63861.svg?invert_in_darkmode&sanitize=true" align=middle width=170.03706885pt height=27.77565449999998pt/> 
 
-####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) 
+####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) :
+
+Our goal is to find <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> that minimize J(<img src="/tex/6a25f78a4f9ee1ae0226f75622040d97.svg?invert_in_darkmode&sanitize=true" align=middle width=34.10958869999999pt height=24.65753399999998pt/>. There are variety of optimization technics finding optimal solution
+
+for convex functions here are a list of some commun used in the field of ML:
 

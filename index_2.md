@@ -56,9 +56,10 @@ We look on <img src="/tex/9b137c49035e9c7eb366cabcde2075e8.svg?invert_in_darkmod
 
 Using the 2 propertie of convex functions(orange line(g) always bellow the convex function):
 
-- <img src="/tex/9ae0fdb1c1eeefd101130fa66d2b434c.svg?invert_in_darkmode&sanitize=true" align=middle width=241.14729045pt height=24.65753399999998pt/>
-- <img src="/tex/f174545e1e58f80fd9af63effe3df62c.svg?invert_in_darkmode&sanitize=true" align=middle width=304.7088825pt height=24.65753399999998pt/>
-- <img src="/tex/9c09df6eced4c7577214dee92343bcc3.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19176164999993pt height=24.65753399999998pt/>
+- <img src="/tex/13f33a37c9e8ae8d2fa4bf388dadbdc4.svg?invert_in_darkmode&sanitize=true" align=middle width=241.14722444999998pt height=24.65753399999998pt/>
+- <img src="/tex/c574cd758052c67ae7c0e003f42c4267.svg?invert_in_darkmode&sanitize=true" align=middle width=304.70881814999996pt height=24.65753399999998pt/>
+- <img src="/tex/085d6d898985182d0db5a3428d2f2012.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19169564999993pt height=24.65753399999998pt/>
+- <img src="/tex/8b4e450bb223077c38369aabd915babf.svg?invert_in_darkmode&sanitize=true" align=middle width=235.27578524999998pt height=24.657735299999988pt/>
   
  ##### step 2:
  Using the 1 propertie of convex functions(black line always above the convex function):

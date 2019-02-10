@@ -480,7 +480,7 @@ In this case:
 J= $\lambda \sum \omega^2$+max(0,1-$y_i<\omega,x_i>$)
 for $y_i<\omega,x_i> <1 $ : 
 $ \nabla J =\sum\omega-y_i x_i $
-$ \omega_{t+1}=omega_{t}+y_i x_i-\sum \omega
+$ \omega_{t+1}=omega_{t}+y_i x_i-\sum \omega $
 
 ### SVM convergence Proof:
 

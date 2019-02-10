@@ -371,7 +371,7 @@ We can generlize it to any polynomial $x1=x,x2=x^2,x3=x^3...$
 
 The feature selection is called the kernal of the system.
 
-## Regularization term:
+### Regularization term:
 
 We have seen regularization term before minimize $ ||\omega ||$. We have also prooved that in the perceptron
 role this condition increase the margin to optimal solution. 
@@ -400,9 +400,9 @@ comparison:
 
 The green line (L2-norm) is the unique shortest path, while the red, blue, yellow (L1-norm) are all same length (=12) for the same route. Generalizing this to n-dimensions. This is why L2-norm has unique solutions while L1-norm does not.
 
-### Notes:
+#### Notes:
 
-#### Sparsity:
+##### Sparsity:
 
 L2 minimization will minmize all $\omega$ while L1 will create realy small-zero $\omega$  and very large $\omega$ .
 
@@ -413,6 +413,51 @@ L2-  $\omega =(\frac{3}{2},\frac{3}{2})$---better solution then---- $\omega=(3,0
 L1-  $\omega =(\frac{3}{2},\frac{3}{2})$--------equally good-------- $\omega=(3,0)$ 
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
+
+### SVM final form
+
+#### build a convex function with parameter $\omegea$
+
+We already showed convexity to the log-loss,hindge-loss and perceptron. The L1(linear function),L2(quadratic function) Regularization terms are also convex. By definition(derivation is a linear operator) some of two convex function is also convex. We can write an optimization rule subjected to equality constraints(Lagrange multiplier):
+
+L($\omega,\lambda $)=loss($\omega$)+$\lambda$XRegularization
+
+J($\omega,\lambda)=E(L)=\frac{1}{n} \sum\\nolimits_{1}^{n} L $ 
+
+
+####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) $
+
+Our goal is to find $\omega$ that minimize J($\omega,\lambda)$. There are variety of optimization technics finding optimal solution
+
+for convex functions here are a list of some commun used in the field of ML:
+
+##### Gradient descent:
+
+$\omega_(t+1)=\omega_t-\ni \nabla J $
+
+##### Newton method:
+
+$\omega_(t+1)=\omega_t-\ni (\nabla ^2 L)^(-1) \nabla J
+
+##### conjugate gradient method:
+
+$\beta_i= \frac {\nabla J(X_i)^2}{\nabla J(X_(i-1))^2} $
+
+$ alpha=-\nabla J(\omega_(t))+\beta_i n_(\alpha_(t-1)) $
+
+$\omega_(t+1)=\omega_t+\ni \alpha_t $
+
+find optima $\ni :$
+
+$ \ni \nabla J(\omega_(t+1))=0 $
+
+##### Other methods and futer reading:
+
+momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
+
+##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam//">further reading</a> 
+
+### Stochastic gradient descent vs batch gradient descent
 
 
 

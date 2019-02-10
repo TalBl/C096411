@@ -40,7 +40,7 @@ We want to show that after T steps of gradient descent with <img src="/tex/156dd
 
 <img src="/tex/27f17a2cd67e0c90f1a733600367450d.svg?invert_in_darkmode&sanitize=true" align=middle width=84.24727739999999pt height=27.77565449999998pt/>
 
-We look on <img src="/tex/9c26ac63d10d93fbb3ef0e664b0e6992.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=18.666631500000015pt/> because <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> will almost never achive minimum <img src="/tex/419cf1413615ba72a339141ffa96a44a.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> but will bounce around the minimum dependent on size of <img src="/tex/1d0496971a2775f4887d1df25cea4f7e.svg?invert_in_darkmode&sanitize=true" align=middle width=8.751954749999989pt height=14.15524440000002pt/>.
+We look on <img src="/tex/e53c35857153ae568c03406e594b5d7b.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=18.666631500000015pt/> because <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> will almost never achive minimum <img src="/tex/419cf1413615ba72a339141ffa96a44a.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> but will bounce around the minimum dependent on size of <img src="/tex/1d0496971a2775f4887d1df25cea4f7e.svg?invert_in_darkmode&sanitize=true" align=middle width=8.751954749999989pt height=14.15524440000002pt/>.
 
 
 

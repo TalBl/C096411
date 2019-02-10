@@ -59,7 +59,7 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - <img src="/tex/13f33a37c9e8ae8d2fa4bf388dadbdc4.svg?invert_in_darkmode&sanitize=true" align=middle width=241.14722444999998pt height=24.65753399999998pt/>
 - <img src="/tex/c574cd758052c67ae7c0e003f42c4267.svg?invert_in_darkmode&sanitize=true" align=middle width=304.70881814999996pt height=24.65753399999998pt/>
 - <img src="/tex/085d6d898985182d0db5a3428d2f2012.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19169564999993pt height=24.65753399999998pt/>
-- <img src="/tex/ca1acf356ec68609bc5933d552e5906a.svg?invert_in_darkmode&sanitize=true" align=middle width=195.15280785pt height=27.77565449999998pt/>
+- <img src="/tex/0301a31089ccf7197ac60f94f3cbe340.svg?invert_in_darkmode&sanitize=true" align=middle width=204.97022204999996pt height=27.77565449999998pt/>
   
  ##### step 2:
  Using the 1 propertie of convex functions(black line always above the convex function):
@@ -74,3 +74,9 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 
 
    
+### SVM convergence Proof for SGD mode:
+
+In SGD we choose a sample randomly(<img src="/tex/d0b3b87fb490e1118c6b51e21d62e926.svg?invert_in_darkmode&sanitize=true" align=middle width=183.28077899999997pt height=24.65753399999998pt/><img src="/tex/13a4ff1040e729123fbdd6d18c219771.svg?invert_in_darkmode&sanitize=true" align=middle width=529.2252437999999pt height=39.45205440000001pt/>E(V_t)=\nabla \omega_t <img src="/tex/6244aaec562ec171c68123565b314f7a.svg?invert_in_darkmode&sanitize=true" align=middle width=12.785434199999989pt height=19.1781018pt/>E(f(\omega_t,x_i,y_i)=\leq \frac {1}{m} \sum  f(\omega_t) <img src="/tex/254b150ed57d00dcb7902cb1bc093e0e.svg?invert_in_darkmode&sanitize=true" align=middle width=25.570866749999993pt height=39.45205439999997pt/> E(f(\bar {\omega}) -f(\omega* )) \leq \frac{\beta}{\rho \sqrt(T)} $
+ 
+#### Proof:
+The proof is similar to GD.

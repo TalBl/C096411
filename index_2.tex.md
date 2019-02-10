@@ -30,7 +30,7 @@ In this section we want to find the number of steps to conveges in general case.
 
 - f is convex.
 - ||$\nabla f || \leq \row $  ####caled lipschitz law
-- $ \omega * =argmin f(\omega)   s.t ||\omega * || \leq \beta $
+- $ \omega * =argmin f(\omega) \,\, s.t ||\omega * || \leq \beta $
 
 #### Goal:
 

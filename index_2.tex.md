@@ -21,7 +21,7 @@ In this case:
  * $ \nabla J =\sum\omega-y_i x_i $
  * $ \omega_{t+1}=\omega_{t}+y_i x_i-\sum \omega $
 
-### SVM convergence Proof:
+### SVM convergence Proof for GD mode:
 
 There are many proofs that convex function can be optmized to global minimum. We also proofed convergence in perceptron and showed the maximum number of steps to convergence is $(RB)^2 $ which is eqvivalent to SGD with hindge loss and L2 regularization.
 In this section we want to find the number of steps to conveges in general case.

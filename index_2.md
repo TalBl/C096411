@@ -89,3 +89,29 @@ In SGD we choose a sample randomly(<img src="/tex/efdc72463ea6b450188e7ffa32fb40
  
 #### Proof:
 The proof is similar to GD.
+
+### SVM SGD generalization:
+
+<img src="/tex/eae5bb8abfc4c90e81377062e2f4a8ae.svg?invert_in_darkmode&sanitize=true" align=middle width=265.74639465pt height=24.65753399999998pt/> presampling m samples from some distribution D.
+<img src="/tex/41adedaab3d249d151e433c6c295ce23.svg?invert_in_darkmode&sanitize=true" align=middle width=144.52421775pt height=24.65753399999998pt/> stochastic sampling from some distribution D. E(T)=mean of the distribution.
+<img src="/tex/e503b30f9aaa4420323cd9e10102d60e.svg?invert_in_darkmode&sanitize=true" align=middle width=376.76887379999994pt height=24.7161288pt/> combination of training and test set. 
+
+#### Objective :
+
+\[{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })]\le \underbrace{{{\min }_{\omega }}({{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{best\,result\,possible}+\underbrace{{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]}_{stability}\]
+
+
+#### Proof :
+
+\[<p align="center"><img src="/tex/274bcd71e1b935fc6c72864d219f9b3a.svg?invert_in_darkmode&sanitize=true" align=middle width=627.79226235pt height=120.58794825pt/></p>\]
+
+
+##### mean on both sides:
+
+
+\[E({{L}_{D}}(\hat{\omega }))\le E({{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]={{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}}+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]\]
+
+
+
+#### bound and understanding stability:
+

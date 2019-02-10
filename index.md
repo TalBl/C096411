@@ -388,6 +388,7 @@ We already showed convexity to the log-loss,hindge-loss and perceptron. The L1(l
 
 L(<img src="/tex/b79d1105b6900ffc883e3e210ab7d3a6.svg?invert_in_darkmode&sanitize=true" align=middle width=27.71687159999999pt height=22.831056599999986pt/>)=loss(<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>)+<img src="/tex/fd8be73b54f5436a5cd2e73ba9b6bfa9.svg?invert_in_darkmode&sanitize=true" align=middle width=9.58908224999999pt height=22.831056599999986pt/>XRegularization
 
-J(<img src="/tex/1d0bd5d85f86bd4d2066f840f6a4d10f.svg?invert_in_darkmode&sanitize=true" align=middle width=180.03897944999997pt height=47.612386800000024pt/> 
+J(<img src="/tex/cd20f0f2cfe649409e738e7cddc63861.svg?invert_in_darkmode&sanitize=true" align=middle width=170.03706885pt height=27.77565449999998pt/> 
 
+####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) 
 

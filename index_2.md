@@ -19,7 +19,7 @@ In this case:
 - J= <img src="/tex/015d5b898f78df0a50e581b296a5efc9.svg?invert_in_darkmode&sanitize=true" align=middle width=49.79450519999999pt height=26.76175259999998pt/>+max(0,1-<img src="/tex/20ecc41c9e7e45d4c83629f5afe5ad50.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79696399999999pt height=17.723762100000005pt/>)
 - for <img src="/tex/cecada05f154a8e1b1a749ba3f7bc016.svg?invert_in_darkmode&sanitize=true" align=middle width=111.36770534999998pt height=21.18721440000001pt/> : 
 * <img src="/tex/d217234ff5b0d59f59aab252421f6363.svg?invert_in_darkmode&sanitize=true" align=middle width=124.8951759pt height=24.657735299999988pt/>
-* <img src="/tex/cb9e97f3afd4ea7d173165dd854cbcb6.svg?invert_in_darkmode&sanitize=true" align=middle width=207.03947879999998pt height=24.657735299999988pt/>
+* <img src="/tex/08385b3c304b93a5119411d63a320d1e.svg?invert_in_darkmode&sanitize=true" align=middle width=170.09681039999998pt height=24.657735299999988pt/>
 
 ### SVM convergence Proof:
 
@@ -34,8 +34,13 @@ In this section we want to find the number of steps to conveges in general case.
 
 #### Goal:
 
-We want to show that after T steps of gradient descent with <img src="/tex/78975bdbee8dc45025ac51ff511dcf6f.svg?invert_in_darkmode&sanitize=true" align=middle width=115.44154874999998pt height=29.424786600000015pt/>:
+We want to show that after T steps of gradient descent with <img src="/tex/1295b798dde020c6884687f42850a74e.svg?invert_in_darkmode&sanitize=true" align=middle width=66.1485594pt height=30.648287999999997pt/>:
 
-<img src="/tex/f586c181cbbff5ec20cc9b44b5a53175.svg?invert_in_darkmode&sanitize=true" align=middle width=201.84949619999998pt height=29.424786600000015pt/>
+<img src="/tex/972ce63b8b62619bcc42b5ad1317e44a.svg?invert_in_darkmode&sanitize=true" align=middle width=152.55650685pt height=30.648287999999997pt/>
+
+<img src="/tex/d11301bd10d9d800f41f148eb0a87d36.svg?invert_in_darkmode&sanitize=true" align=middle width=90.63999449999999pt height=27.77565449999998pt/>
+
+We look on <img src="/tex/9c26ac63d10d93fbb3ef0e664b0e6992.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=18.666631500000015pt/> because <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> will almost never achive minimum <img src="/tex/419cf1413615ba72a339141ffa96a44a.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> but will bounce around the minimum dependent on size of <img src="/tex/1d0496971a2775f4887d1df25cea4f7e.svg?invert_in_darkmode&sanitize=true" align=middle width=8.751954749999989pt height=14.15524440000002pt/>.
+
 
 

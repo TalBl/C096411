@@ -66,9 +66,9 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
  
  ##### step1+ step 2:
    
-<img src="/tex/7204aa9696f5c8affae8a30617dfb981.svg?invert_in_darkmode&sanitize=true" align=middle width=360.9748263pt height=29.168957400000025pt/>
-<img src="/tex/882b6f81022f6439bf554439d91e5131.svg?invert_in_darkmode&sanitize=true" align=middle width=154.74538364999998pt height=36.460254599999985pt/>  
-<img src="/tex/35b816f345d784d5ee140e082550e812.svg?invert_in_darkmode&sanitize=true" align=middle width=207.34305899999998pt height=35.18167619999999pt/>
+(step 1) <img src="/tex/3f099c973e8b1fe10d2702eff6f452e1.svg?invert_in_darkmode&sanitize=true" align=middle width=307.66424369999993pt height=29.168957400000025pt/>
+(step 2) <img src="/tex/882b6f81022f6439bf554439d91e5131.svg?invert_in_darkmode&sanitize=true" align=middle width=154.74538364999998pt height=36.460254599999985pt/>  
+(lipschitz law) <img src="/tex/a6e9f477e3f2ff3b87971a7ba98651ac.svg?invert_in_darkmode&sanitize=true" align=middle width=146.42334135pt height=35.18167619999999pt/>
 
 
    

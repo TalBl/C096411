@@ -404,15 +404,15 @@ for convex functions here are a list of some commun used in the field of ML:
 
 <img src="/tex/857788f7c1c10d922854bc0f6224d72b.svg?invert_in_darkmode&sanitize=true" align=middle width=237.74717505pt height=29.190975000000005pt/>
 
+##### conjugate gradient method:
 
+<img src="/tex/82797db7173d5c531ed5e0e0818e6d45.svg?invert_in_darkmode&sanitize=true" align=middle width=117.35956979999999pt height=36.460254599999985pt/>
 
+<img src="/tex/8b687937cadf7396c05a8bd32263bfdc.svg?invert_in_darkmode&sanitize=true" align=middle width=254.94599294999998pt height=24.65753399999998pt/>
 
+<img src="/tex/a7468152d986ce3328a2849e460db933.svg?invert_in_darkmode&sanitize=true" align=middle width=143.1257355pt height=24.65753399999998pt/>
 
+find optima <img src="/tex/c4e40321f267f5ed6cc7115161f231cf.svg?invert_in_darkmode&sanitize=true" align=middle width=15.52516514999999pt height=17.723762100000005pt/>
 
-
-
-
-
-
-
+<img src="/tex/dd4eeec2d5fa3fe02acb79a54f58227a.svg?invert_in_darkmode&sanitize=true" align=middle width=139.67261054999997pt height=24.65753399999998pt/>
 

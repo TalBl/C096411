@@ -59,7 +59,7 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - <img src="/tex/13f33a37c9e8ae8d2fa4bf388dadbdc4.svg?invert_in_darkmode&sanitize=true" align=middle width=241.14722444999998pt height=24.65753399999998pt/>
 - <img src="/tex/c574cd758052c67ae7c0e003f42c4267.svg?invert_in_darkmode&sanitize=true" align=middle width=304.70881814999996pt height=24.65753399999998pt/>
 - <img src="/tex/085d6d898985182d0db5a3428d2f2012.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19169564999993pt height=24.65753399999998pt/>
-- <img src="/tex/8b4e450bb223077c38369aabd915babf.svg?invert_in_darkmode&sanitize=true" align=middle width=235.27578524999998pt height=24.657735299999988pt/>
+- <img src="/tex/ca1acf356ec68609bc5933d552e5906a.svg?invert_in_darkmode&sanitize=true" align=middle width=195.15280785pt height=27.77565449999998pt/>
   
  ##### step 2:
  Using the 1 propertie of convex functions(black line always above the convex function):

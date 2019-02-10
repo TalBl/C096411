@@ -406,7 +406,10 @@ for convex functions here are a list of some commun used in the field of ML:
 
 ##### conjugate gradient method:
 
-<img src="/tex/a6902dc54fd7f8d1e44f83df425ff1f2.svg?invert_in_darkmode&sanitize=true" align=middle width=123.29868704999997pt height=36.460254599999985pt/>
+<img src="/tex/eb105139bcd2b9f6f2daba634ff16af5.svg?invert_in_darkmode&sanitize=true" align=middle width=111.04797329999998pt height=36.460254599999985pt/>
+
+<img src="/tex/f89613af7115b54e2834cac6eb6839d5.svg?invert_in_darkmode&sanitize=true" align=middle width=171.69152384999998pt height=24.65753399999998pt/>
+
 
 
 ##### Other methods and futer reading:

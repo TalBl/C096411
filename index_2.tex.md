@@ -32,6 +32,10 @@ In this section we want to find the number of steps to conveges in general case.
 - ||$\nabla f || \leq \rho $    # caled lipschitz law
 - $ \omega * =argmin f(\omega) \,\, s.t \,\, ||\omega * || \leq \beta $
 
+##### notations:
+
+$V_i= \nabla f $ -update step in step i.
+
 #### Goal:
 
 We want to show that after T steps of gradient descent with $\eta=\frac{\beta}{\rho \sqrt(T)} $:
@@ -42,5 +46,18 @@ $ \bar {\omega} = \frac{1}{T} \sum \omega_t $
 
 We look on $\bar{\omega } \,\, because \,\, \omega$ will almost never achive minimum $ \omega* $ but will bounce around the minimum dependent on size of $\eta$.
 
+#### Proof:
 
+<p align="center">
+	<img src="./Lesson_5/Capture.PNG" align="middle">
+</p>
 
+##### step 1:
+
+Using the 2 propertie of convex functions(orange line(g) always bellow the convex function):
+
+- g(\omega*) = f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t) $
+- f(\omega*) \geq g(\omega*)= f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t)$
+-  $ <\omega_t-\omega*,\nabla f(\omega_t)> \geq f(\omega*)-f(\omega_t) $
+  
+  

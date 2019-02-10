@@ -432,37 +432,28 @@ for convex functions here are a list of some commun used in the field of ML:
 
 ##### Gradient descent:
 
-$\omega_(t+1)=\omega_t-\ni \nabla J $
+$\omega_(t+1)=\omega_t-\eta \nabla J $
 
 ##### Newton method:
 
-$\omega_(t+1)=\omega_t-\ni (\nabla ^2 L)^(-1) \nabla J $
+$\omega_(t+1)=\omega_t-\eta (\nabla ^2 L)^(-1) \nabla J $
 
 ##### conjugate gradient method:
 
-$\beta_i= \frac {\nabla J(X_i)^2}{\nabla J(X_(i-1))^2} $
+$\beta_i= \frac {\nabla J(\omega_(t))^2}{\nabla J(\omega_(t-1))^2} $
 
-$ alpha=-\nabla J(\omega_(t))+\beta_i n_(\alpha_(t-1)) $
+$ alpha=-\nabla J(\omega_(t))+\beta_i (\alpha_(t-1)) $
 
-$\omega_(t+1)=\omega_t+\ni \alpha_t $
+$\omega_(t+1)=\omega_t+\eta \alpha_t $
 
-find optima $\ni :$
+find optima $\eta :$
 
-$ \ni \nabla J(\omega_(t+1))=0 $
+$ \alpha_t \nabla J(\omega_(t+1))=0 $
 
 ##### Other methods and futer reading:
 
 momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
 
-### Stochastic gradient descent vs batch gradient descent
-
-The question is how ofen $\omega_(t+1)=\omega_t-\ni \nabla J $ is done.
-
-- Stochastic gradient descent  J is computed every sample J=L.
-
-- batch gradient descent J is computed after going over all samples J=E(L)
-
-### Why to differ one over the other:  
 
 
 

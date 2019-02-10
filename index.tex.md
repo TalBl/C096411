@@ -430,3 +430,29 @@ Our goal is to find $\omega$ that minimize J($\omega,\lambda)$. There are variet
 
 for convex functions here are a list of some commun used in the field of ML:
 
+##### Gradient descent:
+
+$\omega_(t+1)=\omega_t-\ni \nabla J $
+
+##### Newton method:
+
+$\omega_(t+1)=\omega_t-\ni (\nabla ^2 L)^(-1) \nabla J $
+
+##### conjugate gradient method:
+
+$\beta_i= \frac {\nabla J(X_i)^2}{\nabla J(X_(i-1))^2} $
+
+$ alpha=-\nabla J(\omega_(t))+\beta_i n_(\alpha_(t-1)) $
+
+$\omega_(t+1)=\omega_t+\ni \alpha_t $
+
+find optima $\ni :$
+
+$ \ni \nabla J(\omega_(t+1))=0 $
+
+##### Other methods and futer reading:
+
+momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
+
+##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
+

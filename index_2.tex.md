@@ -76,11 +76,12 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
    
 ### SVM convergence Proof for SGD mode:
 
-In SGD we choose a sample randomly($x_i,y_i /,/, i~unifom[[1,m]] $$) from our training set (S). 
+In SGD we choose a sample randomly($x_i,y_i \,\, i~unifom[[1,m]] $) from our training set (S). 
+
 #### Defining the problem as stochastic optimization:
 
-- $E(V_t)=\nabla \omega_t $
-- $E(f(\omega_t,x_i,y_i)=\leq \frac {1}{m} \sum  f(\omega_t) $
+- $ E(V_t)=\nabla \omega_t $
+- $ E(f(\omega_t,x_i,y_i)) = \frac {1}{m} \sum  f(\omega_t,x_i,y_i) $
 
 #### Goal:
 

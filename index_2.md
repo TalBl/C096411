@@ -32,6 +32,10 @@ In this section we want to find the number of steps to conveges in general case.
 - ||<img src="/tex/251346e82e5a886dc502d813ef819f93.svg?invert_in_darkmode&sanitize=true" align=middle width=63.06504764999998pt height=24.65753399999998pt/>    # caled lipschitz law
 - <img src="/tex/b069971bf103a572e24d468693101029.svg?invert_in_darkmode&sanitize=true" align=middle width=235.20055845pt height=24.65753399999998pt/>
 
+##### notations:
+
+<img src="/tex/2467296285aa56007da10826480803c4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.49556699999999pt height=22.831056599999986pt/> -update step in step i.
+
 #### Goal:
 
 We want to show that after T steps of gradient descent with <img src="/tex/156ddf585ee9cbf653f553060bc5681c.svg?invert_in_darkmode&sanitize=true" align=middle width=72.96881129999998pt height=30.648287999999997pt/>:
@@ -42,5 +46,17 @@ We want to show that after T steps of gradient descent with <img src="/tex/156dd
 
 We look on <img src="/tex/9b137c49035e9c7eb366cabcde2075e8.svg?invert_in_darkmode&sanitize=true" align=middle width=87.88422884999999pt height=22.831056599999986pt/> will almost never achive minimum <img src="/tex/419cf1413615ba72a339141ffa96a44a.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/> but will bounce around the minimum dependent on size of <img src="/tex/1d0496971a2775f4887d1df25cea4f7e.svg?invert_in_darkmode&sanitize=true" align=middle width=8.751954749999989pt height=14.15524440000002pt/>.
 
+#### Proof:
 
+<p align="center">
+	<img src="./Lesson_5/Capture.PNG" align="middle">
+</p>
 
+##### step 1:
+
+Using the 2 propertie of convex functions(orange line(g) always bellow the convex function):
+
+- g(\omega*) = f(\omega_t)+\nabla f(\omega_t)(\omega*-\omega_t) <img src="/tex/ee521e2fe20aee835c9a399989b65f4b.svg?invert_in_darkmode&sanitize=true" align=middle width=317.49431669999996pt height=24.65753399999998pt/>
+-  <img src="/tex/9c09df6eced4c7577214dee92343bcc3.svg?invert_in_darkmode&sanitize=true" align=middle width=267.19176164999993pt height=24.65753399999998pt/>
+  
+  

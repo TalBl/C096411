@@ -40,7 +40,7 @@ $ f(\bar {\omega}) -f(\omega* ) \leq \frac{\beta}{\rho \sqrt(T)} $
 
 $ \bar {\omega} = \frac{1}{T} \sum \omega_t $
 
-We look on $\bar{\omega } because \omega$ will almost never achive minimum $ \omega* $ but will bounce around the minimum dependent on size of $\eta$.
+We look on $\bar{\omega } \,\, because \,\, \omega$ will almost never achive minimum $ \omega* $ but will bounce around the minimum dependent on size of $\eta$.
 
 
 

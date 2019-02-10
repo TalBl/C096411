@@ -92,8 +92,10 @@ The proof is similar to GD.
 
 ### SVM SGD generalization:
 
- training set:$ S={(x_1,y_1),...(x_m,y_m)} $ presampling m samples from some distribution D.
+ training set:  $ S={(x_1,y_1),...(x_m,y_m)} $ presampling m samples from some distribution D.
+ 
  test set: $ T={(x_i,y_i)} $ stochastic sampling from some distribution D. E(T)=mean of the distribution.
+ 
  Modified training set $ S'={(x_1,y_1),.(x_i,y_i)..(x_m,y_m)} $ combination of training and test set. 
 
 #### Objective :
@@ -102,12 +104,12 @@ $$
 $$
 
 #### Proof :
-
+$$
 \[\begin{align}
  & {{L}_{D}}(\hat{\omega })={{L}_{s}}(\hat{\omega })+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })\le ({{L}_{s}}(\hat{\omega })+\underbrace{\lambda ||\hat{\omega }|{{|}^{2}}}_{always\,positive})+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega }) \\ 
 & \le (\underbrace{{{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{\hat{\omega }\,is\,the\,optimize\,\omega \,on\,training\,}+[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })] \\ 
 \end{align}\]
-
+$$
 
 ##### mean on both sides:
 

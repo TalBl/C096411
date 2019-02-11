@@ -1,4 +1,23 @@
+
+- [SVM concept](#conc)
+- [convex properties](#conv_prop)
+- [convexity proof](#Con_pr)
+- [Non linear SVM](#non_svm)
+- [Regularization term](#rg_term)
+- [SVM final form-loss+regularization](#SVM_f)
+- [SVM vs Perceptron](#SVM_pre)
+- [SVM convergence](#SVM_conv)
+- [SVM generalization](#SVM_conv)
+  - [example generalization hindge loss](#SVM_gen_hin)
+
+SVM_gen
+
+
 ## SVM:
+
+<a name='conc'></a>
+
+### SVM-concept:
 
 SVM concept is much closer to optimization approach:
 
@@ -8,6 +27,7 @@ SVM concept is much closer to optimization approach:
 
 - find optimal solution
 
+<a name='conv_prop'></a>
 ### convex functions properies:
 
 <p align="center">
@@ -43,7 +63,7 @@ We already saw some of the functions:
 
 - log loss(perceptron with 1 as margin):  $ log({1+e^{-y_i<\hat{\omega},x_i>})) $
 
-
+<a name='Con_pr'></a>
 ### convexity proof:
 
 #### Hindge loss and perceptron:
@@ -57,7 +77,7 @@ if $f''(x) \geq 0 $ then function is convex.
 
 $f''(x)= \frac {e^(x)}{(e^(x)+1)^2} \geq 0 $
 
-
+<a name='non_svm'></a>
 ### Non linear seperation SVM:
 
 We can create nun linear lines easily by just choosing the right features(x) to work with. 
@@ -85,6 +105,7 @@ We can generlize it to any polynomial $x1=x,x2=x^2,x3=x^3...$
 
 The feature selection is called the kernal of the system.
 
+<a name='rg_term'></a>
 ### Regularization term:
 
 We have seen regularization term before minimize $ ||\omega ||$. We have also prooved that in the perceptron
@@ -128,7 +149,8 @@ L1-  $\omega =(\frac{3}{2},\frac{3}{2})$--------equally good-------- $\omega=(3,
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 
-### SVM final form
+<a name='SVM_f'></a>
+### SVM final form Loss+regularization
 
 #### build a convex function with parameter $\omegea$
 
@@ -185,7 +207,8 @@ The question is how ofen $\omega_(t+1)=\omega_t \eta \nabla J $ is done.
 ##### Why to differ one over the other:  
 
 In very large data sets saving X and $\omega $ vectors or matrix can occupy large junk of your allocation memory. In addition Stochastic gradient descent(SGD) widely use for online learning. on the other hand, batch gradient descent optimization rule is much smoother. usually today the combination of the two is used taking batches equal to $2^n$ samples.
- 
+
+<a name='SVM_pre'></a>
 ##### perceptron vs SVM
 
 Perceptron is a private solution of SVM. 
@@ -196,6 +219,8 @@ In this case:
 - for $y_i<\omega,x_i> <1 $ : 
  * $ \nabla J =\sum\omega-y_i x_i $
  * $ \omega_{t+1}=\omega_{t}+y_i x_i-\sum \omega $
+
+<a name='SVM_conv'></a>
 
 ### SVM convergence Proof for GD mode:
 
@@ -268,6 +293,7 @@ $ E(f(\bar {\omega}) -f(\omega* )) \leq \frac{\beta}{\rho \sqrt(T)} $
 
 The proof is similar to GD.
 
+<a name='SVM_gen'></a>
 ### SVM SGD generalization:
 
  training set:  $ S={(x_1,y_1),...(x_m,y_m)} $ presampling m samples from some distribution D.
@@ -347,7 +373,7 @@ $$
 \end{align}\]
 
 $$
-
+<a name='SVM_gen_hin'></a>
 #### Example hindge loss:
 $$
 \[\begin{align}

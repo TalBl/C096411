@@ -115,17 +115,7 @@ This section provide short explanation on how to compute distance between point 
 <table>
 	<tr>
 		<td>
-- Sample m datapoints
-			
-- intialize <img src="/tex/32902e719b16dec67b28c9943762cd89.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>
-
-- loop time t:
-
-	* loop samples m:
-	
-		* if y<w,x><0  (means wrong classification)
-		
-			* update W
+\[<p align="center"><img src="/tex/affde4eec18a7eceed5e0b110149619a.svg?invert_in_darkmode&sanitize=true" align=middle width=475.27034775pt height=166.42202774999998pt/></p>\]
 
 </td>
 <td>

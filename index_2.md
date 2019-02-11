@@ -200,6 +200,8 @@ In this section we want to find the number of steps to conveges in general case.
 - ||<img src="/tex/251346e82e5a886dc502d813ef819f93.svg?invert_in_darkmode&sanitize=true" align=middle width=63.06504764999998pt height=24.65753399999998pt/>    # caled lipschitz law
 - <img src="/tex/b069971bf103a572e24d468693101029.svg?invert_in_darkmode&sanitize=true" align=middle width=235.20055845pt height=24.65753399999998pt/>
 - <img src="/tex/7075eeb392adcb405376e19ae28b8eda.svg?invert_in_darkmode&sanitize=true" align=middle width=47.743431449999996pt height=21.18721440000001pt/>
+
+
 ##### notations:
 
 <img src="/tex/2467296285aa56007da10826480803c4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.49556699999999pt height=22.831056599999986pt/> -update step in step i.
@@ -240,7 +242,6 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - (step 2) <img src="/tex/882b6f81022f6439bf554439d91e5131.svg?invert_in_darkmode&sanitize=true" align=middle width=154.74538364999998pt height=36.460254599999985pt/>  
 - (lipschitz law) <img src="/tex/a6e9f477e3f2ff3b87971a7ba98651ac.svg?invert_in_darkmode&sanitize=true" align=middle width=146.42334135pt height=35.18167619999999pt/>
 
-
    
 ### SVM convergence Proof for SGD mode:
 
@@ -256,6 +257,7 @@ In SGD we choose a sample randomly(<img src="/tex/efdc72463ea6b450188e7ffa32fb40
 <img src="/tex/d027de1b6a42e973851d886afec66718.svg?invert_in_darkmode&sanitize=true" align=middle width=185.24436974999998pt height=30.648287999999997pt/>
  
 #### Proof:
+
 The proof is similar to GD.
 
 ### SVM SGD generalization:

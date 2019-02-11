@@ -8,7 +8,9 @@ SVM concept is much closer to optimization approach:
 
 - find optimal solution
 
-
+<table>
+	<tr>
+		<td>
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)
 - [Non linear SVM](#non_svm)
@@ -18,7 +20,9 @@ SVM concept is much closer to optimization approach:
 - [SVM convergence](#SVM_conv)
 - [SVM generalization](#SVM_conv)
   - [example generalization hindge loss](#SVM_gen_hin)
-
+		</td>
+	</tr>
+	</table>
 <a name='conv_prop'></a>
 ### convex functions properies:
 

@@ -321,9 +321,9 @@ This loss gives use the probability result between [0,1]
 ## SVM:
 
 In general there is not much diffrent between SVM and perceptron in practice. both in the end try to minimize a form of this equation: 
-$\\ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
+$\\ \omega*=argmin{||\omega|| ~s.t ~ y_i<\hat{\omega},x_i> \geq 1 $
 
-SVM consept is much closer to optimization approach(we have seen somthing similar in Logistic regression):
+SVM concept is much closer to optimization approach:
 
 - build a convex function with parameter $\omegea$
 

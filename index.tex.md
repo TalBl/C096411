@@ -320,9 +320,6 @@ This loss gives use the probability result between [0,1]
 
 ## SVM:
 
-In general there is not much diffrent between SVM and perceptron in practice. both in the end try to minimize a form of this equation: 
-$\\ \omega*=argmin{||\omega|| ~s.t ~ y_i<\hat{\omega},x_i> \geq 1 $
-
 SVM concept is much closer to optimization approach:
 
 - build a convex function with parameter $\omegea$
@@ -337,15 +334,13 @@ SVM concept is much closer to optimization approach:
 	<img src="./Lesson_4/Capture.PNG" align="middle">
 </p>
 
-Has seen in the image a convex function is defined such that:
-
 (1) line connects two points on the function will always be above the function(black line).
 
 (2) points on the tangent Line are below the function(orange line). 
 
-mathematically this two conditions can be written:
+#### Conditions written mathematically:
 
-Line between A and B(black line) is = $\lambda X_b +(1-\lambda) X_a, \lambda=[0,1] $
+black line = $\lambda f(X_b) +(1-\lambda) f(X_a), \lambda=[0,1] $
 
 (1) $f_{convex}(black Line) \leq black Line $
 

@@ -130,7 +130,7 @@ Our goal is to have 0 stability , which means the test set and the training set 
 
 ###### step 3:
 
-<p align="center"><img src="/tex/65cb9138033bbc41b438092e7bf3ece0.svg?invert_in_darkmode&sanitize=true" align=middle width=835.80987105pt height=168.68024415pt/></p>
+<p align="center"><img src="/tex/1b2be7cd993705513933d5e0ab633950.svg?invert_in_darkmode&sanitize=true" align=middle width=835.80987105pt height=144.02271015pt/></p>
 
 ###### step 1+2+3:
 

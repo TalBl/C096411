@@ -208,6 +208,8 @@ In this section we want to find the number of steps to conveges in general case.
 - ||$\nabla f || \leq \rho $    # caled lipschitz law
 - $ \omega * =argmin f(\omega) \,\, s.t \,\, ||\omega * || \leq \beta $
 - $\omega_0=0$
+
+
 ##### notations:
 
 $V_i= \nabla f $ -update step in step i.
@@ -248,7 +250,6 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - (step 2) $\leq \frac {(||\omega*||)^2}{2\eta}+\frac{\eta}{2}\sum (V_i)^2 $  
 - (lipschitz law) $\leq \frac{B^2}{2\eta T}+\frac{\eta\rho^2}{2}=\frac{B\rho}{\sqrt(T)} $
 
-
    
 ### SVM convergence Proof for SGD mode:
 
@@ -264,6 +265,7 @@ In SGD we choose a sample randomly($x_i,y_i \,\, i~unifom[[1,m]] $) from our tra
 $ E(f(\bar {\omega}) -f(\omega* )) \leq \frac{\beta}{\rho \sqrt(T)} $
  
 #### Proof:
+
 The proof is similar to GD.
 
 ### SVM SGD generalization:

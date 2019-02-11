@@ -120,11 +120,28 @@ $$
 
 #### bound and understanding stability:
 
-Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-$\hat{\omega}$
-Loss test set: sample m+1 times from our distribution D and use m+1 samples to minimize J getting-$\hat{\omega_i}$
+##### Notation :
+Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-$\hat{\omega_{m}}$
+Loss test set: us the samples from the training set but now use m+1 samples to minimize J getting-$\hat{\omega_{m+1}}$
 
-If we loop this prosses the average will be stability which means the how good am i doing on the real world vs training set.
+Stability=E[Loss test set-Loss training set] 
 
-This method is very simillar to cross validation, $\hat{\omega_i}$ will give me the same result in training and test. 
+Our goal is to have 0 stability , which means the test set and the training set accuracy of the model is similar.
 
+##### Finding bound :
 
+###### step 1:
+$$
+\[{{E}_{S\sim{{D}^{m}}}}\left[ {{L}_{D}}\left( {\hat{\omega }} \right)-{{L}_{S}}\left( {\hat{\omega }} \right) \right]={{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\]
+$$
+
+###### step 2-using $\rho$ lipschitz :
+
+$$
+\[\begin{align}
+  & \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}\le \rho  \\ 
+ & {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right] \\ 
+\end{align}\]
+$$
+
+###### step 3:

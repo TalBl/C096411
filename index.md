@@ -287,10 +287,7 @@ This loss gives use the probability result between [0,1]
 
 ## SVM:
 
-In general there is not much diffrent between SVM and perceptron in practice. both in the end try to minimize a form of this equation: 
-<img src="/tex/d67f91f473bb05778cc962319ca19cca.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315pt height=47.67123239999998pt/>
-
-SVM consept is much closer to optimization approach(we have seen somthing similar in Logistic regression):
+SVM concept is much closer to optimization approach:
 
 - build a convex function with parameter <img src="/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
 
@@ -304,15 +301,13 @@ SVM consept is much closer to optimization approach(we have seen somthing simila
 	<img src="./Lesson_4/Capture.PNG" align="middle">
 </p>
 
-Has seen in the image a convex function is defined such that:
-
 (1) line connects two points on the function will always be above the function(black line).
 
 (2) points on the tangent Line are below the function(orange line). 
 
-mathematically this two conditions can be written:
+#### Conditions written mathematically:
 
-Line between A and B(black line) is = <img src="/tex/3f23e9ff11c67c53a8a19c98216b8cb0.svg?invert_in_darkmode&sanitize=true" align=middle width=193.8470688pt height=24.65753399999998pt/>
+black line = <img src="/tex/bebc3b72468407f542fc7a0cefed1bc1.svg?invert_in_darkmode&sanitize=true" align=middle width=239.0527623pt height=24.65753399999998pt/>
 
 (1) <img src="/tex/c6c8611dbe712f795e13ca6bb676f8fb.svg?invert_in_darkmode&sanitize=true" align=middle width=227.80761465pt height=24.65753399999998pt/>
 

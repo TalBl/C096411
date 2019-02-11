@@ -1,4 +1,23 @@
+
+- [SVM concept](#conc)
+- [convex properties](#conv_prop)
+- [convexity proof](#Con_pr)
+- [Non linear SVM](#non_svm)
+- [Regularization term](#rg_term)
+- [SVM final form-loss+regularization](#SVM_f)
+- [SVM vs Perceptron](#SVM_pre)
+- [SVM convergence](#SVM_conv)
+- [SVM generalization](#SVM_conv)
+  - [example generalization hindge loss](#SVM_gen_hin)
+
+SVM_gen
+
+
 ## SVM:
+
+<a name='conc'></a>
+
+### SVM-concept:
 
 SVM concept is much closer to optimization approach:
 
@@ -8,6 +27,7 @@ SVM concept is much closer to optimization approach:
 
 - find optimal solution
 
+<a name='conv_prop'></a>
 ### convex functions properies:
 
 <p align="center">
@@ -43,7 +63,7 @@ We already saw some of the functions:
 
 - log loss(perceptron with 1 as margin):  <img src="/tex/939d2ba2ed58cd7272bf9603fd6d331a.svg?invert_in_darkmode&sanitize=true" align=middle width=145.54749329999999pt height=27.91243950000002pt/>
 
-
+<a name='Con_pr'></a>
 ### convexity proof:
 
 #### Hindge loss and perceptron:
@@ -57,7 +77,7 @@ if <img src="/tex/446d7724bc30a4c0df9d95c85d20977d.svg?invert_in_darkmode&saniti
 
 <img src="/tex/b7e932675e72003546f4d9235479c2dd.svg?invert_in_darkmode&sanitize=true" align=middle width=153.83515289999997pt height=38.19539789999999pt/>
 
-
+<a name='non_svm'></a>
 ### Non linear seperation SVM:
 
 We can create nun linear lines easily by just choosing the right features(x) to work with. 
@@ -85,6 +105,7 @@ We can generlize it to any polynomial <img src="/tex/18866f54e78ba8402fe636c30a4
 
 The feature selection is called the kernal of the system.
 
+<a name='rg_term'></a>
 ### Regularization term:
 
 We have seen regularization term before minimize <img src="/tex/5c6c894b142bc1232b0e11057a63a2dc.svg?invert_in_darkmode&sanitize=true" align=middle width=29.08680224999999pt height=24.65753399999998pt/>. We have also prooved that in the perceptron
@@ -128,7 +149,8 @@ L1-  <img src="/tex/67d5f4fea6ff00721aa61fda16aada72.svg?invert_in_darkmode&sani
 
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 
-### SVM final form
+<a name='SVM_f'></a>
+### SVM final form Loss+regularization
 
 #### build a convex function with parameter <img src="/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
 
@@ -177,7 +199,8 @@ The question is how ofen <img src="/tex/387d53b5c707db0c552f64f83202eca2.svg?inv
 ##### Why to differ one over the other:  
 
 In very large data sets saving X and <img src="/tex/32902e719b16dec67b28c9943762cd89.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> vectors or matrix can occupy large junk of your allocation memory. In addition Stochastic gradient descent(SGD) widely use for online learning. on the other hand, batch gradient descent optimization rule is much smoother. usually today the combination of the two is used taking batches equal to <img src="/tex/f8f25e4580c418a51dc556db0d8d2b93.svg?invert_in_darkmode&sanitize=true" align=middle width=16.34523329999999pt height=21.839370299999988pt/> samples.
- 
+
+<a name='SVM_pre'></a>
 ##### perceptron vs SVM
 
 Perceptron is a private solution of SVM. 
@@ -188,6 +211,8 @@ In this case:
 - for <img src="/tex/cecada05f154a8e1b1a749ba3f7bc016.svg?invert_in_darkmode&sanitize=true" align=middle width=111.36770534999998pt height=21.18721440000001pt/> : 
  * <img src="/tex/d217234ff5b0d59f59aab252421f6363.svg?invert_in_darkmode&sanitize=true" align=middle width=124.8951759pt height=24.657735299999988pt/>
  * <img src="/tex/08385b3c304b93a5119411d63a320d1e.svg?invert_in_darkmode&sanitize=true" align=middle width=170.09681039999998pt height=24.657735299999988pt/>
+
+<a name='SVM_conv'></a>
 
 ### SVM convergence Proof for GD mode:
 
@@ -260,6 +285,7 @@ In SGD we choose a sample randomly(<img src="/tex/efdc72463ea6b450188e7ffa32fb40
 
 The proof is similar to GD.
 
+<a name='SVM_gen'></a>
 ### SVM SGD generalization:
 
  training set:  <img src="/tex/fe9a944280dc3d01376f733806503f06.svg?invert_in_darkmode&sanitize=true" align=middle width=168.76348829999998pt height=24.65753399999998pt/> presampling m samples from some distribution D.
@@ -305,7 +331,7 @@ Our goal is to have 0 stability , which means the test set and the training set 
 ###### step 1+2+3:
 
 <p align="center"><img src="/tex/31c3260f1eb0d1910a71a00067a18c90.svg?invert_in_darkmode&sanitize=true" align=middle width=561.2699268pt height=65.00407815pt/></p>
-
+<a name='SVM_gen_hin'></a>
 #### Example hindge loss:
 <p align="center"><img src="/tex/dd01362a29c1cf8c147c87247bb62a8a.svg?invert_in_darkmode&sanitize=true" align=middle width=253.52025765pt height=128.36764545pt/></p>
 

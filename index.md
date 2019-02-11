@@ -1,3 +1,14 @@
+- [Introduction:type of learning](#intro)
+- [Linear regression-2D-Model](#LR_2D)
+  - [2D-Model-Generalization](#LR_G)
+- [Linear regression-nD-Model](#val)
+- [Perceptron](#PR)
+- [Logistic Regression](#LR)
+- [SVM](#SVM)
+
+
+
+<a name='intro'></a>
 ## Quick Intro
 
 This course is an introduction to machine learning basics theory and practice. There are 3 different types of learning:
@@ -28,10 +39,13 @@ Reinforcement learning is based on interaction with the environment. The learnin
 </p>
 
 
+
 ## Linear regression 
 
-### 2D Basic Model:
+<a name='LR'></a>
 
+### 2D Basic Model:
+<a name='LR_2D'></a>
 #### Notations:
 
 <p align="center"><img src="/tex/22c334ae8bcb7e16305cf8fb11ac0b7e.svg?invert_in_darkmode&sanitize=true" align=middle width=500.97334319999993pt height=92.90415915pt/></p>
@@ -61,6 +75,8 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 
 #### Generalization :
 
+<a name='LR_G'></a>
+
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
 <img src="/tex/a5a3c89b53bed887e7e194b0670abc9a.svg?invert_in_darkmode&sanitize=true" align=middle width=17.35165739999999pt height=24.657735299999988pt/>errors(green lines) would be 0. in this case we can imagine the error as a independent variable with a
@@ -80,6 +96,8 @@ variance <img src="/tex/8cda31ed38c6d59d14ebefa440099572.svg?invert_in_darkmode&
 
 ### General case nD Model:
 
+<a name='LR_nD'></a>
+
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 
 <p align="center"><img src="/tex/b19f2899fc690a170bfb567feb9dd070.svg?invert_in_darkmode&sanitize=true" align=middle width=157.88615865pt height=69.71700614999999pt/></p>
@@ -92,8 +110,10 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 
 <img src="/tex/380e0bd4a705031f0b3ea2ee23979386.svg?invert_in_darkmode&sanitize=true" align=middle width=270.3127812pt height=34.099002299999995pt/>
 
-
+<a name='PR'></a>
 ## Perceptron
+
+
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
 <p align="center">
@@ -238,6 +258,7 @@ The right inequality:
 
 * <img src="/tex/dafdb732e46ffe718273946f8364d5ea.svg?invert_in_darkmode&sanitize=true" align=middle width=137.856576pt height=43.068399000000014pt/>
  
+<a name='LR'></a>
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> when <img src="/tex/f7a0f24dc1f54ce82fecccbbf48fca93.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is far in the positive side and 
@@ -284,7 +305,7 @@ This equation is called log-loss loss function. while we already saw the mean sq
 
 This loss gives use the probability result between [0,1]
 
-
+<a name='SVM'></a>
 ## SVM:
 
 SVM concept is much closer to optimization approach:

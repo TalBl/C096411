@@ -106,7 +106,7 @@ The proof is similar to GD.
 
 ##### mean on both sides:
 
-<p align="center"><img src="/tex/5f1fcb10977e243dd96b68dbfda0f590.svg?invert_in_darkmode&sanitize=true" align=middle width=660.0866811pt height=18.312383099999998pt/></p>
+<p align="center"><img src="/tex/9aa74212477a268fa369c1d3f048bc58.svg?invert_in_darkmode&sanitize=true" align=middle width=664.9844008499999pt height=18.312383099999998pt/></p>
 
 
 #### bound and understanding stability:

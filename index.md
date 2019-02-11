@@ -405,7 +405,7 @@ The green line (L2-norm) is the unique shortest path, while the red, blue, yello
 
 ##### Sparsity:
 
-L2 minimization will minmize all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> while L1 will create realy small-zero <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>  and very large <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> .
+L2 minimization will minimize all <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> while L1 will create realy small-zero <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>  and very large <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/> .
 
 example:
 
@@ -452,12 +452,3 @@ for convex functions here are a list of some commun used in the field of ML:
 momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
 
 ##### <a href="https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/">further reading</a> 
-
-
-
-
-
-
-
-
-

@@ -137,6 +137,7 @@ This section provide short explanation on how to compute distance between point 
 <table>
 	<tr>
 		<td>
+
 * Sample m datapoints
 
 * intialize $\omega $
@@ -192,7 +193,7 @@ $$
 The optimal solution is defined has the solution which produce the highest margin. 
 In order to find this optimal solution let's go back to our equation:
 
-distance=$y_i<\hat{\omega},x_i>$ ->distance=$y_i<\frac{\omega}{||\omega||},x_i>$
+distance=$y_i<\hat{\omega},x_i>\to $ distance=$y_i<\frac{\omega}{||\omega||},x_i>$
 
 We can see that the distance is dependent in ||$\omega$||. The lower ||$\omega$|| is the bigger the distance is.
 From this we can derive the second perceptron role: argmin ||$\omega$||
@@ -204,9 +205,9 @@ From this we can derive the second perceptron role: argmin ||$\omega$||
 
 - B=||$\omega*$||, R=max||$x_i$||
 
-- $\\ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
+- $ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
 
-- $\\ \omega^{1}=0$(intialization to 0)
+- $ \omega^{1}=0$(intialization to 0)
 
 
 ###### Assumptions:

@@ -1,7 +1,7 @@
 
 - [SVM concept](#conc)
-- [convex properties](#conv_prop)
-- [convexity proof](#Con_pr)
+- [Convex properties](#conv_prop)
+- [Loss functions convexity proof](#Con_pr)
 - [Non linear SVM](#non_svm)
 - [Regularization term](#rg_term)
 - [SVM final form-loss+regularization](#SVM_f)

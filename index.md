@@ -48,7 +48,7 @@ Reinforcement learning is based on interaction with the environment. The learnin
 <a name='LR_2D'></a>
 #### Notations:
 
-<p align="center"><img src="../tex/22c334ae8bcb7e16305cf8fb11ac0b7e.svg?invert_in_darkmode&sanitize=true" align=middle width=500.97334319999993pt height=92.90415915pt/></p>
+<p align="center"><img src="./tex/22c334ae8bcb7e16305cf8fb11ac0b7e.svg?invert_in_darkmode&sanitize=true" align=middle width=500.97334319999993pt height=92.90415915pt/></p>
 
 
 

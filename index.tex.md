@@ -137,17 +137,14 @@ This section provide short explanation on how to compute distance between point 
 <table>
 	<tr>
 		<td>
-- Sample m datapoints
-			
-- intialize $\omega $
-
-- loop time t:
-
-	* loop samples m:
-	
-		* if y<w,x><0  (means wrong classification)
-		
-			* update W
+\[\begin{align}
+  & ~sample\,m\,samples\,from\,the\,world \\ 
+ & ~intial~\omega  \\ 
+ & Loop\,time\,-1:t: \\ 
+ & Loop\,samples\,-1:m:~~ \\ 
+ & if\,wrong\,classification: \\ 
+ & update\to \,{{\omega }^{t+1}}={{\omega }^{t}}+{{y}_{i}}{{x}_{i}} \\ 
+\end{align}\]
 
 </td>
 <td>

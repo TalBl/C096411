@@ -1,5 +1,5 @@
+## SVM:
 
-- [SVM concept](#conc)
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)
 - [Non linear SVM](#non_svm)
@@ -10,14 +10,6 @@
 - [SVM generalization](#SVM_conv)
   - [example generalization hindge loss](#SVM_gen_hin)
 
-SVM_gen
-
-
-## SVM:
-
-<a name='conc'></a>
-
-### SVM-concept:
 
 SVM concept is much closer to optimization approach:
 
@@ -26,6 +18,7 @@ SVM concept is much closer to optimization approach:
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
 
 - find optimal solution
+
 
 <a name='conv_prop'></a>
 ### convex functions properies:

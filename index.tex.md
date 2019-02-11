@@ -104,7 +104,7 @@ $$
 \end{align}\]
 $$
 
-#### The minimization equation is now:
+#### The equation is now:
 
 $$
  & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} 
@@ -143,7 +143,6 @@ This section provide short explanation on how to compute distance between point 
 	* loop samples m:
 		* if y<w,x><0  (means wrong classification)
 			* update W
-			
 
 </td>
 <td>
@@ -163,8 +162,6 @@ $$
 	</table>
 	
 
-
-
 #### Understanding perceptron update rule:
 
 $ Y_i<\omega^t,x_i>\le 0 $ means wrong classification we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
@@ -173,7 +170,6 @@ Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
 $$
 \[{{y}_{i}}\left\langle {{\omega }^{t+1}},{{x}_{i}} \right\rangle ={{y}_{i}}\left\langle {{\omega }^{t}}+{{y}_{i}}{{x}_{i}},{{x}_{i}} \right\rangle ~=\underbrace{{{y}_{i}}<{{\omega }^{t}},{{x}_{i}}>}_{\le 0}+\underbrace{{{y}_{i}}{{y}_{i}}<{{x}_{i}},{{x}_{i}}>}_{always\,possitive}\to more\,positive\]
 $$
-
 
 #### Optimal soultion:
 
@@ -201,23 +197,36 @@ From this we can derive the second perceptron role: argmin ||$\omega$||
 ####  Perceptron converges rule:
 
 ##### definitions: 
-B=||$\omega*$||, R=max||$x_i$||
-$\\ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
-$\\ \omega^{1}=0$(intialization to 0)
 
-##### proof:
+- B=||$\omega*$||, R=max||$x_i$||
 
-Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after $(RB)^2 $ steps
+- $\\ \omega*=argmin{||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
 
-In order to show that we wil proof that:
+- $\\ \omega^{1}=0$(intialization to 0)
+
+
+###### Assumptions:
+
+Lets assume linear seperation is possible.
+
+ ###### goal:
+ 
+ We want to show that perceptron algorithm will stop after $(RB)^2 $ steps.
+ 
+ In order to show that we wil proof that:
+ 
 $\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
 
-**It's easy to see that $ /frac {sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
+**It's easy to see that $ \frac {sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
+ 
+##### proof:
 
-The left inequality is simpile cause: 
+left inequality : 
+
 $ \\\\ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
 
-The right inequality can be seperated to two inequalities:
+The right inequality:
+
 ##### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
 
 - The update term of the perceptron is:
@@ -257,7 +266,6 @@ The right inequality can be seperated to two inequalities:
 
 * $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
  
-
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between $[-\infty,\infty]$ when $\infty$ is far in the positive side and 

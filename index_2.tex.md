@@ -145,3 +145,27 @@ $$
 $$
 
 ###### step 3:
+
+$$
+
+\[\begin{align}
+  & \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}\ge \frac{\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}+\frac{\rho ||{{{\hat{\omega }}}_{m}}-{{{\hat{\omega }}}_{m+1}}||}{m}\ge (step\,1) \\ 
+ & \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{m}+\frac{l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)}{m}\ge {{f}_{s}}({{{\hat{\omega }}}_{m+1}})-{{f}_{s}}({{{\hat{\omega }}}_{m}}) \\ 
+ & =\left[ {{L}_{s}}\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-{{L}_{s}}\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]+\lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||\,\ge (convexity\,property\,1)||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\,\ge \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}} \\ 
+ &  \\ 
+ & \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\le \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}\to  \\ 
+\end{align}\]
+
+$$
+
+###### step 1+2+3:
+
+$$
+
+\[\begin{align}
+  & {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right] \\ 
+ & \le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \frac{2{{\rho }^{2}}}{\lambda m} \right]=\frac{2{{\rho }^{2}}}{\lambda m} \\ 
+\end{align}\]
+
+$$
+

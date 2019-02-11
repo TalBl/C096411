@@ -84,7 +84,7 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 
 <p align="center"><img src="/tex/b19f2899fc690a170bfb567feb9dd070.svg?invert_in_darkmode&sanitize=true" align=middle width=157.88615865pt height=69.71700614999999pt/></p>
 
-#### The minimization equation is now:
+#### The equation is now:
 
 <p align="center"><img src="/tex/6fc422262f6502040f3f70c54e85d136.svg?invert_in_darkmode&sanitize=true" align=middle width=239.41068689999997pt height=32.940961349999995pt/></p>
 
@@ -121,7 +121,6 @@ This section provide short explanation on how to compute distance between point 
 	* loop samples m:
 		* if y<w,x><0  (means wrong classification)
 			* update W
-			
 
 </td>
 <td>
@@ -132,15 +131,12 @@ This section provide short explanation on how to compute distance between point 
 	</table>
 	
 
-
-
 #### Understanding perceptron update rule:
 
 <img src="/tex/674adff4f45b5ae8d3fae7a9370a1d76.svg?invert_in_darkmode&sanitize=true" align=middle width=118.63936259999998pt height=26.085962100000025pt/> means wrong classification we updated <img src="/tex/d5e78f926bd247c412fa80e755e437a1.svg?invert_in_darkmode&sanitize=true" align=middle width=119.45003564999998pt height=26.76175259999998pt/>. 
 Lets check how the new <img src="/tex/763aa9768edf29e38a67642e3db1b250.svg?invert_in_darkmode&sanitize=true" align=middle width=32.43161954999999pt height=26.76175259999998pt/> is doing on the <img src="/tex/94c7199511ac0e9502948310ce626c41.svg?invert_in_darkmode&sanitize=true" align=middle width=34.88399804999999pt height=14.15524440000002pt/> example:
 
 <p align="center"><img src="/tex/11d3aa5416cae805ac4e63831a8fdbd1.svg?invert_in_darkmode&sanitize=true" align=middle width=595.2313883999999pt height=42.202701749999996pt/></p>
-
 
 #### Optimal soultion:
 
@@ -168,23 +164,36 @@ From this we can derive the second perceptron role: argmin ||<img src="/tex/ae4f
 ####  Perceptron converges rule:
 
 ##### definitions: 
-B=||<img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/>||, R=max||<img src="/tex/9fc20fb1d3825674c6a279cb0d5ca636.svg?invert_in_darkmode&sanitize=true" align=middle width=14.045887349999989pt height=14.15524440000002pt/>||
-<img src="/tex/d67f91f473bb05778cc962319ca19cca.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315pt height=47.67123239999998pt/>
-<img src="/tex/56392274d4668f82d9ad3cae9f29199a.svg?invert_in_darkmode&sanitize=true" align=middle width=48.333205799999995pt height=39.45205439999997pt/>(intialization to 0)
 
-##### proof:
+- B=||<img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/>||, R=max||<img src="/tex/9fc20fb1d3825674c6a279cb0d5ca636.svg?invert_in_darkmode&sanitize=true" align=middle width=14.045887349999989pt height=14.15524440000002pt/>||
 
-Lets assume linear seperation is possible. We want to show that perceptron algorithm will stop after <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> steps
+- <img src="/tex/d67f91f473bb05778cc962319ca19cca.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315pt height=47.67123239999998pt/>
 
-In order to show that we wil proof that:
+- <img src="/tex/56392274d4668f82d9ad3cae9f29199a.svg?invert_in_darkmode&sanitize=true" align=middle width=48.333205799999995pt height=39.45205439999997pt/>(intialization to 0)
+
+
+###### Assumptions:
+
+Lets assume linear seperation is possible.
+
+ ###### goal:
+ 
+ We want to show that perceptron algorithm will stop after <img src="/tex/7c7d3a7854511a059790770fab7c4198.svg?invert_in_darkmode&sanitize=true" align=middle width=45.239853449999984pt height=26.76175259999998pt/> steps.
+ 
+ In order to show that we wil proof that:
+ 
 <img src="/tex/b582dfebdac8ce224e0948f8e5ce3ecc.svg?invert_in_darkmode&sanitize=true" align=middle width=169.96601489999998pt height=64.98593639999997pt/>
 
-**It's easy to see that <img src="/tex/e1c295f84039827373d52fb19375e178.svg?invert_in_darkmode&sanitize=true" align=middle width=151.86849809999998pt height=24.65753399999998pt/> is equivalent to <img src="/tex/f23534ae3f27483fe70d757977b736a2.svg?invert_in_darkmode&sanitize=true" align=middle width=66.26136165pt height=26.76175259999998pt/>
+**It's easy to see that <img src="/tex/75ca610631ecb0c8123b521555a8e683.svg?invert_in_darkmode&sanitize=true" align=middle width=75.98248514999999pt height=33.20539859999999pt/> is equivalent to <img src="/tex/f23534ae3f27483fe70d757977b736a2.svg?invert_in_darkmode&sanitize=true" align=middle width=66.26136165pt height=26.76175259999998pt/>
+ 
+##### proof:
 
-The left inequality is simpile cause: 
+left inequality : 
+
 <img src="/tex/aa2157b190813cfbad2c9d7deec390cc.svg?invert_in_darkmode&sanitize=true" align=middle width=232.25560049999996pt height=96.21901409999997pt/>
 
-The right inequality can be seperated to two inequalities:
+The right inequality:
+
 ##### (1) <img src="/tex/9e2b68896587ef3a6470f22dec1aaa93.svg?invert_in_darkmode&sanitize=true" align=middle width=132.67835295pt height=27.6567522pt/> proof:
 
 - The update term of the perceptron is:
@@ -224,7 +233,6 @@ The right inequality can be seperated to two inequalities:
 
 * <img src="/tex/dafdb732e46ffe718273946f8364d5ea.svg?invert_in_darkmode&sanitize=true" align=middle width=137.856576pt height=43.068399000000014pt/>
  
-
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between <img src="/tex/90562dba6bf49f79b1c70b8b77e31ded.svg?invert_in_darkmode&sanitize=true" align=middle width=62.10057149999999pt height=24.65753399999998pt/> when <img src="/tex/f7a0f24dc1f54ce82fecccbbf48fca93.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> is far in the positive side and 

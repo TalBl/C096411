@@ -170,3 +170,17 @@ $$
 
 $$
 
+#### Example hindge loss:
+$$
+\[\begin{align}
+  & E({{L}_{D}}(\hat{\omega }))\le {{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m} \\ 
+ & define:||\omega ||\le B \\ 
+ & \le {{L}_{D}}(\omega )+\underbrace{\lambda {{B}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m}}_{g} \\ 
+\end{align}\]
+$$
+
+We want g to be as small as possible. lets find $\lambda$ that minimize g:
+
+$$
+\[\frac{dg}{d\lambda }=0\to \lambda *=\frac{\rho }{B}\sqrt{\frac{2}{m}},g(\lambda *)=\rho B\sqrt{\frac{\rho }{m}}\]
+$$

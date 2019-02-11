@@ -39,10 +39,10 @@ Reinforcement learning is based on interaction with the environment. The learnin
 </p>
 
 
-
+<a name='LR'></a>
 ## Linear regression 
 
-<a name='LR'></a>
+
 
 ### 2D Basic Model:
 <a name='LR_2D'></a>
@@ -80,9 +80,9 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 	<img src="./Lesson_1/Capture4.PNG" align="middle">
 </p>
 
+<a name='LR_G'></a>
 #### Generalization :
 
-<a name='LR_G'></a>
 
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
@@ -108,9 +108,9 @@ $$
 \end{align}
 $$
 
+<a name='LR_nD'></a>
 ### General case nD Model:
 
-<a name='LR_nD'></a>
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 

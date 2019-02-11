@@ -115,6 +115,7 @@ This section provide short explanation on how to compute distance between point 
 <table>
 	<tr>
 		<td>
+
 * Sample m datapoints
 
 * intialize <img src="/tex/32902e719b16dec67b28c9943762cd89.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>
@@ -159,7 +160,7 @@ Lets check how the new <img src="/tex/763aa9768edf29e38a67642e3db1b250.svg?inver
 The optimal solution is defined has the solution which produce the highest margin. 
 In order to find this optimal solution let's go back to our equation:
 
-distance=<img src="/tex/e0e69ba5f224cb1653807432f5630929.svg?invert_in_darkmode&sanitize=true" align=middle width=85.79694254999998pt height=22.831056599999986pt/> ->distance=<img src="/tex/1259a31d367c8c38a0b0e64b82c7daf4.svg?invert_in_darkmode&sanitize=true" align=middle width=103.23081614999998pt height=22.853275500000024pt/>
+distance=<img src="/tex/748de6f1b026b5ed4622a99baffb9d13.svg?invert_in_darkmode&sanitize=true" align=middle width=102.23534639999998pt height=22.831056599999986pt/> distance=<img src="/tex/1259a31d367c8c38a0b0e64b82c7daf4.svg?invert_in_darkmode&sanitize=true" align=middle width=103.23081614999998pt height=22.853275500000024pt/>
 
 We can see that the distance is dependent in ||<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>||. The lower ||<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>|| is the bigger the distance is.
 From this we can derive the second perceptron role: argmin ||<img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>||
@@ -171,9 +172,9 @@ From this we can derive the second perceptron role: argmin ||<img src="/tex/ae4f
 
 - B=||<img src="/tex/03bf6257eb4b5d50fd63aaa53d700d19.svg?invert_in_darkmode&sanitize=true" align=middle width=19.041115499999986pt height=15.296829900000011pt/>||, R=max||<img src="/tex/9fc20fb1d3825674c6a279cb0d5ca636.svg?invert_in_darkmode&sanitize=true" align=middle width=14.045887349999989pt height=14.15524440000002pt/>||
 
-- <img src="/tex/d67f91f473bb05778cc962319ca19cca.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315pt height=47.67123239999998pt/>
+- <img src="/tex/53970d43610c488387e855d9433b2942.svg?invert_in_darkmode&sanitize=true" align=middle width=257.31636315000003pt height=24.65753399999998pt/>
 
-- <img src="/tex/56392274d4668f82d9ad3cae9f29199a.svg?invert_in_darkmode&sanitize=true" align=middle width=48.333205799999995pt height=39.45205439999997pt/>(intialization to 0)
+- <img src="/tex/6568f309e8e4f886f0c80443d0469fce.svg?invert_in_darkmode&sanitize=true" align=middle width=48.333205799999995pt height=26.76175259999998pt/>(intialization to 0)
 
 
 ###### Assumptions:

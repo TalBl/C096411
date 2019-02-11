@@ -136,3 +136,9 @@ Our goal is to have 0 stability , which means the test set and the training set 
 
 <p align="center"><img src="/tex/31c3260f1eb0d1910a71a00067a18c90.svg?invert_in_darkmode&sanitize=true" align=middle width=561.2699268pt height=65.00407815pt/></p>
 
+#### Example hindge loss:
+<p align="center"><img src="/tex/dd01362a29c1cf8c147c87247bb62a8a.svg?invert_in_darkmode&sanitize=true" align=middle width=253.52025765pt height=128.36764545pt/></p>
+
+We want g to be as small as possible. lets find <img src="/tex/fd8be73b54f5436a5cd2e73ba9b6bfa9.svg?invert_in_darkmode&sanitize=true" align=middle width=9.58908224999999pt height=22.831056599999986pt/> that minimize g:
+
+<p align="center"><img src="/tex/7d8564d9386d88a8be31df3fb7c63015.svg?invert_in_darkmode&sanitize=true" align=middle width=292.46280194999997pt height=41.2104693pt/></p>

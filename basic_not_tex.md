@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: /classification/
+---
+
 - [Introduction:type of learning](#intro)
 - [Linear regression-2D-Model](#LR_2D)
   - [2D-Model-Generalization](#LR_G)

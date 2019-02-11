@@ -138,10 +138,15 @@ This section provide short explanation on how to compute distance between point 
 	<tr>
 		<td>
 - Sample m datapoints
+			
 - intialize $\omega $
+
 - loop time t:
+
 	* loop samples m:
+	
 		* if y<w,x><0  (means wrong classification)
+		
 			* update W
 
 </td>

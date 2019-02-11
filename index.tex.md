@@ -1,7 +1,7 @@
 - [Introduction:type of learning](#intro)
 - [Linear regression-2D-Model](#LR_2D)
   - [2D-Model-Generalization](#LR_G)
-- [Linear regression-nD-Model](#val)
+- [Linear regression-nD-Model](#LR_nD)
 - [Perceptron](#PR)
 - [Logistic Regression](#LR)
 - [SVM](#SVM)

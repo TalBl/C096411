@@ -1,14 +1,16 @@
 ## Quick Intro
 
-This course is an introduction machine learning basics theory and practice. Learning is a general word refers to decision making using previews knowledge. There are 3 different types of learning:
+This course is an introduction to machine learning basics theory and practice. There are 3 different types of learning:
 
 ### Supervised learning
-supervised learning is maybe the most common modern way of teaching. In this method some "Teacher" shows you an example
+supervised learning is maybe the most common modern way of teaching. In this method a "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
 <p align="center">
 	<img src="./Lesson_0/image1.PNG" />
 </p>
+
+
 ### Unsupervised learning:
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
@@ -19,7 +21,7 @@ Unsupervised learning is a way to make Decisions based on correlation in the dat
 
 ### Reinforcement learning:
 
-In this method the Decision is based on interaction with the environment. The learning is done using Trial and error. 
+Reinforcement learning is based on interaction with the environment. The learning is done using Trial and error. 
 
 <p align="center">
 	<img src="./Lesson_0/Image3.PNG" align="middle">
@@ -28,14 +30,15 @@ In this method the Decision is based on interaction with the environment. The le
 
 ## Linear regression 
 
-### Notations:
+### 2D Basic Model:
+
+#### Notations:
 
 $$
 \begin{align}
-  & S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
- & S=Training~data~ \\ 
+ & S(Training~data)=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
  & {{X}_{i}}=input~i\left( image,voice,\ldots  \right)~~.~~{{Y}_{i}}=True~label\left( cat,''\text{hello }\!\!~\!\!\text{ siri''}... \right) \\ 
- & {{{\hat{Y}}}_{i}}=approximated~label \\ 
+ & {{{\hat{Y}}}_{i}}=model~approximated~label \\ 
  & m-number~of~training~vecors~X \\ 
 \end{align}
 $$
@@ -43,26 +46,27 @@ $$
 
 
 In linear regression we assume the connection between X and Y is linear:
-${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want$~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
+${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ in order to achieve the lowest error.(we want $~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
 
 <p align="center">
 	<img src="./Lesson_1/Capture1.PNG" align="middle">
 </p>
 
-In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$) we want to minimize the sum of all  – error as much as possible. 
+In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$) we want to minimize the sum of all  error(green line) as much as possible. 
 
-#### The formulation is:
+#### Formulation:
 
 $argmi{{n}_{{{\omega }_{0}},{{\omega }_{1}}}}~\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-{{{\hat{Y}}}_{i}} \right)}^{2}}=\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-\left( {{\omega }_{0}}+{{\omega }_{1}}{{X}_{i}} \right) \right)}^{2}}$
 	
 The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
-#### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
+##### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
 
 <p align="center">
 	<img src="./Lesson_1/Capture4.PNG" align="middle">
 </p>
-### Generalization:
+
+#### Generalization :
 
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
@@ -71,13 +75,13 @@ variance $\sigma$ and mean=0:
 
 $\hat{Y}-Y=\epsilon$
 
-#### such that:
+##### such that:
 
 $E(\hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y)$
 $&\-E(\hat{\omega_1})=E(\omega_1)=\omega_1$
 $&\-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
-#### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
+##### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
 
 $$
 \begin{align}
@@ -88,9 +92,10 @@ $$
 \end{align}
 $$
 
-### General case:
+### General case nD Model:
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
+
 $$
 \[\begin{align}
   & Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
@@ -100,6 +105,7 @@ $$
 $$
 
 #### The minimization equation is now:
+
 $$
  & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} 
 $$
@@ -107,7 +113,6 @@ $$
 #### Finding $\omega$ that minimize this equation:
 
 $\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}\]$
-
 
 
 ## Perceptron
@@ -119,15 +124,29 @@ Our main goal is to find a linear separation rule for data that can be separated
 
 ### Geometrical explanation(line point distance):
 
-This section provide neet explanation on how to compute distance between point and a line.
+This section provide short explanation on how to compute distance between point and a line.  
 
 <p align="center">
 	<img src="./Lesson_2/graph1.PNG" align="middle">
 </p> 
 
-In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
+#### In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 
 ### Perceptron algorithm:
+
+<table>
+	<tr>
+		<td>
+- Sample m datapoints
+- intialize $\omega $
+- loop time t:
+	* loop samples m:
+		* if y<w,x><0  (means wrong classification)
+			* update W
+			
+
+		</td>
+		<td>
 $$
 \[\begin{align}
  & ~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
@@ -138,10 +157,16 @@ $$
  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{{\omega }^{t+1}}={{\omega }^{t}}+{{y}_{i}}{{x}_{i}} \\ 
 \end{align}\]
 $$
+		</td>
+	</tr>
+	</table>
+	
 
-#### Understanding perceptron update term:
 
-After $ Y_i<\omega^t,x_i>\le 0 $(means wrong classification) we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
+
+#### Understanding perceptron update rule:
+
+$ Y_i<\omega^t,x_i>\le 0 $ means wrong classification we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
 Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
 
 $$

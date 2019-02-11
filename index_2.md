@@ -111,11 +111,21 @@ The proof is similar to GD.
 
 #### bound and understanding stability:
 
-Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-<img src="/tex/a166e09ebe3a9840702c0d0159854a2d.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=22.831056599999986pt/>
-Loss test set: sample m+1 times from our distribution D and use m+1 samples to minimize J getting-<img src="/tex/00bf4925626128c679f9a57b9cbfa4f0.svg?invert_in_darkmode&sanitize=true" align=middle width=14.883029699999991pt height=22.831056599999986pt/>
+##### Notation :
+Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-<img src="/tex/45b070fe62295df8726e95928aca4a3b.svg?invert_in_darkmode&sanitize=true" align=middle width=21.89698169999999pt height=22.831056599999986pt/>
+Loss test set: us the samples from the training set but now use m+1 samples to minimize J getting-<img src="/tex/6dab9fecea3a01cf93f51d6d0b460fe2.svg?invert_in_darkmode&sanitize=true" align=middle width=38.54090129999999pt height=22.831056599999986pt/>
 
-If we loop this prosses the average will be stability which means the how good am i doing on the real world vs training set.
+Stability=E[Loss test set-Loss training set] 
 
-This method is very simillar to cross validation, <img src="/tex/00bf4925626128c679f9a57b9cbfa4f0.svg?invert_in_darkmode&sanitize=true" align=middle width=14.883029699999991pt height=22.831056599999986pt/> will give me the same result in training and test. 
+Our goal is to have 0 stability , which means the test set and the training set accuracy of the model is similar.
 
+##### Finding bound :
 
+###### step 1:
+<p align="center"><img src="/tex/b50e445c6807836dd58ba5ed68982364.svg?invert_in_darkmode&sanitize=true" align=middle width=524.40460545pt height=18.31054665pt/></p>
+
+###### step 2-using <img src="/tex/6dec54c48a0438a5fcde6053bdb9d712.svg?invert_in_darkmode&sanitize=true" align=middle width=8.49888434999999pt height=14.15524440000002pt/> lipschitz :
+
+<p align="center"><img src="/tex/8e0c364ab94cd79e48d5f2135e0382c1.svg?invert_in_darkmode&sanitize=true" align=middle width=561.2699268pt height=65.20022025pt/></p>
+
+###### step 3:

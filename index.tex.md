@@ -145,8 +145,9 @@ This section provide short explanation on how to compute distance between point 
 			* update W
 			
 
-		</td>
-		<td>
+</td>
+<td>
+	
 $$
 \[\begin{align}
  & ~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 

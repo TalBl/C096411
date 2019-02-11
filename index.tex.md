@@ -1,3 +1,14 @@
+- [Introduction:type of learning](#intro)
+- [Linear regression-2D-Model](#LR_2D)
+  - [2D-Model-Generalization](#LR_G)
+- [Linear regression-nD-Model](#val)
+- [Perceptron](#PR)
+- [Logistic Regression](#LR)
+- [SVM](#SVM)
+
+
+
+<a name='intro'></a>
 ## Quick Intro
 
 This course is an introduction to machine learning basics theory and practice. There are 3 different types of learning:
@@ -28,10 +39,13 @@ Reinforcement learning is based on interaction with the environment. The learnin
 </p>
 
 
+
 ## Linear regression 
 
-### 2D Basic Model:
+<a name='LR'></a>
 
+### 2D Basic Model:
+<a name='LR_2D'></a>
 #### Notations:
 
 $$
@@ -68,6 +82,8 @@ The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
 #### Generalization :
 
+<a name='LR_G'></a>
+
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
 $\sum$errors(green lines) would be 0. in this case we can imagine the error as a independent variable with a
@@ -94,6 +110,8 @@ $$
 
 ### General case nD Model:
 
+<a name='LR_nD'></a>
+
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 
 $$
@@ -114,8 +132,10 @@ $$
 
 $\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}\]$
 
-
+<a name='PR'></a>
 ## Perceptron
+
+
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
 <p align="center">
@@ -271,6 +291,7 @@ The right inequality:
 
 * $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
  
+<a name='LR'></a>
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between $[-\infty,\infty]$ when $\infty$ is far in the positive side and 
@@ -317,7 +338,7 @@ $$minimize \, \sum\limits_{i=1}^{m} ({y_i-<\hat{\omega},x_i>})^2  $$
 
 This loss gives use the probability result between [0,1]
 
-
+<a name='SVM'></a>
 ## SVM:
 
 SVM concept is much closer to optimization approach:

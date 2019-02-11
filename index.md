@@ -1,7 +1,7 @@
 - [Introduction:type of learning](#intro)
 - [Linear regression-2D-Model](#LR_2D)
   - [2D-Model-Generalization](#LR_G)
-- [Linear regression-nD-Model](#val)
+- [Linear regression-nD-Model](#LR_nD)
 - [Perceptron](#PR)
 - [Logistic Regression](#LR)
 - [SVM](#SVM)
@@ -39,10 +39,10 @@ Reinforcement learning is based on interaction with the environment. The learnin
 </p>
 
 
-
+<a name='LR'></a>
 ## Linear regression 
 
-<a name='LR'></a>
+
 
 ### 2D Basic Model:
 <a name='LR_2D'></a>
@@ -73,9 +73,9 @@ The goal is to find <img src="/tex/c7465abf79886de740526c2dd62ad830.svg?invert_i
 	<img src="./Lesson_1/Capture4.PNG" align="middle">
 </p>
 
+<a name='LR_G'></a>
 #### Generalization :
 
-<a name='LR_G'></a>
 
 Our main goal is to do well on the real world not on our training set S. 
 Let’s assume the real world model is not a linear model but it's possible to draw a line such that
@@ -94,9 +94,9 @@ variance <img src="/tex/8cda31ed38c6d59d14ebefa440099572.svg?invert_in_darkmode&
 
 <p align="center"><img src="/tex/3458ec4e9d788b903089ed1dfcc6bc90.svg?invert_in_darkmode&sanitize=true" align=middle width=486.9725916pt height=167.67248684999998pt/></p>
 
+<a name='LR_nD'></a>
 ### General case nD Model:
 
-<a name='LR_nD'></a>
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 

@@ -149,7 +149,7 @@ $$
 $$
 
 \[\begin{align}
-  & \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}\ge \frac{\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}+\frac{\rho ||{{{\hat{\omega }}}_{m}}-{{{\hat{\omega }}}_{m+1}}||}{m}\ge (step\,1) \\ 
+  & \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}=\frac{\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}+\frac{\rho ||{{{\hat{\omega }}}_{m}}-{{{\hat{\omega }}}_{m+1}}||}{m}\ge (step\,1) \\ 
  & \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{m}+\frac{l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)}{m}\ge {{f}_{s}}({{{\hat{\omega }}}_{m+1}})-{{f}_{s}}({{{\hat{\omega }}}_{m}}) \\ 
  & =\left[ {{L}_{s}}\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-{{L}_{s}}\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]+\lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||\,\ge (convexity\,property\,1)||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\,\ge \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}} \\ 
  &  \\ 

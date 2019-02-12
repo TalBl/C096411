@@ -299,7 +299,7 @@ $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 
   
 #### (1)/(2):
 
-##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt{T}R} | frac{1}{||\omega*||=B }$$
+##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt{T}R} | \frac{1}{||\omega*||=B }$$
 
 ##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $$
  

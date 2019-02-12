@@ -38,7 +38,7 @@ SVM concept is much closer to optimization approach:
 
 #### Conditions written mathematically:
 
-black line = <img src="/C096411/tex/bebc3b72468407f542fc7a0cefed1bc1.svg" align="middle" width="239.0527623pt" height=24.65753399999998pt">
+black line = <img src="/C096411/tex/bebc3b72468407f542fc7a0cefed1bc1.svg" align="middle" width="239.0527623pt" height="24.65753399999998pt"/>
 
 (1) <img src="/C096411/tex/c6c8611dbe712f795e13ca6bb676f8fb.svg" align="middle" width="227.80761465pt" height=24.65753399999998pt"/>
 

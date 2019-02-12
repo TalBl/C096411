@@ -230,9 +230,9 @@ From this we can derive the second perceptron role: argmin ||$\omega$||
 
 ##### definitions: 
 
-- B=||$\omega*$||, R=max||$x_i$||
+- B=||$\omega^*$||, R=max||$x_i$||
 
-- $ \omega*=\arg min ||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
+- $ \omega^*=\arg min ||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
 
 - $ \omega^{1}=0$(intialization to 0)
 
@@ -241,7 +241,7 @@ From this we can derive the second perceptron role: argmin ||$\omega$||
 
 Lets assume linear seperation is possible.
 
- ###### goal:
+###### goal:
  
  We want to show that perceptron algorithm will stop after $(RB)^2 $ steps.
  

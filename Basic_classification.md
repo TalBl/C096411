@@ -34,7 +34,7 @@ and you are required to repeat the example logic on some other examples.
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
 <p align="center">
-	<img src="/C096411/image/less0/Image2.JPG" align="middle" >
+	<img src="/C096411/image/less0/Image2.PNG" align="middle" >
 </p>
 
 ### Reinforcement learning:
@@ -42,7 +42,7 @@ Unsupervised learning is a way to make Decisions based on correlation in the dat
 Reinforcement learning is based on interaction with the environment. The learning is done using Trial and error. 
 
 <p align="center">
-	<img src="/C096411/image/less0/image1.PNG" align="middle">
+	<img src="/C096411/image/less0/image3.PNG" align="middle">
 </p>
 
 
@@ -66,7 +66,7 @@ in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as poss
 
 
 <p align="center">
-	<img src="/Lesson_1/Capture1.PNG" align="middle">
+	<img src="/C096411/image/less1/Capture1.PNG" align="middle">
 </p>
 
 In order to achieve the learning goal($\hat{Y}_i$ to be as close as possible to $Y_i$) we want to minimize the sum of all  error(green line) as much as possible. 
@@ -80,7 +80,7 @@ The goal is to find $\omega_0,\omega_1$ that minimize the error.
 ##### Finding $\omega_0,\omega_1$ that minimize this equation:
 
 <p align="center">
-	<img src="/Lesson_1/Capture4.PNG" align="middle">
+	<img src="/C096411/image/less1/Capture4.PNG" align="middle">
 </p>
 
 <a name='LR_G'></a>
@@ -130,7 +130,7 @@ $ \frac{d}{d\omega }=2 X^{T}(Y-X\omega)=0\to \omega =\frac{X^T Y}{X^T X} $
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
 <p align="center">
-	<img src="/Lesson_2/graph3.PNG" align="middle">
+	<img src="/C096411/image/less2/graph3.PNG" align="middle">
 </p>
 
 ### Geometrical explanation(line point distance):
@@ -138,7 +138,7 @@ Our main goal is to find a linear separation rule for data that can be separated
 This section provide short explanation on how to compute distance between point and a line.  
 
 <p align="center">
-	<img src="/Lesson_2/graph1.PNG" align="middle">
+	<img src="/C096411/image/less2/graph1.PNG" align="middle">
 </p> 
 
 #### In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
@@ -168,10 +168,10 @@ This section provide short explanation on how to compute distance between point 
 <table>
 	<tr>
 		<td>
-			<img src="/Lesson_2/graph3.PNG" >	
+			<img src="/C096411/image/less2/graph3.PNG" >	
 		</td>
 		<td>
-			<img src="/Lesson_2/graph6.PNG" >
+			<img src="/C096411/image/less2/graph6.PNG" >
 		</td>
 	</tr>
 	
@@ -269,7 +269,7 @@ Insted of working in distances space we want to talk about chances or probabilit
 to do so we need to change our space from $[-\infty,\infty]$ to [0,1]. A very usefull function to do so is the sigmoid function:
 
 <p align="center">
-	<img src="/Lesson_3/Capture1.PNG" align="middle">
+	<img src="/C096411/image/less3/Capture1.PNG" align="middle">
 </p>
 
 The function in $\infty $ is 1(heigh probability) and 0(low probability) in $-\infty $

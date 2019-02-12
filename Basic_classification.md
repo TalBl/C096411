@@ -4,7 +4,10 @@ mathjax: true
 permalink: /classification/
 ---
 
-
+<table align="center">
+	<tr>
+		<td>
+			
 - [Introduction:type of learning](#intro)
 - [Linear regression-2D-Model](#LR_2D)
   - [2D-Model-Generalization](#LR_G)
@@ -12,7 +15,9 @@ permalink: /classification/
 - [Perceptron](#PR)
 - [Logistic Regression](#LR)
 - [SVM](#SVM)
-
+		</td>
+	</tr>
+</table>
 <div class="fighighlight">
 </div>
 

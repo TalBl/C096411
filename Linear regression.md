@@ -9,7 +9,6 @@ permalink: /linear_re/
 - [Linear regression-2D-Model](#LR_2D)
   - [2D-Model-Generalization](#LR_G)
 - [Linear regression-nD-Model](#LR_nD)
-- [Perceptron](#PR)
 
 <hr />
 

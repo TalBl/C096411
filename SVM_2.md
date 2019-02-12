@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /SVM/
+mathjax: true
 ---
 
 - [Convex properties](#conv_prop)
@@ -55,7 +56,7 @@ We already saw some of the functions:
 
 - 0-1 loss if <img src="/C096411/tex/10ed5b1ec98c30a601121c417f908b99.svg" align="middle" width="220.94645265000003pt" height="22.831056599999986pt"/>
 
-- percept"ron loss:  <img src="/C096411/tex/a8bc73e0215ba3cfa94b823bb346ddf7.svg" align="middle" width="141.15191474999997pt" height="24.65753399999998pt"/>
+- perceptron loss:  <img src="/C096411/tex/a8bc73e0215ba3cfa94b823bb346ddf7.svg" align="middle" width="141.15191474999997pt" height="24.65753399999998pt"/>
 
 - Hindge loss(percept"ron with 1 as margin):  <img src="/C096411/tex/cd2c95460ec787c2c9c6cefb1bfb03eb.svg" align="middle" width="169.46231444999998pt" height="24.65753399999998pt"/>
 
@@ -220,12 +221,12 @@ In this section we want to find the number of steps to conveges in general case.
 #### Assumption:
 
 - f is convex.
-- ||<img src="/C096411/tex/251346e82e5a886dc502d813ef819f93.svg" align="middle" width="63.06504764999998pt" height="24.65753399999998pt"/>    # caled lipschitz law
+- <img src="/C096411/tex/251346e82e5a886dc502d813ef819f93.svg" align="middle" width="63.06504764999998pt" height="24.65753399999998pt"/>     (lipschitz law)
 - <img src="/C096411/tex/b069971bf103a572e24d468693101029.svg" align="middle" width="235.20055845pt" height="24.65753399999998pt"/>
 - <img src="/C096411/tex/7075eeb392adcb405376e19ae28b8eda.svg" align="middle" width="47.743431449999996pt" height="21.18721440000001pt"/>
 
 
-##### notations:
+#### notations:
 
 <img src="/C096411/tex/2467296285aa56007da10826480803c4.svg" align="middle" width="60.49556699999999pt" height="22.831056599999986pt"/> -update step in step i.
 

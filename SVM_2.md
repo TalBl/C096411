@@ -274,7 +274,7 @@ In SGD we choose a sample randomly(<img src="/C096411/tex/efdc72463ea6b450188e7f
 
 #### Defining the problem as stochastic optimization:
 
-- $E(V_t)=\nabla f(\omega_t)$
+- ##### $E(V_t)=\nabla f(\omega_t)$
 - <img src="/C096411/tex/e94be2a050e026e333a20deb8f78152a.svg" align="middle" width="249.4951404pt" height="27.77565449999998pt"/>
 
 #### Goal:

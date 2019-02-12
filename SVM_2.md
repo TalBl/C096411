@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: .../SVM/
+permalink: /SVM/
 ---
 <img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg">
 

@@ -143,28 +143,19 @@ This section provide short explanation on how to compute distance between point 
 
 ### Perceptron algorithm:
 
-<table>
-	<tr>
-		<td>
 
-* Sample m datapoints
 
-* intialize $\omega $
+* Sample m datapoints  $S={(x_1,y_1),...(x_m,y_m)}$
+
+* intialize $\omega^{1}={0,0...0} $  
 
 * loop time t:
 
 	* loop samples m:
 
-		* if wrong classification
+		* if wrong classification   $<y<\omega,x>\leq0 $
 
-			* update W
-</td>
-<td>
-	
-
-		</td>
-	</tr>
-	</table>
+			* update W          $\omega^{t+1}=\omega^{t}+y_i x_i $
 	
 
 #### Understanding perceptron update rule:

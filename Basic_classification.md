@@ -24,17 +24,17 @@ This course is an introduction to machine learning basics theory and practice. T
 supervised learning is maybe the most common modern way of teaching. In this method a "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
-<div class="fig figcenter fighighlight">
+
 <p align="center">
-	<img src="/C096411/les/capture.JPG" />
+	<img src="/C096411/les0/capture.JPG" />
 </p>
-</div>
+
 ### Unsupervised learning:
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
 <p align="center">
-	<img src="/les/capture.JPG" align="middle" >
+	<img src="/C096411/les0/Image2.JPG" align="middle" >
 </p>
 
 ### Reinforcement learning:
@@ -42,7 +42,7 @@ Unsupervised learning is a way to make Decisions based on correlation in the dat
 Reinforcement learning is based on interaction with the environment. The learning is done using Trial and error. 
 
 <p align="center">
-	<img src="/Lesson_0/Image3.PNG" align="middle">
+	<img src="/C096411/les0/Image3.PNG" align="middle">
 </p>
 
 

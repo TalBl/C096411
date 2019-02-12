@@ -55,20 +55,17 @@ Reinforcement learning is based on interaction with the environment. The learnin
 
 <a name='LR'></a>
 
-<div class="fighighlight">
-</div>
+<hr />
 
 ## Linear regression 
 
-
-### 2D Basic Model:
 <a name='LR_2D'></a>
+### 2D Basic Model:
 
-	
-<div class="fighighlight">
-</div>
+<hr />
 
 #### Notations:
+
 
 In linear regression we assume the connection between X and Y is linear:
 
@@ -83,8 +80,7 @@ in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as poss
 
 In order to achieve the learning goal($\hat{Y}_i$ to be as close as possible to $Y_i$) we want to minimize the sum of all  error(green line) as much as possible. 
 
-<div class="fighighlight">
-</div>
+<hr />
 
 #### Formulation:
 
@@ -98,8 +94,8 @@ The goal is to find $\omega_0,\omega_1$ that minimize the error.
 
 <a name='LR_G'></a>
 
-<div class="fighighlight">
-</div>
+
+<hr />
 
 #### Generalization :
 
@@ -121,11 +117,12 @@ $E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
 ##### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
 
-<div class="fighighlight">
-</div>
 
 
 <a name='LR_nD'></a>
+
+<hr />
+
 ### General case nD Model:
 
 
@@ -138,6 +135,7 @@ $$
 \arg min {(Y-\hat{Y})}^2={(Y-X_i\omega)}^2 
 $$
 
+
 #### Finding $\omega$ that minimize this equation:
 
 $ \frac{d}{d\omega }=2 X^{T}(Y-X\omega)=0\to \omega =\frac{X^T Y}{X^T X} $
@@ -146,6 +144,8 @@ $ \frac{d}{d\omega }=2 X^{T}(Y-X\omega)=0\to \omega =\frac{X^T Y}{X^T X} $
 
 <div class="fighighlight">
 </div>
+
+<hr />
 
 ## Perceptron
 
@@ -156,6 +156,7 @@ Our main goal is to find a linear separation rule for data that can be separated
 </p>
 
 	
+<hr />
 
 ### Geometrical explanation(line point distance):
 
@@ -168,6 +169,7 @@ This section provide short explanation on how to compute distance between point 
 #### In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 
 
+<hr />
 
 ### Perceptron algorithm:
 
@@ -186,7 +188,8 @@ This section provide short explanation on how to compute distance between point 
 			* update            $\omega^{t+1}=\omega^{t}+y_i x_i $
 	
 
-	
+<hr />
+
 #### Understanding perceptron update rule:
 
 $ Y_i<\omega^t,x_i>\le 0 $ means wrong classification we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
@@ -198,6 +201,7 @@ Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
 
 
 
+<hr />
 
 #### Optimal soultion:
 
@@ -221,7 +225,8 @@ distance=$y_i<\hat{\omega},x_i>\to $ distance=$y_i<\frac{\omega}{||\omega||},x_i
 We can see that the distance is dependent in ||$\omega$||. The lower ||$\omega$|| is the bigger the distance is.
 From this we can derive the second perceptron role: argmin ||$\omega$||
 
-	
+<hr />
+
 ####  Perceptron converges rule:
 
 ##### definitions: 
@@ -297,8 +302,7 @@ The right inequality:
 <a name='LR'></a>
 
 
-<div class="fighighlight">
-</div>
+<hr />
 
 ## Logistic regression:
 

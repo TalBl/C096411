@@ -269,23 +269,25 @@ The right inequality:
 
 ##### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
 
-The update term of the perceptron is: $ \omega^{t+1}=\omega^{t}+x_iy_i$
+	The update term of the perceptron is: $ \omega^{t+1}=\omega^{t}+x_iy_i$
 
-In general we can write $\omega^{i}$:
-	
-##### $ \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i$
+	In general we can write $\omega^{i}$:
 
-This means we can write $\omega^{T+1}$ as:
+	##### $ \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i$
 
-##### (P.1.1) $ \omega^{T+1}=\omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
+	This means we can write $\omega^{T+1}$ as:
 
-Also by definition because $\omega*$ is the soultion and we assume linear seperation:
+	##### (P.1.1) $ \omega^{T+1}=\omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
 
-##### (P.1.2) $ <X_iy_i,\omega*> \geq 1 $
-	
-Using both (P.1.1)+(P.1.2) : 
+	Also by definition because $\omega*$ is the soultion and we assume linear seperation:
 
-$$ <\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_i y_i,\omega*> \geq T $$
+	##### (P.1.2) $ <X_iy_i,\omega*> \geq 1 $
+
+	Using both (P.1.1)+(P.1.2) : 
+
+	$$ 
+	<\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_i y_i,\omega*> \geq T 
+	$$
  
 #####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 

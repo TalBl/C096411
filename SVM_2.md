@@ -337,4 +337,4 @@ We want g to be as small as possible. lets find <img src="/C096411/tex/fd8be73b5
 <p align="center"><img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg?invert_in_darkmode&sanitize=true" align=middle width=292.46280194999997pt height=41.2104693pt/></p>
 
 
-<img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg>
+<img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg">

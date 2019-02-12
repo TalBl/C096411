@@ -2,6 +2,7 @@
 layout: page
 mathjax: true
 permalink: /Logistic/
+
 ---
 
 ### To Tutorial Page:

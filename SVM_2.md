@@ -18,7 +18,7 @@ permalink: /SVM/
 
 SVM concept is much closer to optimization approach:
 
-- build a convex function with parameter <img src="/C096411/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg" align="middle" width="8.21920935pt" height="14.15524440000002pt"/>
+- build a convex function with parameter W
 
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
 

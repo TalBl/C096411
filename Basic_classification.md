@@ -121,7 +121,7 @@ $$
 
 #### Finding $\omega$ that minimize this equation:
 
-$ \frac{d}{d\omega }=2{{X}^{T}}(Y-X\omega)=0\to \omega =\frac{{X}^{T}Y}{{X}^{T}X} $
+$ \frac{d}{d\omega }=2 X^{T}(Y-X\omega)=0\to \omega =\frac{X^T Y}{X^T X} $
 
 <a name='PR'></a>
 ## Perceptron

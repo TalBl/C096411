@@ -270,50 +270,44 @@ The right inequality:
 
 - The update term of the perceptron is:
 
-	
-	* ##### $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i \\$
+##### $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i \\$
 
 - In general we can write $\omega^{i}$:
-
 	
-	* $ \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i \\$
+##### $ \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i \\$
 
 
 - This means we can write $\omega^{T+1}$ as:
 
-	
-	* (P.1.1) $ \omega^{T+1}=\omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
+##### (P.1.1) $ \omega^{T+1}=\omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
 
 
 - Also by definition because $\omega*$ is the soultion and we assume linear seperation:
 
-	
-	* (P.1.2) $ <X_iy_i,\omega*> \geq 1 $
+##### (P.1.2) $ <X_iy_i,\omega*> \geq 1 $
 	
 
 - Using both (P.1.1)+(P.1.2) 
 
-$$
-\,\,\, {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T 
 
-$$
+##### $\,\,\, {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $
+
  
 #####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
-
-  - $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ) $$
+$$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ) \\
   
-  	$ ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2 $
+\to ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2  $$
   
-  	- now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
+ - now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
   
-	* $$ ||\omega^{T+1}||^2 \leq TR^2 $$
+##### $$ ||\omega^{T+1}||^2 \leq TR^2 $$
   
 #### (1)/(2):
 
-* $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt(T)R}$   | devide-by  $ ||\omega*||=B $ 
+##### $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt(T)R}$   | devide-by  $ ||\omega*||=B $ 
 
-* $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
+##### $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
  
 <a name='LR'></a>
 

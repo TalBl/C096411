@@ -253,7 +253,7 @@ $$
  
  In order to show that we wil proof that:
  
-##### $ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}|| ||\omega*||} \geq \frac{\sqrt(T)}{BR} $
+$$ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}|| ||\omega*||} \geq \frac{\sqrt(T)}{BR} $$
 
 It's easy to see that $ \frac {\sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
  

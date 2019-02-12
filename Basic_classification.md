@@ -295,7 +295,7 @@ $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 
  
 ###### now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
   
-##### $$ ||\omega^{T+1}||^2 \leq TR^2 $$
+###### $$ ||\omega^{T+1}||^2 \leq TR^2 $$
   
 #### (1)/(2):
 

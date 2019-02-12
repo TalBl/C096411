@@ -3,6 +3,7 @@ layout: page
 permalink: /SVM/
 mathjax: true
 ---
+
 <hr />
 
 - [Convex properties](#conv_prop)

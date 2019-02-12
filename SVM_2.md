@@ -16,15 +16,11 @@ permalink: /SVM/
 
 
 
-<img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg">
-
-<img src="/C096411/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg" >
-
 ## SVM:
 
 SVM concept is much closer to optimization approach:
 
-- build a convex function with parameter <img src="/C096411/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+- build a convex function with parameter <img src="/C096411/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg?invert_in_darkmode&sanitize=true" align="middle" width="8.21920935pt" height="14.15524440000002pt"/>
 
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
 

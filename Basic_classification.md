@@ -295,7 +295,9 @@ $$maximize \, \sum\limits_{i=1}^{m} log(\frac {1}{1+e^{-y_i<\hat{\omega},x_i>}})
 
 This is same as:
 
-$$minimize \, \sum\limits_{i=1}^{m} log({1+e^{-y_i<\hat{\omega},x_i>})  $$
+$$ 
+minimize \, \sum\limits_{i=1}^{m} log(1+e^{-y_i<\hat{\omega},x_i>})  
+$$
 
 This equation is called log-loss loss function. while we already saw the mean square root loss: 
 

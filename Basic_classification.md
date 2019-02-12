@@ -236,7 +236,7 @@ $$
 
 ##### definitions: 
 
-##### B=||$\omega^*$||,~~ R=max||$x_i$|| \\
+##### B=||$\omega^*$||, R=max||$x_i$|| 
 
 ##### $\omega^*=\arg min ||\omega|| s.t ~~ y_i<\hat{\omega},x_i> \geq 1 $
 
@@ -253,9 +253,9 @@ $$
  
  In order to show that we wil proof that:
  
-$\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
+##### $\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $
 
-**It's easy to see that $ \frac {sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
+It's easy to see that $ \frac {\sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
  
 ##### proof:
 
@@ -271,7 +271,7 @@ The right inequality:
 - The update term of the perceptron is:
 
 	
-	* $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i \\$
+	* ##### $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i \\$
 
 - In general we can write $\omega^{i}$:
 

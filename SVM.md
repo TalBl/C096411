@@ -63,7 +63,7 @@ We already saw some of the functions:
 
 - Hindge loss(perceptron with 1 as margin):  $max (0,1-y_i<\hat{\omega},x>) $
 
-- log loss(perceptron with 1 as margin):  $ log({1+e^{-y_i<\hat{\omega},x_i>}) $
+- log loss(perceptron with 1 as margin):  $ log(1+e^{-y_i<\hat{\omega},x_i>}) $
 
 <a name='Con_pr'></a>
 ### convexity proof:

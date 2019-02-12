@@ -16,20 +16,20 @@ permalink: /SVM/
 
 ## SVM:
 
-SVM concept" is much closer to opt"imization approach:
+SVM concept is much closer to optimization approach:
 
 - build a convex function with parameter <img src="/C096411/tex/b7eeb7b0cafac9a943fc0aa95400e7b7.svg" align="middle" width="8.21920935pt" height=14.15524440000002pt"/>
 
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
 
-- find opt"imal solution
+- find optimal solution
 
 
 <a name='conv_prop'></a>
 ### convex functions properies:
 
-<p align=""center">
-	<img src="/C096411/image/less4/Capt"ure.PNG" align="middle">
+<p align="center">
+	<img src="/C096411/image/less4/Capture.PNG" align="middle">
 </p>
 
 (1) line connects two points on the function will always be above the function(black line).
@@ -49,13 +49,13 @@ orange line = <img src="/C096411/tex/32bf8f68debb51bf5317c45bb506c645.svg" align
 ### convex loss functions:
 
 <p align=""center">
-	<img src="/C096411/image/less4/Capt"ure2.PNG" align="middle">
+	<img src="/C096411/image/less4/Capture2.PNG" align="middle">
 </p>
 We already saw some of the functions:
 
 - 0-1 loss if <img src="/C096411/tex/10ed5b1ec98c30a601121c417f908b99.svg" align="middle" width="220.94645265000003pt" height=22.831056599999986pt"/>
 
-- percept"ron loss:  <img src="/C096411/tex/a8bc73e0215ba3cfa94b823bb346ddf7.svg" align="middle" width="141.15191474999997pt" height=24.65753399999998pt"/>
+- perceptron loss:  <img src="/C096411/tex/a8bc73e0215ba3cfa94b823bb346ddf7.svg" align="middle" width="141.15191474999997pt" height=24.65753399999998pt"/>
 
 - Hindge loss(percept"ron with 1 as margin):  <img src="/C096411/tex/cd2c95460ec787c2c9c6cefb1bfb03eb.svg" align="middle" width="169.46231444999998pt" height=24.65753399999998pt"/>
 

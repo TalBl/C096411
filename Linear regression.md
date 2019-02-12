@@ -8,7 +8,7 @@ permalink: /linear_re/
 
 ### To Tutorial Page:
   <div class="materials-item">
-      <a href="Tlinear_re/">
+      <a href=".../Tlinear_re/">
         Tutorial Linear Regression
       </a>
     </div>

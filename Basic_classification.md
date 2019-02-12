@@ -26,7 +26,7 @@ and you are required to repeat the example logic on some other examples.
 
 <div class="fig figcenter fighighlight">
 <p align="center">
-	<img src="https://github.com/orensp/web_tem/tree/master/Lesson_0/Capture.JPG" />
+	<img src="/Lesson_0/Capture.JPG" />
 </p>
 </div>
 ### Unsupervised learning:

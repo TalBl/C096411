@@ -28,7 +28,7 @@ SVM concept is much closer to optimization approach:
 <a name='conv_prop'></a>
 ### convex functions properies:
 
-<p align=""center">
+<p align="center">
 	<img src="/C096411/image/less4/Capture.PNG" align="middle">
 </p>
 
@@ -48,7 +48,7 @@ orange line = <img src="/C096411/tex/32bf8f68debb51bf5317c45bb506c645.svg" align
 
 ### convex loss functions:
 
-<p align=""center">
+<p align="center">
 	<img src="/C096411/image/less4/Capture2.PNG" align="middle">
 </p>
 We already saw some of the functions:
@@ -82,7 +82,7 @@ We can create nun linear lines easily by just choosing the right features(x) to 
 
 example:
 
-<p align=""center">
+<p align="center">
 	<img src="/C096411/image/less4/Capture3.PNG" align="middle">
 </p>
 
@@ -112,7 +112,7 @@ role this condition increase the margin to optimal solution.
 In general: The more features the more our equation is complex, we simply cannot comprehensively sample all the possible combinations, leaving vast regions of feature space in the dark. This problem is called the curse dimensionality.
 The regularization term goal is to cancell unnecessary or correlated features leaving us with smaller region to search.
 
-<p align=""center">
+<p align="center">
 	<img src="/C096411/image/less4/Capture4.PNG" align="middle">
 </p>
 
@@ -127,7 +127,7 @@ The regularization term goal is to cancell unnecessary or correlated features le
 
 comparison:
 
-<p align=""center">
+<p align="center">
 	<img src="/C096411/image/less4/Capture5.PNG" align="middle">
 </p>
 
@@ -176,7 +176,7 @@ for convex functions here are a list of some commun used in the field of ML:
 
 
 
-<p align=""center"><img src="/C096411/tex/35013eece0f7e0a914379ea65fa6bfdc.svg" align="middle" width="171.69148259999997pt" height="143.2484295pt"/></p>
+<p align="center"><img src="/C096411/tex/35013eece0f7e0a914379ea65fa6bfdc.svg" align="middle" width="171.69148259999997pt" height="143.2484295pt"/></p>
 
 
 
@@ -217,7 +217,7 @@ In this case:
 There are many proofs that convex function can be optmized to global minimum. We also proofed convergence in percept"ron and showed the maximum number of steps to convergence is <img src="/C096411/tex/7c7d3a7854511a059790770fab7c4198.svg" align="middle" width="45.239853449999984pt" height="26.76175259999998pt"/> which is eqvivalent to SGD with hindge loss and L2 regularization.
 In this section we want to find the number of steps to conveges in general case.
 
-#### Assumpt"ion:
+#### Assumption:
 
 - f is convex.
 - ||<img src="/C096411/tex/251346e82e5a886dc502d813ef819f93.svg" align="middle" width="63.06504764999998pt" height="24.65753399999998pt"/>    # caled lipschitz law
@@ -241,7 +241,7 @@ We look on <img src="/C096411/tex/9b137c49035e9c7eb366cabcde2075e8.svg" align="m
 
 #### Proof:
 
-<p align=""center">
+<p align="center">
 	<img src="/C096411/image/less5/Capture.PNG" align="middle">
 </p>
 
@@ -293,14 +293,14 @@ The proof is similar to GD.
  Modified training set <img src="/C096411/tex/197dbc3d662993e8a57c95b4b6dc6d49.svg" align="middle" width="221.86669229999995pt" height="24.7161288pt"/> combination of training and test set. 
 
 #### Objective :
-<p align=""center"><img src="/C096411/tex/6c52b8e33c34aee0c74f40eef3c6d064.svg" align="middle" width="484.2532018499999pt" height="43.11594705pt"/></p>
+<p align="center"><img src="/C096411/tex/6c52b8e33c34aee0c74f40eef3c6d064.svg" align="middle" width="484.2532018499999pt" height="43.11594705pt"/></p>
 
 #### Proof :
-<p align=""center"><img src="/C096411/tex/39fce556def3c658b48b4949ea357209.svg" align="middle" width="555.31062015pt" height="94.45104405pt"/></p>
+<p align="center"><img src="/C096411/tex/39fce556def3c658b48b4949ea357209.svg" align="middle" width="555.31062015pt" height="94.45104405pt"/></p>
 
 ##### mean on both sides:
 
-<p align=""center"><img src="/C096411/tex/9aa74212477a268fa369c1d3f048bc58.svg" align="middle" width="664.9844008499999pt" height="18.312383099999998pt"/></p>
+<p align="center"><img src="/C096411/tex/9aa74212477a268fa369c1d3f048bc58.svg" align="middle" width="664.9844008499999pt" height="18.312383099999998pt"/></p>
 
 
 #### bound and understanding stability:
@@ -316,23 +316,23 @@ Our goal is to have 0 stability , which means the test set and the training set 
 ##### Finding bound :
 
 ###### step 1:
-<p align=""center"><img src="/C096411/tex/b50e445c6807836dd58ba5ed68982364.svg" align="middle" width="524.40460545pt" height="18.31054665pt"/></p>
+<p align="center"><img src="/C096411/tex/b50e445c6807836dd58ba5ed68982364.svg" align="middle" width="524.40460545pt" height="18.31054665pt"/></p>
 
 ###### step 2-using <img src="/C096411/tex/6dec54c48a0438a5fcde6053bdb9d712.svg" align="middle" width="8.49888434999999pt" height="14.15524440000002pt"/> lipschitz :
 
-<p align=""center"><img src="/C096411/tex/8e0c364ab94cd79e48d5f2135e0382c1.svg" align="middle" width="561.2699268pt" height="65.20022025pt"/></p>
+<p align="center"><img src="/C096411/tex/8e0c364ab94cd79e48d5f2135e0382c1.svg" align="middle" width="561.2699268pt" height="65.20022025pt"/></p>
 
 ###### step 3:
 
-<p align=""center"><img src="/C096411/tex/0282b2739e9558ffe954f5cb6b6f5b69.svg" align="middle" width="835.80987105pt" height="144.02271015pt"/></p>
+<p align="center"><img src="/C096411/tex/0282b2739e9558ffe954f5cb6b6f5b69.svg" align="middle" width="835.80987105pt" height="144.02271015pt"/></p>
 
 ###### step 1+2+3:
 
-<p align=""center"><img src="/C096411/tex/31c3260f1eb0d1910a71a00067a18c90.svg" align="middle" width="561.2699268pt" height="65.00407815pt"/></p>
+<p align="center"><img src="/C096411/tex/31c3260f1eb0d1910a71a00067a18c90.svg" align="middle" width="561.2699268pt" height="65.00407815pt"/></p>
 <a name='SVM_gen_hin'></a>
 #### Example hindge loss:
-<p align=""center"><img src="/C096411/tex/dd01362a29c1cf8c147c87247bb62a8a.svg" align="middle" width="253.52025765pt" height="128.36764545pt"/></p>
+<p align="center"><img src="/C096411/tex/dd01362a29c1cf8c147c87247bb62a8a.svg" align="middle" width="253.52025765pt" height="128.36764545pt"/></p>
 
 We want g to be as small as possible. lets find <img src="/C096411/tex/fd8be73b54f5436a5cd2e73ba9b6bfa9.svg" align="middle" width="9.58908224999999pt" height="22.831056599999986pt"/> that minimize g:
 
-<p align=""center"><img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg" align="middle" width="292.46280194999997pt" height="41.2104693pt"/></p>
+<p align="center"><img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg" align="middle" width="292.46280194999997pt" height="41.2104693pt"/></p>

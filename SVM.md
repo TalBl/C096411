@@ -22,7 +22,7 @@ permalink: /SVM/
 
 SVM concept is much closer to optimization approach:
 
-- build a convex function with parameter $\omegea$
+- build a convex function with parameter $\omega$
 
 - minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...)
 
@@ -57,13 +57,13 @@ orange line = $ f'_{convex}(A)(x-A)+f_{convex}(A) $
 </p>
 We already saw some of the functions:
 
-- 0-1 loss if $y_i<\hat{\omega},x_i> \leq 0, 1: 0 otherwise $
+- 0-1 loss if $y_i<\hat{\omega},x_i> \leq 0, 1: 0 ~ otherwise $
 
 - perceptron loss:  $max (0,y_i<\hat{\omega},x>) $
 
 - Hindge loss(perceptron with 1 as margin):  $max (0,1-y_i<\hat{\omega},x>) $
 
-- log loss(perceptron with 1 as margin):  $ log({1+e^{-y_i<\hat{\omega},x_i>})) $
+- log loss(perceptron with 1 as margin):  $ log({1+e^{-y_i<\hat{\omega},x_i>}) $
 
 <a name='Con_pr'></a>
 ### convexity proof:
@@ -154,7 +154,7 @@ L1-  $\omega =(\frac{3}{2},\frac{3}{2})$--------equally good-------- $\omega=(3,
 <a name='SVM_f'></a>
 ### SVM final form Loss+regularization
 
-#### build a convex function with parameter $\omegea$
+#### build a convex function with parameter $\omega$
 
 We already showed convexity to the log-loss,hindge-loss and perceptron. The L1(linear function),L2(quadratic function) Regularization terms are also convex. By definition(derivation is a linear operator) some of two convex function is also convex. We can write an optimization rule subjected to equality constraints(Lagrange multiplier):
 
@@ -181,13 +181,11 @@ $\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 
 
 $$
-\[\begin{align}
- & {{\beta }_{t}}=\frac{|\nabla J{{({{\omega }_{t}})}^{2}}|}{|\nabla J{{({{\omega }_{t-1}})}^{2}}|} \\ 
- & {{\alpha }_{t}}=-\nabla J({{\omega }_{t}})+{{\beta }_{t}}{{\alpha }_{t-1}} \\ 
- & {{\omega }_{t+1}}={{\omega }_{t}}+\eta {{\alpha }_{t}} \\ 
- & Finding\,optimal\,\eta : \\ 
- & {{\alpha }_{t}}\nabla J({{\omega }_{t+1}})=0 \\ 
-\end{align}\]
+{{\beta }_{t}}=\frac{|\nabla J{{({{\omega }_{t}})}^{2}}|}{|\nabla J{{({{\omega }_{t-1}})}^{2}}|} \\ 
+{{\alpha }_{t}}=-\nabla J({{\omega }_{t}})+{{\beta }_{t}}{{\alpha }_{t-1}} \\ 
+{{\omega }_{t+1}}={{\omega }_{t}}+\eta {{\alpha }_{t}} \\ 
+Finding\,optimal\,\eta : \\ 
+{{\alpha }_{t}}\nabla J({{\omega }_{t+1}})=0 \\ 
 $$
 
 
@@ -214,7 +212,7 @@ In very large data sets saving X and $\omega $ vectors or matrix can occupy larg
 ##### perceptron vs SVM
 
 Perceptron is a private solution of SVM. 
-SVM using: SGD, hindge loss, L2 regularization, $\lambda=frac{1}{2}$, $\eta =1$ is eqvivalent to perceptron.
+SVM using: SGD, hindge loss, L2 regularization, $\lambda=\frac{1}{2}$, $\eta =1$ is eqvivalent to perceptron.
 
 In this case:
 - J= $\lambda \sum \omega^2+max(0,1-y_i<\omega,x_i>$)
@@ -296,6 +294,7 @@ $ E(f(\bar {\omega}) -f(\omega* )) \leq \frac{\beta}{\rho \sqrt(T)} $
 The proof is similar to GD.
 
 <a name='SVM_gen'></a>
+
 ### SVM SGD generalization:
 
  training set:  $ S={(x_1,y_1),...(x_m,y_m)} $ presampling m samples from some distribution D.
@@ -306,21 +305,19 @@ The proof is similar to GD.
 
 #### Objective :
 $$
-\[{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })]\le \underbrace{{{\min }_{\omega }}({{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{best\,result\,possible}+\underbrace{{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]}_{stability}\]
+{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })]\le \underbrace{{{\min }_{\omega }}({{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{best\,result\,possible}+\underbrace{{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]}_{stability}
 $$
 
 #### Proof :
 $$
-\[\begin{align}
- & {{L}_{D}}(\hat{\omega })={{L}_{s}}(\hat{\omega })+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })\le ({{L}_{s}}(\hat{\omega })+\underbrace{\lambda ||\hat{\omega }|{{|}^{2}}}_{always\,positive})+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega }) \\ 
-& \le (\underbrace{{{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{\hat{\omega }\,is\,the\,optimize\,\omega \,on\,training\,}+[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })] \\ 
-\end{align}\]
+ {{L}_{D}}(\hat{\omega })={{L}_{s}}(\hat{\omega })+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })\le ({{L}_{s}}(\hat{\omega })+\underbrace{\lambda ||\hat{\omega }|{{|}^{2}}}_{always\,positive})+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega }) \\ 
+\le (\underbrace{{{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{\hat{\omega }\,is\,the\,optimize\,\omega \,on\,training\,}+[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })
 $$
 
 ##### mean on both sides:
 
 $$
-\[E({{L}_{D}}(\hat{\omega }))\le E({{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]={{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]\]
+E({{L}_{D}}(\hat{\omega }))\le E({{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]={{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]
 $$
 
 
@@ -344,23 +341,18 @@ $$
 ###### step 2-using $\rho$ lipschitz :
 
 $$
-\[\begin{align}
-  & \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}\le \rho  \\ 
- & {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right] \\ 
-\end{align}\]
+ \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}\le \rho  \\ 
+ {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right]
 $$
 
 ###### step 3:
 
 $$
 
-\[\begin{align}
-  & \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}=\frac{\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}+\frac{\rho ||{{{\hat{\omega }}}_{m}}-{{{\hat{\omega }}}_{m+1}}||}{m}\ge (step\,1) \\ 
+\frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}=\frac{\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}+\frac{\rho ||{{{\hat{\omega }}}_{m}}-{{{\hat{\omega }}}_{m+1}}||}{m}\ge (step\,1) \\ 
  & \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{m}+\frac{l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)}{m}\ge {{f}_{s}}({{{\hat{\omega }}}_{m+1}})-{{f}_{s}}({{{\hat{\omega }}}_{m}}) \\ 
  & =\left[ {{L}_{s}}\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-{{L}_{s}}\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]+\lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||\,\ge (convexity\,property\,1)||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\,\ge \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}} \\ 
  & \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\le \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}\,\to ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||\,\le \frac{2\rho }{\lambda m} \\ 
-\end{align}\]
-
 
 
 $$
@@ -368,25 +360,20 @@ $$
 ###### step 1+2+3:
 
 $$
-
-\[\begin{align}
-  & {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right] \\ 
- & \le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \frac{2{{\rho }^{2}}}{\lambda m} \right]=\frac{2{{\rho }^{2}}}{\lambda m} \\ 
-\end{align}\]
-
+{{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right] \\ 
+ & \le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \frac{2{{\rho }^{2}}}{\lambda m} \right]=\frac{2{{\rho }^{2}}}{\lambda m} 
 $$
+
 <a name='SVM_gen_hin'></a>
 #### Example hindge loss:
-$$
-\[\begin{align}
-  & E({{L}_{D}}(\hat{\omega }))\le {{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m} \\ 
- & define:||\omega ||\le B \\ 
- & \le {{L}_{D}}(\omega )+\underbrace{\lambda {{B}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m}}_{g} \\ 
-\end{align}\]
+
+E({{L}_{D}}(\hat{\omega }))\le {{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m} \\ 
+define:||\omega ||\le B \\ 
+\le {{L}_{D}}(\omega )+\underbrace{\lambda {{B}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m}}_{g} \\ 
 $$
 
 We want g to be as small as possible. lets find $\lambda$ that minimize g:
 
 $$
-\[\frac{dg}{d\lambda }=0\to \lambda *=\frac{\rho }{B}\sqrt{\frac{2}{m}},g(\lambda *)=\rho B\sqrt{\frac{\rho }{m}}\]
+\frac{dg}{d\lambda }=0\to \lambda *=\frac{\rho }{B}\sqrt{\frac{2}{m}},g(\lambda *)=\rho B\sqrt{\frac{\rho }{m}}\]
 $$

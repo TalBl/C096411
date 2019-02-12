@@ -255,12 +255,13 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - <img src="/C096411/tex/085d6d898985182d0db5a3428d2f2012.svg" align="middle" width="267.19169564999993pt" height="24.65753399999998pt"/>
 - <img src="/C096411/tex/0301a31089ccf7197ac60f94f3cbe340.svg" align="middle" width="204.97022204999996pt" height="27.77565449999998pt"/>
   
- ##### step 2:
+##### step 2:
+ 
  Using the 1 propertie of convex functions(black line always above the convex function):
  
 - <img src="/C096411/tex/de3f03a0491a97df7c3872bf69e69b5f.svg" align="middle" width="376.70629095pt" height="36.460254599999985pt"/>
  
- ##### step1+ step 2:
+##### step1+ step 2:
    
 - (step 1) <img src="/C096411/tex/3f099c973e8b1fe10d2702eff6f452e1.svg" align="middle" width="307.66424369999993pt" height="29.168957400000025pt"/>
 - (step 2) <img src="/C096411/tex/882b6f81022f6439bf554439d91e5131.svg" align="middle" width="154.74538364999998pt" height="36.460254599999985pt"/>  

@@ -114,7 +114,7 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 #### The equation is now:
 
 $$
-\argmin {(Y-\hat{Y})}^2={(Y-X_i\omega)}^2 
+\arg min {(Y-\hat{Y})}^2={(Y-X_i\omega)}^2 
 $$
 
 #### Finding $\omega$ that minimize this equation:

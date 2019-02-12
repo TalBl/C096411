@@ -56,92 +56,22 @@ Reinforcement learning is based on interaction with the environment. The learnin
 #### Notations:
 
 $$
-S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\}
+\begin{align}
+ & S(Training~data)=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
+ & {{X}_{i}}=input~i\left( image,voice,\ldots  \right)~~.~~{{Y}_{i}}=True~label\left( cat,''\text{hello }\!\!~\!\!\text{ siri''}... \right) \\ 
+ & {{{\hat{Y}}}_{i}}=model~approximated~label \\ 
+ & m-number~of~training~vecors~X \\ 
+\end{align}
 $$
-
-<html>
-<head>
-<title>LaTeX4Web 1.4 OUTPUT</title>
-<style type="text/css">
-<!--
- body {color: black;  background:"#FFCC99";  }
- div.p { margin-top: 7pt;}
- td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
- td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
- td div.norm {line-height:normal;}
- td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
- td.sqrt {border-top:2 solid black;
-          border-left:2 solid black;
-          border-bottom:none;
-          border-right:none;}
- table.sqrt {border-top:2 solid black;
-             border-left:2 solid black;
-             border-bottom:none;
-             border-right:none;}
--->
-</style>
-</head>
-<body>
-[\beginalign
-  & S= 
-</td>
-<td style="border-left:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-   X_1,Y_1 
-</td>
-<td style="border-right:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-  ,<font face=symbol>¼</font> .,
-</td>
-<td style="border-left:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-   X_m,Y_m 
-</td>
-<td style="border-right:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-   <td>
-   <br>
- 
- & S=Training&nbsp;data&nbsp; <br>
- 
- & X_i=input&nbsp;i
-</td>
-<td style="border-left:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-   image,voice,<font face=symbol>¼</font>  
-</td>
-<td style="border-right:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-  &nbsp;&nbsp;.&nbsp;&nbsp;Y_i=True&nbsp;label
-</td>
-<td style="border-left:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-   cat,<font face=symbol>¢</font><font face=symbol>¢</font>\texthello &nbsp;\text siri<font face=symbol>¢</font><font face=symbol>¢</font>... 
-</td>
-<td style="border-right:1 solid black;border-top:1 solid black;border-bottom:1 solid black;">&nbsp;
-</td>
-<td>
-   <br>
- 
- & <span style="position:relative;top:-7pt;left:4pt;">^</span><span style="position:relative;left:-4pt;">Y</span>_i=approximated&nbsp;label <br>
- 
- & m-number&nbsp;of&nbsp;training&nbsp;vecors&nbsp;X <br>
- 
-\endalign]
-</body>
-</html>
 
 
 
 In linear regression we assume the connection between X and Y is linear:
-$ {{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}} $ in order to achieve the lowest error.(we want $~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
+
+${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ 
+
+in order to achieve the lowest error.(we want $~{{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$)
+
 
 <p align="center">
 	<img src="./Lesson_1/Capture1.PNG" align="middle">

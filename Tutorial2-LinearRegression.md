@@ -1,3 +1,10 @@
+---
+layout: page
+mathjax: true
+permalink: /Tlinear_re/
+---
+
+
 In [1]:
 
     import os

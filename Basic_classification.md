@@ -44,10 +44,11 @@ Unsupervised learning is a way to make Decisions based on correlation in the dat
 
 Reinforcement learning is based on interaction with the environment. The learning is done using Trial and error. 
 
+<div class="fig figcenter fighighlight">
 <p align="center">
 	<img src="/C096411/image/less0/Image3.PNG" align="middle">
 </p>
-
+</div>
 
 <a name='LR'></a>
 ## Linear regression 
@@ -288,7 +289,7 @@ So we can say in general that:
 
 $$ P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
 
-
+<div class="fighighlight">
 #### Finding the optimal $\omega$:
 
 We can use maximum likelihood estimation method to find $\omega$ that will maximize the probability:
@@ -311,4 +312,5 @@ $$minimize \, \sum\limits_{i=1}^{m} ({y_i-<\hat{\omega},x_i>})^2  $$
 
 This loss gives use the probability result between [0,1]
 
+</div>
 

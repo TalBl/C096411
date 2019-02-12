@@ -62,7 +62,7 @@ In linear regression we assume the connection between X and Y is linear:
 
 $\hat{Y}_i=\omega_1 x_i+\omega_0 ~ $ trying to fit $ \omega_1,\omega_0$ 
 
-in order to achieve the lowest error.(we want $~\hat{Y}_i $ to be as close as possible to $Y_i$ )
+in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as possible to $Y_i$ )
 
 
 <p align="center">

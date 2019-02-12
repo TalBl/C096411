@@ -24,25 +24,28 @@ This course is an introduction to machine learning basics theory and practice. T
 supervised learning is maybe the most common modern way of teaching. In this method a "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
-
+<div class="fig figcenter fighighlight">
 <p align="center">
 	<img src="/C096411/image/less0/Capture.JPG" />
 </p>
+</div>
 
 ### Unsupervised learning:
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.
 
+<div class="fig figcenter fighighlight">
 <p align="center">
 	<img src="/C096411/image/less0/Image2.PNG" align="middle" >
 </p>
+</div>
 
 ### Reinforcement learning:
 
 Reinforcement learning is based on interaction with the environment. The learning is done using Trial and error. 
 
 <p align="center">
-	<img src="/C096411/image/less0/image3.PNG" align="middle">
+	<img src="/C096411/image/less0/Image3.PNG" align="middle">
 </p>
 
 
@@ -64,10 +67,11 @@ $\hat{Y}_i=\omega_1 x_i+\omega_0 ~ $ trying to fit $ \omega_1,\omega_0$
 
 in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as possible to $Y_i$ )
 
-
+<div class="fig figcenter fighighlight">
 <p align="center">
 	<img src="/C096411/image/less1/Capture1.PNG" align="middle">
 </p>
+</div>
 
 In order to achieve the learning goal($\hat{Y}_i$ to be as close as possible to $Y_i$) we want to minimize the sum of all  error(green line) as much as possible. 
 

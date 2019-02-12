@@ -133,8 +133,11 @@ $$
 $ \frac{d}{d\omega }=2 X^{T}(Y-X\omega)=0\to \omega =\frac{X^T Y}{X^T X} $
 
 <a name='PR'></a>
-## Perceptron
 
+<div class="fighighlight">
+</div>
+
+## Perceptron
 
 
 Our main goal is to find a linear separation rule for data that can be separated by a line:
@@ -142,7 +145,6 @@ Our main goal is to find a linear separation rule for data that can be separated
 	<img src="/C096411/image/less2/graph3.PNG" align="middle">
 </p>
 
-<div class="fighighlight">
 	
 
 ### Geometrical explanation(line point distance):
@@ -156,9 +158,6 @@ This section provide short explanation on how to compute distance between point 
 #### In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 
 
-
-<div class="fighighlight">
-</div>
 
 ### Perceptron algorithm:
 

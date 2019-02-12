@@ -114,12 +114,12 @@ Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to ge
 #### The equation is now:
 
 $$
- & \arg \min {{\left( Y-\,\widehat{Y} \right)}^{2}}={{\left( Y-\,{{X}_{i}}\omega  \right)}^{2}} 
+\argmin {(Y-\hat{Y})}^2={(Y-X_i\omega)}^2 
 $$
 
 #### Finding $\omega$ that minimize this equation:
 
-$\[\frac{d}{d\omega }=2{{X}^{T}}\left( Y-X\omega  \right)=0\to \omega =\frac{{{X}^{T}}Y}{{{X}^{T}}X}\]$
+$ \frac{d}{d\omega }=2{{X}^{T}}(Y-X\omega)=0\to \omega =\frac{{X}^{T}Y}{{X}^{T}X} $
 
 <a name='PR'></a>
 ## Perceptron

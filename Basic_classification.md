@@ -26,7 +26,7 @@ and you are required to repeat the example logic on some other examples.
 
 <div class="fig figcenter fighighlight">
 <p align="center">
-	<img src="/Lesson_0/image1.PNG" />
+	<img src="/Lesson_0/image1.JPG" />
 </p>
 </div>
 ### Unsupervised learning:

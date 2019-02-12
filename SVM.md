@@ -4,7 +4,7 @@ mathjax: true
 permalink: /SVM/
 ---
 
-
+<hr />
 
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)

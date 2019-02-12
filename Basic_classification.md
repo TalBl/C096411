@@ -223,11 +223,11 @@ $$
 distance=y_i<\hat{\omega},x_i>\to distance=y_i<\frac{\omega}{||\omega||},x_i>
 $$
 
-We can see that the distance is dependent in $\sum \omega_i^2 $. The lower  $\sum \omega_i^2 $ is the bigger the distance is.
-From this we can derive the **second perceptron role: **
+We can see that the distance is dependent on $\sum \omega_i^2 $. The lower  $\sum \omega_i^2 $ is the bigger the distance is.
+From this we can derive the ** second perceptron role: **
 
 $$ 
- \arg min |\omega$| 
+ \arg min ||\omega||  
  $$
 
 <hr />

@@ -2,7 +2,7 @@
 layout: page
 permalink: /SVM/
 ---
-<img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg">
+
 
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)
@@ -14,6 +14,9 @@ permalink: /SVM/
 - [SVM generalization](#SVM_conv)
   - [example generalization hindge loss](#SVM_gen_hin)
 
+
+
+<img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg">
 
 ## SVM:
 

@@ -4,7 +4,7 @@ mathjax: true
 permalink: /classification/
 ---
 
-<table align="center">
+<table>
 	<tr>
 		<td>
 			

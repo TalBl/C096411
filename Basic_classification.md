@@ -235,17 +235,19 @@ $$
 ####  Perceptron converges rule:
 
 ##### definitions: 
+$$
 
-B=||$\omega^*$||, R=max||$x_i$||
+B=||$\omega^*$||,~~ R=max||$x_i$|| \\
 
-$ \omega^*=\arg min ||\omega|| s.t ~ y_i<\hat{\omega},x_i> \geq 1 $
+\omega^*=\arg min ||\omega|| s.t ~~ y_i<\hat{\omega},x_i> \geq 1 \\
 
-$ \omega^{1}=0$(intialization to 0)
+ \omega^{1}=0(intialization to 0) \\
 
+$$
 
 ###### Assumptions:
 
-Lets assume linear seperation is possible.
+- linear seperation is possible.
 
 ###### goal:
  
@@ -260,8 +262,9 @@ $\\ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac
 ##### proof:
 
 left inequality : 
-
-$ \\\\ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 $
+$$
+\frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||}=cos(\omega^{T+1},\omega*) \leq 1 
+ $$
 
 The right inequality:
 
@@ -269,34 +272,44 @@ The right inequality:
 
 - The update term of the perceptron is:
 
-	* $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i $
+	
+	* $  \,\,\, \omega^{t+1}=\omega^{t}+x_iy_i \\$
 
 - In general we can write $\omega^{i}$:
 
-	* $ \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i $
+	
+	* $ \omega^{i}=\omega^{1}+\sum\nolimits_{2}^{i} X_iy_i \\$
+
 
 - This means we can write $\omega^{T+1}$ as:
 
+	
 	* (P.1.1) $ \omega^{T+1}=\omega^{1}+\sum\nolimits_{2}^{T+1} X_iy_i=\sum\nolimits_{2}^{T+1} X_iy_i $
+
 
 - Also by definition because $\omega*$ is the soultion and we assume linear seperation:
 
+	
 	* (P.1.2) $ <X_iy_i,\omega*> \geq 1 $
+	
 
 - Using both (P.1.1)+(P.1.2) 
 
-	* $ \,\,\, {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $
+$$
+\,\,\, {<\omega^{T+1},\omega*>} =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T 
+
+$$
  
 #####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
 
-  - $ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ) $
+  - $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ) $$
   
   	$ ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2 $
   
-  - now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
+  	- now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
   
-	* $ ||\omega^{T+1}||^2 \leq TR^2 $
+	* $$ ||\omega^{T+1}||^2 \leq TR^2 $$
   
 #### (1)/(2):
 

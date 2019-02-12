@@ -165,15 +165,15 @@ Our goal is to find <img src="/C096411/tex/ae4fb5973f393577570881fc24fc2054.svg"
 
 for convex functions here are a list of some commun used in the field of ML:
 
-##### Gradient descent:
+#### Gradient descent:
 
 <img src="/C096411/tex/04911b65e01a92bc1a3e6c65c1611f93.svg" align="middle" width="123.83933264999999pt" height="22.465723500000017pt"/>
 
-##### Newton method:
+#### Newton method:
 
 <img src="/C096411/tex/985111ab1284fb4d7e9c15ee99731f2c.svg" align="middle" width="186.04270574999998pt" height="26.76175259999998pt"/>
 
-##### conjugate gradient method:
+#### conjugate gradient method:
 
 
 
@@ -181,7 +181,7 @@ for convex functions here are a list of some commun used in the field of ML:
 
 
 
-##### Other methods and futer reading:
+#### Other methods and futer reading:
 
 momentum,Rms prop and adam(combination of momentum and Rms) are versions of gradient descent widely used today.
 

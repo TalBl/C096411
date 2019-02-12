@@ -55,15 +55,15 @@ Reinforcement learning is based on interaction with the environment. The learnin
 <a name='LR_2D'></a>
 #### Notations:
 
-$
+$$
 \[\begin{align}
-  & S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
+ & S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
  & S=Training~data~ \\ 
  & {{X}_{i}}=input~i\left( image,voice,\ldots  \right)~~.~~{{Y}_{i}}=True~label\left( cat,''\text{hello }\!\!~\!\!\text{ siri''}... \right) \\ 
  & {{{\hat{Y}}}_{i}}=approximated~label \\ 
  & m-number~of~training~vecors~X \\ 
 \end{align}\]
-$
+$$
 
 
 In linear regression we assume the connection between X and Y is linear:

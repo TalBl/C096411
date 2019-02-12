@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: .../SVM/
+---
+
 ## SVM:
 
 SVM concept is much closer to optimization approach:

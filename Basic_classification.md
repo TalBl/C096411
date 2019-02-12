@@ -367,7 +367,3 @@ $$minimize \, \sum\limits_{i=1}^{m} ({y_i-<\hat{\omega},x_i>})^2  $$
 
 This loss gives use the probability result between [0,1]
 
-
-		$||\omega||$
-
-##### $ ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2 $

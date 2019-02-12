@@ -243,11 +243,11 @@ $$
 ##### $\omega^{1}=0$(intialization to 0) 
 
 
-##### Assumptions:
+#### Assumptions:
 
-- linear seperation is possible.
+linear seperation is possible.
 
-##### goal:
+#### goal:
  
  We want to show that perceptron algorithm will stop after $(RB)^2 $ steps.
  
@@ -266,7 +266,7 @@ $$
 
 The right inequality:
 
-###### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
+#### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
 
 The update term of the perceptron is: $ \omega^{t+1}=\omega^{t}+x_iy_i$
 
@@ -286,7 +286,7 @@ Using both (P.1.1)+(P.1.2) :
 
 $$ <\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_i y_i,\omega*> \geq T $$
  
-#####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
+####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
 $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ) \\
   

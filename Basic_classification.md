@@ -77,7 +77,7 @@ In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possib
 	
 The goal is to find $\omega_0,\omega_1$ that minimize the error.
 
-##### Finding ${{\omega }_{0}},{{\omega }_{1}}$ that minimize this equation:
+##### Finding $\omega_0,\omega_1$ that minimize this equation:
 
 <p align="center">
 	<img src="./Lesson_1/Capture4.PNG" align="middle">

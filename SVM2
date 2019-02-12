@@ -1,8 +1,9 @@
 ---
 layout: page
-permalink: /SVM/
 mathjax: true
+permalink: /SVM/
 ---
+
 
 
 - [Convex properties](#conv_prop)

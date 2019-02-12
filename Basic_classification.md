@@ -282,9 +282,9 @@ Also by definition because $\omega*$ is the soultion and we assume linear sepera
 
 ##### (P.1.2) $ <X_iy_i,\omega*> \geq 1 $
 	
-Using both (P.1.1)+(P.1.2) 
+Using both (P.1.1)+(P.1.2) : 
 
-##### $<\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_iy_i,\omega*> \geq T $
+$$ <\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_i y_i,\omega*> \geq T $$
  
 #####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
@@ -292,15 +292,16 @@ $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 
   
 \to ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2  $$
   
- - now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
+ 
+ now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
   
 ##### $$ ||\omega^{T+1}||^2 \leq TR^2 $$
   
 #### (1)/(2):
 
-##### $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt(T)R}$   | devide-by  $ ||\omega*||=B $ 
+##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt{T}R}$   | devide-by  $ ||\omega*||=B $$
 
-##### $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
+##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $$
  
 <a name='LR'></a>
 

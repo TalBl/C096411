@@ -8,7 +8,7 @@ permalink: /linear_re/
 
 ### To Tutorial Page:
   <div class="materials-item">
-      <a href="https://orensp.github.io/C096411/Tutorial2-LinearRegression.html">
+      <a href="https://orensp.github.io/C096411/HTlinear_re">
         Tutorial Linear Regression
       </a>
     </div>

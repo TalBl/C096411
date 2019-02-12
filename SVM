@@ -3,6 +3,7 @@ layout: page
 permalink: /SVM/
 mathjax: true
 ---
+<hr />
 
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)
@@ -14,6 +15,7 @@ mathjax: true
 - [SVM generalization](#SVM_conv)
   - [example generalization hindge loss](#SVM_gen_hin)
 
+<hr />
 
 ## SVM:
 
@@ -27,6 +29,9 @@ SVM concept is much closer to optimization approach:
 
 
 <a name='conv_prop'></a>
+
+<hr />
+
 ### convex functions properies:
 
 <p align="center">
@@ -47,6 +52,8 @@ orange line = <img src="/C096411/tex/32bf8f68debb51bf5317c45bb506c645.svg" align
 
 (2) <img src="/C096411/tex/304ce02a15f93b71ed1bb09c85f501b8.svg" align="middle" width="254.44775564999998pt" height="24.65753399999998pt"/>
 
+<hr />
+
 ### convex loss functions:
 
 <p align="center">
@@ -63,6 +70,9 @@ We already saw some of the functions:
 - log loss(percept"ron with 1 as margin):  <img src="/C096411/tex/939d2ba2ed58cd7272bf9603fd6d331a.svg" align="middle" width="145.54749329999999pt" height="27.91243950000002pt"/>
 
 <a name='Con_pr'></a>
+
+<hr />
+
 ### convexity proof:
 
 #### Hindge loss and percept"ron:
@@ -119,6 +129,8 @@ The regularization term goal is to cancell unnecessary or correlated features le
 
 #### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335/">further reading</a> 
 
+<hr />
+
 #### L1 and L2 Regularization terms:
 
 - L1(Lasso regression): <img src="/C096411/tex/383e0268a36bd3b2c13c70aaa75dfea9.svg" align="middle" width="58.71103424999998pt" height="24.657735299999988pt"/>
@@ -149,6 +161,9 @@ L1-  <img src="/C096411/tex/67d5f4fea6ff00721aa61fda16aada72.svg" align="middle"
 #### <a href="http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/">further reading</a> 
 
 <a name='SVM_f'></a>
+
+<hr />
+
 ### SVM final form Loss+regularization
 
 #### build a convex function with parameter W
@@ -200,6 +215,9 @@ The question is how ofen <img src="/C096411/tex/387d53b5c707db0c552f64f83202eca2
 In very large data sets saving X and <img src="/C096411/tex/32902e719b16dec67b28c9943762cd89.svg" align="middle" width="10.82192594999999pt" height="14.15524440000002pt"/> vectors or matrix can occupy large junk of your allocation memory. In addition Stochastic gradient descent(SGD) widely use for online learning. on the other hand, batch gradient descent optimization rule is much smoother. usually today the combination of the two is used taking batches equal to <img src="/C096411/tex/f8f25e4580c418a51dc556db0d8d2b93.svg" align="middle" width="16.34523329999999pt" height="21.839370299999988pt"/> samples.
 
 <a name='SVM_pre'></a>
+
+<hr />
+
 ##### perceptron vs SVM
 
 Perceptron is a private solution of SVM. 
@@ -212,6 +230,8 @@ In this case:
  * <img src="/C096411/tex/08385b3c304b93a5119411d63a320d1e.svg" align="middle" width="170.09681039999998pt" height="24.657735299999988pt"/>
 
 <a name='SVM_conv'></a>
+
+<hr />
 
 ### SVM convergence Proof for GD mode:
 
@@ -267,7 +287,8 @@ Using the 2 propertie of convex functions(orange line(g) always bellow the conve
 - (step 2) <img src="/C096411/tex/882b6f81022f6439bf554439d91e5131.svg" align="middle" width="154.74538364999998pt" height="36.460254599999985pt"/>  
 - (lipschitz law) <img src="/C096411/tex/a6e9f477e3f2ff3b87971a7ba98651ac.svg" align="middle" width="146.42334135pt" height="35.18167619999999pt"/>
 
-   
+<hr />
+
 ### SVM convergence Proof for SGD mode:
 
 In SGD we choose a sample randomly(<img src="/C096411/tex/efdc72463ea6b450188e7ffa32fb40d9.svg" align="middle" width="157.70991224999997pt" height="24.65753399999998pt"/>) from our training set (S). 
@@ -286,6 +307,9 @@ In SGD we choose a sample randomly(<img src="/C096411/tex/efdc72463ea6b450188e7f
 The proof is similar to GD.
 
 <a name='SVM_gen'></a>
+
+<hr />
+
 ### SVM SGD generalization:
 
  training set:  <img src="/C096411/tex/fe9a944280dc3d01376f733806503f06.svg" align="middle" width="168.76348829999998pt" height="24.65753399999998pt"/> presampling m samples from some distribution D.

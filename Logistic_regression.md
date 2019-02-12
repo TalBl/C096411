@@ -6,11 +6,11 @@ permalink: /Logistic/
 
 ### To Tutorial Page:
 
-  <div class="materials-item">
-      <a href="https://orensp.github.io/C096411/HTlogistic_re/">
-        Tutorial Linear Regression
-      </a>
-    </div>
+
+<a href="https://orensp.github.io/C096411/HTlogistic_re/">
+Tutorial Logistic Regression
+</a>
+
 
 ### Lecture
 

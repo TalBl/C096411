@@ -56,7 +56,9 @@ Reinforcement learning is based on interaction with the environment. The learnin
 #### Notations:
 
 $$
-\omega=0
+\[\begin{align}
+S=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\}
+\end{align}\]
 $$
 
 $$

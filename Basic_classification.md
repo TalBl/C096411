@@ -71,7 +71,6 @@ $\hat{Y}_i=\omega_1 x_i+\omega_0 ~ $ trying to fit $ \omega_1,\omega_0$
 
 in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as possible to $Y_i$ )
 
-<div class="fig figcenter fighighlight">
 <p align="center">
 	<img src="/C096411/image/less1/Capture1.PNG" align="middle">
 </p>

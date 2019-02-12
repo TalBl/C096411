@@ -5,7 +5,16 @@ permalink: /linear_re/
 ---
 
 <hr />
-	
+
+###Tutorial
+  <div class="materials-item">
+      <a href="Tlinear_re/">
+        Tutorial Linear Regression
+      </a>
+    </div>
+
+###Lecture
+
 - [Linear regression-2D-Model](#LR_2D)
   - [2D-Model-Generalization](#LR_G)
 - [Linear regression-nD-Model](#LR_nD)

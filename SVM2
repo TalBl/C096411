@@ -1,10 +1,9 @@
 ---
 layout: page
-permalink:/SVM/
+permalink: /SVM/
 mathjax: true
 ---
 
-<hr />
 
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)

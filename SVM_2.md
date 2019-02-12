@@ -8,7 +8,7 @@ permalink: /SVM/
 - [Non linear SVM](#non_svm)
 - [Regularization term](#rg_term)
 - [SVM final form-loss+regularization](#SVM_f)
-- [SVM vs Percept"ron](#SVM_pre)
+- [SVM vs Perceptron](#SVM_pre)
 - [SVM convergence](#SVM_conv)
 - [SVM generalization](#SVM_conv)
   - [example generalization hindge loss](#SVM_gen_hin)
@@ -158,7 +158,7 @@ L(<img src="/C096411/tex/b79d1105b6900ffc883e3e210ab7d3a6.svg" align="middle" wi
 
 J(<img src="/C096411/tex/cd20f0f2cfe649409e738e7cddc63861.svg" align="middle" width="170.03706885pt" height="27.77565449999998pt"/> 
 
-####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) :
+#####  minimize this function using gradient methods(gradient descent, newton method, conjugate gradient...) :
 
 Our goal is to find <img src="/C096411/tex/ae4fb5973f393577570881fc24fc2054.svg" align="middle" width="10.82192594999999pt" height="14.15524440000002pt"/> that minimize J(<img src="/C096411/tex/6a25f78a4f9ee1ae0226f75622040d97.svg" align="middle" width="34.10958869999999pt" height="24.65753399999998pt"/>. There are variety of optimization technics finding optimal solution
 
@@ -199,9 +199,9 @@ The question is how ofen <img src="/C096411/tex/387d53b5c707db0c552f64f83202eca2
 In very large data sets saving X and <img src="/C096411/tex/32902e719b16dec67b28c9943762cd89.svg" align="middle" width="10.82192594999999pt" height="14.15524440000002pt"/> vectors or matrix can occupy large junk of your allocation memory. In addition Stochastic gradient descent(SGD) widely use for online learning. on the other hand, batch gradient descent optimization rule is much smoother. usually today the combination of the two is used taking batches equal to <img src="/C096411/tex/f8f25e4580c418a51dc556db0d8d2b93.svg" align="middle" width="16.34523329999999pt" height="21.839370299999988pt"/> samples.
 
 <a name='SVM_pre'></a>
-##### percept"ron vs SVM
+##### perceptron vs SVM
 
-Percept"ron is a private solution of SVM. 
+Perceptron is a private solution of SVM. 
 SVM using: SGD, hindge loss, L2 regularization, <img src="/C096411/tex/03eacc2fd045b3303fea4e4a58943bcc.svg" align="middle" width="81.43845929999999pt" height="22.831056599999986pt"/>, <img src="/C096411/tex/687cbffb26975762f46a31184ed6be3d.svg" align="middle" width="38.88877739999999pt" height="21.18721440000001pt"/> is eqvivalent to percept"ron.
 
 In this case:

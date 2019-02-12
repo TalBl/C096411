@@ -232,7 +232,7 @@ From this we can derive the second perceptron role: argmin ||$\omega$||
 
 B=||$\omega^*$||, R=max||$x_i$||
 
-$ \omega^*=\arg min ||\omega|| s.t \, y_i<\hat{\omega},x_i> \geq 1 $
+$ \omega^*=\arg min ||\omega|| s.t ~ y_i<\hat{\omega},x_i> \geq 1 $
 
 $ \omega^{1}=0$(intialization to 0)
 

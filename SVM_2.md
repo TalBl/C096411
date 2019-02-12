@@ -29,7 +29,7 @@ SVM concept is much closer to optimization approach:
 ### convex functions properies:
 
 <p align=""center">
-	<img src="/C096411/image/less4/Capt"ure.PNG" align="middle">
+	<img src="/C096411/image/less4/Capture.PNG" align="middle">
 </p>
 
 (1) line connects two points on the function will always be above the function(black line).
@@ -49,7 +49,7 @@ orange line = <img src="/C096411/tex/32bf8f68debb51bf5317c45bb506c645.svg" align
 ### convex loss functions:
 
 <p align=""center">
-	<img src="/C096411/image/less4/Capt"ure2.PNG" align="middle">
+	<img src="/C096411/image/less4/Capture2.PNG" align="middle">
 </p>
 We already saw some of the functions:
 
@@ -83,7 +83,7 @@ We can create nun linear lines easily by just choosing the right features(x) to 
 example:
 
 <p align=""center">
-	<img src="/C096411/image/less4/Capt"ure3.PNG" align="middle">
+	<img src="/C096411/image/less4/Capture3.PNG" align="middle">
 </p>
 
 We want to seperate the +/- and our features is x1=x,x2=y easy to see that linear classification 
@@ -113,7 +113,7 @@ In general: The more features the more our equation is complex, we simply cannot
 The regularization term goal is to cancell unnecessary or correlated features leaving us with smaller region to search.
 
 <p align=""center">
-	<img src="/C096411/image/less4/Capt"ure4.PNG" align="middle">
+	<img src="/C096411/image/less4/Capture4.PNG" align="middle">
 </p>
 
 #### <a href="https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335/">further reading</a> 
@@ -128,7 +128,7 @@ The regularization term goal is to cancell unnecessary or correlated features le
 comparison:
 
 <p align=""center">
-	<img src="/C096411/image/less4/Capt"ure5.PNG" align="middle">
+	<img src="/C096411/image/less4/Capture5.PNG" align="middle">
 </p>
 
 The green line (L2-norm) is the unique shortest path, while the red, blue, yellow (L1-norm) are all same length (=12) for the same route. Generalizing this to n-dimensions. This is why L2-norm has unique solutions while L1-norm does not.
@@ -242,7 +242,7 @@ We look on <img src="/C096411/tex/9b137c49035e9c7eb366cabcde2075e8.svg" align="m
 #### Proof:
 
 <p align=""center">
-	<img src="/C096411/image/less5/Capt"ure.PNG" align="middle">
+	<img src="/C096411/image/less5/Capture.PNG" align="middle">
 </p>
 
 ##### step 1:

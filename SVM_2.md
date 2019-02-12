@@ -335,3 +335,6 @@ Our goal is to have 0 stability , which means the test set and the training set 
 We want g to be as small as possible. lets find <img src="/C096411/tex/fd8be73b54f5436a5cd2e73ba9b6bfa9.svg?invert_in_darkmode&sanitize=true" align=middle width=9.58908224999999pt height=22.831056599999986pt/> that minimize g:
 
 <p align="center"><img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg?invert_in_darkmode&sanitize=true" align=middle width=292.46280194999997pt height=41.2104693pt/></p>
+
+
+<img src="/C096411/tex/7d8564d9386d88a8be31df3fb7c63015.svg>

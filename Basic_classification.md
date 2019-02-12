@@ -291,7 +291,6 @@ $$
 <\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_i y_i,\omega*> \geq T 
 $$
 
-<hr />
 
 #####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 

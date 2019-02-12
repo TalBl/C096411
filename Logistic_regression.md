@@ -6,11 +6,9 @@ permalink: /Logistic/
 
 ### To Tutorial Page:
 
-
 <a href="https://orensp.github.io/C096411/HTlogistic_re/">
 Tutorial Logistic Regression
 </a>
-
 
 ### Lecture
 

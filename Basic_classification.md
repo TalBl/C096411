@@ -145,17 +145,17 @@ This section provide short explanation on how to compute distance between point 
 
 
 
-* Sample m datapoints  $S={(x_1,y_1),...(x_m,y_m)}$
+* Sample m datapoints  $S={{(x_1,y_1),...(x_m,y_m)}}$
 
-* intialize $\omega^{1}={0,0...0} $  
+* intialize $\omega^{1}={{0,0...0}} $  
 
 * loop time t:
 
 	* loop samples m:
 
-		* if wrong classification   $<y<\omega,x>\leq0 $
+		* if wrong classification   $ y<\omega,x>\leq0 $
 
-			* update W          $\omega^{t+1}=\omega^{t}+y_i x_i $
+			* update            $\omega^{t+1}=\omega^{t}+y_i x_i $
 	
 
 #### Understanding perceptron update rule:

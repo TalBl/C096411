@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /classification/
+permalink: /Perceptron/
 ---
 
 <hr />

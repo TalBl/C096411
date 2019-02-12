@@ -15,8 +15,7 @@ permalink: /classification/
 - [SVM](#SVM)
 
 
-<div class="fighighlight">
-</div>
+<hr />
 
 <a name='intro'></a>
 ## Quick Intro

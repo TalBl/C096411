@@ -54,15 +54,19 @@ Reinforcement learning is based on interaction with the environment. The learnin
 
 <a name='LR'></a>
 
+<div class="fighighlight">
+</div>
+
 ## Linear regression 
 
 
 ### 2D Basic Model:
 <a name='LR_2D'></a>
 
-<div class="fighighlight">
-</div>	
 	
+<div class="fighighlight">
+</div>
+
 #### Notations:
 
 In linear regression we assume the connection between X and Y is linear:
@@ -78,10 +82,11 @@ in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as poss
 
 In order to achieve the learning goal($\hat{Y}_i$ to be as close as possible to $Y_i$) we want to minimize the sum of all  error(green line) as much as possible. 
 
+<div class="fighighlight">
+</div>
+
 #### Formulation:
 
-
-	
 The goal is to find $\omega_0,\omega_1$ that minimize the error.
 
 ##### Finding $\omega_0,\omega_1$ that minimize this equation:
@@ -91,6 +96,10 @@ The goal is to find $\omega_0,\omega_1$ that minimize the error.
 </p>
 
 <a name='LR_G'></a>
+
+<div class="fighighlight">
+</div>
+
 #### Generalization :
 
 

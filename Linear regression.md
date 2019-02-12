@@ -72,6 +72,8 @@ $E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
 ##### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
 
+img src="/C096411/image/less3/Capture3.PNG" align="middle">
+
 
 
 <a name='LR_nD'></a>

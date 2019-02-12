@@ -4,6 +4,16 @@ mathjax: true
 permalink: /Logistic/
 ---
 
+### To Tutorial Page:
+
+  <div class="materials-item">
+      <a href="https://orensp.github.io/C096411/HTlogistic_re/">
+        Tutorial Linear Regression
+      </a>
+    </div>
+
+### Lecture
+
 <hr />
 	
 - [Classes_probability](#c1)

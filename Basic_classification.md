@@ -164,9 +164,9 @@ This section provide short explanation on how to compute distance between point 
 <p align="center">
 	<img src="/C096411/image/less2/graph1.PNG" align="middle">
 </p> 
-$$
-In general ~<X,\hat{\omega}>+\omega_0 $~=~distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
-$$
+
+##### In general $<X,\hat{\omega}>+\omega_0 $ = distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
+
 
 <hr />
 

@@ -24,11 +24,11 @@ This course is an introduction to machine learning basics theory and practice. T
 supervised learning is maybe the most common modern way of teaching. In this method a "Teacher" shows you an example
 and you are required to repeat the example logic on some other examples.
 
+<div class="fig figcenter fighighlight">
 <p align="center">
 	<img src="/Lesson_0/image1.PNG" />
 </p>
-
-
+</div>
 ### Unsupervised learning:
 
 Unsupervised learning is a way to make Decisions based on correlation in the data.

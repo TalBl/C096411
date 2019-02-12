@@ -138,6 +138,8 @@ Our main goal is to find a linear separation rule for data that can be separated
 	<img src="/C096411/image/less2/graph3.PNG" align="middle">
 </p>
 
+<div class="fighighlight">
+	
 ### Geometrical explanation(line point distance):
 
 This section provide short explanation on how to compute distance between point and a line.  
@@ -148,6 +150,9 @@ This section provide short explanation on how to compute distance between point 
 
 #### In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
 
+</div>
+
+	
 ### Perceptron algorithm:
 
 
@@ -165,8 +170,19 @@ This section provide short explanation on how to compute distance between point 
 			* update            $\omega^{t+1}=\omega^{t}+y_i x_i $
 	
 
+<div class="fighighlight">
+	
 #### Understanding perceptron update rule:
 
+$ Y_i<\omega^t,x_i>\le 0 $ means wrong classification we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
+Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
+
+<p align="center">
+	<img src="/C096411/image/less3/Capture2.PNG" align="middle">
+</p> 
+
+
+</div>
 
 #### Optimal soultion:
 
@@ -190,7 +206,8 @@ distance=$y_i<\hat{\omega},x_i>\to $ distance=$y_i<\frac{\omega}{||\omega||},x_i
 We can see that the distance is dependent in ||$\omega$||. The lower ||$\omega$|| is the bigger the distance is.
 From this we can derive the second perceptron role: argmin ||$\omega$||
 
-
+<div class="fighighlight">
+	
 ####  Perceptron converges rule:
 
 ##### definitions: 
@@ -264,6 +281,11 @@ The right inequality:
 * $ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR}$
  
 <a name='LR'></a>
+
+<div class="fighighlight">
+
+</div>
+
 ## Logistic regression:
 
 The Perceptron rule <w,x> gave us distance which is between $[-\infty,\infty]$ when $\infty$ is far in the positive side and 
@@ -289,7 +311,8 @@ So we can say in general that:
 
 $$ P(y_i|x_i)=\frac {1}{1+e^{-y_i<\hat{\omega},x_i>}} $$
 
-<div class="fighighlight">
+
+
 #### Finding the optimal $\omega$:
 
 We can use maximum likelihood estimation method to find $\omega$ that will maximize the probability:

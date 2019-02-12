@@ -2,8 +2,9 @@
 layout: page
 mathjax: true
 permalink: /Logistic/
-
 ---
+
+<hr />
 
 ### To Tutorial Page:
 

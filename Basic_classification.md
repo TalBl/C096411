@@ -252,10 +252,11 @@ linear seperation is possible.
  We want to show that perceptron algorithm will stop after $(RB)^2 $ steps.
  
  In order to show that we wil proof that:
- 
-$$ 1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}|| ||\omega*||} \geq \frac{\sqrt(T)}{BR} $$
+$$
+1 \geq \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}|| ||\omega*||} \geq \frac{\sqrt(T)}{BR} 
+$$
 
-It's easy to see that $ \frac {\sqrt(T)}{BR} \leq 1 $ is equivalent to $ T \leq RB^2 $
+It's easy to see that $ \frac {\sqrt(T)}{BR} \leq 1 \to T \leq RB^2 $
  
 #### proof:
 
@@ -266,7 +267,7 @@ $$
 
 The right inequality:
 
-#### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
+##### (1) $ \, {<\omega^{T+1},\omega*>} \geq T $ proof:
 
 The update term of the perceptron is: $ \omega^{t+1}=\omega^{t}+x_iy_i$
 
@@ -286,7 +287,7 @@ Using both (P.1.1)+(P.1.2) :
 
 $$ <\omega^{T+1},\omega*> =<\sum\nolimits_{2}^{T+1} X_i y_i,\omega*> \geq T $$
  
-####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
+#####  (2)  $ ||\omega^{T+1}||^2 \leq TR^2 $ proof:
 
 $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 (**Triangle-inequ) \\
   

@@ -96,8 +96,10 @@ $\hat{Y}-Y=\epsilon$
 
 ##### such that:
 
-$E(\hat{Y}-Y)=E(\epsilon)=0->E(hat{Y})=E(Y)$
+$E(\hat{Y}-Y)=E(\epsilon)=0 \to E(hat{Y})=E(Y)$
+
 $\-E(\hat{\omega_1})=E(\omega_1)=\omega_1$
+
 $\-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
 ##### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:

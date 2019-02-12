@@ -69,7 +69,7 @@ in order to achieve the lowest error.(we want $\hat{Y}_i$ to be as close as poss
 	<img src="./Lesson_1/Capture1.PNG" align="middle">
 </p>
 
-In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possible to ${{Y}_{i}}$) we want to minimize the sum of all  error(green line) as much as possible. 
+In order to achieve the learning goal($\hat{Y}_i$ to be as close as possible to $Y_i$) we want to minimize the sum of all  error(green line) as much as possible. 
 
 #### Formulation:
 

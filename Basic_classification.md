@@ -42,7 +42,7 @@ Unsupervised learning is a way to make Decisions based on correlation in the dat
 Reinforcement learning is based on interaction with the environment. The learning is done using Trial and error. 
 
 <p align="center">
-	<img src="/C096411/image/les0/Image3.PNG" align="middle">
+	<img src="/C096411/image/les0/image1.PNG" align="middle">
 </p>
 
 

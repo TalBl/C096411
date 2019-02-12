@@ -59,6 +59,7 @@ Reinforcement learning is based on interaction with the environment. The learnin
 
 
 In linear regression we assume the connection between X and Y is linear:
+$\hat{\omega}$
 
 ${{\hat{Y}}_{i}}={{\omega }_{1}}{{X}_{i}}+{{\omega }_{0}}$ trying to fit ${{\omega }_{1}},{{\omega }_{0}}$ 
 

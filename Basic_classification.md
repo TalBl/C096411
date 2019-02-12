@@ -293,13 +293,13 @@ $$ ||\omega^{T+1}||^2=||\omega^{T}+xiy_i||^2 \leq ||\omega^{T}||^2 +||xiy_i||^2 
 \to ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2  $$
   
  
- now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
+###### now we can do the same repeatedly for $||\omega^{T}||^2 $ until we get:
   
 ##### $$ ||\omega^{T+1}||^2 \leq TR^2 $$
   
 #### (1)/(2):
 
-##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt{T}R}$   | devide-by  $ ||\omega*||=B $$
+##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||} \leq \frac{T}{\sqrt{T}R} | frac{1}{||\omega*||=B }$$
 
 ##### $$ \frac{<\omega^{T+1},\omega*>}{||\omega^{T+1}||||\omega*||} \geq \frac{\sqrt(T)}{BR} $$
  

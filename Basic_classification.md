@@ -374,6 +374,4 @@ This loss gives use the probability result between [0,1]
 
 		$||\omega||$
 
-$$
-|\omega|
-$$
+$ ||\omega^{T}||^2 +||xi||^2 \leq ||\omega^{T}||^2 +R^2 $

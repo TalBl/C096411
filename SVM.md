@@ -6,6 +6,17 @@ permalink: /SVM/
 
 <hr />
 
+### To Tutorial Page:
+
+<a href="https://orensp.github.io/C096411/HTSVM">
+Tutorial SVM
+</a>
+
+
+### Lecture
+
+<hr />
+
 - [Convex properties](#conv_prop)
 - [Loss functions convexity proof](#Con_pr)
 - [Non linear SVM](#non_svm)

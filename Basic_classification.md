@@ -219,10 +219,10 @@ Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
 The optimal solution he highest margin. is defined has the solution which produce t
 In order to find this optimal solution let's go back to our equation:
 
-distance=$y_i<\hat{\omega},x_i>\to $ distance=$y_i<\frac{\omega}{$||$\omega$||$},x_i>$
+distance=$y_i<\hat{\omega},x_i>\to $ distance=$y_i<\frac{\omega}{|\omega$|},x_i>$
 
-We can see that the distance is dependent in ||$\omega$||. The lower ||$\omega$|| is the bigger the distance is.
-From this we can derive the second perceptron role: argmin ||$\omega$||
+We can see that the distance is dependent in |$\omega$|. The lower |$\omega$| is the bigger the distance is.
+From this we can derive the second perceptron role: argmin |$\omega$|
 
 <hr />
 

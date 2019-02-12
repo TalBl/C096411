@@ -142,8 +142,7 @@ $ \frac{d}{d\omega }=2 X^{T}(Y-X\omega)=0\to \omega =\frac{X^T Y}{X^T X} $
 
 <a name='PR'></a>
 
-<div class="fighighlight">
-</div>
+
 
 <hr />
 

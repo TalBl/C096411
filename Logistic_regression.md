@@ -8,11 +8,6 @@ permalink: /Logistic/
 	
 - [Classes_probability](#c1)
 - [optimal W](#c1)
-  - [2D-Model-Generalization](#LR_G)
-- [Linear regression-nD-Model](#LR_nD)
-- [Perceptron](#PR)
-- [Logistic Regression](#LR)
-- [SVM](#SVM)
 
 
 <hr />

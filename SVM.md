@@ -176,13 +176,6 @@ $\omega_{t+1}=\omega_t-\eta (\nabla ^2 J)^{-1} \nabla J $
 
 
 
-$$
-{{\beta }_{t}}=\frac{|\nabla J{{({{\omega }_{t}})}^{2}}|}{|\nabla J{{({{\omega }_{t-1}})}^{2}}|} \\ 
-{{\alpha }_{t}}=-\nabla J({{\omega }_{t}})+{{\beta }_{t}}{{\alpha }_{t-1}} \\ 
-{{\omega }_{t+1}}={{\omega }_{t}}+\eta {{\alpha }_{t}} \\ 
-Finding\,optimal\,\eta : \\ 
-{{\alpha }_{t}}\nabla J({{\omega }_{t+1}})=0 \\ 
-$$
 
 
 
@@ -300,21 +293,12 @@ The proof is similar to GD.
  Modified training set $ S'={(x_1,y_1),.(x_i,y_i)..(x_m,y_m)} $ combination of training and test set. 
 
 #### Objective :
-$$
-{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })]\le \underbrace{{{\min }_{\omega }}({{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{best\,result\,possible}+\underbrace{{{E}_{S\sim{{D}^{m}}}}[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]}_{stability}
-$$
 
 #### Proof :
-$$
- {{L}_{D}}(\hat{\omega })={{L}_{s}}(\hat{\omega })+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })\le ({{L}_{s}}(\hat{\omega })+\underbrace{\lambda ||\hat{\omega }|{{|}^{2}}}_{always\,positive})+{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega }) \\ 
-\le (\underbrace{{{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})}_{\hat{\omega }\,is\,the\,optimize\,\omega \,on\,training\,}+[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })
-$$
 
 ##### mean on both sides:
 
-$$
-E({{L}_{D}}(\hat{\omega }))\le E({{L}_{s}}(\omega )+\lambda ||\omega |{{|}^{2}})+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]={{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+E[{{L}_{D}}(\hat{\omega })-{{L}_{s}}(\hat{\omega })]
-$$
+
 
 
 #### bound and understanding stability:
@@ -330,46 +314,22 @@ Our goal is to have 0 stability , which means the test set and the training set 
 ##### Finding bound :
 
 ###### step 1:
-$$
-\[{{E}_{S\sim{{D}^{m}}}}\left[ {{L}_{D}}\left( {\hat{\omega }} \right)-{{L}_{S}}\left( {\hat{\omega }} \right) \right]={{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\]
-$$
+
 
 ###### step 2-using $\rho$ lipschitz :
 
-$$
- \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}\le \rho  \\ 
- {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right]
-$$
+
 
 ###### step 3:
 
-$$
-
-\frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}=\frac{\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}+\frac{\rho ||{{{\hat{\omega }}}_{m}}-{{{\hat{\omega }}}_{m+1}}||}{m}\ge (step\,1) \\ 
- & \frac{l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)}{m}+\frac{l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)}{m}\ge {{f}_{s}}({{{\hat{\omega }}}_{m+1}})-{{f}_{s}}({{{\hat{\omega }}}_{m}}) \\ 
- & =\left[ {{L}_{s}}\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-{{L}_{s}}\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]+\lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||\,\ge (convexity\,property\,1)||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\,\ge \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}} \\ 
- & \lambda ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||{{\,}^{2}}\le \frac{2\rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||}{m}\,\to ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}||\,\le \frac{2\rho }{\lambda m} \\ 
-
-
-$$
 
 ###### step 1+2+3:
 
-$$
-{{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ l\left( {{{\hat{\omega }}}_{m+1}},{{x}_{i}},{{y}_{i}} \right)-l\left( {{{\hat{\omega }}}_{m}},{{x}_{i}},{{y}_{i}} \right) \right]\le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \rho ||{{{\hat{\omega }}}_{m+1}}-{{{\hat{\omega }}}_{m}}|| \right] \\ 
- & \le {{E}_{S\sim{{D}^{m+1}},i\simU\left( m \right)}}\left[ \frac{2{{\rho }^{2}}}{\lambda m} \right]=\frac{2{{\rho }^{2}}}{\lambda m} 
-$$
+
 
 <a name='SVM_gen_hin'></a>
 #### Example hindge loss:
 
-E({{L}_{D}}(\hat{\omega }))\le {{L}_{D}}(\omega )+\lambda ||\omega |{{|}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m} \\ 
-define:||\omega ||\le B \\ 
-\le {{L}_{D}}(\omega )+\underbrace{\lambda {{B}^{2}}+\frac{2{{\rho }^{2}}}{\lambda m}}_{g} \\ 
-$$
-
 We want g to be as small as possible. lets find $\lambda$ that minimize g:
 
-$$
-\frac{dg}{d\lambda }=0\to \lambda *=\frac{\rho }{B}\sqrt{\frac{2}{m}},g(\lambda *)=\rho B\sqrt{\frac{\rho }{m}}\]
-$$
+

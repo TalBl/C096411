@@ -164,9 +164,9 @@ This section provide short explanation on how to compute distance between point 
 <p align="center">
 	<img src="/C096411/image/less2/graph1.PNG" align="middle">
 </p> 
-
-#### In general $<X,\hat{\omega}>+\omega_0 $=distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
-
+$$
+In general ~<X,\hat{\omega}>+\omega_0 $~=~distance from line with normal  $\hat{\omega}$ and offset $\omega_0$
+$$
 
 <hr />
 
@@ -219,10 +219,16 @@ Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
 The optimal solution he highest margin. is defined has the solution which produce t
 In order to find this optimal solution let's go back to our equation:
 
-distance=$y_i<\hat{\omega},x_i>\to $ distance=$y_i<\frac{\omega}{|\omega|},x_i>$
+$$
+distance=y_i<\hat{\omega},x_i>\to distance=y_i<\frac{\omega}{||\omega||},x_i>
+$$
 
-We can see that the distance is dependent in |$\omega$|. The lower |$\omega$| is the bigger the distance is.
-From this we can derive the second perceptron role: argmin |$\omega$|
+We can see that the distance is dependent in $\sum \omega_i $. The lower  $\sum \omega_i $ is the bigger the distance is.
+From this we can derive the **second perceptron role: **
+
+$$ 
+ \arg min |\omega$| 
+ $$
 
 <hr />
 

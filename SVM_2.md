@@ -274,7 +274,7 @@ In SGD we choose a sample randomly(<img src="/C096411/tex/efdc72463ea6b450188e7f
 
 #### Defining the problem as stochastic optimization:
 
-- $\E(V_t)=\nabla f(\omega_t)$
+- $E(V_t)=\nabla f(\omega_t)$
 - <img src="/C096411/tex/e94be2a050e026e333a20deb8f78152a.svg" align="middle" width="249.4951404pt" height="27.77565449999998pt"/>
 
 #### Goal:
@@ -308,6 +308,7 @@ The proof is similar to GD.
 #### bound and understanding stability:
 
 ##### Notation :
+
 Loss training set: sample m+1 times from our distribution D and use m samples to minimize J getting-<img src="/C096411/tex/45b070fe62295df8726e95928aca4a3b.svg" align="middle" width="21.89698169999999pt" height="22.831056599999986pt"/>
 Loss test set: us the samples from the training set but now use m+1 samples to minimize J getting-<img src="/C096411/tex/6dab9fecea3a01cf93f51d6d0b460fe2.svg" align="middle" width="38.54090129999999pt" height="22.831056599999986pt"/>
 

@@ -55,14 +55,6 @@ Reinforcement learning is based on interaction with the environment. The learnin
 <a name='LR_2D'></a>
 #### Notations:
 
-$$
-\begin{align}
- & S(Training~data)=\left\{ \left( {{X}_{1}},{{Y}_{1}} \right),\ldots .,\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
- & {{X}_{i}}=input~i\left( image,voice,\ldots  \right)~~.~~{{Y}_{i}}=True~label\left( cat,''\text{hello }\!\!~\!\!\text{ siri''}... \right) \\ 
- & {{{\hat{Y}}}_{i}}=model~approximated~label \\ 
- & m-number~of~training~vecors~X \\ 
-\end{align}
-$$
 
 
 
@@ -81,7 +73,7 @@ In order to achieve the learning goal(${{\hat{Y}}_{i}}$ to be as close as possib
 
 #### Formulation:
 
-$argmi{{n}_{{{\omega }_{0}},{{\omega }_{1}}}}~\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-{{{\hat{Y}}}_{i}} \right)}^{2}}=\underset{i=1}{\overset{m}{\mathop \sum }}\,{{\left( {{Y}_{i}}-\left( {{\omega }_{0}}+{{\omega }_{1}}{{X}_{i}} \right) \right)}^{2}}$
+
 	
 The goal is to find ${{\omega }_{0}},{{\omega }_{1}}$that minimize the error.
 
@@ -110,14 +102,7 @@ $&\-E(\hat{\omega_0})=E(\omega_0)=\omega_0$
 
 ##### Lets prove the equality for $\hat{\omega_0}$ and $\hat{\omega_1}$ holds:
 
-$$
-\begin{align}
-  & E({{{\hat{\omega }}}_{1}})=E~\left( \frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X}){{{\hat{Y}}}_{i}}}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}} \right)=E~\left( \frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X})\left( {{Y}_{i}}+\epsilon  \right)}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}} \right) \\ 
- & \to E~\left( {{\omega }_{1}}+\frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X})\left( \epsilon  \right)}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}} \right)={{\omega }_{1}}+\frac{\mathop{\sum }_{i=1}^{m}({{X}_{i}}-\bar{X})E\left( \epsilon  \right)}{\mathop{\sum }_{i=1}^{m}{{({{X}_{i}}-\bar{X})}^{2}}}={{\omega }_{1}} \\ 
- &  \\ 
- & E({{{\hat{\omega }}}_{0}})=E\left( E\left( {\hat{Y}} \right)-{{\omega }_{1}}\bar{X} \right)=E\left( E\left( {{Y}_{i}}+\epsilon  \right)-{{\omega }_{1}}\bar{X} \right)={{\omega }_{0}} \\ 
-\end{align}
-$$
+
 
 <a name='LR_nD'></a>
 ### General case nD Model:
@@ -125,13 +110,6 @@ $$
 
 Until now we only dealt with 2-dimension case Y=w1x+b This section goal is to generalize to n Dimensions :
 
-$$
-\[\begin{align}
-  & Y=[{{Y}_{1}},{{Y}_{2}}....,{{Y}_{m}}] \\ 
- & X=[1,{{X}_{1}},{{X}_{2}}...,{{X}_{m}}] \\ 
- & \omega ={{[{{\omega }_{0}},{{\omega }_{1}}.....,{{\omega }_{m}}]}^{T}} \\ 
-\end{align}\]
-$$
 
 #### The equation is now:
 
@@ -183,16 +161,7 @@ This section provide short explanation on how to compute distance between point 
 </td>
 <td>
 	
-$$
-\[\begin{align}
- & ~sample:~S=\left\{ \left( {{X}_{i}},{{Y}_{i}} \right),\ldots .\left( {{X}_{m}},{{Y}_{m}} \right) \right\} \\ 
- & ~intial~:{{\omega }^{\left( 1 \right)}}=\left\{ 0,0,\ldots ..,0 \right\} \\ 
- & \,\,\,\,for~t=1,2,3..: \\ 
- & \,\,\,\,\,\,\,\,\,for~i=1\to m:~~ \\ 
- & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,if~y\left\langle \omega ,x \right\rangle ~\le 0: \\ 
- & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{{\omega }^{t+1}}={{\omega }^{t}}+{{y}_{i}}{{x}_{i}} \\ 
-\end{align}\]
-$$
+
 		</td>
 	</tr>
 	</table>
@@ -200,12 +169,6 @@ $$
 
 #### Understanding perceptron update rule:
 
-$ Y_i<\omega^t,x_i>\le 0 $ means wrong classification we updated $\omega^{t+1}=\omega^t+y_ix_i $. 
-Lets check how the new $\omega^{t+1}$ is doing on the $x_i,y_i$ example:
-
-$$
-\[{{y}_{i}}\left\langle {{\omega }^{t+1}},{{x}_{i}} \right\rangle ={{y}_{i}}\left\langle {{\omega }^{t}}+{{y}_{i}}{{x}_{i}},{{x}_{i}} \right\rangle ~=\underbrace{{{y}_{i}}<{{\omega }^{t}},{{x}_{i}}>}_{\le 0}+\underbrace{{{y}_{i}}{{y}_{i}}<{{x}_{i}},{{x}_{i}}>}_{always\,possitive}\to more\,positive\]
-$$
 
 #### Optimal soultion:
 

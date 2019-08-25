@@ -10,15 +10,15 @@ permalink: /ENSEMBLE/
 Tutorial Ensemble
 </a>
 
-- [Boosting](#boosting)
-- [Loss functions convexity proof](#Con_pr)
+- [Boosting](#Boosting)
+- [Ada Boost](#Adaboost)
 - [Non linear SVM](#non_svm)
 - [Regularization term](#rg_term)
 - [SVM final form-loss+regularization](#SVM_f)
 - [SVM vs Percept"ron](#SVM_pre)
 - [SVM convergence](#SVM_conv)
 - [SVM generalization](#SVM_conv)
-  - [example generalization hindge loss](#SVM_gen_hin)
+- [example generalization hindge loss](#SVM_gen_hin)
 
 <hr />
 
@@ -52,18 +52,59 @@ Lets imagine we want to classify a classifier which body part of the face is sho
 
 We diverse classifiers in the ensemble: one will train on only forehead pictures, one on only ears pictures, one on only eyes pictures, one only on nose pictures and ect.
 
-dismistration for the resulted classifiers in the ensemble: 
-
+dismistration for the resulted classifiers in this ensemble: 
 
 <p align="center">
-	<img src="/C096411/image/less4/Capture.PNG" align="middle">
+	<img src="/C096411/image/less6/Capture.JPG" align="middle">
 </p>
 
-(1) line connects two points on the function will always be above the function(black line).
+You can see in each filter there is a diffrent weight to pixel in given picture appropriate for his train.
+Now lets say we get picture with those values:
 
-(2) points on the tangent Line are below the function(orange line). 
+<p align="center">
+	<img src="/C096411/image/less6/Capture2.JPG" align="middle">
+</p>
 
-#### Conditions written mathematically:
+In the trained ensemble the filter which present the forehead will bring the highest accuracy, so we will understand that the given picture is picture of forehead.
+
+##### Assumption:
+
+The filters right only on 60% pictures.
+
+##### Weak Learners:
+
+There set of weak learners marked as WL(D,S) where:
+
+D - Distibution in size D1,D2,...Dm
+
+S - Train set S={(X1,y1),...,(Xm,ym)}
+
+So for each Di exist h belongs to WL(D,S) that maintain:
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture3.jpg" align="middle">
+</p>
+
+In our assumption we get that gamme = 0.1.
+
+For example:
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture4.jpg" align="middle">
+</p>
+
+We get:
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture5.jpg" align="middle">
+</p>
+
+<a name='Adaboost'></a>
+
+<hr />
+
+
+### Ada Boost Algorithm:
 
 black line = <img src="/C096411/tex/bebc3b72468407f542fc7a0cefed1bc1.svg" align="middle" width="239.0527623pt" height="24.65753399999998pt"/>
 

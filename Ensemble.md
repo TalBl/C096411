@@ -106,6 +106,105 @@ We get:
 
 ### Ada Boost Algorithm:
 
+The algorithm train his classifiers in way that in iteration t the classifier put more empasize where he got wrong in the previous iteration.
+We calculate weight to each wrong we got so we need to work harder for make her right in the next iteration.
+
+#### Input:
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture6.svg" align="left">
+</p>
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture7.svg" align="left">
+</p>
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture8.svg" align="left">
+</p>
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture9.svg" align="left">
+</p>
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture10.svg" align="left">
+</p>
+
+#### Output:
+<p align="center">
+	<img src="/C096411/image/less6/Capture11.svg" align="left">
+</p>
+
+###### When the sign alpha:
+<p align="center">
+	<img src="/C096411/image/less6/Capture12.svg" align="middle">
+</p>
+means that:
+1. <p align="center">
+	<img src="/C096411/image/less6/Capture13.svg" align="left">
+</p>
+2. <p align="center">
+	<img src="/C096411/image/less6/Capture14.svg" align="left">
+</p>
+
+You can see that:
+<p align="center">
+	<img src="/C096411/image/less6/Capture15.svg" align="left">
+</p>
+
+#### Example for iteration:
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture16.svg" align="left">
+</p>
+
+<p align="center">
+	<img src="/C096411/image/less6/Capture17.svg" align="left">
+</p>
+
+lets assume that:
+<p align="center">
+	<img src="/C096411/image/less6/Capture18.svg" align="left">
+</p>
+
+so we get:
+<p align="left">
+	<img src="/C096411/image/less6/Capture19.svg" align="left">
+</p>
+
+If the classifier's right:
+<p align="center">
+	<img src="/C096411/image/less6/Capture20.svg" align="left">
+</p>
+
+If the classifier's wrong:
+<p align="center">
+	<img src="/C096411/image/less6/Capture21.svg" align="left">
+</p>
+
+And in the end of iteration we get:
+<p align="center">
+	<img src="/C096411/image/less6/Capture22.svg" align="left">
+</p>
+
+Where 1/e is where h(x) is right and e is where h(x) is wrong.
+
+#### Ada boost loss function:
+
+For given data set S and AdaBoost that keeps the WL condition:
+<p align="center">
+	<img src="/C096411/image/less6/Capture23.svg" align="left">
+</p>
+so the loss function of h is:
+<p align="center">
+	<img src="/C096411/image/less6/Capture24.svg" align="left">
+</p>
+
+##### Prove:
+
+
+
 black line = <img src="/C096411/tex/bebc3b72468407f542fc7a0cefed1bc1.svg" align="middle" width="239.0527623pt" height="24.65753399999998pt"/>
 
 (1) <img src="/C096411/tex/c6c8611dbe712f795e13ca6bb676f8fb.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>

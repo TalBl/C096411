@@ -136,13 +136,13 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 
 means that:
 
-1. <p align="center">
-	<img src="/C096411/image/less6/Capture13.svg" align="left">
-   </p>
+<p align="center">
+	1. <img src="/C096411/image/less6/Capture13.svg" align="left">
+</p>
 
-2. <p align="center">
-	<img src="/C096411/image/less6/Capture14.svg" align="left">
-   </p>
+<p align="center">
+	2. <img src="/C096411/image/less6/Capture14.svg" align="left">
+</p>
 
 
 You can see that:

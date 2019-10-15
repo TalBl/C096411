@@ -136,19 +136,19 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 
 means that:
 
-(1) <img src="/C096411/image/less6/Capture13.svg" align="middle"/>
+(1) <img src="/C096411/image/less6/Capture13.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
-(2) <img src="/C096411/image/less6/Capture14.svg" align="middle"/>
+(2) <img src="/C096411/image/less6/Capture14.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 You can see that:
 
-<img src="/C096411/image/less6/Capture15.svg" align="middle"/>
+<img src="/C096411/image/less6/Capture15.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 #### Example for iteration:
 
-<img src="/C096411/image/less6/Capture16.svg" align="middle"/>
+<img src="/C096411/image/less6/Capture16.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
-<img src="/C096411/image/less6/Capture17.svg" align="middle"/>
+<img src="/C096411/image/less6/Capture17.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 lets assume that:
 

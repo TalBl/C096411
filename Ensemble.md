@@ -136,68 +136,45 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 
 means that:
 
-1. <img src="/C096411/image/less6/Capture13.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
- 
-2. <p align="center">
-	<img src="/C096411/image/less6/Capture14.svg" align="middle">
-   </p>
+(1) <img src="/C096411/image/less6/Capture13.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
+(2) <img src="/C096411/image/less6/Capture14.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 You can see that:
 
-<p align="center">
-	<img src="/C096411/image/less6/Capture15.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture15.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 #### Example for iteration:
 
-<p align="center">
-	<img src="/C096411/image/less6/Capture16.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture16.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
-<p align="center">
-	<img src="/C096411/image/less6/Capture17.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture17.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 lets assume that:
 
-<p align="center">
-	<img src="/C096411/image/less6/Capture44.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture44.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 so we get:
-<p align="center">
-	<img src="/C096411/image/less6/Capture45.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture45.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 If the classifier's right:
-<p align="center">
-	<img src="/C096411/image/less6/Capture18.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture18.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 If the classifier's wrong:
-<p align="center">
-	<img src="/C096411/image/less6/Capture19.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture19.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 And in the end of iteration we get:
-<p align="center">
-	<img src="/C096411/image/less6/Capture20.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture20.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 Where 1/e is where h(x) is right and e is where h(x) is wrong.
 
 #### Ada boost loss function sentence:
 
 For given data set S and AdaBoost that keeps the WL condition:
-<p align="center">
-	<img src="/C096411/image/less6/Capture21.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture21.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 so the loss function of h is:
-<p align="center">
-	<img src="/C096411/image/less6/Capture22.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture22.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
 ##### Proof:
 

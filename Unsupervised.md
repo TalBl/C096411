@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /EM1/
+permalink: /EM/
 ---
 
 - [Introduction](#Introduction)

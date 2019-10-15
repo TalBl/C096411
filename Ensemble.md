@@ -146,9 +146,9 @@ You can see that:
 
 #### Example for iteration:
 
-<img src="/C096411/image/less6/Capture16.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+<svg src="/C096411/image/less6/Capture16.svg" align="middle"/>
 
-<img src="/C096411/image/less6/Capture17.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+<svg src="/C096411/image/less6/Capture17.svg" align="middle"/>
 
 lets assume that:
 

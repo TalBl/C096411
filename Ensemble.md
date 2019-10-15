@@ -136,9 +136,7 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 
 means that:
 
-1. <p align="center">
-	<img src="/C096411/image/less6/Capture13.svg" align="middle">
-   </p>
+1. <img src="/C096411/image/less6/Capture13.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
  
 2. <p align="center">
 	<img src="/C096411/image/less6/Capture14.svg" align="middle">

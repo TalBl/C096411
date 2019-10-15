@@ -136,9 +136,9 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 
 means that:
 
-(1) <svg src="/C096411/image/less6/Capture13.svg" align="middle"/>
+(1) <img src="/C096411/image/less6/Capture13.svg" align="middle"/>
 
-(2) <svg src="/C096411/image/less6/Capture14.svg" align="middle"/>
+(2) <img src="/C096411/image/less6/Capture14.svg" align="middle"/>
 
 You can see that:
 
@@ -146,9 +146,9 @@ You can see that:
 
 #### Example for iteration:
 
-<svg src="/C096411/image/less6/Capture16.svg" align="middle"/>
+<img src="/C096411/image/less6/Capture16.svg" align="middle"/>
 
-<svg src="/C096411/image/less6/Capture17.svg" align="middle"/>
+<img src="/C096411/image/less6/Capture17.svg" align="middle"/>
 
 lets assume that:
 

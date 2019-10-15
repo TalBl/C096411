@@ -139,6 +139,7 @@ means that:
 <p align="center">
 	1. <img src="/C096411/image/less6/Capture13.svg" align="left">
 </p>
+</br>
 
 <p align="center">
 	2. <img src="/C096411/image/less6/Capture14.svg" align="left">

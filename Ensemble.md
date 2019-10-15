@@ -138,11 +138,11 @@ means that:
 
 1. <p align="center">
 	<img src="/C096411/image/less6/Capture13.svg" align="middle">
-</p>
+   </p>
  
 2. <p align="center">
 	<img src="/C096411/image/less6/Capture14.svg" align="middle">
-</p>
+   </p>
 
 
 You can see that:
@@ -168,7 +168,7 @@ lets assume that:
 </p>
 
 so we get:
-<p align="left">
+<p align="center">
 	<img src="/C096411/image/less6/Capture45.svg" align="middle">
 </p>
 

@@ -31,7 +31,7 @@ Tutorial Desicion Trees
 
 In this classifier the decision in choosen during a process like that for example:
 <p align="center">
-	<img src="/C096411/image/less7/Capture.JPG" align="middle">
+	<img src="/C096411/image/less7/Capture2.gif" align="middle">
 </p>
 
 The tree creation is a black box in this course, according the building algorithm the tree is built - there are diffrent possible trees for the same problem.
@@ -43,7 +43,7 @@ Leave in this kind of tree is where all the examples in it have the same labels.
 
 For example:
 <p align="center">
-	<img src="/C096411/image/less7/Capture2.JPG" align="middle">
+	<img src="/C096411/image/less7/Capture2.gif" align="middle">
 </p>
 
 #### Regression Tree
@@ -51,6 +51,11 @@ For example:
 The classification is a retional number.
 Leaf in this kind of tree has examples with diffrent classification.
 Leaf value is the average of his examples's classification.
+
+For example:
+<p align="center">
+	<img src="/C096411/image/less7/Capture3.gif" align="middle">
+</p>
 
 #### Overfitting in Decision Trees
 
@@ -80,61 +85,56 @@ The Problem with use random variable is his variance.
 For minimize it, the algorithm uses with B independence trees.
 
 ##### Definition of independence:
-</p>
+
 <p align="center">
-	<img src="/C096411/image/less7/Capture10.jpg" align="middle">
+	<img src="/C096411/image/less7/8.svg" align="middle">
+</p> are independence where:
+
+- Eatc tree build from subgroup s from S
+
+- For each subgroup <p align="center">
+	<img src="/C096411/image/less7/11.svg" align="middle">
 </p>
 
 ##### Theorem:
-When 
-<p align="center">
-	<img src="/C096411/image/less7/Capture1.jpg" align="middle">
-</p>
-are independence random variables with same distribution:
 
-Marking: 
 <p align="center">
-	<img src="/C096411/image/less7/Capture2.jpg" align="middle">
+	<img src="/C096411/image/less7/1.svg" align="middle">
 </p>
-then:
-<p align="center">
-	<img src="/C096411/image/less7/Capture3.jpg" align="middle">
-</p>
+
 
 ##### Proof:
 Marking:
 <p align="center">
-	<img src="/C096411/image/less7/Capture4.jpg" align="middle">
+	<img src="/C096411/image/less7/2.svg" align="middle">
 </p>
 
 <p align="center">
-	<img src="/C096411/image/less7/Capture5.jpg" align="middle">
+	<img src="/C096411/image/less7/3.svg" align="middle">
 </p>
+
 According variance definition:
+
 <p align="center">
-	<img src="/C096411/image/less7/Capture6.jpg" align="middle">
-</p>
-<p align="center">
-	<img src="/C096411/image/less7/Capture7.jpg" align="middle">
-</p>
-<p align="center">
-	<img src="/C096411/image/less7/Capture8.jpg" align="middle">
+	<img src="/C096411/image/less7/3_1.svg" align="middle">
 </p>
 
-Saperaion where b,b are equals and where they are not:
 <p align="center">
-	<img src="/C096411/image/less7/Capture9.jpg" align="middle">
+	<img src="/C096411/image/less7/4.svg" align="middle">
 </p>
+
+Saperaion where b are equals and where they are not:
+
 <p align="center">
-	<img src="/C096411/image/less7/Capture10.jpg" align="middle">
+	<img src="/C096411/image/less7/5.svg" align="middle">
 </p>
+
 
 In the first bracket: the mean equals to 0 
 In the second bracket: the mean equals M
 
-</p>
 <p align="center">
-	<img src="/C096411/image/less7/Capture11.jpg" align="middle">
+	<img src="/C096411/image/less7/6.svg" align="middle">
 </p>
 
 #### Conclusion:
@@ -162,27 +162,30 @@ If the trees dependence:
 Marking the correlation between the trees:
 </p>
 <p align="center">
-	<img src="/C096411/image/less7/Capture12.jpg" align="middle">
+	<img src="/C096411/image/less7/12.svg" align="middle">
 </p>
 
 The variance equals to:
 </p>
 <p align="center">
-	<img src="/C096411/image/less7/Capture13.jpg" align="middle">
+	<img src="/C096411/image/less7/13.svg" align="middle">
 </p>
 
 Becuase of that when the trees are dependence, it is better to use with Random Forest
 That it is put as aim to break the correlation between the trees.
 
 ##### Proof:
-</p>
+
 <p align="center">
-	<img src="/C096411/image/less7/Capture14.jpg" align="middle">
+	<img src="/C096411/image/less7/18.svg" align="middle">
 </p>
 
-</p>
 <p align="center">
-	<img src="/C096411/image/less7/Capture15.jpg" align="middle">
+	<img src="/C096411/image/less7/18_1.svg" align="middle">
+</p>
+
+<p align="center">
+	<img src="/C096411/image/less7/19.svg" align="middle">
 </p>
 
 <a name='KNN'></a>
@@ -195,7 +198,7 @@ That it is put as aim to break the correlation between the trees.
 
 </p>
 <p align="center">
-	<img src="/C096411/image/less7/Capture16.jpg" align="middle">
+	<img src="/C096411/image/less7/Capture.gif" align="middle">
 </p>
 
 Input data set of points with labels and unclassified point.
@@ -206,7 +209,7 @@ With this way the learned label given according it's enviroment.
 
 </p>
 <p align="center">
-	<img src="/C096411/image/less7/Capture16.jpg" align="middle">
+	<img src="/C096411/image/less7/Capture1.gif" align="middle">
 </p>
 
 It is possible the point will be close to point with diffrent classify from the rest enviroment.

@@ -139,7 +139,7 @@ means that:
 1. <p align="center">
 	<img src="/C096411/image/less6/Capture13.svg" align="middle">
 </p>
-
+ 
 2. <p align="center">
 	<img src="/C096411/image/less6/Capture14.svg" align="middle">
 </p>
@@ -150,41 +150,41 @@ You can see that:
 <p align="center">
 	<img src="/C096411/image/less6/Capture15.svg" align="middle">
 </p>
-</br>
+
 #### Example for iteration:
 
 <p align="center">
-	<img src="/C096411/image/less6/Capture16.svg" align="left">
+	<img src="/C096411/image/less6/Capture16.svg" align="middle">
 </p>
 
 <p align="center">
-	<img src="/C096411/image/less6/Capture17.svg" align="left">
+	<img src="/C096411/image/less6/Capture17.svg" align="middle">
 </p>
 
 lets assume that:
 
 <p align="center">
-	<img src="/C096411/image/less6/Capture44.svg" align="left">
+	<img src="/C096411/image/less6/Capture44.svg" align="middle">
 </p>
 
 so we get:
 <p align="left">
-	<img src="/C096411/image/less6/Capture45.svg" align="left">
+	<img src="/C096411/image/less6/Capture45.svg" align="middle">
 </p>
 
 If the classifier's right:
 <p align="center">
-	<img src="/C096411/image/less6/Capture18.svg" align="left">
+	<img src="/C096411/image/less6/Capture18.svg" align="middle">
 </p>
 
 If the classifier's wrong:
 <p align="center">
-	<img src="/C096411/image/less6/Capture19.svg" align="left">
+	<img src="/C096411/image/less6/Capture19.svg" align="middle">
 </p>
 
 And in the end of iteration we get:
 <p align="center">
-	<img src="/C096411/image/less6/Capture20.svg" align="left">
+	<img src="/C096411/image/less6/Capture20.svg" align="middle">
 </p>
 
 Where 1/e is where h(x) is right and e is where h(x) is wrong.
@@ -193,12 +193,12 @@ Where 1/e is where h(x) is right and e is where h(x) is wrong.
 
 For given data set S and AdaBoost that keeps the WL condition:
 <p align="center">
-	<img src="/C096411/image/less6/Capture21.svg" align="left">
+	<img src="/C096411/image/less6/Capture21.svg" align="middle">
 </p>
 
 so the loss function of h is:
 <p align="center">
-	<img src="/C096411/image/less6/Capture22.svg" align="left">
+	<img src="/C096411/image/less6/Capture22.svg" align="middle">
 </p>
 
 ##### Proof:

@@ -138,11 +138,11 @@ means that:
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture13.svg" align="left">
-
+</p>
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture14.svg" align="left">
-
+</p>
 
 
 You can see that:

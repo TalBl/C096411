@@ -136,19 +136,21 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 
 means that:
 
-1. <p align="center">
+- <p align="center">
 	<img src="/C096411/image/less6/Capture13.svg" align="left">
-</p>
 
-2. <p align="center">
+
+
+- <p align="center">
 	<img src="/C096411/image/less6/Capture14.svg" align="left">
-</p>
+
+
 
 You can see that:
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture15.svg" align="left">
-</p>
+
 
 #### Example for iteration:
 
@@ -163,12 +165,12 @@ You can see that:
 lets assume that:
 
 <p align="center">
-	<img src="/C096411/image/less6/Capture?.svg" align="left">
+	<img src="/C096411/image/less6/Capture44.svg" align="left">
 </p>
 
 so we get:
 <p align="left">
-	<img src="/C096411/image/less6/Capture?.svg" align="left">
+	<img src="/C096411/image/less6/Capture45.svg" align="left">
 </p>
 
 If the classifier's right:
@@ -233,7 +235,7 @@ That becuase:
 For start we prove:
 <p align="center">
 	<img src="/C096411/image/less6/Capture33.svg" align="middle">
-</p>:
+</p>
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture34.svg" align="middle">
@@ -247,7 +249,7 @@ For start we prove:
 (beacuase of the Conclusion)
 
 
-##### Lemma 1:
+#### Lemma 1:
 When:
 <p align="center">
 	<img src="/C096411/image/less6/Capture23.svg" align="middle">
@@ -263,7 +265,7 @@ so:
 </p>
 
 
-###### Proof:
+#### Proof:
 
 The base case:
 <p align="center">
@@ -285,7 +287,7 @@ Inductive step:
 	<img src="/C096411/image/less6/Capture49.svg" align="middle">
 </p>
 
-##### Lemma 2:
+#### Lemma 2:
 
 When 
 <p align="center">
@@ -296,7 +298,7 @@ so:
 	<img src="/C096411/image/less6/Capture27.svg" align="middle">
 </p>
 
-###### Proof:
+#### Proof:
 
 beacuase the definition and addition rule of fractions:
 <p align="center">
@@ -346,7 +348,7 @@ then:
 </p>
 
 
-##### Proof:
+#### Proof:
 
 In the definition:
 <p align="center">

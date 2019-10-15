@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /EM/
+permalink: /EM1/
 ---
 
 - [Convex properties](#conv_prop)

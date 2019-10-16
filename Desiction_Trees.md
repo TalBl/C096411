@@ -34,17 +34,19 @@ permalink: /DT/
 
 ### Introduction:
 
-In this classifier the decision in choosen during a process like that for example:
+In this classifier the classification is determined based on the result of a process similar to the one below:
 <p align="center">
 	<img src="/C096411/image/less7/Capture2.gif" align="middle">
 </p>
 
-The tree creation is a black box in this course, according the building algorithm the tree is built - there are diffrent possible trees for the same problem.
+The tree creation is a black box in this course, the tree is built according to the building algorithm.
+
+There are diffrent possible trees for the same problem.
 
 #### Classification Tree
 
-The labels are 'Yes' or 'No'.
-Leave in this kind of tree is where all the examples in it have the same labels.
+The possible classifications are 'Yes' or 'No'.
+A leaf in this kind of tree holds examples with the same label.
 
 For example:
 <p align="center">
@@ -53,9 +55,9 @@ For example:
 
 #### Regression Tree
 
-The classification is a retional number.
-Leaf in this kind of tree has examples with diffrent classification.
-Leaf value is the average of his examples's classification.
+The classification is a rational number.
+A leaf in this kind of tree holds examples with the diffrent labels.
+The Leaf's value is the average of it's examples's classifications.
 
 For example:
 <p align="center">
@@ -64,11 +66,11 @@ For example:
 
 #### Overfitting in Decision Trees
 
-The tree creation can lead to tree with full saperation.
-With assumption that the training set may has few mistakes or bias.
-The full separation is when the tree is too accurate to the training set, will lead that also the tree has this bias.
-This is overfitting which can cuase to bias in the test set.
-Beacuase of this is needed to know when to stop the tree creation before it is too accurate.
+The tree creation can lead to a tree with full separation.
+With the assumption that the training set may have several mistakes, or in another word, bias.
+Full separation is when the tree is too accurate on the training set, which will lead to a tree with bias.
+This is called overfitting, which can cuase bias in the test set.
+To prevent overfitting, it is needed to know when to stop the tree creation before it is too accurate.
 
 
 <a name='Bagging'></a>
@@ -77,23 +79,23 @@ Beacuase of this is needed to know when to stop the tree creation before it is t
 
 ### Bagging:
 
-The algotithm for the overfitting problem.
+This algorithm tries to solve the overfitting problem.
 
 Definition:
-Tb(X) - Random variable for subset of the training set.
+Tb(X) - Random variable for a subset of the training set.
 
-Instead of training one tree on the whole training set, The algorithm generates B new training sets Di according to Tb variable.
-The algorithm train B trees, each for a subset training set.
-When new example comes the algorithm classify it on the B trees and return the average of given classifications.
+Instead of training one tree on the whole training set, the algorithm generates B new training sets (training set i is marked Di) according to the Tb variable.
+The algorithm trains B trees, for each Di.
+When classifying a new example, the algorithm classifies it on the B trees and returns the average of the given classifications.
 
-The Problem with use random variable is his variance.
-For minimize it, the algorithm uses with B independence trees.
+The problem with using a random variable (Tb) is it's variance.
+To minimize it, the algorithm uses B independent trees.
 
 #### Definition of independence: <img src="/C096411/image/less7/8.svg" align="middle" width="87.3035pt" height="13.4589pt"/>
 
-- Each tree build from subgroup s from S
+- Each tree is built from subset s from dataset S.
 
-- For each subgroup <img src="/C096411/image/less7/11.svg" align="middle" width="64.4434pt" height="13.8652pt"/>
+- Each pair of subsets hold: <img src="/C096411/image/less7/11.svg" align="middle" width="64.4434pt" height="13.8652pt"/>
 
 #### Theorem: <img src="/C096411/image/less7/1.svg" align="middle" width="464.909pt" height="39.6042pt"/>
 
@@ -105,7 +107,7 @@ Marking: <img src="/C096411/image/less7/2.svg" align="middle" width="71.6905pt" 
 	<img src="/C096411/image/less7/3.svg" align="middle">
 </p>
 
-According variance definition:
+According the variance definition:
 
 <p align="center">
 	<img src="/C096411/image/less7/3_1.svg" align="middle">
@@ -115,23 +117,23 @@ According variance definition:
 	<img src="/C096411/image/less7/4.svg" align="middle">
 </p>
 
-Saperaion where b are equals and where they are not:
+Separating where pairs of b are equals and where they are not:
 
 <p align="center">
 	<img src="/C096411/image/less7/5.svg" align="middle">
 </p>
 
 
-In the first bracket: the mean equals to 0 
+In the first bracket: the mean equals 0.
 
-In the second bracket: the mean equals M
+In the second bracket: the mean equals mu.
 
 <p align="center">
 	<img src="/C096411/image/less7/6.svg" align="middle">
 </p>
 
 #### Conclusion:
-Algorithm Bagging minimize the variance if the Tb(x) are independence.
+The Bagging algorithm minimizes the variance if the trees are independent.
 
 
 <a name='RandomForest'></a>
@@ -139,18 +141,18 @@ Algorithm Bagging minimize the variance if the Tb(x) are independence.
 <hr />
 
 ### Random Forest:
-The algorithm get as input dependence trees and build forest with smaller correlation between the trees
+This algorithm gets as input dependent trees and builds a forest with smaller correlation between the trees.
 
-For each b=1,2,...,B build tree Tb for subgroup Sb belongs to S in the following steps:
-	- Choose r indexes random (features) from 1,..,d
-	- Choose split in the tree acording the r choosen indexes
-	- create 2 vertexes according the split
+For each b=1,2,...,B build tree Tb for subset Sb that belongs to S in the following steps:
+	- Choose r random indexes (features) from 1,..,d
+	- Choose a random split in the tree according the r chosen indexes
+	- Create 2 vertexes according the split
 	
-That way creates B trees which are building the forest we want.
-(The random choices in the algotithm that what bring the smaller correlation)
+That way it creates B trees which consists the forest we want.
+(The random choices in the algorithm is what reduces the correlation)
 
 #### Theorem:
-If the trees dependence:
+If the trees are dependent:
 
 Marking the correlation between the trees: <img src="/C096411/image/less7/12.svg" align="middle" width="194.083pt" height="14.7249pt"/>
 
@@ -160,8 +162,7 @@ The variance equals to:
 	<img src="/C096411/image/less7/13.svg" align="middle">
 </p>
 
-Becuase of that when the trees are dependence, it is better to use with Random Forest
-That it is put as aim to break the correlation between the trees.
+Becuase of that, when the trees are dependent, it is better to use the Random Forest algorithm.
 
 #### Proof:
 
@@ -189,9 +190,9 @@ That it is put as aim to break the correlation between the trees.
 	<img src="/C096411/image/less7/Capture.gif" align="middle">
 </p>
 
-Input data set of points with labels and unclassified point.
-The algorithm determains the classify according the closest point from the input data set.
-With this way the learned label given according it's enviroment.
+The input is a data set of points with labels and an unclassified point.
+The algorithm determines the classification according the closest point from the input data set.
+This way the label is determined according to it's environment.
 
 #### K - Nearest Neighbors:
 
@@ -199,8 +200,8 @@ With this way the learned label given according it's enviroment.
 	<img src="/C096411/image/less7/Capture1.gif" align="middle">
 </p>
 
-It is possible the point will be close to point with diffrent classify from the rest enviroment.
-The algorithm determains the classify according the k closest points from the input data set.
-In case where the given point close to poiint with diffrent classifications, it will return the average of the classifications.
-(Thats why preferable to use with odd number as k)
+It is possible that the point will be close to a single point with a diffrent classification than rest of it's close environment.
+The algorithm determines the classification according to the K closest points from the input data set.
+In case where the given point is close to points with diffrent classifications, it will return the average of the classifications.
+(Thats why it is preferable to define K as an odd number)
 

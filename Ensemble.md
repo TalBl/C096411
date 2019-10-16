@@ -4,8 +4,6 @@ mathjax: true
 permalink: /ENSEMBLE/
 ---
 
-### To Tutorial Page:
-
 <a href="https://talbl.github.io/C096411/HTENS">
 Tutorial Ensemble
 </a>
@@ -144,9 +142,9 @@ It seen that: <img src="/C096411/image/less6/Capture15.svg" align="middle" width
 
 <img src="/C096411/image/less6/Capture17.svg" align="middle" width="236.445pt" height="17.0963pt"/>
 
-lets assume that: <img src="/C096411/image/less6/Capture44.svg" align="middle" width="39.1119pt" height="10.6999pt"/>
+lets assume that:   <img src="/C096411/image/less6/Capture44.svg" align="middle" width="39.1119pt" height="10.6999pt"/>
 
-so we get: <img src="/C096411/image/less6/Capture45.svg" align="middle" width="222.762pt" height="16.9771pt"/>
+so we get:   <img src="/C096411/image/less6/Capture45.svg" align="middle" width="222.762pt" height="16.9771pt"/>
 
 If the classifier's right:  <img src="/C096411/image/less6/Capture18.svg" align="middle" width="227.80761465pt" height="13.4589pt"/>
 
@@ -183,9 +181,9 @@ That mean the inequality exist.
 	<img src="/C096411/image/less6/Capture32.svg" align="middle">
 </p>
 
-That becuase: <img src="/C096411/image/less6/Capture32_1.svg" align="middle" width="154.477pt" height="30.5639pt"/>
+That becuase:   <img src="/C096411/image/less6/Capture32_1.svg" align="middle" width="154.477pt" height="30.5639pt"/>
 
-For start we prove: <img src="/C096411/image/less6/Capture33.svg" align="middle" width="38.7116pt" height="11.2233pt"/>
+For start we prove:   <img src="/C096411/image/less6/Capture33.svg" align="middle" width="38.7116pt" height="11.2233pt"/>
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture34.svg" align="middle">
@@ -238,7 +236,7 @@ by definition of Ft+1(x) and according to lemma 1:
 
 * Marking: <img src="/C096411/image/less6/Capture38.svg" align="middle" width="188.999pt" height="36.3856pt"/> 
 
-and saperate to places where <img src="/C096411/image/less6/Capture39.svg" align="middle" width="183.428pt" height="13.4589pt"/>
+we saperate the sum to places where <img src="/C096411/image/less6/Capture39.svg" align="middle" width="183.428pt" height="13.4589pt"/>
 
 Now we get:
 <p align="center">

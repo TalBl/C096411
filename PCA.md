@@ -57,7 +57,7 @@ assume that average of <img src="/C096411/image/less9/10.svg" align="middle" wid
 
 For that case will happend we add assumption: <img src="/C096411/image/less9/13.svg" align="middle" width="76.04pt" height="27.0794pt"/>
 
-The optimizal problem searches  for vector U so: <img src="/C096411/image/less9/14.svg" align="middle" width="34.5905pt" height="11.2905pt"/> with maximal variance.
+The optimizal problem searches  for vector U so: <img src="/C096411/image/less9/14.svg" align="middle" width="80.4241pt" height="11.8139pt"/> with maximal variance.
 
 * When we differ dimension, there is information loss, with maximal variance there is also a save for minimal information loss.
 * Assumption that X1,..,Xm are sample from the Y1,...,Ym world where the X are m results of random variable and also trying to maximize the variance of Y.

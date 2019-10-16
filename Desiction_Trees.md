@@ -185,7 +185,6 @@ That it is put as aim to break the correlation between the trees.
 
 #### Nearest Neighbor:
 
-</p>
 <p align="center">
 	<img src="/C096411/image/less7/Capture.gif" align="middle">
 </p>
@@ -196,7 +195,6 @@ With this way the learned label given according it's enviroment.
 
 #### K - Nearest Neighbors:
 
-</p>
 <p align="center">
 	<img src="/C096411/image/less7/Capture1.gif" align="middle">
 </p>

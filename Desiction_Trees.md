@@ -4,11 +4,16 @@ mathjax: true
 permalink: /DT/
 ---
 
-### To Tutorial Page:
+<hr />
 
-<a href="https://talbl.github.io/C096411/HTDT">
-Tutorial Desicion Trees
-</a>
+### To Tutorial Page:
+  <div class="materials-item">
+      <a href="https://talbl.github.io/C096411/HTDT">
+        Tutorial Desicion Trees
+      </a>
+    </div>
+
+<hr />
 
 - [Introduction](#Introduction)
 - [Bagging](#Bagging)
@@ -84,30 +89,17 @@ When new example comes the algorithm classify it on the B trees and return the a
 The Problem with use random variable is his variance.
 For minimize it, the algorithm uses with B independence trees.
 
-##### Definition of independence:
+#### Definition of independence: <img src="/C096411/image/less7/8.svg" align="middle" width="87.3035pt" height="13.4589pt"/>
 
-<p align="center">
-	<img src="/C096411/image/less7/8.svg" align="middle">
-</p> are independence where:
+- Each tree build from subgroup s from S
 
-- Eatc tree build from subgroup s from S
+- For each subgroup <img src="/C096411/image/less7/11.svg" align="middle" width="64.4434pt" height="13.8652pt"/>
 
-- For each subgroup <p align="center">
-	<img src="/C096411/image/less7/11.svg" align="middle">
-</p>
+#### Theorem: <img src="/C096411/image/less7/1.svg" align="middle" width="464.909pt" height="39.6042pt"/>
 
-##### Theorem:
+#### Proof:
 
-<p align="center">
-	<img src="/C096411/image/less7/1.svg" align="middle">
-</p>
-
-
-##### Proof:
-Marking:
-<p align="center">
-	<img src="/C096411/image/less7/2.svg" align="middle">
-</p>
+Marking: <img src="/C096411/image/less7/2.svg" align="middle" width="71.6905pt" height="14.4388pt"/>
 
 <p align="center">
 	<img src="/C096411/image/less7/3.svg" align="middle">
@@ -131,6 +123,7 @@ Saperaion where b are equals and where they are not:
 
 
 In the first bracket: the mean equals to 0 
+
 In the second bracket: the mean equals M
 
 <p align="center">
@@ -156,17 +149,13 @@ For each b=1,2,...,B build tree Tb for subgroup Sb belongs to S in the following
 That way creates B trees which are building the forest we want.
 (The random choices in the algotithm that what bring the smaller correlation)
 
-##### Theorem:
+#### Theorem:
 If the trees dependence:
 
-Marking the correlation between the trees:
-</p>
-<p align="center">
-	<img src="/C096411/image/less7/12.svg" align="middle">
-</p>
+Marking the correlation between the trees: <img src="/C096411/image/less7/12.svg" align="middle" width="194.083pt" height="14.7249pt"/>
 
 The variance equals to:
-</p>
+
 <p align="center">
 	<img src="/C096411/image/less7/13.svg" align="middle">
 </p>
@@ -174,7 +163,7 @@ The variance equals to:
 Becuase of that when the trees are dependence, it is better to use with Random Forest
 That it is put as aim to break the correlation between the trees.
 
-##### Proof:
+#### Proof:
 
 <p align="center">
 	<img src="/C096411/image/less7/18.svg" align="middle">

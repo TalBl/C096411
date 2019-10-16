@@ -37,7 +37,7 @@ The goal is to learn also the labels or the distributions: one or more possible.
 Input: the results of m random coin's throwings.
 The results of the throwings are known - That's why it is supervised.
 
-##### Marking:
+<b> Marking: </b>
 
 Result of one throwing:
 <p align="center">
@@ -54,7 +54,7 @@ Numbers of head or Tale as result from the m:
 	<img src="/C096411/image/less8/41.svg" align="middle">
 </p>
 
-##### Aim: Find the propreate q that describe the coin's distribution the best
+<b> Aim: Find the propreate q that describe the coin's distribution the best </b>
 
 <p align="center">
 	<img src="/C096411/image/less8/39.svg" align="middle">
@@ -98,7 +98,7 @@ The optimal q is:
 	<img src="/C096411/image/less8/114.svg" align="middle">
 </p>
 
-##### Inclusion to General Discrete Varibles:
+<b> Inclusion to General Discrete Varibles: </b>
 
 Marking:
 
@@ -130,14 +130,12 @@ Input is results of m random students' height.
 
 The heights are known - That's why it is supervised.
 
-##### Assumption:
+<b> Assumption: </b>
 The height of the children in class are from Normal distribution with:
-- Mean: <p align="center">
-	<img src="/C096411/image/less8/46.svg" align="middle">
-</p>
+- Mean: <img src="/C096411/image/less8/46.svg" align="middle" width="7.92882pt" height="8.41179pt"/>
 - Variance = 1
 
-##### Aim: Find the miu that describe the mean's distribution the best
+<b> Aim: Find the miu that describe the mean's distribution the best </b>
 
 The Normal Distrubution with variance = 1:
 
@@ -145,11 +143,7 @@ The Normal Distrubution with variance = 1:
 	<img src="/C096411/image/less8/47.svg" align="middle">
 </p>
 
-The target is:
-
-<p align="center">
-	<img src="/C096411/image/less8/48.svg" align="middle">
-</p>
+The target is: <img src="/C096411/image/less8/48.svg" align="middle" width="116.711pt" height="36.3856pt"/>
 
 As like the calculations from last example:
 
@@ -199,11 +193,7 @@ According Bayes rule:
 	<img src="/C096411/image/less8/118.svg" align="middle">
 </p>
 
-##### Find the Estimation of Parameters:
-
-<p align="center">
-	<img src="/C096411/image/less8/119.svg" align="middle">
-</p>
+<b> Find the Estimation of Parameters:</b> <img src="/C096411/image/less8/119.svg" align="middle" width="112.729pt" height="11.9634pt"/>
 
 Also here we use the maximum log-likelihood estimation:
 
@@ -304,7 +294,7 @@ The algorithm build from 2 steps:
 - E step: 
 	For each cluster: calculate the mean of the objects that belong to this cluster.
 	
--M step:
+- M step:
 	For each object find the nearest mean's cluster and belong it to it.
 	
 Those steps keep runnning until convergence.
@@ -345,9 +335,7 @@ Where the parameters are:
 	<img src="/C096411/image/less8/59.svg" align="middle">
 </p>
 
-When the data set is <p align="center">
-	<img src="/C096411/image/less8/64.svg" align="middle">
-</p> from unsupervised kind, the algorithm needs to search:
+When the data set is <img src="/C096411/image/less8/64.svg" align="middle" width="63.944pt" height="13.4589pt"/> from unsupervised kind, the algorithm needs to search:
 
 <p align="center">
 	<img src="/C096411/image/less8/65.svg" align="middle">
@@ -363,7 +351,7 @@ The algorithm works in iterative method to find maximum likelihood estimations o
 
 The iteration depends on 2 steps:
 
-- E step: which creates a function for the expectation of the log likelihood estimations using the current
+<b>E step: </b> which creates a function for the expectation of the log likelihood estimations using the current
 	      estimate for the parameters.
 		  
 <p align="center">
@@ -376,7 +364,7 @@ In formal writing:
 	<img src="/C096411/image/less8/88.svg" align="middle">
 </p>
 
-- M step: which computes parameters maximizing the expected log-likelihood found on the E step.
+<b>M step: </b> which computes parameters maximizing the expected log-likelihood found on the E step.
 
 <p align="center">
 	<img src="/C096411/image/less8/67.svg" align="middle">
@@ -396,16 +384,10 @@ In formal writing:
 
 - for t=1,2,...
 	- for i=1,2,...,m and j=1,2,...,m
-		- (E step) <p align="center">
-	<img src="/C096411/image/less8/129.svg" align="middle">
-</p>
+		- (E step) <img src="/C096411/image/less8/129.svg" align="middle" width="124.1pt" height="13.8652pt"/> 
 	- for j=1,2,...,m: (M step)
-		- <p align="center">
-	<img src="/C096411/image/less8/130.svg" align="middle">
-</p>
-		- <p align="center">
-	<img src="/C096411/image/less8/131.svg" align="middle">
-</p>
+		- <img src="/C096411/image/less8/130.svg" align="middle" width="85.8337pt" height="36.3856pt"/>
+		- <img src="/C096411/image/less8/131.svg" align="middle" width="106.767pt" height="32.8462pt"/>
 
 ### How to calculate the E step?
 
@@ -422,16 +404,14 @@ In formal writing:
 </p>
 For each distribution 0 <= q(z|x)
 
-And there is equality where <p align="center">
-	<img src="/C096411/image/less8/99.svg" align="middle">
-</p>
+And there is equality where <img src="/C096411/image/less8/99.svg" align="middle" width="110.887pt" height="13.4589pt"/>
 
 Becuase:
 <p align="center">
 	<img src="/C096411/image/less8/105.svg" align="middle">
 </p>
 
-* For example in example 4:
+#### For example in example 4:
 <p align="center">
 	<img src="/C096411/image/less8/100.svg" align="middle">
 </p>
@@ -440,13 +420,9 @@ Becuase:
 	<img src="/C096411/image/less8/101.svg" align="middle">
 </p>
 
-The purpose of the sentence is to prove algorithm EM converge and it maximizes <p align="center">
-	<img src="/C096411/image/less8/102.svg" align="middle">
-</p>
+The purpose of the sentence is to prove algorithm EM converge and it maximizes <img src="/C096411/image/less8/102.svg" align="middle" width="76.2158pt" height="36.3856pt"/>
 
-### Why algorithm EM maximize <p align="center">
-	<img src="/C096411/image/less8/87.svg" align="middle">
-</p> ?
+### Why algorithm EM maximize <img src="/C096411/image/less8/87.svg" align="middle" width="187.681pt" height="38.9537pt"/> ?
 
 The prove based on Jensen inequality:
 
@@ -478,9 +454,7 @@ The sentence shows:
 	<img src="/C096411/image/less8/107.svg" align="middle">
 </p>
 
-Where the optimal q fullfill <p align="center">
-	<img src="/C096411/image/less8/86.svg" align="middle">
-</p>
+Where the optimal q fullfill <img src="/C096411/image/less8/86.svg" align="middle" width="110.887pt" height="13.4589pt"/>
 
 #### Why E step?
 
@@ -524,17 +498,11 @@ The second sum doesnt influence the argmax
 	<img src="/C096411/image/less8/132.svg" align="middle">
 </p>
 
-#### Marking:
+#### Marking: <img src="/C096411/image/less8/133.svg" align="middle" width="119.177pt" height="36.3856pt"/>
 
-<p align="center">
-	<img src="/C096411/image/less8/133.svg" align="middle">
-</p>
+- E step creates aux function which be stuck to l(theta) in theta(t)
 
-E step creates aux function which be stuck to l(theta) in theta(t)
-
-M step finds the maximum of <p align="center">
-	<img src="/C096411/image/less8/134.svg" align="middle">
-</p>
+- M step finds the maximum of <img src="/C096411/image/less8/134.svg" align="middle" width="46.0349pt" height="16.2761pt"/>
 
 As it seen in the graph:
 
@@ -543,3 +511,5 @@ As it seen in the graph:
 </p>
 
 Thats why we want to maximize the buttom obstruction.
+
+

@@ -102,7 +102,6 @@ We get:
 The algorithm train his classifiers in way that in iteration t the classifier put more empasize where he got wrong in the previous iteration.
 We calculate weight to each wrong we got so we need to work harder for make her right in the next iteration.
 
-#### Input:
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture6.svg" align="middle">
@@ -124,64 +123,48 @@ We calculate weight to each wrong we got so we need to work harder for make her 
 	<img src="/C096411/image/less6/Capture10.svg" align="middle">
 </p>
 
-#### Output:
+
 <p align="center">
 	<img src="/C096411/image/less6/Capture11.svg" align="middle">
 </p>
 
-###### When the sign alpha:
-<p align="center">
-	<img src="/C096411/image/less6/Capture12.svg" align="middle">
-</p>
+#### When the sign alpha: <img src="/C096411/image/less6/Capture12.svg" align="middle" width="145.452pt" height="14.3337pt"/>
 
 means that:
 
 (1) <img src="/C096411/image/less6/Capture13.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
 
-(2) <img src="/C096411/image/less6/Capture14.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+(2) <img src="/C096411/image/less6/Capture14.svg" align="middle" width="60.8717pt" height="36.3856pt"/>
 
-You can see that:
-
-<img src="/C096411/image/less6/Capture15.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+It seen that: <img src="/C096411/image/less6/Capture15.svg" align="middle" width="143.796pt" height="31.0197pt"/>
 
 #### Example for iteration:
 
-<img src="/C096411/image/less6/Capture16.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+<img src="/C096411/image/less6/Capture16.svg" align="middle" width="97.3075pt" height="15.672pt"/>
 
-<img src="/C096411/image/less6/Capture17.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+<img src="/C096411/image/less6/Capture17.svg" align="middle" width="236.445pt" height="17.0963pt"/>
 
-lets assume that:
+lets assume that: <img src="/C096411/image/less6/Capture44.svg" align="middle" width="39.1119pt" height="10.6999pt"/>
 
-<img src="/C096411/image/less6/Capture44.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+so we get: <img src="/C096411/image/less6/Capture45.svg" align="middle" width="222.762pt" height="16.9771pt"/>
 
-so we get:
-<img src="/C096411/image/less6/Capture45.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+If the classifier's right:  <img src="/C096411/image/less6/Capture18.svg" align="middle" width="227.80761465pt" height="13.4589pt"/>
 
-If the classifier's right:
-<img src="/C096411/image/less6/Capture18.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+If the classifier's wrong:  <img src="/C096411/image/less6/Capture19.svg" align="middle" width="227.80761465pt" height="13.4589pt"/>
 
-If the classifier's wrong:
-<img src="/C096411/image/less6/Capture19.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
-
-And in the end of iteration we get:
-<img src="/C096411/image/less6/Capture20.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+And in the end of iteration we get:  <img src="/C096411/image/less6/Capture20.svg" align="middle" width="94.3731pt" height="27.0794pt"/>
 
 Where 1/e is where h(x) is right and e is where h(x) is wrong.
 
 #### Ada boost loss function sentence:
 
-For given data set S and AdaBoost that keeps the WL condition:
-<img src="/C096411/image/less6/Capture21.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+For given data set S and AdaBoost that keeps the WL condition:  <img src="/C096411/image/less6/Capture21.svg" align="middle" width="155.506pt" height="32.3016pt"/>
 
-so the loss function of h is:
-<img src="/C096411/image/less6/Capture22.svg" align="middle" width="227.80761465pt" height="24.65753399999998pt"/>
+so the loss function of h is:  <img src="/C096411/image/less6/Capture22.svg" align="middle" width="210.863pt" height="36.3856pt"/>
 
-##### Proof:
+#### Proof:
 
-What we need to prove is:
-<p align="center">
-	<img src="/C096411/image/less6/Capture30.svg" align="middle">
-</p>
+What we need to prove is: <img src="/C096411/image/less6/Capture30.svg" align="middle" width="201.897pt" height="36.3856pt"/>
 
 Holds that:
 <p align="center">
@@ -195,86 +178,55 @@ beacuase in the graph:
 
 That mean the inequality exist.
 
-Now left to see:
+<b> Now left to see: </b>
 <p align="center">
 	<img src="/C096411/image/less6/Capture32.svg" align="middle">
 </p>
 
-That becuase:
-<p align="center">
-	<img src="/C096411/image/less6/Capture32_1.svg" align="middle">
-</p>
+That becuase: <img src="/C096411/image/less6/Capture32_1.svg" align="middle" width="154.477pt" height="30.5639pt"/>
 
-
-For start we prove:
-<p align="center">
-	<img src="/C096411/image/less6/Capture33.svg" align="middle">
-</p>
+For start we prove: <img src="/C096411/image/less6/Capture33.svg" align="middle" width="38.7116pt" height="11.2233pt"/>
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture34.svg" align="middle">
 </p>
 
- and beacuase that:
+and beacuase that:
 
 <p align="center">
 	<img src="/C096411/image/less6/Capture35.svg" align="middle">
 </p>
-(beacuase of the Conclusion)
+(beacuase of the conclusion)
 
 
 #### Lemma 1:
-When:
-<p align="center">
-	<img src="/C096411/image/less6/Capture23.svg" align="middle">
-</p>
-and 
-<p align="center">
-	<img src="/C096411/image/less6/Capture24.svg" align="middle">
-</p>
 
-so:
-<p align="center">
-	<img src="/C096411/image/less6/Capture25.svg" align="middle">
-</p>
+When: <img src="/C096411/image/less6/Capture23.svg" align="middle" width="53.9259pt" height="13.4589pt"/> and <img src="/C096411/image/less6/Capture24.svg" align="middle" width="113.277pt" height="39.6861pt"/>
 
+so: <img src="/C096411/image/less6/Capture25.svg" align="middle" width="97.3169pt" height="12.3073pt"/>
 
 #### Proof:
 
-The base case:
-<p align="center">
-	<img src="/C096411/image/less6/Capture46.svg" align="middle">
-</p>
+<b> The base case: </b> <img src="/C096411/image/less6/Capture46.svg" align="middle" width="219.273pt" height="32.3016pt"/>
 
-Induction assumption:
+<b> Induction assumption: </b> <img src="/C096411/image/less6/Capture47.svg" align="middle" width="101.722pt" height="14.3337pt"/>
 
-<p align="center">
-	<img src="/C096411/image/less6/Capture47.svg" align="middle">
-</p>
+<b> Inductive step: </b>
 
-Inductive step:
+<img src="/C096411/image/less6/Capture48.svg" align="middle" width="285.762pt" height="14.3337pt"/>
 
-<p align="center">
-	<img src="/C096411/image/less6/Capture48.svg" align="middle">
-</p>
-<p align="center">
-	<img src="/C096411/image/less6/Capture49.svg" align="middle">
-</p>
+<img src="/C096411/image/less6/Capture49.svg" align="middle" width="187.351pt" height="12.3073pt"/>
 
 #### Lemma 2:
 
-When 
-<p align="center">
-	<img src="/C096411/image/less6/Capture26.svg" align="middle">
-</p>
-so:
-<p align="center">
-	<img src="/C096411/image/less6/Capture27.svg" align="middle">
-</p>
+When <img src="/C096411/image/less6/Capture26.svg" align="middle" width="113.428pt" height="36.3856pt"/>
+
+so <img src="/C096411/image/less6/Capture27.svg" align="middle" width="220.635pt" height="29.6292pt"/>
 
 #### Proof:
 
-beacuase the definition and addition rule of fractions:
+Becuase the definition and addition rule of fractions:
+
 <p align="center">
 	<img src="/C096411/image/less6/Capture36.svg" align="middle">
 </p>
@@ -284,14 +236,9 @@ by definition of Ft+1(x) and according to lemma 1:
 	<img src="/C096411/image/less6/Capture37.svg" align="middle">
 </p>
 
-Marking:
-<p align="center">
-	<img src="/C096411/image/less6/Capture38.svg" align="middle">
-</p>
+* Marking: <img src="/C096411/image/less6/Capture38.svg" align="middle" width="188.999pt" height="36.3856pt"/> 
 
-and saperate to places where <p align="center">
-	<img src="/C096411/image/less6/Capture39.svg" align="middle">
-</p>
+and saperate to places where <img src="/C096411/image/less6/Capture39.svg" align="middle" width="183.428pt" height="13.4589pt"/>
 
 Now we get:
 <p align="center">
@@ -311,32 +258,16 @@ we get next:
 
 #### Conclusion:
 
-If 
-<p align="center">
-	<img src="/C096411/image/less6/Capture28.svg" align="middle">
-</p>
+If <img src="/C096411/image/less6/Capture28.svg" align="middle" width="116.311pt" height="29.1058pt"/>
 
-then:
-<p align="center">
-	<img src="/C096411/image/less6/Capture29.svg" align="middle">
-</p>
-
+then <img src="/C096411/image/less6/Capture29.svg" align="middle" width="72.4675pt" height="29.6292pt"/>
 
 #### Proof:
 
-In the definition:
-<p align="center">
-	<img src="/C096411/image/less6/Capture50.svg" align="middle">
-</p>
+In the definition: <img src="/C096411/image/less6/Capture50.svg" align="middle" width="228.396pt" height="21.7313pt"/>
 
-It brings:
-<p align="center">
-	<img src="/C096411/image/less6/Capture51.svg" align="middle">
-</p>
+It brings: <img src="/C096411/image/less6/Capture51.svg" align="middle" width="285.624pt" height="16.1528pt"/>
 
-And with the fact:
-<p align="center">
-	<img src="/C096411/image/less6/Capture43.svg" align="middle">
-</p>
+And with the fact: <img src="/C096411/image/less6/Capture43.svg" align="middle" width="73.7416pt" height="27.0794pt"/>
 
 Toghether it brings our conclusion.

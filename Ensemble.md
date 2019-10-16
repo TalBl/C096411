@@ -3,11 +3,16 @@ layout: page
 mathjax: true
 permalink: /ENSEMBLE/
 ---
-### Tutorial
 
-<a href="https://talbl.github.io/C096411/HTENS">
-Tutorial Ensemble
-</a>
+<hr />
+
+### To Tutorial Page:
+  <div class="materials-item">
+      <a href="https://talbl.github.io/C096411/HTENS">
+        Tutorial Ensemble
+      </a>
+    </div>
+
 <hr />
 
 - [Boosting](#Boosting)
